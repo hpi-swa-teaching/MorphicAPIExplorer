@@ -1,0 +1,5 @@
+OrderedDictionary {
+	'packages\/MorphicAPIExplorer-Core.package' : #SquotCypressCodeSerializer,
+	'packages\/MorphicAPIExplorer-Tests.package' : #SquotCypressCodeSerializer,
+	'packages\/BaselineOfMorphicAPIExplorer.package' : #SquotCypressCodeSerializer
+}
