@@ -1,8 +1,11 @@
 {
 	"class" : {
-		 },
+		"numberOfRows" : "jb 5/1/2019 13:21" },
 	"instance" : {
-		"build:" : "jb 5/1/2019 11:55",
+		"build:" : "jb 5/1/2019 13:22",
 		"categories" : "jb 5/1/2019 11:32",
 		"categories:" : "jb 5/1/2019 11:33",
-		"initialize" : "jb 5/1/2019 11:53" } }
+		"initialize" : "jb 5/1/2019 13:21",
+		"specFrameAt:" : "jb 5/1/2019 13:11",
+		"specSize" : "jb 5/1/2019 13:09",
+		"specsPerRow" : "jb 5/1/2019 13:17" } }
