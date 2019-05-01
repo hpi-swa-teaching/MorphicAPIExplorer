@@ -1,11 +1,13 @@
 {
 	"class" : {
+		"categories" : "jb 5/1/2019 13:41",
 		"numberOfRows" : "jb 5/1/2019 13:21" },
 	"instance" : {
-		"build:" : "jb 5/1/2019 13:22",
+		"build:" : "jb 5/1/2019 14:05",
 		"categories" : "jb 5/1/2019 11:32",
 		"categories:" : "jb 5/1/2019 11:33",
-		"initialize" : "jb 5/1/2019 13:21",
+		"initialize" : "jb 5/1/2019 13:33",
+		"openExplorationViewFor:" : "jb 5/1/2019 14:08",
 		"specFrameAt:" : "jb 5/1/2019 13:11",
 		"specSize" : "jb 5/1/2019 13:09",
 		"specsPerRow" : "jb 5/1/2019 13:17" } }
