@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicAPIExplorer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"methods" ],
+	"name" : "MEXExplorationSpecification",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+accessing
+explorationSpecification
+
+	^ explorationSpecification
