@@ -5,4 +5,4 @@ newNamed: aName havingImage: anImageMorph withSpecifications: aMEXExplorationSpe
 		name: aName;
 		image: anImageMorph;
 		explorationSpecification: aMEXExplorationSpecification;
-		yourself.		
+		yourself

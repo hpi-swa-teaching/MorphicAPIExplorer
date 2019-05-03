@@ -1,4 +1,4 @@
 state
 openExplorationViewFor: aCategory
 
-	(StringMorph contents: aCategory name) openInWorld.
+	(StringMorph contents: aCategory name) openInWorld

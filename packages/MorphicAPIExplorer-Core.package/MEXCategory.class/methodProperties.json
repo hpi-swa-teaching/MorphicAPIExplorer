@@ -1,12 +1,12 @@
 {
 	"class" : {
 		"defaultName" : "jb 5/1/2019 11:52",
-		"newNamed:havingImage:withSpecifications:" : "jb 5/1/2019 13:30" },
+		"newNamed:havingImage:withSpecifications:" : "jb 5/1/2019 17:34" },
 	"instance" : {
 		"explorationSpecification" : "jb 5/1/2019 11:11",
 		"explorationSpecification:" : "jb 5/1/2019 11:12",
 		"image" : "jb 5/1/2019 11:51",
 		"image:" : "jb 5/1/2019 11:51",
-		"initialize" : "jb 5/1/2019 11:52",
+		"initialize" : "jb 5/3/2019 12:42",
 		"name" : "jb 5/1/2019 11:07",
 		"name:" : "jb 5/1/2019 11:07" } }

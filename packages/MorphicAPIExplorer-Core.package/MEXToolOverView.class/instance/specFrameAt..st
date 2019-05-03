@@ -11,5 +11,6 @@ specFrameAt: anIndex
 		leftFraction: specSize x * column;
 		topFraction: specSize y * row;
 		rightFraction: specSize x * (column + 1);
-		bottomFraction: specSize y * (row + 1))
+		bottomFraction: specSize y * (row + 1);
+		yourself)
 		
