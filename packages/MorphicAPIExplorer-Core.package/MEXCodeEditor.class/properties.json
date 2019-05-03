@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"methodList" ],
-	"name" : "MEXToolExplorationView",
+		 ],
+	"name" : "MEXCodeEditor",
 	"pools" : [
 		 ],
-	"super" : "MEXToolView",
+	"super" : "CodeHolder",
 	"type" : "normal" }

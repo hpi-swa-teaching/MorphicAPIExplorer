@@ -2,4 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"build:" : "CU 5/1/2019 22:39",
+		"buildCodeEditorWith:" : "CU 5/1/2019 20:13",
+		"buildCopyToClipboardButtonWith:" : "CU 5/1/2019 20:03",
+		"buildDefaultMorphBoxWith:" : "CU 5/1/2019 22:42",
+		"buildMethodListWith:" : "CU 5/1/2019 19:56",
+		"buildMorphPlaygroundPanelWith:" : "CU 5/1/2019 22:32",
+		"buildRunCodeButtonWith:" : "CU 5/1/2019 20:05",
+		"copyCodeToClipboard" : "CU 5/1/2019 20:06",
+		"methodList" : "CU 5/1/2019 19:59",
+		"methodList:" : "CU 5/1/2019 19:59",
+		"runCode" : "CU 5/1/2019 20:05" } }
