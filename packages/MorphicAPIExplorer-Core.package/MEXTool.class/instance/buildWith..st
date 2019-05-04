@@ -5,5 +5,5 @@ buildWith: aBuilder
 			model: self;
 			label: self class label;
 			extent: self class defaultExtent;
-			children: (self currentView build: aBuilder);
+			children: (self buildChildrenWith: aBuilder);
 			yourself)

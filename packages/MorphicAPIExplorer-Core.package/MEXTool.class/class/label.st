@@ -1,4 +1,4 @@
 constants
 label
 
-	^'Morphplorer'
+	^ 'Morphplorer - ', self labelAddition

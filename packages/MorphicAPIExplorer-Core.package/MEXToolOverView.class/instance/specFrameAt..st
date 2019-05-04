@@ -5,7 +5,7 @@ specFrameAt: anIndex
 	specSize := self specSize.
 	specsPerRow := self specsPerRow.
 	row := anIndex - 1 // specsPerRow.
-	column := anIndex -1 \\ specsPerRow.
+	column := anIndex - 1 \\ specsPerRow.
 	
 	^ (LayoutFrame new
 		leftFraction: specSize x * column;

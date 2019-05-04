@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 	
-	self methods: OrderedCollection new.
+	self methods: OrderedCollection new

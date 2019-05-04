@@ -1,4 +1,4 @@
 constants
 defaultView
 
-	^MEXToolOverView new
+	^ MEXToolOverView new
