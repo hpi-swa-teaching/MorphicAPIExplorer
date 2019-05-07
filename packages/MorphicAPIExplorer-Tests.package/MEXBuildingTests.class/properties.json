@@ -8,9 +8,9 @@
 	"instvars" : [
 		"overView",
 		"toolbuilder",
-		"categories",
-		"collectionSize",
-		"maxTotalRows" ],
+		"empty",
+		"defaultCollectionSize",
+		"full" ],
 	"name" : "MEXBuildingTests",
 	"pools" : [
 		 ],

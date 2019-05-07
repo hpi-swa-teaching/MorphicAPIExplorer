@@ -2,8 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "lk 5/7/2019 15:49",
-		"testSpecFrameAtReturnsLayoutFrameInsideWindowBounds" : "lk 5/7/2019 21:05",
-		"testSpecSizePerRowForReturnsSizeSmallerThanWindow" : "lk 5/7/2019 21:16",
-		"testSpecsPerRowForReturnsCorrectNumberWhenPassedAFloat" : "lk 5/7/2019 21:00",
-		"testSpecsPerRowForReturnsCorrectNumberWhenPassedAnInteger" : "lk 5/7/2019 21:00" } }
+		"setUp" : "lk 5/7/2019 21:52",
+		"testSpecFrameAtReturnsLayoutFrameInsideWindowBounds" : "lk 5/7/2019 21:54",
+		"testSpecSizePerRowForReturnsFullHeightForOneRow" : "lk 5/7/2019 22:29",
+		"testSpecSizePerRowForReturnsFullSizeForOneCategoryAndOneRow" : "lk 5/7/2019 22:36",
+		"testSpecSizePerRowForReturnsFullWidthForLessCategoriesThanRows" : "lk 5/7/2019 22:27",
+		"testSpecSizePerRowForReturnsSizeSmallerThanWindow" : "lk 5/7/2019 21:54",
+		"testSpecSizePerRowForReturnsZeroSizeForZeroCategories" : "lk 5/7/2019 22:46",
+		"testSpecSizePerRowForThrowsZeroDivideErrorWhenPassedZero" : "lk 5/7/2019 22:21",
+		"testSpecsPerRowForReturnsCorrectNumberWhenPassedAFloat" : "lk 5/7/2019 22:12",
+		"testSpecsPerRowForReturnsCorrectNumberWhenPassedAnInteger" : "lk 5/7/2019 21:56",
+		"testSpecsPerRowForThrowsZeroDivideErrorWhenPassedZero" : "lk 5/7/2019 22:20" } }
