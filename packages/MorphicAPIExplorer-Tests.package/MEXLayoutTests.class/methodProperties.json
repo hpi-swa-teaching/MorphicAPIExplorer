@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"setUp" : "lk 5/7/2019 15:49",
-		"testSpecFrameAtReturnsLayoutFrameInsideWindowBounds" : "lk 5/7/2019 15:22",
-		"testSpecsPerRowReturnsCorrectNumberWhenPassedAFloat" : "jb 5/7/2019 16:17",
-		"testSpecsPerRowReturnsCorrectNumberWhenPassedAnInteger" : "jb 5/7/2019 16:17",
-		"testSpecsSizeReturnsRelativeBottomLeftExtentPointInsideWindowFrame" : "jb 5/7/2019 16:17" } }
+		"testSpecFrameAtReturnsLayoutFrameInsideWindowBounds" : "lk 5/7/2019 21:05",
+		"testSpecSizePerRowForReturnsSizeSmallerThanWindow" : "lk 5/7/2019 21:16",
+		"testSpecsPerRowForReturnsCorrectNumberWhenPassedAFloat" : "lk 5/7/2019 21:00",
+		"testSpecsPerRowForReturnsCorrectNumberWhenPassedAnInteger" : "lk 5/7/2019 21:00" } }

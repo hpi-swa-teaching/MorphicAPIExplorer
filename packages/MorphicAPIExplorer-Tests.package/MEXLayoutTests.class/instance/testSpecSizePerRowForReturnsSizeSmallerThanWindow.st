@@ -1,5 +1,5 @@
 tests
-testSpecsSizeReturnsRelativeBottomLeftExtentPointInsideWindowFrame
+testSpecSizePerRowForReturnsSizeSmallerThanWindow
 
 	| specSize specsPerRow|
 	1 to: collectionSize do: [:i | categories add: MEXCategory new].

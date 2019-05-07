@@ -1,5 +1,5 @@
 tests
-testSpecsPerRowReturnsCorrectNumberWhenPassedAFloat
+testSpecsPerRowForReturnsCorrectNumberWhenPassedAFloat
 
 	| specsPerRow |
 	1 to: 100 do: [:i | categories add: MEXCategory new].
