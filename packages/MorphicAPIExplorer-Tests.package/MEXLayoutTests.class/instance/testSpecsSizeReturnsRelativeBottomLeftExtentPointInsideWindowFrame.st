@@ -5,6 +5,6 @@ testSpecsSizeReturnsRelativeBottomLeftExtentPointInsideWindowFrame
 	1 to: collectionSize do: [:i | categories add: MEXCategory new].
 	overView categories: categories.
 	1 to: maxTotalRows do: [:rows | 
-		specSize := overView specSize: rows.
-		specsPerRow := overView specsPerRow: rows.
+		specSize := overView specSizePerRowFor: rows.
+		specsPerRow := overView specsPerRowFor: rows.
 		self assert: ((specSize x <= 1) and: (specSize y <= 1))]

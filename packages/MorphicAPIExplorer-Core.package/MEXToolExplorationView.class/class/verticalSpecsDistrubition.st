@@ -1,0 +1,4 @@
+constants
+verticalSpecsDistrubition
+
+	^ ( 2/3 @ 1/3 )

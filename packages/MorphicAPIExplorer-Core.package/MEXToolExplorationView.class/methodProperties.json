@@ -1,9 +1,11 @@
 {
 	"class" : {
 		"defaultExtent" : "jb 5/4/2019 14:09",
+		"horizontalSpecsDistrubition" : "jb 5/7/2019 15:56",
 		"labelAddition" : "jb 5/4/2019 13:35",
 		"newFromCategory:" : "jb 5/4/2019 13:59",
-		"openOn:" : "jb 5/4/2019 13:48" },
+		"openOn:" : "jb 5/4/2019 13:48",
+		"verticalSpecsDistrubition" : "jb 5/7/2019 15:56" },
 	"instance" : {
 		"buildChildrenWith:" : "jb 5/4/2019 13:29",
 		"buildCodeEditorWith:" : "jb 5/4/2019 14:05",

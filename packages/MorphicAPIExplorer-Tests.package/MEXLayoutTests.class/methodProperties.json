@@ -4,6 +4,6 @@
 	"instance" : {
 		"setUp" : "lk 5/7/2019 15:49",
 		"testSpecFrameAtReturnsLayoutFrameInsideWindowBounds" : "lk 5/7/2019 15:22",
-		"testSpecsPerRowReturnsCorrectNumberWhenPassedAFloat" : "lk 5/7/2019 15:59",
-		"testSpecsPerRowReturnsCorrectNumberWhenPassedAnInteger" : "lk 5/7/2019 15:58",
-		"testSpecsSizeReturnsRelativeBottomLeftExtentPointInsideWindowFrame" : "lk 5/7/2019 16:06" } }
+		"testSpecsPerRowReturnsCorrectNumberWhenPassedAFloat" : "jb 5/7/2019 16:17",
+		"testSpecsPerRowReturnsCorrectNumberWhenPassedAnInteger" : "jb 5/7/2019 16:17",
+		"testSpecsSizeReturnsRelativeBottomLeftExtentPointInsideWindowFrame" : "jb 5/7/2019 16:17" } }

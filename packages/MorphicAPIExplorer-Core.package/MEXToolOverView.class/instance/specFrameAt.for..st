@@ -2,8 +2,8 @@ layout
 specFrameAt: anIndex for: aNumber
 
 	|column row specsPerRow specSize|
-	specSize := self specSize: aNumber.
-	specsPerRow := self specsPerRow: aNumber.
+	specSize := self specSizePerRowFor: aNumber.
+	specsPerRow := self specsPerRowFor: aNumber.
 	row := anIndex - 1 // specsPerRow.
 	column := anIndex -1 \\ specsPerRow.
 	

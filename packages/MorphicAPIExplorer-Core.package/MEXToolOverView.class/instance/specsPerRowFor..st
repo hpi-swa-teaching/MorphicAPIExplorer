@@ -1,5 +1,5 @@
 layout
-specsPerRow: aNumber
+specsPerRowFor: aNumber
 
 	^ (self categories size / aNumber) ceiling
 		
