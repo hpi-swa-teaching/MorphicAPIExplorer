@@ -3,11 +3,11 @@
 		"categories" : "jb 5/1/2019 13:41",
 		"numberOfRows" : "jb 5/1/2019 13:21" },
 	"instance" : {
-		"build:" : "jb 5/1/2019 14:05",
+		"build:" : "lk 5/6/2019 20:51",
 		"categories" : "jb 5/1/2019 11:32",
 		"categories:" : "jb 5/1/2019 11:33",
 		"initialize" : "jb 5/3/2019 12:43",
 		"openExplorationViewFor:" : "jb 5/3/2019 12:43",
-		"specFrameAt:" : "jb 5/1/2019 17:34",
-		"specSize" : "jb 5/1/2019 13:09",
-		"specsPerRow" : "jb 5/1/2019 13:17" } }
+		"specFrameAt:for:" : "lk 5/6/2019 20:51",
+		"specSize:" : "lk 5/6/2019 20:41",
+		"specsPerRow:" : "lk 5/6/2019 18:52" } }

@@ -7,9 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"overView",
-		"toolbuilder",
-		"categories" ],
-	"name" : "MEXToolOverViewTests",
+		"toolbuilder" ],
+	"name" : "MEXUITests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

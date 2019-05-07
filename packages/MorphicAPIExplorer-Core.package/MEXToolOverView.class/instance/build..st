@@ -6,4 +6,4 @@ build: aBuilder
 		model: self;
 		label: category name;
 		action: [self openExplorationViewFor: category];
-		frame: (self specFrameAt: (self categories indexOf: category))]
+		frame: (self specFrameAt: (self categories indexOf: category) for: self class numberOfRows)]
