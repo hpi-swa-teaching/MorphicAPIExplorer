@@ -1,5 +1,5 @@
 building
-build: aBuilder
+buildChildrenWith: aBuilder
 
 	^ {
 		self buildMethodListWith: aBuilder.

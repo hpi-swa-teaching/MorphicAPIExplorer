@@ -10,5 +10,5 @@
 	"name" : "MEXToolExplorationView",
 	"pools" : [
 		 ],
-	"super" : "MEXToolView",
+	"super" : "MEXTool",
 	"type" : "normal" }
