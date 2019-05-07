@@ -1,5 +1,5 @@
 tests
-testSpecFrameAtReturnsLayoutFrameInsideWindowBounds
+testSpecFrameAtForReturnsLayoutFrameInsideWindowBounds
 
 	| specFrame frameSides |
 	overView categories: full.
