@@ -7,4 +7,4 @@ createDefaultMorphBox
 		borderColor: Color gray;
 		addMorph: (Morph new
 			center: 100@100)
-	}
+	} asOrderedCollection

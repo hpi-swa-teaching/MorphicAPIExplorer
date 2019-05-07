@@ -1,8 +1,9 @@
 building
 buildDefaultMorphBoxWith: aBuilder
 
-	^ aBuilder pluggableListSpec new
+	^ aBuilder pluggablePanelSpec new
 		model: self;
+		children: #createDefaultMorphBox;
 		frame: (LayoutFrame new
 				leftFraction: 0;
 				topFraction: 0.67;
