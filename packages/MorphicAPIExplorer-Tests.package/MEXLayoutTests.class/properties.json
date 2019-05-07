@@ -9,7 +9,8 @@
 		"overView",
 		"toolbuilder",
 		"categories",
-		"collectionSize" ],
+		"collectionSize",
+		"maxTotalRows" ],
 	"name" : "MEXLayoutTests",
 	"pools" : [
 		 ],

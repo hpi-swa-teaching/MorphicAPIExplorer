@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "lk 5/7/2019 15:28",
+		"setUp" : "lk 5/7/2019 15:49",
 		"testSpecFrameAtReturnsLayoutFrameInsideWindowBounds" : "lk 5/7/2019 15:22",
 		"testSpecsPerRowReturnsCorrectNumber" : "lk 5/7/2019 15:23",
 		"testSpecsSizeReturnsCorrectRelativeBottomLeftExtentPoint" : "lk 5/7/2019 15:23" } }
