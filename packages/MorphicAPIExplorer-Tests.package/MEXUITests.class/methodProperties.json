@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"newMorphs" : "lk 5/8/2019 14:39",
+		"setUp" : "lk 5/8/2019 14:40",
+		"tearDown" : "lk 5/8/2019 14:51",
+		"testOpenExplorationViewForOpensAWindow" : "lk 5/8/2019 14:38" } }

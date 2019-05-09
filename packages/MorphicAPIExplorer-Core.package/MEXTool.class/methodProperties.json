@@ -1,11 +1,12 @@
 {
 	"class" : {
-		"defaultExtent" : "jb 5/1/2019 11:29",
-		"defaultView" : "CU 5/3/2019 21:58",
-		"label" : "jb 5/1/2019 11:30",
-		"open" : "jb 5/1/2019 11:31" },
+		"defaultBuilder" : "jb 5/4/2019 14:16",
+		"defaultExtent" : "jb 5/4/2019 13:25",
+		"defaultView" : "jb 5/4/2019 13:24",
+		"label" : "jb 5/4/2019 13:34",
+		"labelAddition" : "jb 5/4/2019 13:34",
+		"open" : "jb 5/4/2019 13:38" },
 	"instance" : {
-		"buildWith:" : "jb 5/1/2019 11:36",
-		"currentView" : "jb 5/1/2019 11:03",
-		"currentView:" : "jb 5/1/2019 11:03",
-		"initialize" : "jb 5/3/2019 12:43" } }
+		"buildChildrenWith:" : "jb 5/4/2019 13:26",
+		"buildWith:" : "jb 5/4/2019 13:27",
+		"openExplorationViewFor:" : "jb 5/4/2019 14:04" } }

@@ -6,8 +6,8 @@ buildRunCodeButtonWith: aBuilder
 		label: 'Run Code';
 		action: #runCode;
 		frame: (LayoutFrame new
-				leftFraction: 0.33 offset: 0;
-				topFraction: 0.95 offset: 0;
-				rightFraction: 1 offset: 0;
-				bottomFraction: 1 offset: 0);
+				leftFraction: 0.33;
+				topFraction: 0.95;
+				rightFraction: 1;
+				bottomFraction: 1);
 		yourself

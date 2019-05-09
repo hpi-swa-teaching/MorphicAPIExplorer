@@ -1,0 +1,12 @@
+running
+setUp
+
+	overView := MEXToolOverView new.
+	toolbuilder := ToolBuilder default.
+	defaultCollectionSize := 20.
+	empty  := OrderedCollection new.
+	full  := OrderedCollection new.
+	1 to: defaultCollectionSize do: [:index | full add: MEXCategory new]
+	
+	
+	
