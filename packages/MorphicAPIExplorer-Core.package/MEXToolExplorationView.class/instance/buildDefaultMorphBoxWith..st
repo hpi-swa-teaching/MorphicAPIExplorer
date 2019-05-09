@@ -6,7 +6,7 @@ buildDefaultMorphBoxWith: aBuilder
 		children: #createDefaultMorphBox;
 		frame: (LayoutFrame new
 				leftFraction: 0;
-				topFraction: 0.67;
-				rightFraction: 0.33;
+				topFraction: self class verticalSpecsDistribution x;
+				rightFraction: self class horizontalSpecsDistribution y;
 				bottomFraction: 1);
 		yourself

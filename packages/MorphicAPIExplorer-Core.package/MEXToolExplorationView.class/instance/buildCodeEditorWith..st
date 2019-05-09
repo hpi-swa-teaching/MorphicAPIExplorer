@@ -3,8 +3,8 @@ buildCodeEditorWith: aBuilder
 
 	^ (MEXCodeEditor new buildCodePaneWith: aBuilder)
 		frame: (LayoutFrame new
-				leftFraction: 0.33;
-				topFraction: 0.67;
+				leftFraction: self class horizontalSpecsDistribution x;
+				topFraction: self class verticalSpecsDistribution x;
 				rightFraction: 1;
 				bottomFraction: 1);
 		yourself
