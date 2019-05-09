@@ -1,5 +1,5 @@
 tests
-testOpenExplorationViewForOpensAWindow
+testOpenExplorationViewForOpensAnExplorationView
 
 	tool openExplorationViewFor: MEXCategory new.
 	self assert: (self newMorphs anySatisfy: [:morph |
