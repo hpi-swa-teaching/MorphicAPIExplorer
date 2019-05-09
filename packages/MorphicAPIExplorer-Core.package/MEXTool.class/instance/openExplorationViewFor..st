@@ -1,4 +1,4 @@
 state
 openExplorationViewFor: aMEXCaregory
 
-	MEXToolExplorationView openOn: aMEXCaregory
+	^ MEXToolExplorationView openOn: aMEXCaregory

@@ -3,6 +3,7 @@ setUp
 
 	overView := MEXToolOverView new.
 	toolbuilder := ToolBuilder default.
+	category := MEXCategory new.
 	defaultCollectionSize := 20.
 	empty  := OrderedCollection new.
 	full  := OrderedCollection new.
