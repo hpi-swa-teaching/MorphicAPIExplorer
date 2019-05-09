@@ -1,9 +1,8 @@
 tests
-testSpecsSizeReturnsRelativeBottomLeftExtentPointInsideWindowFrame
+testSpecSizePerRowForReturnsSizeSmallerThanWindow
 
-	| specSize specsPerRow|
-	1 to: collectionSize do: [:i | categories add: MEXCategory new].
-	overView categories: categories.
+	| specSize specsPerRow |
+	overView categories: full.
 	1 to: maxTotalRows do: [:rows | 
 		specSize := overView specSizePerRowFor: rows.
 		specsPerRow := overView specsPerRowFor: rows.

@@ -2,8 +2,20 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "lk 5/7/2019 15:49",
-		"testSpecFrameAtReturnsLayoutFrameInsideWindowBounds" : "lk 5/7/2019 15:22",
-		"testSpecsPerRowReturnsCorrectNumberWhenPassedAFloat" : "jb 5/7/2019 16:17",
-		"testSpecsPerRowReturnsCorrectNumberWhenPassedAnInteger" : "jb 5/7/2019 16:17",
-		"testSpecsSizeReturnsRelativeBottomLeftExtentPointInsideWindowFrame" : "jb 5/7/2019 16:17" } }
+		"setUp" : "lk 5/7/2019 21:52",
+		"testSpecFrameAtForReturnsErrorAtZero" : "lk 5/7/2019 23:19",
+		"testSpecFrameAtForReturnsFullHeightLayoutFrameForOneRow" : "lk 5/7/2019 23:31",
+		"testSpecFrameAtForReturnsFullSizedLayoutFrameForOneCategoryAndOneRow" : "lk 5/7/2019 23:14",
+		"testSpecFrameAtForReturnsFullWightLayoutFrameLessCategoriesThanRows" : "lk 5/7/2019 23:34",
+		"testSpecFrameAtForReturnsLayoutFrameInsideWindowBounds" : "lk 5/7/2019 23:15",
+		"testSpecFrameAtForReturnsNoOverlappingLayoutFramesForOneRow" : "lk 5/7/2019 23:44",
+		"testSpecFrameAtForReturnsNoOverlappingLayoutFramesLessCategoriesThanRows" : "lk 5/7/2019 23:47",
+		"testSpecSizePerRowForReturnsErrorForZeroCategories" : "lk 5/7/2019 23:05",
+		"testSpecSizePerRowForReturnsFullHeightForOneRow" : "lk 5/7/2019 22:29",
+		"testSpecSizePerRowForReturnsFullSizeForOneCategoryAndOneRow" : "lk 5/7/2019 22:36",
+		"testSpecSizePerRowForReturnsFullWidthForLessCategoriesThanRows" : "lk 5/7/2019 22:27",
+		"testSpecSizePerRowForReturnsSizeSmallerThanWindow" : "lk 5/7/2019 21:54",
+		"testSpecSizePerRowForThrowsZeroDivideErrorWhenPassedZero" : "lk 5/7/2019 22:21",
+		"testSpecsPerRowForReturnsCorrectNumberWhenPassedAFloat" : "lk 5/7/2019 23:22",
+		"testSpecsPerRowForReturnsCorrectNumberWhenPassedAnInteger" : "lk 5/7/2019 23:20",
+		"testSpecsPerRowForThrowsZeroDivideErrorWhenPassedZero" : "lk 5/7/2019 23:23" } }

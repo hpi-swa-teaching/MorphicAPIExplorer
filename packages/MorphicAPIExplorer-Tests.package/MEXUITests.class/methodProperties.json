@@ -2,4 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "lk 5/7/2019 15:22" } }
+		"newMorphs" : "lk 5/8/2019 14:39",
+		"setUp" : "lk 5/8/2019 14:40",
+		"tearDown" : "lk 5/8/2019 14:51",
+		"testOpenExplorationViewForOpensAWindow" : "lk 5/8/2019 14:38" } }

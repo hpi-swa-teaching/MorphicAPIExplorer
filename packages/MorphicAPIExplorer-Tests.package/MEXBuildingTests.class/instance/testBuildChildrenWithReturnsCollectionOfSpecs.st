@@ -1,8 +1,7 @@
 tests
-testBuildReturnsCollectionOfSpecs
+testBuildChildrenWithReturnsCollectionOfSpecs
 
 	| specCollection |
-	1 to: collectionSize do: [:i | categories add: MEXCategory new].
-	overView categories: categories.
+	overView categories: full.
 	specCollection := overView buildChildrenWith: toolbuilder.
 	specCollection do: [:spec | self assert: (spec isKindOf: PluggableButtonSpec)]

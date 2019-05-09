@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "lk 5/6/2019 20:39",
-		"testBuildReturnsCollectionOfSpecs" : "lk 5/7/2019 15:50",
-		"testBuildReturnsCollectionWithCorrectSize" : "lk 5/7/2019 16:01" } }
+		"setUp" : "lk 5/7/2019 22:01",
+		"testBuildChildrenWithReturnsCollectionOfSpecs" : "lk 5/7/2019 22:08",
+		"testBuildChildrenWithReturnsCollectionWithCorrectSizeForFilledCategories" : "lk 5/7/2019 22:09",
+		"testBuildChildrenWithReturnsEmptyCollectionForZeroCategories" : "lk 5/7/2019 22:09" } }
