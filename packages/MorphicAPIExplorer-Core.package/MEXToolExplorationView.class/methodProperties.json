@@ -1,13 +1,16 @@
 {
 	"class" : {
-		 },
+		"bottomSpecsDistribution" : "CU 5/9/2019 13:35",
+		"leftSpecsDistribution" : "CU 5/9/2019 13:35",
+		"rightSpecsDistribution" : "CU 5/9/2019 13:36",
+		"topSpecsDistribution" : "CU 5/9/2019 13:34" },
 	"instance" : {
 		"build:" : "CU 5/1/2019 22:39",
-		"buildCodeEditorWith:" : "CU 5/1/2019 20:13",
+		"buildCodeEditorWith:" : "CU 5/9/2019 13:37",
 		"buildCopyToClipboardButtonWith:" : "CU 5/1/2019 20:03",
-		"buildDefaultMorphBoxWith:" : "CU 5/4/2019 09:47",
-		"buildMethodListWith:" : "CU 5/1/2019 19:56",
-		"buildMorphPlaygroundPanelWith:" : "CU 5/4/2019 09:42",
+		"buildDefaultMorphBoxWith:" : "CU 5/9/2019 13:40",
+		"buildMethodListWith:" : "CU 5/9/2019 13:40",
+		"buildMorphPlaygroundPanelWith:" : "CU 5/9/2019 13:41",
 		"buildRunCodeButtonWith:" : "CU 5/1/2019 20:05",
 		"copyCodeToClipboard" : "CU 5/1/2019 20:06",
 		"createDefaultMorphBox" : "CU 5/4/2019 09:54",
