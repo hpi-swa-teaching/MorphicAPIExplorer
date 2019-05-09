@@ -2,14 +2,12 @@
 	"class" : {
 		"bottomSpecsDistribution" : "CU 5/9/2019 13:35",
 		"defaultExtent" : "jb 5/4/2019 14:09",
-		"horizontalSpecsDistrubition" : "jb 5/7/2019 15:56",
 		"labelAddition" : "jb 5/4/2019 13:35",
 		"leftSpecsDistribution" : "CU 5/9/2019 13:35",
 		"newFromCategory:" : "jb 5/4/2019 13:59",
 		"openOn:" : "jb 5/4/2019 13:48",
 		"rightSpecsDistribution" : "CU 5/9/2019 13:36",
-		"topSpecsDistribution" : "CU 5/9/2019 13:34",
-		"verticalSpecsDistrubition" : "jb 5/7/2019 15:56" },
+		"topSpecsDistribution" : "CU 5/9/2019 13:34" },
 	"instance" : {
 		"buildChildrenWith:" : "jb 5/4/2019 13:29",
 		"buildCodeEditorWith:" : "CU 5/9/2019 13:37",
