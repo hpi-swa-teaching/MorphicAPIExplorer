@@ -6,8 +6,8 @@ buildRunCodeButtonWith: aBuilder
 		label: 'Run Code';
 		action: #runCode;
 		frame: (LayoutFrame new
-				leftFraction: 0.33;
+				leftFraction: self class rightSpecsDistribution x;
 				topFraction: 0.95;
-				rightFraction: 1;
-				bottomFraction: 1);
+				rightFraction: self class rightSpecsDistribution y;
+				bottomFraction: self class bottomSpecsDistribution y);
 		yourself

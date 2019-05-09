@@ -1,4 +1,6 @@
 building
 buildForCategory: aMEXCategory
 
-	self buildWith: self class defaultBuilder
+	self
+		category: aMEXCategory;
+		buildWith: self class defaultBuilder

@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"newMorphs" : "lk 5/8/2019 14:39",
-		"setUp" : "lk 5/8/2019 14:40",
+		"setUp" : "FFN 5/9/2019 14:20",
 		"tearDown" : "lk 5/8/2019 14:51",
+		"testClickOnOverViewButtonOpensAnExplorationView" : "FFN 5/9/2019 14:08",
 		"testOpenExplorationViewForOpensAWindow" : "lk 5/8/2019 14:38" } }

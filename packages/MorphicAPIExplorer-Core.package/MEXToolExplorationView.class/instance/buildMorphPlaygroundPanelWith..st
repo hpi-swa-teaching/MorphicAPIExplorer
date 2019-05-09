@@ -5,8 +5,8 @@ buildMorphPlaygroundPanelWith: aBuilder
 		model: self;
 		children: #createMorphPlayground;
 		frame: (LayoutFrame new
-				leftFraction: self class horizontalSpecsDistribution x;
-				topFraction: 0;
-				rightFraction: 1;
-				bottomFraction: self class verticalSpecsDistribution x);
+				leftFraction: self class rightSpecsDistribution x;
+				topFraction: self class topSpecsDistribution x;
+				rightFraction: self class rightSpecsDistribution y;
+				bottomFraction: self class topSpecsDistribution y);
 		yourself

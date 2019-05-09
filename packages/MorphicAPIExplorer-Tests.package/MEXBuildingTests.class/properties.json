@@ -10,7 +10,8 @@
 		"toolbuilder",
 		"empty",
 		"defaultCollectionSize",
-		"full" ],
+		"full",
+		"category" ],
 	"name" : "MEXBuildingTests",
 	"pools" : [
 		 ],

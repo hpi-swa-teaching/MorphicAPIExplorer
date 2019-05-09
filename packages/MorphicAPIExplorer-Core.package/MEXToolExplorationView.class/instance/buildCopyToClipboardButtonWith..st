@@ -7,7 +7,7 @@ buildCopyToClipboardButtonWith: aBuilder
 		action: #copyCodeToClipboard;
 		frame: (LayoutFrame new
 				leftFraction: 0.95;
-				topFraction: 0.67;
-				rightFraction: 1;
-				bottomFraction: 0.72);
+				topFraction: self class bottomSpecsDistribution x;
+				rightFraction: self class rightSpecsDistribution y;
+				bottomFraction: self class bottomSpecsDistribution x offset: 30);
 		yourself
