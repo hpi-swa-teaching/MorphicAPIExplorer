@@ -5,8 +5,8 @@ buildDefaultMorphBoxWith: aBuilder
 		model: self;
 		children: #createDefaultMorphBox;
 		frame: (LayoutFrame new
-				leftFraction: self class leftSpecsDistribution x;
-				topFraction: self class bottomSpecsDistribution x;
-				rightFraction: self class leftSpecsDistribution y;
-				bottomFraction: self class bottomSpecsDistribution y);
+				leftFraction: self class leftSpecsHorizontalDistribution x;
+				topFraction: self class bottomSpecsVerticalDistribution x;
+				rightFraction: self class leftSpecsHorizontalDistribution y;
+				bottomFraction: self class bottomSpecsVerticalDistribution y);
 		yourself

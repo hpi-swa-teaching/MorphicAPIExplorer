@@ -1,10 +1,10 @@
 building
 buildCodeEditorWith: aBuilder
 
-	^ (MEXCodeEditor new buildCodePaneWith: aBuilder)
+	^ (MEXCodeHolder new buildCodePaneWith: aBuilder)
 		frame: (LayoutFrame new
-				leftFraction: self class rightSpecsDistribution x;
-				topFraction: self class bottomSpecsDistribution x;
-				rightFraction: self class rightSpecsDistribution y;
-				bottomFraction: self class bottomSpecsDistribution y);
+				leftFraction: self class rightSpecsHorizontalDistribution x;
+				topFraction: self class bottomSpecsVerticalDistribution x;
+				rightFraction: self class rightSpecsHorizontalDistribution y;
+				bottomFraction: self class bottomSpecsVerticalDistribution y);
 		yourself

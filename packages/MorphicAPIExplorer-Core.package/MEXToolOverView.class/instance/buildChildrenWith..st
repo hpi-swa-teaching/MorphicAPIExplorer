@@ -5,5 +5,5 @@ buildChildrenWith: aBuilder
 		aBuilder pluggableButtonSpec new
 			model: self;
 			label: category name;
-			action: [self openExplorationViewFor: category];
+			action: [self changeToExplorationViewFor: category];
 			frame: (self specFrameAt: (self categories indexOf: category) for: self class numberOfRows)]
