@@ -5,8 +5,8 @@ buildMethodListWith: aBuilder
 		model: self;
 		list: #methodList;
 		frame: (LayoutFrame new
-				leftFraction: self class leftSpecsDistribution x;
-				topFraction: self class topSpecsDistribution x;
-				rightFraction: self class leftSpecsDistribution y;
-				bottomFraction: self class topSpecsDistribution y);
+				leftFraction: self class leftSpecsHorizontalDistribution x;
+				topFraction: self class backButtonFractionHeight y;
+				rightFraction: self class leftSpecsHorizontalDistribution y;
+				bottomFraction: self class topSpecsVerticalDistribution y);
 		yourself

@@ -1,4 +1,4 @@
 constants
 defaultExtent
 
-	self subclassResponsibility
+	^ 800@600
