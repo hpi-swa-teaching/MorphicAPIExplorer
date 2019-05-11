@@ -1,5 +1,5 @@
 tests
-testSpecFrameAtForReturnsFullWightLayoutFrameLessCategoriesThanRows
+testSpecFrameAtForReturnsFullWidhtLayoutFrameLessCategoriesThanRows
 
 	| specFrame |
 	overView categories: full.

@@ -8,5 +8,5 @@ setUp
 	empty  := OrderedCollection new.
 	overView categories: empty.
 	full  := OrderedCollection new.
-	1 to: defaultCollectionSize do: [:index | full add: MEXCategory new].
+	1 to: defaultCollectionSize do: [:index | full add: MEXCategory new]
 	

@@ -7,4 +7,4 @@ testSpecFrameAtForReturnsFullSizedLayoutFrameForOneCategoryAndOneRow
 	self assert: specFrame leftFraction equals: 0.
 	self assert: specFrame topFraction equals: 0.
 	self assert: specFrame rightFraction equals: 1.
-	self assert: specFrame bottomFraction equals: 1.
+	self assert: specFrame bottomFraction equals: 1
