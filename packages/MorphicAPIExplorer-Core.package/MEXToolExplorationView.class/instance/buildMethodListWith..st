@@ -1,7 +1,7 @@
 building
 buildMethodListWith: aBuilder
 
-	^ aBuilder pluggableListSpec new
+	^ aBuilder pluggableMultiSelectionListSpec new
 		model: self;
 		list: #methodList;
 		frame: (LayoutFrame new

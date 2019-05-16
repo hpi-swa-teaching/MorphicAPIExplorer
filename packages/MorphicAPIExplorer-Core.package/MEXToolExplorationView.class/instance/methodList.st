@@ -1,4 +1,4 @@
 accessing
 methodList
 
-	^ methodList
+	^ self category explorationSpecification methods
