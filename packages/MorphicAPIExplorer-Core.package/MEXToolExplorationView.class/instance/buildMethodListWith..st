@@ -9,4 +9,9 @@ buildMethodListWith: aBuilder
 				topFraction: self class backButtonFractionHeight y;
 				rightFraction: self class leftSpecsHorizontalDistribution y;
 				bottomFraction: self class topSpecsVerticalDistribution y);
+		menu: #methodMenu:;
+		getIndex: #methodSelected;
+		setIndex: #methodSelected:;
+		getSelectionList: #methodAt:;
+		setSelectionList: #methodAt:put:;
 		yourself
