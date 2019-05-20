@@ -6,5 +6,6 @@ createDefaultMorphBox
 		color: Preferences defaultWorldColor;
 		borderColor: Color gray;
 		addMorph: (Morph new
-			center: 100@100)
+			center: 100@100);
+		yourself
 	} asOrderedCollection

@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"category",
-		"selectedMethods",
-		"selectedMethod" ],
-	"name" : "MEXToolExplorationView",
+		"parent" ],
+	"name" : "MEXMethodListItemWrapper",
 	"pools" : [
 		 ],
-	"super" : "MEXTool",
+	"super" : "PluggableListItemWrapper",
 	"type" : "normal" }

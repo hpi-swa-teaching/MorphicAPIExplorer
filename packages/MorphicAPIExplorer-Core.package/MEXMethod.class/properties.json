@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"methods" ],
-	"name" : "MEXExplorationSpecification",
+		"isSelected",
+		"name",
+		"subMethods" ],
+	"name" : "MEXMethod",
 	"pools" : [
 		 ],
 	"super" : "Object",

@@ -1,17 +1,15 @@
 building
 buildMethodListWith: aBuilder
 
-	^ aBuilder pluggableMultiSelectionListSpec new
+	^ aBuilder pluggableTreeSpec new
 		model: self;
-		list: #methodList;
+		roots: #methodList;
+		nodeClass: MEXMethodListItemWrapper;
+		getSelected: #selectedMethod;
+		setSelected: #selectedMethod:;
 		frame: (LayoutFrame new
 				leftFraction: self class leftSpecsHorizontalDistribution x;
 				topFraction: self class backButtonFractionHeight y;
 				rightFraction: self class leftSpecsHorizontalDistribution y;
 				bottomFraction: self class topSpecsVerticalDistribution y);
-		menu: #methodMenu:;
-		getIndex: #methodSelected;
-		setIndex: #methodSelected:;
-		getSelectionList: #methodAt:;
-		setSelectionList: #methodAt:put:;
 		yourself

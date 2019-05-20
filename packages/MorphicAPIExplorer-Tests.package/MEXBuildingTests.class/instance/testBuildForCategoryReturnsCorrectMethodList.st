@@ -3,4 +3,4 @@ testBuildForCategoryReturnsCorrectMethodList
 
 	| explorationView |
 	explorationView := MEXToolExplorationView newFromCategory: category.
-	self assert: explorationView methodList equals: category explorationSpecification methods
+	self assert: explorationView methodList equals: category methodList
