@@ -1,6 +1,6 @@
 accessing
 icon
 
-	^ ToolIcons iconNamed: (self item isSelected
-		ifTrue: [#checkmarkIcon]
-		ifFalse: [#blankIcon])
+	^ self item isSelected
+		ifTrue: [MEXIcons checkmarkIcon]
+		ifFalse: [MEXIcons blankIcon]
