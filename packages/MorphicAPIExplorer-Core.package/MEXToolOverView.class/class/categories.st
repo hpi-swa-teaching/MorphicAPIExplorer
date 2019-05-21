@@ -3,7 +3,7 @@ categories
 
 	^ {
 		MEXCategory 
-			newNamed: 'Transformations' 
+			newNamed: 'Animating'
 			havingImage: ImageMorph new 
 			withMethodList: {
 				MEXMethod 
@@ -22,23 +22,31 @@ categories
 					}
 			}.
 		MEXCategory 
-			newNamed: 'Animations' 
+			newNamed: 'Building & Tearing down' 
 			havingImage: ImageMorph new 
 			withMethodList: OrderedCollection new.
 		MEXCategory 
-			newNamed: 'Nesting' 
+			newNamed: 'Nesting & Submorphing' 
 			havingImage: ImageMorph new 
 			withMethodList: OrderedCollection new.
 		MEXCategory 
-			newNamed: 'Images' 
+			newNamed: 'Drawing & Styling' 
 			havingImage: ImageMorph new 
 			withMethodList: OrderedCollection new.
 		MEXCategory 
-			newNamed: 'Coloring' 
+			newNamed: 'Transforming' 
 			havingImage: ImageMorph new 
 			withMethodList: OrderedCollection new.
 		MEXCategory 
-			newNamed: 'Layout' 
+			newNamed: 'Layouting' 
+			havingImage: ImageMorph new 
+			withMethodList: OrderedCollection new.
+		MEXCategory 
+			newNamed: 'Event Handling' 
+			havingImage: ImageMorph new 
+			withMethodList: OrderedCollection new.
+		MEXCategory 
+			newNamed: 'File Handling' 
 			havingImage: ImageMorph new 
 			withMethodList: OrderedCollection new.
 	} asOrderedCollection

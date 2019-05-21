@@ -2,9 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "FFN 5/9/2019 14:27",
+		"setUp" : "FFN 5/21/2019 16:35",
 		"testBuildChildrenWithReturnsCollectionOfSpecs" : "lk 5/7/2019 22:08",
 		"testBuildChildrenWithReturnsCollectionWithCorrectSizeForFilledCategories" : "lk 5/7/2019 22:09",
 		"testBuildChildrenWithReturnsEmptyCollectionForZeroCategories" : "lk 5/7/2019 22:09",
 		"testBuildForCategoryReturnsCorrectMethodList" : "FFN 5/20/2019 16:02",
-		"testBuildForCategoryReturnsIdenticalCategory" : "FFN 5/9/2019 14:27" } }
+		"testBuildForCategoryReturnsIdenticalCategory" : "FFN 5/9/2019 14:27",
+		"testMEXMethodWithNoSubMethodsReturnsFalseForHasSubmethods" : "FFN 5/21/2019 16:13",
+		"testMEXMethodWithSubMethodsReturnsTrueForHasSubmethods" : "FFN 5/21/2019 16:15",
+		"testMEXMethodWrapperWithNoSubMethodsReturnsHasContentsIsFalse" : "FFN 5/21/2019 16:43",
+		"testMEXMethodWrapperWithSubMethodsReturnsHasContentsIsTrue" : "FFN 5/21/2019 16:44" } }

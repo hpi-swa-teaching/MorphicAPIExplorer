@@ -1,4 +1,4 @@
 constants
 numberOfRows
 	
-	^ 2
+	^ 3

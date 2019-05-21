@@ -1,7 +1,7 @@
 ui
 changeViewTo: aWindow
 
-	|currentBounds |
+	| currentBounds |
 	currentBounds := ToolBuilder findDefault getBoundsForWindow: self containingWindow.
 	"Close first because MVC fiddles around with processes."
 	self closeOpenedWindow.

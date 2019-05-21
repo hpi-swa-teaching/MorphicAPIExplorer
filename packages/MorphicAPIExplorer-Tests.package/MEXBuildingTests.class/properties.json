@@ -11,7 +11,9 @@
 		"empty",
 		"defaultCollectionSize",
 		"full",
-		"category" ],
+		"category",
+		"methods",
+		"methodWrappers" ],
 	"name" : "MEXBuildingTests",
 	"pools" : [
 		 ],
