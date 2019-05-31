@@ -3,4 +3,5 @@ initialize
 
 	super initialize.
 	
-	self selectedMethods: OrderedCollection new
+	self selectedMethods: OrderedCollection new.
+	

@@ -10,7 +10,8 @@
 		"toolbuilder",
 		"tool",
 		"explorationView",
-		"preTestWindows" ],
+		"preTestWindows",
+		"explorationVIew" ],
 	"name" : "MEXUITests",
 	"pools" : [
 		 ],
