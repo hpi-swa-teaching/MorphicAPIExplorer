@@ -6,17 +6,14 @@ categoryAnimating
 			havingImage: ImageMorph new 
 			withMethodList: {
 				MEXMethod 
-					withName: 'Colors Setting' 
+					withName: 'Stepping' 
 					havingSubMethods: {
-						MEXMethod withName: 'a'. 
-						MEXMethod withName: 'b'. 
-						MEXMethod withName: 'c'
+						MEXMethod withName: 'startStepping:at:arguments:stepTime:'.
+						MEXMethod withName: 'strartStepping'
 					}.
 				MEXMethod 
-					withName: 'Text Setting' 
+					withName: 'Cursor blinking' 
 					havingSubMethods: {
-						MEXMethod withName: 'd'. 
-						MEXMethod withName: 'e'. 
-						MEXMethod withName: 'f'
+						MEXMethod withName: 'startBlinking'
 					}
 		}
