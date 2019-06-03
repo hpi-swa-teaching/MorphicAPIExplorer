@@ -9,7 +9,7 @@ categoryAnimating
 					withName: 'Stepping' 
 					havingSubMethods: {
 						MEXMethod withName: 'startStepping:at:arguments:stepTime:'.
-						MEXMethod withName: 'strartStepping'
+						MEXMethod withName: 'startStepping'
 					}.
 				MEXMethod 
 					withName: 'Cursor blinking' 

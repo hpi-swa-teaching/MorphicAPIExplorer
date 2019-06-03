@@ -12,5 +12,5 @@ categoryNestingAndSubmorphing
 						MEXMethod withName: 'bottom:'.
 						MEXMethod withName: 'bounds:'.
 						MEXMethod withName: 'goBehind'
-					}.
+					}
 		}			
