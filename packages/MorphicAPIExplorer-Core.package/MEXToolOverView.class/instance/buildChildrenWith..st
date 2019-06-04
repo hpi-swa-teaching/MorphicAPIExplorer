@@ -4,6 +4,6 @@ buildChildrenWith: aBuilder
 	^self categories collect: [:category | 
 		aBuilder pluggableButtonSpec new
 			model: self;
-			label: category name;
+			label: category image;
 			action: [self changeToExplorationViewFor: category];
 			frame: (self specFrameAt: (self categories indexOf: category) for: self class numberOfRows)]

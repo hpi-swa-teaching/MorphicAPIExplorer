@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"getLabel" : "lk 6/4/2019 09:31",
+		"makeButtonSpec" : "lk 6/4/2019 09:34",
+		"setUp" : "lk 6/4/2019 09:22",
+		"testImageIsScaledToButtonExtent" : "lk 6/4/2019 09:45",
+		"testMexToolBuilderBuildsCorrectTypeOfButton" : "lk 6/4/2019 09:39" } }

@@ -3,7 +3,8 @@ categoryAnimating
 
 	^ MEXCategory 
 			newNamed: 'Animating'
-			havingImage: ImageMorph new 
+			havingImage: (ImageMorph new
+				image: (Form fromFileNamed: 'C:\Users\lkohl\Downloads\grumpyNopeSmall.jpg')) 
 			withMethodList: {
 				MEXMethod 
 					withName: 'Stepping' 

@@ -1,4 +1,4 @@
 constants
 defaultBuilder
 
-	^ ToolBuilder default
+	^ MEXToolBuilder new

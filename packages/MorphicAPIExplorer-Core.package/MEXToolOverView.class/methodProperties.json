@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"categories" : "FFN 5/21/2019 16:54",
-		"categoryAnimating" : "CU 6/2/2019 16:53",
+		"categoryAnimating" : "lk 6/4/2019 10:58",
 		"categoryBuildingAndTearingDown" : "ES 6/2/2019 10:41",
 		"categoryDrawingAndStyling" : "ES 6/2/2019 10:43",
 		"categoryEventHandling" : "CU 6/3/2019 11:01",
@@ -11,9 +11,9 @@
 		"categoryTransforming" : "CU 6/2/2019 23:11",
 		"labelAddition" : "jb 5/4/2019 13:37",
 		"numberOfRows" : "FFN 5/21/2019 15:48",
-		"open" : "jb 5/10/2019 18:38" },
+		"open" : "lk 6/4/2019 10:10" },
 	"instance" : {
-		"buildChildrenWith:" : "jb 5/10/2019 18:13",
+		"buildChildrenWith:" : "lk 6/4/2019 10:00",
 		"categories" : "jb 5/1/2019 11:32",
 		"categories:" : "jb 5/1/2019 11:33",
 		"changeToExplorationViewFor:" : "jb 5/10/2019 18:08",

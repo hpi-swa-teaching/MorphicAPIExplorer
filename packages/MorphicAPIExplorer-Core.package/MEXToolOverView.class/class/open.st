@@ -1,4 +1,4 @@
 instance creation
 open
 
-	^ ToolBuilder open: self new
+	^ MEXToolBuilder open: self new

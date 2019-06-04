@@ -1,4 +1,4 @@
 instance creation
 open
 
-	ToolBuilder open: self defaultView
+	MEXToolBuilder open: self defaultView
