@@ -6,7 +6,7 @@ categoryBuildingAndTearingDown
 		havingImage: ImageMorph new 
 		withMethodList: {
 				MEXMethod 
-					withName: 'Building' 
+					withName: 'Displaying' 
 					havingSubMethods: {
 						MEXMethod withName: 'openInWorld'.
 						MEXMethod withName: 'openCenteredInWorld'

@@ -6,4 +6,5 @@ initialize
 	self
 		name: self class defaultName;
 		image: ImageMorph new;
-		methodList: OrderedCollection new
+		methodList: OrderedCollection new;
+		defaultMorph: Morph new

@@ -1,4 +1,4 @@
 building
 defaultMorph
 
-	^ defaultMorph.
+	^ self category defaultMorph

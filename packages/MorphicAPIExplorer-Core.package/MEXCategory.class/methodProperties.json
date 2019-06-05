@@ -3,9 +3,11 @@
 		"defaultName" : "jb 5/1/2019 11:52",
 		"newNamed:havingImage:withMethodList:" : "FFN 5/20/2019 15:48" },
 	"instance" : {
+		"defaultMorph" : "jb 6/5/2019 16:07",
+		"defaultMorph:" : "jb 6/5/2019 16:08",
 		"image" : "jb 5/1/2019 11:51",
 		"image:" : "jb 5/1/2019 11:51",
-		"initialize" : "FFN 5/20/2019 16:03",
+		"initialize" : "jb 6/5/2019 16:08",
 		"methodList" : "FFN 5/20/2019 15:46",
 		"methodList:" : "FFN 5/20/2019 15:46",
 		"name" : "jb 5/1/2019 11:07",

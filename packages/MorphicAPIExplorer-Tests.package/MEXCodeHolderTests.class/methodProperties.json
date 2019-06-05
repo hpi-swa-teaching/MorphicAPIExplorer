@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "jb 5/11/2019 15:58",
+		"testClickOnCopyButtonAcceptsUserChanges" : "jb 5/11/2019 16:20",
+		"testCopyToClipboardCopiesContentsToClipboard" : "jb 5/11/2019 16:02" } }

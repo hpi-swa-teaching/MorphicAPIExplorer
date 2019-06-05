@@ -8,9 +8,13 @@ categoryNestingAndSubmorphing
 				MEXMethod 
 					withName: 'Positioning' 
 					havingSubMethods: {
-						MEXMethod withName: 'addMorph:'.
 						MEXMethod withName: 'bottom:'.
-						MEXMethod withName: 'bounds:'.
+						MEXMethod withName: 'bounds:'
+					}.
+					MEXMethod 
+					withName: 'Layering' 
+					havingSubMethods: {
+						MEXMethod withName: 'addMorph:'.
 						MEXMethod withName: 'goBehind'
 					}
 		}			

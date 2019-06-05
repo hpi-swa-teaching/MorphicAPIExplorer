@@ -8,8 +8,7 @@
 	"instvars" : [
 		"category",
 		"selectedMethods",
-		"selectedMethod",
-		"defaultMorph" ],
+		"selectedMethod" ],
 	"name" : "MEXToolExplorationView",
 	"pools" : [
 		 ],

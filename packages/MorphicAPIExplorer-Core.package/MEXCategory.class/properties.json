@@ -8,7 +8,8 @@
 	"instvars" : [
 		"name",
 		"image",
-		"methodList" ],
+		"methodList",
+		"defaultMorph" ],
 	"name" : "MEXCategory",
 	"pools" : [
 		 ],
