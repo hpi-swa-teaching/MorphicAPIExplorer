@@ -3,7 +3,7 @@ categoryLayouting
 
 	^ MEXCategory 
 		newNamed: 'Layouting' 
-		havingImage: ImageMorph new 
+		havingImage: MEXScalableImageMorph new
 		withMethodList: {
 				MEXMethod
 					withName: 'General Layouting'

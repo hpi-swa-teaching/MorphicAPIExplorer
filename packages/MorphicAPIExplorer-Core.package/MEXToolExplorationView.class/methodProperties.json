@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"backButtonFractionHeight" : "jb 5/10/2019 19:09",
+		"backButtonFractionHeight" : "FFN 6/5/2019 23:02",
 		"bottomSpecsVerticalDistribution" : "jb 5/10/2019 21:28",
 		"labelAddition" : "jb 5/4/2019 13:35",
 		"leftSpecsHorizontalDistribution" : "jb 5/10/2019 21:29",
 		"newFromCategory:" : "jb 5/4/2019 13:59",
-		"openOn:" : "jb 5/4/2019 13:48",
+		"openOn:" : "FFN 6/5/2019 23:02",
 		"rightSpecsHorizontalDistribution" : "jb 5/10/2019 21:30",
 		"topSpecsVerticalDistribution" : "jb 5/10/2019 19:08" },
 	"instance" : {
@@ -21,12 +21,12 @@
 		"changeToOverView" : "jb 5/10/2019 18:37",
 		"createDefaultMorphBox" : "lk 5/31/2019 11:32",
 		"createMorphPlayground" : "FFN 5/20/2019 16:17",
-		"defaultMorph" : "lk 5/31/2019 11:32",
+		"defaultMorph" : "FFN 6/5/2019 22:55",
 		"defaultMorph:" : "lk 5/31/2019 15:22",
 		"initialize" : "lk 5/31/2019 11:30",
 		"methodAt:" : "FFN 5/17/2019 14:18",
 		"methodAt:put:" : "FFN 5/17/2019 16:23",
-		"methodList" : "FFN 5/20/2019 15:56",
+		"methodList" : "FFN 6/5/2019 23:02",
 		"methodMenu:" : "FFN 5/17/2019 14:39",
 		"methodSelected" : "FFN 5/17/2019 14:14",
 		"methodSelected:" : "FFN 5/17/2019 14:13",

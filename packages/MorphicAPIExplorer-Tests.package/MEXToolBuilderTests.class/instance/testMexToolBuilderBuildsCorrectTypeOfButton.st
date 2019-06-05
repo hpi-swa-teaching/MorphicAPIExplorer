@@ -2,4 +2,4 @@ tests
 testMexToolBuilderBuildsCorrectTypeOfButton
 
 	self makeButton.
-	self assert: widget isMexPuggableButtonMorph
+	self assert: widget isMEXPluggableButtonMorph

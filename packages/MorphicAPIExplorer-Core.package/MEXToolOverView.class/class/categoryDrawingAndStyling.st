@@ -3,7 +3,7 @@ categoryDrawingAndStyling
 
 	^ MEXCategory 
 		newNamed: 'Drawing & Styling' 
-		havingImage: ImageMorph new 
+		havingImage: MEXScalableImageMorph new
 		withMethodList: {
 				MEXMethod 
 					withName: 'Drawing' 

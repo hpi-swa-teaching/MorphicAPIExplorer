@@ -1,4 +1,4 @@
-building
+accessing
 defaultMorph
 
-	^ defaultMorph.
+	^ defaultMorph

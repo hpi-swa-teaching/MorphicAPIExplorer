@@ -2,4 +2,4 @@ running
 getLabel
 
 	queries add: #getLabel.
-	^ ImageMorph new
+	^ MEXScalableImageMorph new

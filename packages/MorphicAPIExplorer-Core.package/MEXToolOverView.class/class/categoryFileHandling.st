@@ -3,7 +3,7 @@ categoryFileHandling
 
 	^ MEXCategory 
 		newNamed: 'File Handling' 
-		havingImage: ImageMorph new 
+		havingImage: MEXScalableImageMorph new
 		withMethodList: {
 				MEXMethod
 					withName: 'Images'

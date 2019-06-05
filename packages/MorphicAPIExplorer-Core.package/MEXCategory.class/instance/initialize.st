@@ -2,8 +2,7 @@ initialize-release
 initialize
 
 	super initialize.
-	
 	self
 		name: self class defaultName;
-		image: ImageMorph new;
+		image: MEXScalableImageMorph new;
 		methodList: OrderedCollection new

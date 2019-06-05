@@ -3,7 +3,7 @@ categoryEventHandling
 
 	^ MEXCategory 
 		newNamed: 'Event Handling' 
-		havingImage: ImageMorph new 
+		havingImage: MEXScalableImageMorph new
 		withMethodList: {
 				MEXMethod
 					withName: 'Keyboard Events'

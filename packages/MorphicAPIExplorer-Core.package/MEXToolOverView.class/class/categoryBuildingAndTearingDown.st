@@ -3,7 +3,7 @@ categoryBuildingAndTearingDown
 
 	^ MEXCategory 
 		newNamed: 'Building & Tearing down' 
-		havingImage: ImageMorph new 
+		havingImage: MEXScalableImageMorph new
 		withMethodList: {
 				MEXMethod 
 					withName: 'Building' 

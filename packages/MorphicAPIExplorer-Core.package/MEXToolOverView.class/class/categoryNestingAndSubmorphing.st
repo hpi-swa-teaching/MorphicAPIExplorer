@@ -3,7 +3,7 @@ categoryNestingAndSubmorphing
 
 	^ MEXCategory 
 		newNamed: 'Nesting & Submorphing' 
-		havingImage: ImageMorph new 
+		havingImage: MEXScalableImageMorph new
 		withMethodList: {
 				MEXMethod 
 					withName: 'Positioning' 

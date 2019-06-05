@@ -3,7 +3,7 @@ categoryTransforming
 
 	^ MEXCategory 
 		newNamed: 'Transforming' 
-		havingImage: ImageMorph new 
+		havingImage: MEXScalableImageMorph new
 		withMethodList: {
 				MEXMethod
 					withName: 'Rotating'
