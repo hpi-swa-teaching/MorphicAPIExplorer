@@ -1,4 +1,4 @@
-building
+accessing
 defaultMorph: aMorph
 
 	self category defaultMorph: aMorph.
