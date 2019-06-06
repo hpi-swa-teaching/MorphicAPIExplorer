@@ -3,7 +3,9 @@ categoryAnimating
 
 	^ MEXCategory 
 			newNamed: 'Animating'
-			havingImage: ImageMorph new 
+			havingImage: (MEXScalableImageMorph
+				newWithImage: MEXResources overviewImageAnimating
+				havingExtent: self defaultButtonImageExtent)
 			withMethodList: {
 				MEXMethod 
 					withName: 'Stepping' 

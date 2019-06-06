@@ -3,7 +3,9 @@ categoryFileHandling
 
 	^ MEXCategory 
 		newNamed: 'File Handling' 
-		havingImage: ImageMorph new 
+		havingImage: (MEXScalableImageMorph
+			newWithImage: MEXResources overviewImageFileHandling
+			havingExtent: self defaultButtonImageExtent)
 		withMethodList: {
 				MEXMethod
 					withName: 'Images'

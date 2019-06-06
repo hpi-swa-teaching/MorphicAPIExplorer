@@ -3,7 +3,9 @@ categoryLayouting
 
 	^ MEXCategory 
 		newNamed: 'Layouting' 
-		havingImage: ImageMorph new 
+		havingImage: (MEXScalableImageMorph
+			newWithImage: MEXResources overviewImageLayouting
+			havingExtent: self defaultButtonImageExtent)
 		withMethodList: {
 				MEXMethod
 					withName: 'General Layouting'
