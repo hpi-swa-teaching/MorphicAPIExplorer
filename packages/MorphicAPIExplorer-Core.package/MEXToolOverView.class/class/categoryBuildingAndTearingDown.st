@@ -8,7 +8,7 @@ categoryBuildingAndTearingDown
 			havingExtent: self defaultButtonImageExtent)
 		withMethodList: {
 				MEXMethod 
-					withName: 'Building' 
+					withName: 'Displaying' 
 					havingSubMethods: {
 						MEXMethod withName: 'openInWorld'.
 						MEXMethod withName: 'openCenteredInWorld'

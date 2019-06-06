@@ -5,6 +5,6 @@ initialize
 	
 	self
 		name: self class defaultName;
-		image: ImageMorph new;
+		image: MEXScalableImageMorph new;
 		methodList: OrderedCollection new;
 		defaultMorph: Morph new
