@@ -3,7 +3,9 @@ categoryBuildingAndTearingDown
 
 	^ MEXCategory 
 		newNamed: 'Building & Tearing down' 
-		havingImage: MEXScalableImageMorph new
+		havingImage: (MEXScalableImageMorph
+			newWithImage: MEXResources overviewImageBuildingAndTearingDown
+			havingExtent: self defaultButtonImageExtent)
 		withMethodList: {
 				MEXMethod 
 					withName: 'Building' 
