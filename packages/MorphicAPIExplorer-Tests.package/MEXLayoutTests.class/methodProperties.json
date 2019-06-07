@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "FFN 5/10/2019 21:41",
+		"setUp" : "lk 6/7/2019 13:52",
 		"testSpecFrameAtForReturnsFullHeightLayoutFrameForOneRow" : "lk 5/7/2019 23:31",
 		"testSpecFrameAtForReturnsFullSizedLayoutFrameForOneCategoryAndOneRow" : "FFN 5/10/2019 21:41",
 		"testSpecFrameAtForReturnsFullWidhtLayoutFrameLessCategoriesThanRows" : "FFN 5/10/2019 21:42",

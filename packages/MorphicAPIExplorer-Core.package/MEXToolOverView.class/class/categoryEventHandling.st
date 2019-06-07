@@ -6,6 +6,7 @@ categoryEventHandling
 		havingImage: (MEXScalableImageMorph
 			newWithImage: MEXResources overviewImageEventHandling
 			havingExtent: self defaultButtonImageExtent)
+		havingDefaultMorph: Morph new
 		withMethodList: {
 				MEXMethod
 					withName: 'Keyboard Events'

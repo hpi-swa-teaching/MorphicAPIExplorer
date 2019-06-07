@@ -6,6 +6,7 @@ categoryDrawingAndStyling
 		havingImage: (MEXScalableImageMorph
 			newWithImage: MEXResources overviewImageDrawingAndStyling
 			havingExtent: self defaultButtonImageExtent)
+		havingDefaultMorph: Morph new
 		withMethodList: {
 				MEXMethod 
 					withName: 'Drawing' 

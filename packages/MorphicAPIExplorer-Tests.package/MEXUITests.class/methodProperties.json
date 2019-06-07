@@ -3,8 +3,8 @@
 		 },
 	"instance" : {
 		"newMorphs" : "lk 5/8/2019 14:39",
-		"setUp" : "FFN 5/21/2019 16:28",
+		"setUp" : "lk 6/7/2019 13:52",
 		"tearDown" : "lk 5/8/2019 14:51",
-		"testDefaultMorphBoxContainsAMorph" : "jb 6/5/2019 16:10",
+		"testDefaultMorphBoxContainsAMorph" : "lk 6/7/2019 13:13",
 		"testDefaultMorphChanges" : "jb 6/5/2019 16:10",
 		"testOpenExplorationViewForOpensAnExplorationView" : "FFN 5/21/2019 16:23" } }

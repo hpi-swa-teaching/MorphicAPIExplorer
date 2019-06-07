@@ -1,7 +1,6 @@
 building
 buildDefaultMorphBoxWith: aBuilder
 	
-	self defaultMorph: (Morph new center: 100@100).
 	^ aBuilder pluggablePanelSpec new
 		model: self;
 		children: #createDefaultMorphBox;
