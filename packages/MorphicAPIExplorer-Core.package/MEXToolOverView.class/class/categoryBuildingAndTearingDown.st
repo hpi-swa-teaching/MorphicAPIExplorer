@@ -6,6 +6,7 @@ categoryBuildingAndTearingDown
 		havingImage: (MEXScalableImageMorph
 			newWithImage: MEXResources overviewImageBuildingAndTearingDown
 			havingExtent: self defaultButtonImageExtent)
+		havingDefaultMorph: Morph new
 		withMethodList: {
 				MEXMethod 
 					withName: 'Displaying' 

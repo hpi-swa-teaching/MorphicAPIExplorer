@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "FFN 5/21/2019 16:35",
+		"setUp" : "lk 6/7/2019 13:52",
 		"testBuildChildrenWithReturnsCollectionOfSpecs" : "lk 5/7/2019 22:08",
 		"testBuildChildrenWithReturnsCollectionWithCorrectSizeForFilledCategories" : "lk 5/7/2019 22:09",
 		"testBuildChildrenWithReturnsEmptyCollectionForZeroCategories" : "lk 5/7/2019 22:09",
