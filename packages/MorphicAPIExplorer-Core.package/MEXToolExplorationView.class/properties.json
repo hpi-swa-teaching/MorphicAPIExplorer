@@ -8,7 +8,8 @@
 	"instvars" : [
 		"category",
 		"selectedMethods",
-		"selectedMethod" ],
+		"selectedMethod",
+		"codeHolder" ],
 	"name" : "MEXToolExplorationView",
 	"pools" : [
 		 ],

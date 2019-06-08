@@ -6,4 +6,4 @@ testCodeContainsSelectedMethod
 	explorationView category: overView class categoryTransforming.
 	view := toolbuilder build: explorationView.
 	code := view submorphs first submorphs first text string.
-	self assert: (code includesSubString: ()"
+	self assert: (code includesSubString: (#gf))"
