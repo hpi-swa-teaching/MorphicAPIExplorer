@@ -7,11 +7,11 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"overView",
-		"toolbuilder",
 		"maxTotalRows",
 		"defaultCollectionSize",
 		"empty",
-		"full" ],
+		"full",
+		"builder" ],
 	"name" : "MEXLayoutTests",
 	"pools" : [
 		 ],

@@ -2,7 +2,7 @@ running
 setUp
 
 	overView := MEXToolOverView new.
-	toolbuilder := MEXToolBuilder new.
+	builder := MEXToolBuilder new.
 	defaultCollectionSize := 20.
 	maxTotalRows := 20.
 	empty  := OrderedCollection new.

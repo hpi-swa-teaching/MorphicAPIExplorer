@@ -7,11 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"overView",
-		"toolbuilder",
-		"tool",
 		"explorationView",
 		"preTestWindows",
-		"explorationVIew" ],
+		"explorationVIew",
+		"builder" ],
 	"name" : "MEXUITests",
 	"pools" : [
 		 ],

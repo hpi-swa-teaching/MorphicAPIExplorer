@@ -3,4 +3,6 @@ codeHolder: anObject
 
 	codeHolder := anObject.
 	codeHolder createMethodsUnwrappedDict.
-	codeHolder buildCodeFor: self defaultMorph with: 'rotationDegrees:'
+	
+	"this is just for testing if it does anything"
+	"codeHolder buildCodeFor: self defaultMorph with: OrderedCollection new"

@@ -1,4 +1,4 @@
 style
 methodsUnwrappedDict
 	
-	^methodsUnwrappedDict
+	^ methodsUnwrappedDict

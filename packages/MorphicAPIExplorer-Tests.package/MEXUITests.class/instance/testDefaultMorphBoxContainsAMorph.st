@@ -3,6 +3,6 @@ testDefaultMorphBoxContainsAMorph
 
 	| defaultMorphCollection view |
 	explorationView category: MEXCategory new.
-	view := toolbuilder build: explorationView.
+	view := builder build: explorationView.
 	defaultMorphCollection := view submorphs third submorphs first submorphs.
 	self assert: (defaultMorphCollection size = 1)

@@ -2,10 +2,9 @@ running
 setUp
 
 	preTestWindows := World submorphs.
-	toolbuilder := MEXToolBuilder new.
-	tool := MEXTool new.
+	builder := MEXToolBuilder new.
 	overView := MEXToolOverView new. 
-	toolbuilder open: overView.
+	builder open: overView.
 	explorationView := MEXToolExplorationView new
 	
 	

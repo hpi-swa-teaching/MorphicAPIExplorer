@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "jb 5/11/2019 15:58",
+		"setUp" : "lk 6/8/2019 21:33",
 		"testClickOnCopyButtonAcceptsUserChanges" : "jb 5/11/2019 16:20",
+		"testCodeContainsDefaultMorphType" : "lk 6/8/2019 21:36",
+		"testCodeContainsSelectedMethod" : "lk 6/8/2019 21:36",
 		"testCopyToClipboardCopiesContentsToClipboard" : "jb 5/11/2019 16:02" } }

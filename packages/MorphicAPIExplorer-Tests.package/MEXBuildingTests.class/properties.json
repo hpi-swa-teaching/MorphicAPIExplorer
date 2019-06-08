@@ -7,13 +7,13 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"overView",
-		"toolbuilder",
 		"empty",
 		"defaultCollectionSize",
 		"full",
 		"category",
 		"methods",
-		"methodWrappers" ],
+		"methodWrappers",
+		"builder" ],
 	"name" : "MEXBuildingTests",
 	"pools" : [
 		 ],
