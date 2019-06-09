@@ -11,8 +11,7 @@ categoryLayouting
 				MEXMethod
 					withName: 'General Layouting'
 					havingSubMethods: {
-						MEXMethod withName: 'layoutFrame:'.
-						MEXMethod withName: 'layoutPolicy:'
+						MEXMethod withName: 'layoutFrame:'
 					}.
 				MEXMethod
 					withName: 'Table Layouting'

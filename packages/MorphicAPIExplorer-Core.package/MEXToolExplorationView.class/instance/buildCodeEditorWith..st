@@ -1,6 +1,7 @@
 building
 buildCodeEditorWith: aBuilder
 
+	self codeHolder: MEXCodeHolder new.
 	^ (codeHolder buildCodePaneWith: aBuilder)
 		frame: (LayoutFrame new
 				leftFraction: self class rightSpecsHorizontalDistribution x;
