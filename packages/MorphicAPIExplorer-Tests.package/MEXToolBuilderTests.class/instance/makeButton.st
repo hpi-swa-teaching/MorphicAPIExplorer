@@ -1,4 +1,4 @@
-tests
+tests-button
 makeButton
 
 	super makeButton.
