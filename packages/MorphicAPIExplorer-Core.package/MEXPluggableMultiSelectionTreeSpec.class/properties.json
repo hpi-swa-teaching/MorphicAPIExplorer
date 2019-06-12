@@ -1,0 +1,20 @@
+{
+	"category" : "MorphicAPIExplorer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"getSelectedPaths",
+		"setSelectedPaths",
+		"setSelectionList",
+		"getSelectionList",
+		"setSelectedParents",
+		"dropItems",
+		"dragItems" ],
+	"name" : "MEXPluggableMultiSelectionTreeSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableTreeSpec",
+	"type" : "normal" }

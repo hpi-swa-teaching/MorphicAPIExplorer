@@ -1,0 +1,26 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"dragItemsSelector" : "FFN 6/12/2019 15:47",
+		"dragItemsSelector:" : "FFN 6/12/2019 15:48",
+		"dropItemsSelector" : "FFN 6/12/2019 15:47",
+		"dropItemsSelector:" : "FFN 6/12/2019 15:48",
+		"getSelectedPathsSelector" : "FFN 6/12/2019 15:47",
+		"getSelectedPathsSelector:" : "FFN 6/12/2019 15:48",
+		"highlightSelection" : "FFN 6/12/2019 15:59",
+		"initialize" : "FFN 6/12/2019 16:34",
+		"potentialDropMorphs" : "FFN 6/12/2019 15:58",
+		"potentialDropMorphs:" : "FFN 6/12/2019 15:58",
+		"selectedMorphs" : "FFN 6/12/2019 15:58",
+		"selectedMorphs:" : "FFN 6/12/2019 16:24",
+		"selectedWrappers" : "FFN 6/12/2019 16:17",
+		"selectedWrappers:" : "FFN 6/12/2019 16:17",
+		"setSelectedParentMorphs:" : "FFN 6/12/2019 16:49",
+		"setSelectedParentsSelector" : "FFN 6/12/2019 15:47",
+		"setSelectedParentsSelector:" : "FFN 6/12/2019 15:48",
+		"setSelectedPathsSelector" : "FFN 6/12/2019 15:47",
+		"setSelectedPathsSelector:" : "FFN 6/12/2019 15:48",
+		"unhighlightSelection" : "FFN 6/12/2019 15:59",
+		"updateSelectedParentMorphs:" : "FFN 6/12/2019 16:22",
+		"updateSelectedWrappers:" : "FFN 6/12/2019 16:20" } }
