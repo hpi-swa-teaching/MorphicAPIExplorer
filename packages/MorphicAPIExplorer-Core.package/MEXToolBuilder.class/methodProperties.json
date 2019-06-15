@@ -2,7 +2,13 @@
 	"class" : {
 		"open:" : "lk 6/4/2019 10:02" },
 	"instance" : {
-		"buildPluggableMultiSelectionTree:" : "FFN 6/12/2019 15:48",
+		"buildPluggableMultiSelectionTree:" : "FFN 6/15/2019 12:59",
 		"buttonClass" : "lk 6/4/2019 09:50",
 		"multiSelectionTreeClass" : "FFN 6/12/2019 15:11",
-		"pluggableMultiSelectionTreeSpec" : "FFN 6/12/2019 15:51" } }
+		"pluggableMultiSelectionTreeSpec" : "FFN 6/12/2019 15:51",
+		"setGeneralTreeAttributesFor:havingSpec:" : "FFN 6/15/2019 12:43",
+		"setHorizontalScrollBarPoliciesFor:ofWidget:" : "FFN 6/15/2019 12:56",
+		"setScrollBarsPoliciesFor:ofWidget:" : "FFN 6/15/2019 12:58",
+		"setTreeDragAndDropAttributesFor:havingSpec:" : "FFN 6/15/2019 12:48",
+		"setTreeItemAttributesFor:havingSpec:" : "FFN 6/15/2019 12:45",
+		"setVerticelScrollBarPoliciesFor:ofWidget:" : "FFN 6/15/2019 12:56" } }

@@ -5,8 +5,8 @@ buildMethodListWith: aBuilder
 		model: self;
 		roots: #methodList;
 		nodeClass: MEXMethodListItemWrapper;
-		getSelectionList: #selectedMethod;
-		setSelectionList: #selectedMethod:;
+		getSelectionList: #methodAt:;
+		setSelectionList: #methodAt:put:;
 		frame: (LayoutFrame new
 				leftFraction: self class leftSpecsHorizontalDistribution x;
 				topFraction: self class backButtonFractionHeight y;

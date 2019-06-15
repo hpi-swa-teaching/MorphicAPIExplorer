@@ -1,4 +1,4 @@
 accessing
 methodAt: anIndex
 
-	^ selectedMethods includes: (self methodList at: anIndex ifAbsent: [ ^ false ])
+	^ self selectedMethods includes: (self methodList at: anIndex ifAbsent: [^ false])

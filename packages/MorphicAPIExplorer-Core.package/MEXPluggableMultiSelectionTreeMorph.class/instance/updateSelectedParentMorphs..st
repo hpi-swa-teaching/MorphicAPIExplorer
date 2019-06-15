@@ -1,4 +1,4 @@
-selection
+updating
 updateSelectedParentMorphs: anOrderedCollection
 
 	self setSelectedParentMorphs: anOrderedCollection

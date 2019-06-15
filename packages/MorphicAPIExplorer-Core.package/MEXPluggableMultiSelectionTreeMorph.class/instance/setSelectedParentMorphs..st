@@ -1,12 +1,10 @@
 selection
 setSelectedParentMorphs: anOrderedCollection
 
-	self selectedWrappers do: [:selectedWrapper |
-		model
-			perform: self setSelectedParentsSelector
-			with: (selectedWrapper ifNotNil: [:node |
-				node parent ifNotNil: [:parentNode |
-					parentNode item
-				]
-			])
+	self setSelectedParentsSelector ifNotNil: [:aSymbol |
+		self selectedWrappersItemParents do: [:parentNode |
+			model
+				perform: aSymbol
+				with: parentNode
+		]
 	]

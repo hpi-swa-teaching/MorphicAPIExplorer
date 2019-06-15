@@ -1,4 +1,4 @@
 building
 methodSelected: anInteger
 
-	self changed: #methodSelected.
+	self changed: #methodSelected
