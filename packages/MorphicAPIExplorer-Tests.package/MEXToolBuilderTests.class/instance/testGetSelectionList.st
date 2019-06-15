@@ -4,5 +4,5 @@ testGetSelectionList
 	self makeMultiSelectionTree.
 	queries := IdentitySet new.
 	self
-		changed: #getSelectionList;
-		assert: (queries includes: #getSelectionList)
+		changed: #getSelectionList:;
+		assert: (queries includes: #getSelectionList:)
