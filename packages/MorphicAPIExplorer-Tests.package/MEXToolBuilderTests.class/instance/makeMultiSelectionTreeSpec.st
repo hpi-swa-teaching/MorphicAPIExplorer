@@ -10,9 +10,7 @@ makeMultiSelectionTreeSpec
 	"<-- the following cannot be tested very well -->"
 		getSelectedPaths: #getSelectedPaths;
 		setSelectedPaths: #setSelectedPaths:;
-		getSelectionList: #getSelectionList;
+		getSelectionList: #getSelectionList:;
 		setSelectionList: #setSelectionList:;
 		setSelectedParents: #setSelectedParents:;
-		dropItemsSelector: #dropItems;
-		dragItemsSelector: #dragItems;
 		yourself

@@ -8,7 +8,6 @@ buildPluggableMultiSelectionTree: aSpec
 	self
 		setGeneralTreeAttributesFor: widget havingSpec: aSpec;
 		setTreeItemAttributesFor: widget havingSpec: aSpec;
-		setTreeDragAndDropAttributesFor: widget havingSpec: aSpec;
 		setScrollBarsPoliciesFor: aSpec ofWidget: widget;
 		setFrame: aSpec frame in: widget;
 		setLayoutHintsFor: widget spec: aSpec.

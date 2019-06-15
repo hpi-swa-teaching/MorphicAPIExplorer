@@ -9,10 +9,7 @@
 		"getSelectedPathsSelector",
 		"setSelectedPathsSelector",
 		"setSelectedParentsSelector",
-		"dropItemsSelector",
-		"dragItemsSelector",
 		"selectedMorphs",
-		"potentialDropMorphs",
 		"selectedWrappers" ],
 	"name" : "MEXPluggableMultiSelectionTreeMorph",
 	"pools" : [

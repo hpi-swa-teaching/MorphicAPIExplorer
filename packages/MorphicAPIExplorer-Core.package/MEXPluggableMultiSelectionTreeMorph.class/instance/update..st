@@ -12,7 +12,7 @@ update: aSymbol
 	aSymbol == self getSelectedPathsSelector
 		ifTrue: [
 			^ self
-				selectPath: (model perform: self getSelectedPathSelector)
+				selectPath: (model perform: self getSelectedPathsSelector)
 				in: (self items at: 1 ifAbsent: [^ self]);
 				yourself
 		].
