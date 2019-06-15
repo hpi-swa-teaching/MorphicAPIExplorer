@@ -1,7 +1,7 @@
 selection
 listSelectionAt: anIndex
 
-	getSelectionSelector ifNil: [^ false].
+	self getSelectionSelector ifNil: [^ false].
 	^ model
-		perform: getSelectionSelector
+		perform: self getSelectionSelector
 		with: anIndex

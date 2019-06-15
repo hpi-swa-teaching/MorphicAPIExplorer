@@ -11,4 +11,4 @@ selectedWrappersPathItemsFor: aListItemWrapper
 			wrapperPath
 		].
 		
-	^ wrapperPath collect: [:w | w item]
+	^ wrapperPath collect: [:aWrapper | aWrapper item]

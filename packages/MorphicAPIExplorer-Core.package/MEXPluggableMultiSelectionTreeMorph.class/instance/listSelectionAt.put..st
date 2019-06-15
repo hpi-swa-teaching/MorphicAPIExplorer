@@ -1,8 +1,8 @@
 selection
 listSelectionAt: anIndex put: aValue
 
-	setSelectionSelector ifNil: [^ false].
+	self setSelectionSelector ifNil: [^ false].
 	^ model
-		perform: setSelectionSelector
+		perform: self setSelectionSelector
 		with: anIndex
 		with: aValue

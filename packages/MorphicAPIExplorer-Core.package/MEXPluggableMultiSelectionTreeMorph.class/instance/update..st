@@ -1,18 +1,19 @@
 updating
 update: aSymbol
 
-	aSymbol ifNil: [^self].
-	aSymbol == getRootsSelector
+	aSymbol ifNil: [^ self].
+	aSymbol == self getRootsSelector
 		ifTrue: [
-			self wrapRoots: (model perform: getRootsSelector).
 			^ self
+				wrapRoots: (model perform: self getRootsSelector);
+				yourself
 		].
 
 	aSymbol == self getSelectedPathsSelector
 		ifTrue: [
 			^ self
-				selectPath: (model perform: getSelectedPathSelector)
-				in: (self items at: 1 ifAbsent: [^self]);
+				selectPath: (model perform: self getSelectedPathSelector)
+				in: (self items at: 1 ifAbsent: [^ self]);
 				yourself
 		].
 
