@@ -1,36 +1,23 @@
 updating
-update: aSymbol
+update: anAspect
+"self halt."
+	anAspect ifNil: [^ self].
 
-	aSymbol ifNil: [^ self].
-	aSymbol == self getRootsSelector
+	anAspect == self getSelectedPathsSelector
 		ifTrue: [
 			^ self
-				wrapRoots: (model perform: self getRootsSelector);
-				yourself
-		].
-
-	aSymbol == self getSelectedPathsSelector
-		ifTrue: [
-			^ self
-				selectPath: (model perform: self getSelectedPathsSelector)
-				in: (self items at: 1 ifAbsent: [^ self]);
+				selectPath: (model perform: self getSelectedPathsSelector) in: (self items at: 1 ifAbsent: [^ self]);
 				yourself
 		].
 	
-	aSymbol == self getSelectedSelector 
-		ifTrue: 
-			[self selection: (self getCurrentSelectionItemAt: 0).
+	anAspect == self getSelectedSelector
+		ifTrue: [
+			self halt.
+			self items do: [:item | model perform: self getSelectedSelector with: (self items indexOf: item)].
 			^self].
 		
-	aSymbol == self setSelectedParentsSelector
+	anAspect == self setSelectedParentsSelector
 		ifTrue: [
 			].
 
-	aSymbol == #expandRootsRequested
-		ifTrue: [
-			^ self
-				expandRoots;
-				yourself
-		].
-
-	super update: aSymbol
+	super update: anAspect
