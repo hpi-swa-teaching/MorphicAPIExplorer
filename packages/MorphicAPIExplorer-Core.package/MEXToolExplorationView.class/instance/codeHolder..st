@@ -5,4 +5,4 @@ codeHolder: anObject
 	codeHolder createMethodsUnwrappedDict.
 	
 	"this is just for testing if it does anything"
-	codeHolder buildCodeFor: self defaultMorph with: {'rotationDegrees:'. 'addMorph:'. 'bounds:'}
+	codeHolder generateCodeFor: self defaultMorph with: {'rotationDegrees:'. 'addMorph:'. 'bounds:'}

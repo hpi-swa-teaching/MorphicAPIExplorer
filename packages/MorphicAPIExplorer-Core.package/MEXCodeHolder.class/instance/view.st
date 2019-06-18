@@ -1,0 +1,4 @@
+style
+view
+
+	^ view

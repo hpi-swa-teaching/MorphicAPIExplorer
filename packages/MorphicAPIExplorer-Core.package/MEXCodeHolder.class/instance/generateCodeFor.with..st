@@ -1,11 +1,11 @@
 commands
-buildCodeFor: aMorph with: aMethodList
+generateCodeFor: aMorph with: aMethodList
 
 	| code expandedMethod |
 	code := (aMorph class name , #' new', Character cr).
-	aMethodList do: [:method|
-		expandedMethod := self methodsUnwrappedDict at: method.
-		(method ~= aMethodList last) 
+	aMethodList do: [:aMethod |
+		expandedMethod := self methodsUnwrappedDict at: aMethod.
+		(aMethod ~= aMethodList last) 
 			ifTrue: [code := (code, Character tab, expandedMethod, ';', Character cr)] 
 			ifFalse: [code := (code, Character tab, expandedMethod, Character cr)].
 	].
