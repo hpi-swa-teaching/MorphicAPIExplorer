@@ -27,10 +27,8 @@
 		"defaultMorph:" : "jb 6/5/2019 16:06",
 		"initialize" : "lk 6/8/2019 21:15",
 		"methodAt:" : "FFN 6/15/2019 14:13",
-		"methodAt:put:" : "FFN 6/15/2019 14:14",
+		"methodAt:put:" : "FFN 6/18/2019 16:09",
 		"methodList" : "FFN 6/5/2019 23:02",
 		"methodMenu:" : "FFN 5/17/2019 14:39",
-		"methodSelected" : "FFN 5/17/2019 14:14",
-		"methodSelected:" : "FFN 6/15/2019 14:14",
 		"selectedMethods" : "FFN 5/17/2019 14:17",
 		"selectedMethods:" : "FFN 5/17/2019 14:17" } }

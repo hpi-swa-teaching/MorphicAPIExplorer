@@ -17,9 +17,9 @@ mouseUp: anEvent
 	"Changes here"
 	(clickedMorph complexContents parent isNil)
 		ifFalse: [
-			(self selectedMorphs anySatisfy: [:morph | clickedMorph == morph])
-				ifTrue: [self setSelectedMorphs: (self selectedMorphs remove: clickedMorph; yourself)]
-				ifFalse: [self setSelectedMorphs: (self selectedMorphs add: clickedMorph; yourself)].
+			(self selectedMorphs anySatisfy: [:aMorph | clickedMorph == aMorph])
+				ifTrue: [self removeFromSelectedMorphs: clickedMorph]
+				ifFalse: [self addToSelectedMorphs: clickedMorph].
 		]
 		ifTrue: ["ignore parents for now"].
 
