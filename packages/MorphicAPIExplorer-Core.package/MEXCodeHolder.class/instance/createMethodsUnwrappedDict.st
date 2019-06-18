@@ -26,6 +26,11 @@ createMethodsUnwrappedDict
 		#wantsKeyboardFocusFor: -> 'wantsKeyboardFocusFor: (Morph new)'.
 		#newKeyboardFocus: -> 'newKeyboardFocus: (Morph new)'.
 		#releaseKeyboardFocus -> 'releaseKeyboardFocus'.
+		#handleKeyDown -> 'handleKeyDown: (KeyboardEvent type: #keyDown readFrom: aStream)'.
+		#hasMouseFocus -> 'hasMouseFocus'.
+		#newMouseFocus: -> 'newMouseFocus: (Morph new)'.
+		#releaseMouseFocus -> 'releaseMouseFocus'.
+		#handleMouseDown: -> 'handleMouseDown: (MouseButtonEvent type: #mouseDown readFrom: aStream)'.
 		
 	"File Handling"
 	
