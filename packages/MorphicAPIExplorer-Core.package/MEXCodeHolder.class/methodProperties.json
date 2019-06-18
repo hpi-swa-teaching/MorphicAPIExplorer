@@ -1,11 +1,15 @@
 {
 	"class" : {
-		 },
+		"newWith:" : "lk 6/18/2019 16:31" },
 	"instance" : {
-		"buildCodeFor:with:" : "lk 6/8/2019 21:24",
 		"copyToClipboard" : "jb 5/10/2019 23:04",
-		"createMethodsUnwrappedDict" : "lk 6/8/2019 21:12",
+		"createMethodsUnwrappedDict" : "ES 6/18/2019 11:57",
+		"generateCodeFor:with:" : "lk 6/18/2019 15:40",
+		"initialize" : "lk 6/18/2019 16:29",
 		"methodsUnwrappedDict" : "lk 6/8/2019 21:12",
 		"optionalButtonPairs" : "jb 5/10/2019 21:55",
 		"runCode" : "lk 6/8/2019 21:22",
+		"update:" : "lk 6/18/2019 16:12",
+		"view" : "lk 6/18/2019 16:25",
+		"view:" : "lk 6/18/2019 16:25",
 		"wantsAnnotationPane" : "CU 5/1/2019 20:13" } }

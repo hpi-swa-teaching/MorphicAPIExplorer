@@ -4,6 +4,6 @@
 	"instance" : {
 		"setUp" : "lk 6/8/2019 21:33",
 		"testClickOnCopyButtonAcceptsUserChanges" : "jb 5/11/2019 16:20",
-		"testCodeContainsDefaultMorphType" : "lk 6/8/2019 21:36",
+		"testCodeContainsDefaultMorphType" : "lk 6/18/2019 15:30",
 		"testCodeContainsSelectedMethod" : "lk 6/8/2019 21:36",
 		"testCopyToClipboardCopiesContentsToClipboard" : "jb 5/11/2019 16:02" } }
