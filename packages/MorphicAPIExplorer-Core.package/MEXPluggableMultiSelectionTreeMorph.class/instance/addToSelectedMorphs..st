@@ -1,4 +1,9 @@
 selection
 addToSelectedMorphs: aMorph
 
-	self setSelectedMorphs: (self selectedMorphs add: aMorph; yourself)
+
+	| selectedMorphsTemp |
+	selectedMorphsTemp := self selectedMorphs copy.
+	self 
+		setSelectedMorphs: (selectedMorphsTemp add: aMorph; yourself);
+		listSelectionFor: (aMorph complexContents item) with: true

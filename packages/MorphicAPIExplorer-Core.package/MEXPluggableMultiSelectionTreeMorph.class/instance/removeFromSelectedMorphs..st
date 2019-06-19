@@ -1,4 +1,8 @@
 selection
 removeFromSelectedMorphs: aMorph
 
-	self setSelectedMorphs: (self selectedMorphs remove: aMorph; yourself)
+	| selectedMorphsTemp |
+	selectedMorphsTemp := self selectedMorphs copy.
+	self
+		setSelectedMorphs: (selectedMorphsTemp remove: aMorph; yourself);
+		listSelectionFor: (aMorph complexContents item) with: false

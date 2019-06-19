@@ -7,4 +7,6 @@ initialize
 		selectedWrappers: OrderedCollection new;
 		setSelectedParentsSelector: #();
 		getSelectedPathsSelector: #();
-		setSelectedPathsSelector: #()
+		setSelectedPathsSelector: #();
+		getSelectedSelector: #();
+		setSelectedSelector: #()

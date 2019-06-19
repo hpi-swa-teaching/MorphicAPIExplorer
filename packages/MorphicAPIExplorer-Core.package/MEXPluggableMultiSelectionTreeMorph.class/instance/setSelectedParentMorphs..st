@@ -2,9 +2,9 @@ selection
 setSelectedParentMorphs: anOrderedCollection
 
 	self setSelectedParentsSelector ifNotNil: [:aSymbol |
-		self selectedWrappersItemParents do: [:parentNode |
+		self selectedWrappersItemParents do: [:aParentNode |
 			model
 				perform: aSymbol
-				with: parentNode
+				with: aParentNode
 		]
 	]

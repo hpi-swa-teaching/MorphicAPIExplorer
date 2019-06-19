@@ -1,4 +1,4 @@
 accessing
-isSelected: aBoolean
+getSelectionFor: aBoolean
 
 	isSelected := aBoolean
