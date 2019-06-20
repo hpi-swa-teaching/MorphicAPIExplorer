@@ -1,4 +1,7 @@
 running
 setUp
 
-	mexCodeHolder := MEXCodeHolder withView: MEXToolExplorationView new.
+	category := self createCategory.
+	explorationView := self createExplorationView.
+	mexCodeHolder := MEXCodeHolder withView: explorationView.
+	explorationView addDependent: mexCodeHolder
