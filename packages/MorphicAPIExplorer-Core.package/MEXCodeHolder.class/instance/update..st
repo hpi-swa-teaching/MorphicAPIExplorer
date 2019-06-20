@@ -1,6 +1,6 @@
-style
+updating
 update: anAspect
 	
 	anAspect ifNil: [^ self].
-	anAspect == #selectedMethods ifTrue: [ self updateCodeForCurrentSelection ].
+	anAspect == #selectedMethods ifTrue: [self updateCodeForCurrentSelection].
 	super update: anAspect

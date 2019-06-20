@@ -2,7 +2,7 @@ building
 buildCodeEditorWith: aBuilder
 
 	| codeHolder |
-	codeHolder := MEXCodeHolder withExplorationView: self.
+	codeHolder := MEXCodeHolder withView: self.
 	self addDependent: codeHolder. 
 	
 	^ (codeHolder buildCodePaneWith: aBuilder)

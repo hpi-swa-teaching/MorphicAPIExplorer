@@ -1,5 +1,4 @@
 content-generation
 updateInitializationCode
 
-	self contents: self generateInitializationCode.
-	self changed: #contents
+	self updateContentsFor: self generateInitializationCode

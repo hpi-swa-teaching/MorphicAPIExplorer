@@ -1,7 +1,5 @@
 content-generation
 generateCodeForCurrentSelection
 
-	|string|
-	string := String new.
-	self selectedMethods do: [:aSelectedMethod | string := string, self morphInstanceName, ' ', aSelectedMethod name, '.', Character cr].
-	^ string
+	^ self selectedMethods inject: String new into: [:aString :aSelectedMethod |
+		  aString, self morphInstanceName, Character space, aSelectedMethod name, '.', self lineEnd]

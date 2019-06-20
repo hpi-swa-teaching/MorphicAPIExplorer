@@ -1,6 +1,4 @@
 content-generation
 updateCodeForCurrentSelection
 
-	self 
-		contents: ( self generateInitializationCode, self generateCodeForCurrentSelection);
-		changed: #contents
+	self updateContentsFor: self generateInitializationCode, self generateCodeForCurrentSelection
