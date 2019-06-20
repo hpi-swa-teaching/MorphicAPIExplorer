@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "lk 6/8/2019 21:33",
+		"setUp" : "jb 6/20/2019 02:58",
 		"testClickOnCopyButtonAcceptsUserChanges" : "jb 5/11/2019 16:20",
 		"testCodeContainsDefaultMorphType" : "lk 6/18/2019 15:30",
 		"testCodeContainsSelectedMethod" : "lk 6/8/2019 21:36",

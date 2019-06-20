@@ -1,4 +1,4 @@
 running
 setUp
 
-	mexCodeHolder := MEXCodeHolder new.
+	mexCodeHolder := MEXCodeHolder withExplorationView: MEXToolExplorationView new.

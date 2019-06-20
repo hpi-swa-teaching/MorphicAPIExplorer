@@ -1,15 +1,19 @@
 {
 	"class" : {
-		"newWith:" : "lk 6/18/2019 16:31" },
+		"withExplorationView:" : "jb 6/20/2019 02:51" },
 	"instance" : {
 		"copyToClipboard" : "jb 5/10/2019 23:04",
-		"createMethodsUnwrappedDict" : "ES 6/18/2019 11:57",
-		"generateCodeFor:with:" : "FFN 6/18/2019 16:45",
-		"initialize" : "lk 6/18/2019 16:29",
-		"methodsUnwrappedDict" : "lk 6/8/2019 21:12",
+		"explorationView" : "jb 6/20/2019 02:38",
+		"explorationView:" : "jb 6/20/2019 02:46",
+		"generateCodeForCurrentSelection" : "jb 6/20/2019 02:32",
+		"generateInitializationCode" : "jb 6/20/2019 02:54",
+		"initialize" : "jb 6/20/2019 03:01",
+		"morphClass" : "jb 6/20/2019 02:39",
+		"morphInstanceName" : "jb 6/20/2019 02:40",
 		"optionalButtonPairs" : "jb 5/10/2019 21:55",
 		"runCode" : "lk 6/8/2019 21:22",
-		"update:" : "FFN 6/18/2019 16:45",
-		"view" : "lk 6/18/2019 16:25",
-		"view:" : "lk 6/18/2019 16:25",
+		"selectedMethods" : "jb 6/20/2019 02:40",
+		"update:" : "jb 6/20/2019 02:23",
+		"updateCodeForCurrentSelection" : "jb 6/20/2019 02:56",
+		"updateInitializationCode" : "jb 6/20/2019 02:55",
 		"wantsAnnotationPane" : "CU 5/1/2019 20:13" } }

@@ -1,4 +1,0 @@
-style
-view
-
-	^ view

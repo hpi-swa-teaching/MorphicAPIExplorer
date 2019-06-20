@@ -2,7 +2,5 @@ style
 update: anAspect
 	
 	anAspect ifNil: [^ self].
-	anAspect == #selectedMethods ifTrue: [
-		self generateCodeFor: self model defaultMorph with: self model selectedMethods.
-	].
+	anAspect == #selectedMethods ifTrue: [ self updateCodeForCurrentSelection ].
 	super update: anAspect
