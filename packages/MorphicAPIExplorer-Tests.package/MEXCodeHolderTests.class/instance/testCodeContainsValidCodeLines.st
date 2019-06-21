@@ -7,6 +7,5 @@ testCodeContainsValidCodeLines
 	self selectAllMethods.
 	code := codeHolder contents.
 	methods do: [:aMethod |
-		self assert: (code includesSubstring: 
-			instanceName, Character space, aMethod asParameterizedString, '.', codeHolder lineEnd)
+		self assert: (code includesSubstring: instanceName, Character space, aMethod asParameterizedString, '.', codeHolder lineEnd)
 	]
