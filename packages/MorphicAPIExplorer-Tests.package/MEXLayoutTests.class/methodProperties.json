@@ -2,16 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "lk 6/8/2019 21:39",
+		"setUp" : "lk 6/21/2019 22:54",
 		"testSpecFrameAtForReturnsFullHeightLayoutFrameForOneRow" : "lk 5/7/2019 23:31",
 		"testSpecFrameAtForReturnsFullSizedLayoutFrameForOneCategoryAndOneRow" : "FFN 5/10/2019 21:41",
 		"testSpecFrameAtForReturnsFullWidhtLayoutFrameLessCategoriesThanRows" : "FFN 5/10/2019 21:42",
 		"testSpecFrameAtForReturnsLayoutFrameInsideWindowBounds" : "FFN 5/11/2019 11:18",
 		"testSpecFrameAtForReturnsNoOverlappingLayoutFramesForOneRow" : "FFN 5/10/2019 22:01",
-		"testSpecFrameAtForReturnsNoOverlappingLayoutFramesLessCategoriesThanRows" : "FFN 5/10/2019 22:02",
+		"testSpecFrameAtForReturnsNoOverlappingLayoutFramesLessCategoriesThanRows" : "lk 6/21/2019 22:36",
 		"testSpecSizePerRowForReturnsFullHeightForOneRow" : "lk 5/7/2019 22:29",
 		"testSpecSizePerRowForReturnsFullSizeForOneCategoryAndOneRow" : "lk 5/7/2019 22:36",
 		"testSpecSizePerRowForReturnsFullWidthForLessCategoriesThanRows" : "lk 5/7/2019 22:27",
-		"testSpecSizePerRowForReturnsSizeSmallerThanWindow" : "FFN 5/10/2019 22:10",
+		"testSpecSizePerRowForReturnsSizeSmallerThanWindow" : "lk 6/21/2019 22:51",
 		"testSpecsPerRowForReturnsCorrectNumberWhenPassedAFloat" : "FFN 5/10/2019 22:12",
 		"testSpecsPerRowForReturnsCorrectNumberWhenPassedAnInteger" : "lk 5/7/2019 23:20" } }
