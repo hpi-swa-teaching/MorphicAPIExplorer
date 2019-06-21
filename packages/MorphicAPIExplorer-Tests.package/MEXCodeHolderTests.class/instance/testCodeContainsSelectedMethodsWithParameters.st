@@ -4,7 +4,8 @@ testCodeContainsSelectedMethodsWithParameters
 	| expectedMethods code |
 	expectedMethods := category methodList.
 	self selectAllMethods.
-	code := mexCodeHolder contents.
+	code := codeHolder contents.
 	expectedMethods do: [:aMethod |
-		self assert: (code includesSubstring: aMethod generateParameterized)]
+		self assert: (code includesSubstring: aMethod asParameterizedString)
+	]
 	

@@ -3,6 +3,6 @@ testCopyToClipboardCopiesContentsToClipboard
 
 	| expectedString |
 	expectedString := 'Hello, World!'.
-	mexCodeHolder contents: expectedString.
-	mexCodeHolder copyToClipboard.
+	codeHolder contents: expectedString.
+	codeHolder copyToClipboard.
 	self assert: Clipboard clipboardText equals: expectedString

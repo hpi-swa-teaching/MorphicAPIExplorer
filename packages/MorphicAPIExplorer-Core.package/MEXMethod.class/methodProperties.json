@@ -5,7 +5,8 @@
 		"withName:havingSubMethods:" : "FFN 5/20/2019 15:32" },
 	"instance" : {
 		"addSubMethod:" : "FFN 5/20/2019 15:27",
-		"generateParameterized" : "lk 6/21/2019 18:27",
+		"asParameterizedString" : "lk 6/21/2019 21:14",
+		"getParameterAt:" : "lk 6/21/2019 21:45",
 		"getSelectionFor:" : "FFN 6/19/2019 16:18",
 		"hasParameters" : "lk 6/21/2019 18:19",
 		"hasSubMethods" : "FFN 5/20/2019 15:26",

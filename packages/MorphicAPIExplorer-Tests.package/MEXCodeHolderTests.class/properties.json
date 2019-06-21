@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"mexCodeHolder",
 		"category",
-		"explorationView" ],
+		"explorationView",
+		"codeHolder" ],
 	"name" : "MEXCodeHolderTests",
 	"pools" : [
 		 ],

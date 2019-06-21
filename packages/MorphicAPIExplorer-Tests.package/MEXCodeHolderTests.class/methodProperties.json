@@ -5,9 +5,9 @@
 		"createCategory" : "lk 6/21/2019 18:30",
 		"createExplorationView" : "lk 6/20/2019 14:54",
 		"selectAllMethods" : "lk 6/20/2019 15:06",
-		"setUp" : "lk 6/20/2019 15:00",
+		"setUp" : "lk 6/21/2019 20:46",
 		"testClickOnCopyButtonAcceptsUserChanges" : "jb 5/11/2019 16:20",
-		"testCodeContainsDefaultMorphCreation" : "lk 6/20/2019 15:16",
-		"testCodeContainsSelectedMethodsWithParameters" : "lk 6/21/2019 18:29",
-		"testCodeContainsValidCodeLines" : "lk 6/21/2019 18:29",
-		"testCopyToClipboardCopiesContentsToClipboard" : "jb 5/11/2019 16:02" } }
+		"testCodeContainsDefaultMorphCreation" : "lk 6/21/2019 20:46",
+		"testCodeContainsSelectedMethodsWithParameters" : "lk 6/21/2019 21:04",
+		"testCodeContainsValidCodeLines" : "lk 6/21/2019 21:04",
+		"testCopyToClipboardCopiesContentsToClipboard" : "lk 6/21/2019 20:46" } }

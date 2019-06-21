@@ -1,11 +1,11 @@
 tests
 testCodeContainsValidCodeLines
 
-	| expectedMethods code instanceName |
-	instanceName := mexCodeHolder morphInstanceName.
-	expectedMethods := category methodList.
+	| methods code instanceName |
+	instanceName := codeHolder morphInstanceName.
+	methods := category methodList.
 	self selectAllMethods.
-	code := mexCodeHolder contents.
-	expectedMethods do: [:aMethod |
-		self assert: (code includesSubstring: instanceName, Character space, aMethod generateParameterized, '.', mexCodeHolder lineEnd)
+	code := codeHolder contents.
+	methods do: [:aMethod |
+		self assert: (code includesSubstring: instanceName, Character space, aMethod asParameterizedString, '.', codeHolder lineEnd)
 	]
