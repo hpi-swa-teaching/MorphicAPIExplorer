@@ -8,7 +8,8 @@
 	"instvars" : [
 		"isSelected",
 		"name",
-		"subMethods" ],
+		"subMethods",
+		"parameters" ],
 	"name" : "MEXMethod",
 	"pools" : [
 		 ],

@@ -7,5 +7,5 @@ testCodeContainsValidCodeLines
 	self selectAllMethods.
 	code := mexCodeHolder contents.
 	expectedMethods do: [:aMethod |
-		self assert: (code includesSubstring: instanceName, Character space, aMethod name, '.', mexCodeHolder lineEnd)
+		self assert: (code includesSubstring: instanceName, Character space, aMethod generateParameterized, '.', mexCodeHolder lineEnd)
 	]

@@ -11,7 +11,7 @@ categoryAnimating
 				MEXMethod 
 					withName: 'Stepping' 
 					havingSubMethods: {
-						MEXMethod withName: 'startStepping:at:arguments:stepTime:'.
+						MEXMethod withName: 'startStepping:at:arguments:stepTime:' havingParameters: {#stepAt: . Time millisecondClockValue . nil . 500}.
 						MEXMethod withName: 'startStepping'
 					}.
 				MEXMethod 

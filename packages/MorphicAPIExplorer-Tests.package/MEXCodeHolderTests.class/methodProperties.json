@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createCategory" : "lk 6/20/2019 14:49",
+		"createCategory" : "lk 6/21/2019 18:30",
 		"createExplorationView" : "lk 6/20/2019 14:54",
 		"selectAllMethods" : "lk 6/20/2019 15:06",
 		"setUp" : "lk 6/20/2019 15:00",
 		"testClickOnCopyButtonAcceptsUserChanges" : "jb 5/11/2019 16:20",
 		"testCodeContainsDefaultMorphCreation" : "lk 6/20/2019 15:16",
-		"testCodeContainsSelectedMethods" : "lk 6/20/2019 15:07",
-		"testCodeContainsValidCodeLines" : "lk 6/20/2019 15:09",
+		"testCodeContainsSelectedMethodsWithParameters" : "lk 6/21/2019 18:29",
+		"testCodeContainsValidCodeLines" : "lk 6/21/2019 18:29",
 		"testCopyToClipboardCopiesContentsToClipboard" : "jb 5/11/2019 16:02" } }
