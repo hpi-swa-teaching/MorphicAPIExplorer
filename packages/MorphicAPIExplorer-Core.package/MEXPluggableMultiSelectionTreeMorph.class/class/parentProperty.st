@@ -1,0 +1,4 @@
+constants
+parentProperty
+
+	^ #parent

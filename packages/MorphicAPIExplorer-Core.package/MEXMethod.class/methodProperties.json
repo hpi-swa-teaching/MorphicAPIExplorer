@@ -4,10 +4,10 @@
 		"withName:havingSubMethods:" : "FFN 5/20/2019 15:32" },
 	"instance" : {
 		"addSubMethod:" : "FFN 5/20/2019 15:27",
-		"getSelectionFor:" : "FFN 6/19/2019 16:18",
 		"hasSubMethods" : "FFN 5/20/2019 15:26",
-		"initialize" : "FFN 6/19/2019 16:18",
+		"initialize" : "FFN 6/19/2019 16:51",
 		"isSelected" : "FFN 5/20/2019 16:09",
+		"isSelected:" : "FFN 6/19/2019 16:22",
 		"name" : "FFN 6/5/2019 22:53",
 		"name:" : "FFN 6/5/2019 22:53",
 		"subMethods" : "FFN 5/20/2019 15:21",

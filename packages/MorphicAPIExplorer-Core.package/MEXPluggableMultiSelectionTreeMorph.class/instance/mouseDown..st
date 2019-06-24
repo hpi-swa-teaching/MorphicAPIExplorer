@@ -11,7 +11,6 @@ mouseDown: anEvent
 				ifTrue: [
 					"Changed stuff here"
 					(self selectedMorphs anySatisfy: [ :selectedMorph | aMorph == selectedMorph])
-						ifTrue: [self removeFromSelectedMorphs: aMorph]
 						ifFalse: [self addToSelectedMorphs: aMorph]
 				].
 				^ self yellowButtonActivity: anEvent shiftPressed

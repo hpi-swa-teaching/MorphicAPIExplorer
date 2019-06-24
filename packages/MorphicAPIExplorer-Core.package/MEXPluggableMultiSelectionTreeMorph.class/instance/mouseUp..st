@@ -14,20 +14,12 @@ mouseUp: anEvent
 			^ self
 		].
 
-	"Changes here"
-	(clickedMorph complexContents parent isNil)
-		ifFalse: [
-			(self selectedMorphs anySatisfy: [:aMorph | clickedMorph == aMorph])
+		((self selectedMorphs anySatisfy: [:aMorph | clickedMorph == aMorph])
+			and: [clickedMorph complexContents parent notNil]
+			and: [autoDeselect isNil or: [autoDeselect]])
 				ifTrue: [self removeFromSelectedMorphs: clickedMorph]
 				ifFalse: [self addToSelectedMorphs: clickedMorph].
-		]
-		ifTrue: ["ignore parents for now"].
 
-	"do we need this ?
-	((autoDeselect isNil or: [autoDeselect])
-	ifTrue: [self setSelectedMorphs: nil]
-	ifFalse: [self setSelectedMorphs: (self selectedMorphs add: clickedMorph; yourself)]."
-	""
 	highlightedMorph highlightForMouseDown: false.
 	anEvent hand newKeyboardFocus: self.
 	Cursor normal show.

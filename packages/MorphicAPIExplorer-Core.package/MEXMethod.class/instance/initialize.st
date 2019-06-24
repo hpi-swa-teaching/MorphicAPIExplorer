@@ -4,4 +4,4 @@ initialize
 	super initialize.
 	self name: 'defaultName';
 		subMethods: OrderedCollection new;
-		getSelectionFor: false
+		isSelected: false

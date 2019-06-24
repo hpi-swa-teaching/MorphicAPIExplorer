@@ -1,7 +1,6 @@
 selection
 addToSelectedMorphs: aMorph
 
-
 	| selectedMorphsTemp |
 	selectedMorphsTemp := self selectedMorphs copy.
 	self 
