@@ -11,13 +11,21 @@ categoryTransforming
 				MEXMethod
 					withName: 'Rotating'
 					havingSubMethods: {
-						MEXMethod withName: 'angle:'.
-						MEXMethod withName: 'rotationDegrees:'
+						MEXMethod 
+							withName: 'angle:'
+							havingParameters: {'20'} asOrderedCollection.
+						MEXMethod 
+							withName: 'rotationDegrees:'
+							havingParameters: {'45'} asOrderedCollection
 					}.
 				MEXMethod
 					withName: 'Scaling'
 					havingSubMethods: {
-						MEXMethod withName: 'scale:'.
-						MEXMethod withName: 'extent:'
+						MEXMethod 
+							withName: 'scale:'
+							havingParameters: {'50'} asOrderedCollection.
+						MEXMethod 
+							withName: 'extent:'
+							havingParameters: {'100@100'} asOrderedCollection
 					}
 		}

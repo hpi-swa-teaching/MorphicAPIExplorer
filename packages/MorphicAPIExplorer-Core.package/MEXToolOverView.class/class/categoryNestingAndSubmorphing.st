@@ -11,13 +11,19 @@ categoryNestingAndSubmorphing
 				MEXMethod 
 					withName: 'Positioning' 
 					havingSubMethods: {
-						MEXMethod withName: 'bottom:'.
-						MEXMethod withName: 'bounds:'
+						MEXMethod 
+							withName: 'bottom:'
+							havingParameters: {'250'} asOrderedCollection.
+						MEXMethod 
+							withName: 'bounds:'
+							havingParameters: {'(Rectangle new origin: 0@0 corner: 100@100)'} asOrderedCollection
 					}.
 				MEXMethod
 					withName: 'Layering'
 					havingSubMethods: {
-						MEXMethod withName: 'addMorph:'.
+						MEXMethod 
+							withName: 'addMorph:'
+							havingParameters: {'Morph new'} asOrderedCollection.
 						MEXMethod withName: 'goBehind'
 					}
 		}			
