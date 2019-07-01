@@ -2,10 +2,9 @@
 	"class" : {
 		"parentProperty" : "FFN 6/24/2019 17:40" },
 	"instance" : {
-		"addSubmorphsAfter:fromCollection:allowSorting:" : "FFN 6/24/2019 17:41",
 		"addToSelectedMorphs:" : "FFN 6/24/2019 16:22",
 		"basicSelectedMorphs:" : "FFN 6/24/2019 15:48",
-		"drawSelectionOn:" : "FFN 6/24/2019 17:45",
+		"drawSelectionOn:" : "FFN 7/1/2019 21:42",
 		"getCurrentSelectionItemAt:" : "FFN 6/17/2019 14:11",
 		"getSelectedPathsSelector" : "FFN 6/12/2019 15:47",
 		"getSelectedPathsSelector:" : "FFN 6/12/2019 15:48",
@@ -16,7 +15,7 @@
 		"listSelectionFor:with:" : "FFN 6/19/2019 16:12",
 		"mouseDown:" : "FFN 6/24/2019 15:23",
 		"mouseUp:" : "FFN 6/24/2019 15:23",
-		"noteRemovalOfAll:" : "FFN 6/24/2019 17:46",
+		"noteRemovalOfAll:" : "FFN 7/1/2019 21:38",
 		"removeFromSelectedMorphs:" : "FFN 6/24/2019 16:57",
 		"selectedMorphs" : "FFN 6/12/2019 15:58",
 		"selectedMorphs:" : "FFN 6/24/2019 16:31",
@@ -33,6 +32,6 @@
 		"setSelectedPathsSelector" : "FFN 6/12/2019 15:47",
 		"setSelectedPathsSelector:" : "FFN 6/12/2019 15:48",
 		"unhighlightSelection" : "FFN 6/15/2019 14:22",
-		"update:" : "FFN 6/19/2019 15:08",
+		"update:" : "FFN 7/1/2019 22:03",
 		"updateSelectedParentMorphs:" : "FFN 6/12/2019 16:22",
 		"updateSelectedWrappers:" : "FFN 6/12/2019 16:20" } }
