@@ -3,7 +3,6 @@ removeFromSelectedMorphs: aMorph
 
 	| selectedMorphsTemp |
 	selectedMorphsTemp := self selectedMorphs copy.
-	"self halt."
 	self
-		setSelectedMorphs: (selectedMorphsTemp remove: aMorph; yourself);
+		selectedMorphs: (selectedMorphsTemp remove: aMorph; yourself);
 		listSelectionFor: (aMorph complexContents item) with: false

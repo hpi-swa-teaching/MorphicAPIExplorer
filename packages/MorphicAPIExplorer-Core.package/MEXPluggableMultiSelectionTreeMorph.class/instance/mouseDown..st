@@ -6,16 +6,16 @@ mouseDown: anEvent
 	
 	"First check for option (menu) click"
 	anEvent yellowButtonPressed
-		ifTrue: [
-			(PluggableListMorph menuRequestUpdatesSelection and: [ model okToChange])
+		ifTrue: [(PluggableListMorph menuRequestUpdatesSelection and: [model okToChange])
 				ifTrue: [
-					"Changed stuff here"
-					(self selectedMorphs anySatisfy: [ :selectedMorph | aMorph == selectedMorph])
-						ifFalse: [self addToSelectedMorphs: aMorph]
-				].
-				^ self yellowButtonActivity: anEvent shiftPressed
-		].
-	(aMorph notNil and: [ aMorph inToggleArea: (aMorph point: anEvent position from: self)])
+					"== OUR CODE BEGIN ==
+					Reason for adaptation: Changed to our parameters for multiselection"
+					(self selectedMorphs anySatisfy: [:selectedMorph | aMorph == selectedMorph])
+						ifFalse: [self addToSelectedMorphs: aMorph]].
+					"== OUR CODE END =="
+				^ self yellowButtonActivity: anEvent shiftPressed].
+
+	(aMorph notNil and: [aMorph inToggleArea: (aMorph point: anEvent position from: self)])
 		ifTrue: [^ self toggleExpandedState: aMorph event: anEvent].
 	aMorph ifNil: [^ super mouseDown: anEvent].
 	

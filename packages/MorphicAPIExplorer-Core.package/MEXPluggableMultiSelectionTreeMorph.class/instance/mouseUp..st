@@ -11,14 +11,16 @@ mouseUp: anEvent
 			or: [clickedMorph ~~ highlightedMorph])
 		ifTrue: [
 			highlightedMorph ifNotNil: [:m | m highlightForMouseDown: false].
-			^ self
-		].
+			^ self].
 
-		((self selectedMorphs anySatisfy: [:aMorph | clickedMorph == aMorph])
-			and: [clickedMorph complexContents parent notNil]
-			and: [autoDeselect isNil or: [autoDeselect]])
-				ifTrue: [self removeFromSelectedMorphs: clickedMorph]
-				ifFalse: [self addToSelectedMorphs: clickedMorph].
+	"== OUR CODE BEGIN ==
+	Reason for adaptation: Changed to our parameters for multiselection;
+	Should only affect items which belong to parent items"
+	clickedMorph complexContents parent isNil
+		ifFalse: [(self selectedMorphs anySatisfy: [:aMorph | clickedMorph == aMorph])
+			ifTrue: [self removeFromSelectedMorphs: clickedMorph]
+			ifFalse: [self addToSelectedMorphs: clickedMorph]].
+	"== OUR CODE END =="
 
 	highlightedMorph highlightForMouseDown: false.
 	anEvent hand newKeyboardFocus: self.

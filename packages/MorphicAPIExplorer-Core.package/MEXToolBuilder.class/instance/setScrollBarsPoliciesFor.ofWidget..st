@@ -5,5 +5,4 @@ setScrollBarsPoliciesFor: aSpec ofWidget: aTreeMorph
 	self
 		setHorizontalScrollBarPoliciesFor: aSpec ofWidget: aTreeMorph;
 		setVerticelScrollBarPoliciesFor: aSpec ofWidget: aTreeMorph.
-	
 	^ aSpec
