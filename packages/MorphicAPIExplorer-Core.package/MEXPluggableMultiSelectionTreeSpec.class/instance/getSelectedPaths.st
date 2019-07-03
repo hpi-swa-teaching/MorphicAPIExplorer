@@ -1,4 +1,0 @@
-accessing - selection
-getSelectedPaths
-
-	^ getSelectedPaths

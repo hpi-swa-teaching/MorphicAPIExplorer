@@ -3,17 +3,7 @@
 		 },
 	"instance" : {
 		"buildWith:" : "FFN 6/12/2019 15:46",
-		"dragItems" : "FFN 6/12/2019 15:30",
-		"dragItems:" : "FFN 6/12/2019 15:31",
-		"dropItems" : "FFN 6/12/2019 15:30",
-		"dropItems:" : "FFN 6/12/2019 15:31",
-		"getSelectedPaths" : "FFN 6/12/2019 15:30",
-		"getSelectedPaths:" : "FFN 6/12/2019 15:31",
 		"getSelectionList" : "FFN 6/12/2019 15:30",
 		"getSelectionList:" : "FFN 6/12/2019 15:32",
-		"setSelectedParents" : "FFN 6/12/2019 15:30",
-		"setSelectedParents:" : "FFN 6/12/2019 15:32",
-		"setSelectedPaths" : "FFN 6/12/2019 15:30",
-		"setSelectedPaths:" : "FFN 6/12/2019 15:32",
 		"setSelectionList" : "FFN 6/12/2019 15:30",
 		"setSelectionList:" : "FFN 6/12/2019 15:32" } }

@@ -5,6 +5,5 @@ setHorizontalScrollBarPoliciesFor: aSpec ofWidget: aTreeMorph
 		policy caseOf: {
 			[#always] -> [aTreeMorph alwaysShowHScrollBar].
 			[#never] -> [aTreeMorph hideHScrollBarIndefinitely].
-			[#whenNeeded] -> [aTreeMorph showHScrollBarOnlyWhenNeeded]
-		}];
+			[#whenNeeded] -> [aTreeMorph showHScrollBarOnlyWhenNeeded]}];
 		yourself

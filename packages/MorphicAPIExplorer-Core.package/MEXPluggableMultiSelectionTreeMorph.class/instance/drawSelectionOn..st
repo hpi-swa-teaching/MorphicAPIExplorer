@@ -5,5 +5,4 @@ drawSelectionOn: aCanvas
 		aCanvas
 			transformBy: scroller transform
 			clippingTo: scroller innerBounds
-			during: [:canvas | aMorph drawSelectionOn: canvas]
-	]
+			during: [:theCanvas | aMorph drawSelectionOn: theCanvas]]

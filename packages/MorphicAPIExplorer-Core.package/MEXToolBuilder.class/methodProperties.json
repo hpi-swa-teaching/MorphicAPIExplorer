@@ -2,12 +2,12 @@
 	"class" : {
 		"open:" : "lk 6/4/2019 10:02" },
 	"instance" : {
-		"buildPluggableMultiSelectionTree:" : "FFN 6/15/2019 16:52",
+		"buildPluggableMultiSelectionTree:" : "FFN 7/3/2019 15:24",
 		"buttonClass" : "lk 6/4/2019 09:50",
 		"multiSelectionTreeClass" : "FFN 6/12/2019 15:11",
 		"pluggableMultiSelectionTreeSpec" : "FFN 6/12/2019 15:51",
-		"setGeneralTreeAttributesFor:havingSpec:" : "FFN 6/15/2019 12:43",
-		"setHorizontalScrollBarPoliciesFor:ofWidget:" : "FFN 6/15/2019 12:56",
-		"setScrollBarsPoliciesFor:ofWidget:" : "FFN 6/15/2019 12:58",
+		"setGeneralTreeAttributesFor:havingSpec:" : "FFN 7/3/2019 14:17",
+		"setHorizontalScrollBarPoliciesFor:ofWidget:" : "FFN 7/3/2019 15:24",
+		"setScrollBarsPoliciesFor:ofWidget:" : "FFN 7/3/2019 15:24",
 		"setTreeItemAttributesFor:havingSpec:" : "FFN 6/15/2019 12:45",
-		"setVerticelScrollBarPoliciesFor:ofWidget:" : "FFN 6/15/2019 12:56" } }
+		"setVerticelScrollBarPoliciesFor:ofWidget:" : "FFN 7/3/2019 15:23" } }

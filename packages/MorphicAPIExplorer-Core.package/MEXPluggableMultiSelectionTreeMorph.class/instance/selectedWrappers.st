@@ -1,4 +1,0 @@
-accessing
-selectedWrappers
-
-	^ selectedWrappers

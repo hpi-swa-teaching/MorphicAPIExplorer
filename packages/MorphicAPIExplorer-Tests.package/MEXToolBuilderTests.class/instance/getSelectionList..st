@@ -1,5 +1,5 @@
 tests-trees
-getSelectionList: anIndex
+getSelectionList: anItem
 
 	queries add: #getSelectionList:.
 	^ '69'

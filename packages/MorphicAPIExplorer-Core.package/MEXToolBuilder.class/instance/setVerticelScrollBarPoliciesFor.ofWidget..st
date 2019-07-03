@@ -5,6 +5,5 @@ setVerticelScrollBarPoliciesFor: aSpec ofWidget: aTreeMorph
 		policy caseOf: {
 			[#always] -> [aTreeMorph alwaysShowVScrollBar].
 			[#never] -> [aTreeMorph hideVScrollBarIndefinitely].
-			[#whenNeeded] -> [aTreeMorph showVScrollBarOnlyWhenNeeded]
-		}];
+			[#whenNeeded] -> [aTreeMorph showVScrollBarOnlyWhenNeeded]}];
 		yourself

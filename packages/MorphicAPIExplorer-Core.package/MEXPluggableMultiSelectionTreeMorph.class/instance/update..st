@@ -1,23 +1,13 @@
 updating
 update: anAspect
-"self halt."
-	anAspect ifNil: [^ self].
 
-	anAspect == self getSelectedPathsSelector
-		ifTrue: [
-			^ self
-				selectPath: (model perform: self getSelectedPathsSelector) in: (self items at: 1 ifAbsent: [^ self]);
-				yourself
-		].
+	anAspect ifNil: [^ self].
 	
 	anAspect == self getSelectedSelector
-		ifTrue: [
-			self halt.
-			self items do: [:item | model perform: self getSelectedSelector with: (self items indexOf: item)].
-			^self].
+		ifTrue: [self items do: [:anItem | model perform: self getSelectedSelector with: anItem].
+			^ self].
 		
-	anAspect == self setSelectedParentsSelector
-		ifTrue: [
-			].
+	anAspect == self setSelectedSelector
+		ifTrue: [self items do: [:anItem | model perform: self setSelectedSelector with: anItem with: anItem isSelected]].
 
 	super update: anAspect
