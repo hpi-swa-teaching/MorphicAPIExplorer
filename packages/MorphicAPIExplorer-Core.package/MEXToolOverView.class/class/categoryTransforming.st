@@ -6,7 +6,7 @@ categoryTransforming
 		havingImage: (MEXScalableImageMorph
 			newWithImage: MEXResources overviewImageTransforming
 			havingExtent: self defaultButtonImageExtent)
-		havingDefaultMorph: Morph new
+		havingDefaultMorph: TransformMorph new
 		withMethodList: {
 				MEXMethod
 					withName: 'Rotating'

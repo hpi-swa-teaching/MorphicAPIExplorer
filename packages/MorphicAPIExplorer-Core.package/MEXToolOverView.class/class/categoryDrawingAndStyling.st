@@ -18,6 +18,12 @@ categoryDrawingAndStyling
 					havingSubMethods: {
 						MEXMethod withName: 'cornerStyle:'.
 						MEXMethod withName: 'color:'.
-						MEXMethod withName: 'addDropShadow'
+						MEXMethod withName: 'addDropShadow'.
+						MEXMethod 
+							withName: 'shadowPoint:' 
+							havingParameters: {'50@50'}.
+						MEXMethod 
+							withName: 'shadowColor:' 
+							havingParameters: {'(Color red alpha: 0.5)'}	
 					}
 		}			
