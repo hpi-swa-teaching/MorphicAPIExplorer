@@ -11,14 +11,24 @@ categoryLayouting
 				MEXMethod
 					withName: 'General Layouting'
 					havingSubMethods: {
-						MEXMethod withName: 'layoutFrame:'
+						MEXMethod 
+							withName: 'layoutFrame:'
+							havingParameters: {'(LayoutFrame new leftFraction: 0; topFraction: 0; rightFraction: 0.5; bottomFraction: 0.5)'} asOrderedCollection
 					}.
 				MEXMethod
 					withName: 'Table Layouting'
 					havingSubMethods: {
-						MEXMethod withName: 'listDirection:'.
-						MEXMethod withName: 'wrapDirection:'.
-						MEXMethod withName: 'wrapCentering:'.
-						MEXMethod withName: 'minCellSize:'
+						MEXMethod 
+							withName: 'listDirection:'
+							havingParameters: {'#topToBottom'} asOrderedCollection.
+						MEXMethod 
+							withName: 'wrapDirection:'
+							havingParameters: {'#leftToRight'} asOrderedCollection.
+						MEXMethod 
+							withName: 'wrapCentering:'
+							havingParameters: {'#center'} asOrderedCollection.
+						MEXMethod 
+							withName: 'minCellSize:'
+							havingParameters: {'100'} asOrderedCollection
 					}
 		}

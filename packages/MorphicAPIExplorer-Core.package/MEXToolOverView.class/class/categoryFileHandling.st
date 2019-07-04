@@ -11,8 +11,12 @@ categoryFileHandling
 				MEXMethod
 					withName: 'Images'
 					havingSubMethods: {
-						MEXMethod withName: 'setNewImageFrom:'.
+						MEXMethod 
+							withName: 'setNewImageFrom:'
+							havingParameters: {'MEXResources overviewImageFileHandling'} asOrderedCollection.
 						MEXMethod withName: 'readFromFile'.
-						MEXMethod withName: 'image:'
+						MEXMethod 
+							withName: 'image:'
+							havingParameters: {'MEXResources overviewImageFileHandling'} asOrderedCollection
 					}
 		}
