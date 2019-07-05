@@ -1,8 +1,9 @@
 building
 createMorphPlayground
 
-	^ {PasteUpMorph new
+"self halt.
+	self playground: (PasteUpMorph new
 		layoutFrame: (LayoutFrame fractions: (0@0 rect: 1@1));
 		color: Preferences defaultWorldColor;
-		yourself
-	}
+		yourself)."
+	^ {self playground}

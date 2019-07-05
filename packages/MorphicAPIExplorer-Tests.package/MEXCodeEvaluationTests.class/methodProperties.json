@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createCode" : "CU 7/5/2019 13:18",
+		"setUp" : "CU 7/5/2019 13:36",
+		"testEvaluateCodeReturnsCorrectMorph" : "CU 7/5/2019 13:20",
+		"testPlaygroundContainsCorrectMorph" : "CU 7/5/2019 13:57" } }
