@@ -17,13 +17,15 @@ categoryDrawingAndStyling
 					withName: 'Styling' 
 					havingSubMethods: {
 						MEXMethod withName: 'cornerStyle:'.
-						MEXMethod withName: 'color:'.
+						MEXMethod
+							withName: 'color:'
+							havingParameters: {'Color white'}.
 						MEXMethod withName: 'addDropShadow'.
 						MEXMethod 
 							withName: 'shadowPoint:' 
-							havingParameters: {'50@50'}.
+							havingParameters: {'30@25'}.
 						MEXMethod 
 							withName: 'shadowColor:' 
-							havingParameters: {'(Color red alpha: 0.5)'}	
+							havingParameters: {'(Color red alpha: 0.05)'}	
 					}
 		}			
