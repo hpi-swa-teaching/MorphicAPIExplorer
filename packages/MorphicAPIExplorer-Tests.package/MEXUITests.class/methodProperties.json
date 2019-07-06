@@ -4,7 +4,7 @@
 	"instance" : {
 		"newMorphs" : "lk 5/8/2019 14:39",
 		"setUp" : "lk 6/8/2019 21:39",
-		"tearDown" : "lk 5/8/2019 14:51",
+		"tearDown" : "FFN 7/6/2019 23:23",
 		"testDefaultMorphBoxContainsAMorph" : "CU 7/5/2019 12:39",
 		"testDefaultMorphChanges" : "CU 7/5/2019 12:39",
 		"testOpenExplorationViewForOpensAnExplorationView" : "FFN 5/21/2019 16:23" } }

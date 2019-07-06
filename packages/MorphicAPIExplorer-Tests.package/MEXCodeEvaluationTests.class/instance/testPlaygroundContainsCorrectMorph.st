@@ -1,10 +1,10 @@
 tests
 testPlaygroundContainsCorrectMorph
 
-	| morph view submorphs |
+	| morph viewModel submorphs |
 	morph := Morph new color: Color red.
-	view := builder build: explorationView.
- 	view updatePlaygroundContents: morph.
-	submorphs := view playground submorphs.
+	viewModel := (builder open: explorationView) model.
+ 	viewModel updatePlaygroundContents: morph.
+	submorphs := viewModel playground submorphs.
 	self assert: submorphs size equals: 1.
-	self assert: (submorphs contains: morph)
+	self assert: submorphs first identical: morph

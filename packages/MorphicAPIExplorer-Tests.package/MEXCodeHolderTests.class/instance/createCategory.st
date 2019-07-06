@@ -3,10 +3,10 @@ createCategory
 	
 	^ MEXCategory 
 		newNamed: 'TestCategory' 
-		havingImage: ImageMorph new 
-		havingDefaultMorph: ImageMorph new
+		havingImage: Morph new 
+		havingDefaultMorph: Morph new
 		withMethodList: {
-			MEXMethod withName: 'drawOn:' havingParameters: {'aCanvas'}.
-			MEXMethod withName: 'startStepping'.
-			MEXMethod withName: 'cornerStyle:and:' havingParameters: {'rounded' . 'cool'}
+			MEXMethod withName: 'color:' havingParameters: {'Color red'}.
+			MEXMethod withName: 'addDropShadow'.
+			MEXMethod withName: 'extent:' havingParameters: {'100@100'}
 		}

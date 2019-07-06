@@ -3,6 +3,8 @@
 		 },
 	"instance" : {
 		"createCode" : "CU 7/5/2019 13:18",
-		"setUp" : "CU 7/5/2019 13:36",
+		"newMorphs" : "FFN 7/6/2019 23:18",
+		"setUp" : "FFN 7/6/2019 23:18",
+		"tearDown" : "FFN 7/6/2019 23:18",
 		"testEvaluateCodeReturnsCorrectMorph" : "CU 7/5/2019 13:20",
-		"testPlaygroundContainsCorrectMorph" : "CU 7/5/2019 13:57" } }
+		"testPlaygroundContainsCorrectMorph" : "FFN 7/6/2019 23:38" } }

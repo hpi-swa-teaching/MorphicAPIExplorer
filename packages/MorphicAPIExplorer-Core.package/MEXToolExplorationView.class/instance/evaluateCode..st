@@ -1,4 +1,7 @@
 editor and playground
 evaluateCode: aCode
 
-	self updatePlaygroundContents: (Compiler evaluate: aCode)
+	| evaluatedCode |
+	evaluatedCode := Compiler evaluate: aCode.
+	self playground pasteUpMorph ifNotNil: [self updatePlaygroundContents: evaluatedCode].
+	^ evaluatedCode
