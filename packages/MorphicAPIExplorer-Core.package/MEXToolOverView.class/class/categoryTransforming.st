@@ -12,20 +12,17 @@ categoryTransforming
 					withName: 'Rotating'
 					havingSubMethods: {
 						MEXMethod 
-							withName: 'angle:'
-							havingParameters: {'20'} asOrderedCollection.
-						MEXMethod 
 							withName: 'rotationDegrees:'
-							havingParameters: {'45'} asOrderedCollection
+							havingParameters: {'45'}
 					}.
 				MEXMethod
 					withName: 'Scaling'
 					havingSubMethods: {
 						MEXMethod 
-							withName: 'scale:'
-							havingParameters: {'50'} asOrderedCollection.
+							withName: 'bounds:'
+							havingParameters: {'(Rectangle new setOrigin: 0@0 corner: 100@150)'}.
 						MEXMethod 
 							withName: 'extent:'
-							havingParameters: {'100@100'} asOrderedCollection
+							havingParameters: {'100@100'}
 					}
 		}

@@ -6,19 +6,15 @@ categoryAnimating
 			havingImage: (MEXScalableImageMorph
 				newWithImage: MEXResources overviewImageAnimating
 				havingExtent: self defaultButtonImageExtent)
-			havingDefaultMorph: Morph new
+			havingDefaultMorph: LedTimerMorph new
 			withMethodList: {
 				MEXMethod 
 					withName: 'Stepping' 
 					havingSubMethods: {
-						MEXMethod 
-							withName: 'startStepping:at:arguments:stepTime:' 
-							havingParameters: {'#stepAt:' . 'Time millisecondClockValue' . 'nil' . 500}.
-						MEXMethod withName: 'startStepping'
-					}.
-				MEXMethod 
-					withName: 'Cursor blinking' 
-					havingSubMethods: {
-						MEXMethod withName: 'startBlinking'
+						MEXMethod withName: 'start'.
+						MEXMethod withName: 'pause'.
+						MEXMethod withName: 'continue'.
+						MEXMethod withName: 'stop'.
+						MEXMethod withName: 'reset'
 					}
 		}

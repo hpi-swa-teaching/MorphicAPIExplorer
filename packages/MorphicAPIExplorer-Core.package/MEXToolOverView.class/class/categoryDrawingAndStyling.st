@@ -11,12 +11,16 @@ categoryDrawingAndStyling
 				MEXMethod 
 					withName: 'Drawing' 
 					havingSubMethods: {
-						MEXMethod withName: 'drawOn:'
+						MEXMethod 
+							withName: 'drawOn:'
+							havingParameters: {'NullCanvas new'}
 					}.
 				MEXMethod 
 					withName: 'Styling' 
 					havingSubMethods: {
-						MEXMethod withName: 'cornerStyle:'.
+						MEXMethod 
+							withName: 'cornerStyle:'
+							havingParameters: {'#rounded'}.
 						MEXMethod
 							withName: 'color:'
 							havingParameters: {'Color white'}.
