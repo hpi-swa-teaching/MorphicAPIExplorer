@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createCode" : "CU 7/5/2019 13:18",
 		"newMorphs" : "FFN 7/6/2019 23:18",
+		"sampleCode" : "FFN 7/11/2019 13:33",
 		"setUp" : "FFN 7/6/2019 23:18",
 		"tearDown" : "FFN 7/6/2019 23:18",
-		"testEvaluateCodeReturnsCorrectMorph" : "CU 7/5/2019 13:20",
+		"testEvaluateCodeReturnsCorrectMorph" : "FFN 7/11/2019 13:33",
 		"testPlaygroundContainsCorrectMorph" : "FFN 7/6/2019 23:38" } }

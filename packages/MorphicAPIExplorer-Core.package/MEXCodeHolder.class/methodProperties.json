@@ -2,7 +2,7 @@
 	"class" : {
 		"withView:" : "jb 6/20/2019 14:24" },
 	"instance" : {
-		"copyToClipboard" : "jb 5/10/2019 23:04",
+		"copyToClipboard" : "FFN 7/11/2019 13:52",
 		"explorationView" : "jb 6/20/2019 02:38",
 		"explorationView:" : "jb 6/20/2019 02:46",
 		"generateCodeForCurrentSelection" : "lk 6/21/2019 21:04",
@@ -12,7 +12,8 @@
 		"morphClass" : "jb 6/20/2019 02:39",
 		"morphInstanceName" : "jb 6/20/2019 02:40",
 		"optionalButtonPairs" : "jb 5/10/2019 21:55",
-		"runCode" : "FFN 7/8/2019 19:44",
+		"runCode" : "FFN 7/11/2019 13:52",
+		"save" : "FFN 7/11/2019 13:52",
 		"selectedMethods" : "jb 6/20/2019 02:40",
 		"update:" : "jb 6/20/2019 14:22",
 		"updateCodeForCurrentSelection" : "FFN 7/6/2019 22:56",

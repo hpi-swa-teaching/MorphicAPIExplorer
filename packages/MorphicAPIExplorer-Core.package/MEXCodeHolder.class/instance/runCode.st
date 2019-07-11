@@ -1,5 +1,5 @@
 commands
 runCode
 
-	self changed: #acceptChanges.
+	self save.
 	self explorationView evaluateCode: self contents

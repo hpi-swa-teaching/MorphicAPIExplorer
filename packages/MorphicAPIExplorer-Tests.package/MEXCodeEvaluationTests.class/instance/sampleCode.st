@@ -1,5 +1,5 @@
 running
-createCode
+sampleCode
 
 	^ 	'| morph |
 		morph := Morph new.

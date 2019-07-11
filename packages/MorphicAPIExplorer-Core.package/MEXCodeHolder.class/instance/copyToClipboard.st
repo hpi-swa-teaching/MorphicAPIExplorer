@@ -1,5 +1,5 @@
 commands
 copyToClipboard
 	
-	self changed: #acceptChanges.
+	self save.
 	Clipboard clipboardText: (self contents) asText
