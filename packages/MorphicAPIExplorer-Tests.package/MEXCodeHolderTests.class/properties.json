@@ -8,7 +8,8 @@
 	"instvars" : [
 		"category",
 		"explorationView",
-		"codeHolder" ],
+		"codeHolder",
+		"queries" ],
 	"name" : "MEXCodeHolderTests",
 	"pools" : [
 		 ],

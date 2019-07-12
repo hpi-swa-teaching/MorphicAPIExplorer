@@ -3,6 +3,7 @@
 		"withView:" : "jb 6/20/2019 14:24" },
 	"instance" : {
 		"copyToClipboard" : "FFN 7/11/2019 13:52",
+		"evaluateExpression:" : "jb 7/12/2019 12:20",
 		"explorationView" : "jb 6/20/2019 02:38",
 		"explorationView:" : "jb 6/20/2019 02:46",
 		"generateCodeForCurrentSelection" : "lk 6/21/2019 21:04",
@@ -13,10 +14,11 @@
 		"morphInstanceName" : "jb 6/20/2019 02:40",
 		"optionalButtonPairs" : "jb 5/10/2019 21:55",
 		"runCode" : "FFN 7/11/2019 13:52",
-		"save" : "FFN 7/11/2019 13:52",
+		"save" : "jb 7/12/2019 12:38",
 		"selectedMethods" : "jb 6/20/2019 02:40",
 		"update:" : "jb 6/20/2019 14:22",
 		"updateCodeForCurrentSelection" : "FFN 7/6/2019 22:56",
+		"updateCodePaneIfNeeded" : "jb 7/12/2019 12:30",
 		"updateContentsFor:" : "jb 6/20/2019 14:20",
 		"updateInitializationCode" : "jb 6/20/2019 14:20",
 		"wantsAnnotationPane" : "CU 5/1/2019 20:13" } }
