@@ -8,22 +8,24 @@ categoryNestingAndSubmorphing
 			havingExtent: self defaultButtonImageExtent)
 		havingDefaultMorph: Morph new
 		withMethodList: {
-				MEXMethod 
-					withName: 'Positioning' 
-					havingSubMethods: {
-						MEXMethod 
-							withName: 'bottom:'
-							havingParameters: {'250'}.
-						MEXMethod 
-							withName: 'bounds:'
-							havingParameters: {'(Rectangle new origin: 0@0 corner: 100@100)'}
-					}.
 				MEXMethod
-					withName: 'Layering'
+					withName: 'General setup method'
 					havingSubMethods: {
 						MEXMethod 
 							withName: 'addMorph:'
-							havingParameters: {'Morph new'}.
-						MEXMethod withName: 'goBehind'
-					}
+							havingParameters: {'(EllipseMorph new color: Color green; extent: 70@70)'}
+					}.
+				MEXMethod 
+					withName: 'Manipulation' 
+					havingSubMethods: {
+						MEXMethod 
+							withName: 'submorphsDo:'
+							havingParameters: {'([:each | each extent: 20@20])'}
+					}.
+				MEXMethod 
+					withName: 'Cleaning up' 
+					havingSubMethods: {
+						MEXMethod 
+							withName: 'removeAllMorphs'}
+
 		}			
