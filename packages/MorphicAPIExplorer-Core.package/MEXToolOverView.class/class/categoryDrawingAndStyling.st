@@ -9,13 +9,6 @@ categoryDrawingAndStyling
 		havingDefaultMorph: Morph new
 		withMethodList: {
 				MEXMethod 
-					withName: 'Drawing' 
-					havingSubMethods: {
-						MEXMethod 
-							withName: 'drawOn:'
-							havingParameters: {'NullCanvas new'}
-					}.
-				MEXMethod 
 					withName: 'Styling' 
 					havingSubMethods: {
 						MEXMethod 
