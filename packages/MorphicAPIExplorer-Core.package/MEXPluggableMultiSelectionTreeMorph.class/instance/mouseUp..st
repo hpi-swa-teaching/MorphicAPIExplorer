@@ -15,8 +15,8 @@ mouseUp: anEvent
 
 	"== OUR CODE BEGIN ==
 	Reason for adaptation: Changed to our parameters for multiselection;
-	Should only affect items which belong to parent items"
-	clickedMorph complexContents parent isNil
+	Should only affect items which can't be expanded"
+	clickedMorph complexContents hasContents 
 		ifFalse: [(self selectedMorphs anySatisfy: [:aMorph | clickedMorph == aMorph])
 			ifTrue: [self removeFromSelectedMorphs: clickedMorph]
 			ifFalse: [self addToSelectedMorphs: clickedMorph]].
