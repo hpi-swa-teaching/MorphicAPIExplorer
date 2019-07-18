@@ -6,13 +6,13 @@
 		"drawSelectionOn:" : "FFN 7/1/2019 21:42",
 		"highlightSelection" : "jb 6/24/2019 15:07",
 		"initialize" : "FFN 7/3/2019 14:46",
-		"insertNewMorphs:" : "FFN 6/17/2019 14:19",
-		"listSelectionFor:with:" : "FFN 6/19/2019 16:12",
+		"insertNewMorphs:" : "jb 7/18/2019 17:03",
+		"listSelectionFor:with:" : "jb 7/18/2019 17:03",
 		"mouseDown:" : "FFN 7/3/2019 15:19",
 		"mouseUp:" : "FFN 7/3/2019 15:18",
-		"noteRemovalOfAll:" : "FFN 7/3/2019 15:19",
+		"noteRemovalOfAll:" : "jb 7/18/2019 17:03",
 		"removeFromSelectedMorphs:" : "FFN 7/3/2019 15:20",
 		"selectedMorphs" : "FFN 6/12/2019 15:58",
 		"selectedMorphs:" : "FFN 7/3/2019 15:20",
-		"unhighlightSelection" : "FFN 7/3/2019 14:47",
-		"update:" : "FFN 7/3/2019 15:21" } }
+		"unhighlightSelection" : "jb 7/18/2019 17:03",
+		"update:" : "jb 7/18/2019 17:03" } }
