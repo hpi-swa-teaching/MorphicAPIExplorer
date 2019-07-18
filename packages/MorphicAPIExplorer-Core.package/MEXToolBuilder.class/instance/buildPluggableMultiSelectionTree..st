@@ -12,6 +12,6 @@ buildPluggableMultiSelectionTree: aSpec
 		setFrame: aSpec frame in: widget;
 		setLayoutHintsFor: widget spec: aSpec.
 	
-	parent ifNotNil: [self add: widget to: parent].
+	self parent ifNotNil: [self add: widget to: self parent].
 	^ widget
 	

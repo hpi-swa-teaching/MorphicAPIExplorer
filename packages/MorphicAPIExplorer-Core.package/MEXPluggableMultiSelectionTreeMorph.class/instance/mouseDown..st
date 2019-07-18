@@ -6,7 +6,7 @@ mouseDown: anEvent
 	
 	"First check for option (menu) click"
 	anEvent yellowButtonPressed
-		ifTrue: [(PluggableListMorph menuRequestUpdatesSelection and: [model okToChange])
+		ifTrue: [(PluggableListMorph menuRequestUpdatesSelection and: [self model okToChange])
 				ifTrue: [
 					"== OUR CODE BEGIN ==
 					Reason for adaptation: Changed to our parameters for multiselection"

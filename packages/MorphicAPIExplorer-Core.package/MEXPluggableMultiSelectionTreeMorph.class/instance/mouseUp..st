@@ -6,7 +6,7 @@ mouseUp: anEvent
 	highlightedMorph := self valueOfProperty: #highlightedMorph ifAbsent: [].
 	self removeProperty: #highlightedMorph.
 
-	((model okToChange not
+	((self model okToChange not
 			or: [clickedMorph isNil])
 			or: [clickedMorph ~~ highlightedMorph])
 		ifTrue: [

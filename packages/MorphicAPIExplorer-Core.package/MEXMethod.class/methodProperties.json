@@ -5,8 +5,10 @@
 		"withName:havingSubMethods:" : "FFN 5/20/2019 15:32" },
 	"instance" : {
 		"addSubMethod:" : "FFN 5/20/2019 15:27",
-		"asParameterizedString" : "lk 6/21/2019 21:14",
+		"asParameterizedString" : "jb 7/18/2019 18:14",
+		"asString" : "jb 7/18/2019 18:17",
 		"getParameterAt:" : "FFN 7/6/2019 23:47",
+		"getParameterOf:" : "jb 7/18/2019 17:52",
 		"hasParameters" : "lk 6/21/2019 18:19",
 		"hasSubMethods" : "FFN 5/20/2019 15:26",
 		"initialize" : "FFN 7/3/2019 21:01",
@@ -16,5 +18,6 @@
 		"name:" : "FFN 6/5/2019 22:53",
 		"parameters" : "lk 6/21/2019 18:18",
 		"parameters:" : "lk 6/21/2019 18:18",
+		"splitMethodOnParameters" : "jb 7/18/2019 17:46",
 		"subMethods" : "FFN 5/20/2019 15:21",
 		"subMethods:" : "FFN 5/20/2019 16:06" } }
