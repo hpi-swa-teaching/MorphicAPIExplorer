@@ -1,4 +1,4 @@
 accessing
 image: anImage
 
-	super image: (self scaledForm: anImage)
+	super image: (self scaledFormFor: anImage)
