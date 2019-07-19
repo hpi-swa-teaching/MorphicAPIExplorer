@@ -6,29 +6,39 @@ categoryLayouting
 		havingImage: (MEXScalableImageMorph
 			newWithImage: MEXResources overviewImageLayouting
 			havingExtent: self defaultButtonImageExtent)
-		havingDefaultMorph: Morph new
+		havingDefaultMorph: RectangleMorph new
 		withMethodList: {
 				MEXMethod
-					withName: 'General Layouting'
+					withName: 'Layout Policy Setup'
 					havingSubMethods: {
 						MEXMethod 
-							withName: 'layoutFrame:'
-							havingParameters: {'(LayoutFrame new leftFraction: 0; topFraction: 0; rightFraction: 0.5; bottomFraction: 0.5)'} asOrderedCollection
+							withName: 'layoutPolicy:'
+							havingParameters: {'TableLayout new'} asOrderedCollection
 					}.
 				MEXMethod
 					withName: 'Table Layouting'
 					havingSubMethods: {
 						MEXMethod 
 							withName: 'listDirection:'
-							havingParameters: {'#topToBottom'} asOrderedCollection.
-						MEXMethod 
-							withName: 'wrapDirection:'
 							havingParameters: {'#leftToRight'} asOrderedCollection.
 						MEXMethod 
-							withName: 'wrapCentering:'
-							havingParameters: {'#center'} asOrderedCollection.
+							withName: 'vResizing:'
+							havingParameters: {'#shrinkWrap'} asOrderedCollection.
+						MEXMethod 
+							withName: 'hResizing:'
+							havingParameters: {'#shrinkWrap'} asOrderedCollection.
 						MEXMethod 
 							withName: 'minCellSize:'
 							havingParameters: {'100'} asOrderedCollection
+					}.
+				MEXMethod
+					withName: 'Adding Submorphs to see results'
+					havingSubMethods: {
+						MEXMethod
+							withName: 'addMorph:'
+							havingParameters: {'(EllipseMorph new color: (Color orange))'} asOrderedCollection.
+						MEXMethod
+							withName: 'addMorph:'
+							havingParameters: {'(EllipseMorph new color: (Color blue))'} asOrderedCollection.
 					}
 		}
