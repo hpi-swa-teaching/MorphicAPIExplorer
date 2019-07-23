@@ -12,9 +12,6 @@ categoryAnimating
 					withName: 'Stepping' 
 					havingSubMethods: {
 						MEXMethod withName: 'start'.
-						MEXMethod withName: 'pause'.
-						MEXMethod withName: 'continue'.
 						MEXMethod withName: 'stop'.
-						MEXMethod withName: 'reset'
 					}
 		}
