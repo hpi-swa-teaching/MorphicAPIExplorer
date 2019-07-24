@@ -1,1 +1,4 @@
-This class represents a method in one of the categories of our tool. It's responsible for managing its own parameters in case it needs some and for preparing itself to be displayed in a code holder as a valid squeack code
+I'm a data class responsible for storing the name and explicit example parameters of Squeak methods in addition to displaying them nicely as a code line through #asString. 
+
+Since I'm being used as an item in MEXMethodListItemWrapper, I furthermore must provide accessors to if I was selected. To make myself expandable, I just save a Collection of other MEXMethods.
+
