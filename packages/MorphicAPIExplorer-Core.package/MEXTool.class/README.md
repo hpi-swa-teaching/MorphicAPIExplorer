@@ -5,5 +5,5 @@ My most important methods are
 - MEXTool>>changeViewTo:			to switch the current view
 
 Classes that inherit from me should implement
-- MEXTool>>buildChildrenWith:			to define which children should be built
+- MEXTool>>buildChildrenWith:			to define which children specs should be built
 - MEXTool class>>labelAddition			to define how the window should be labeled
