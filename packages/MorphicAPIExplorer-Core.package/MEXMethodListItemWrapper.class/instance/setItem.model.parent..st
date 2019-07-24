@@ -1,6 +1,6 @@
 accessing
-setItem: aMethod model: aModel parent: aMEXMethodListItemWrapper
+setItem: aMEXMethod model: aModel parent: aMEXMethodListItemWrapper
 
 	self 
 		parent: aMEXMethodListItemWrapper;
-		setItem: aMethod model: aModel
+		setItem: aMEXMethod model: aModel
