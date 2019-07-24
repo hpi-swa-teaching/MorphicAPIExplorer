@@ -12,7 +12,7 @@
 		"empty",
 		"full",
 		"builder" ],
-	"name" : "MEXLayoutTests",
+	"name" : "MEXOverviewTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

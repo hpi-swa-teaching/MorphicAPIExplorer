@@ -1,1 +1,1 @@
-Icons for MultiselectionTree
+I provide a set of icons you can use for the multiselection tree in MEXExplorationView. The MEXMethodListItemWrapper is the according class to set the icon in the tree.
