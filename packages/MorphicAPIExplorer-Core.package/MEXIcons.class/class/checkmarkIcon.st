@@ -1,6 +1,6 @@
 private icons
 checkmarkIcon
 
-	^ (super checkmarkIcon scaledToSize: 12@12)
+	^ (super checkmarkIcon scaledToSize: self defaultExtent)
 		mapColor: Color black to: Color green;
 		yourself

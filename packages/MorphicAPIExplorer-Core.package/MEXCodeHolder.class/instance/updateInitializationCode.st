@@ -1,4 +1,0 @@
-content-generation
-updateInitializationCode
-
-	self updateContentsFor: self generateInitializationCode

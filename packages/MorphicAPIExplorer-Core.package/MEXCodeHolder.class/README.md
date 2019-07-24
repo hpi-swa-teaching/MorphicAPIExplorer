@@ -1,0 +1,1 @@
+This class is responsible for preparing and storing/displaying the code to be evaluated. MEXCodeHolder cooperates with ExplorationView class to find out which methods  to display and in order to compile and run the code

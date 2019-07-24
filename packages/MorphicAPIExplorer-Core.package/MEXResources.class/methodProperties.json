@@ -1,12 +1,14 @@
 {
 	"class" : {
-		"overviewImageAnimating" : "FFN 6/6/2019 10:17",
-		"overviewImageBuildingAndTearingDown" : "FFN 6/6/2019 10:25",
-		"overviewImageDrawingAndStyling" : "FFN 6/6/2019 10:28",
-		"overviewImageEventHandling" : "FFN 6/6/2019 10:32",
-		"overviewImageFileHandling" : "FFN 6/6/2019 10:33",
-		"overviewImageLayouting" : "FFN 6/6/2019 10:34",
-		"overviewImageNestingAndSubmorphing" : "FFN 6/6/2019 10:34",
-		"overviewImageTransforming" : "FFN 6/6/2019 10:35" },
+		"defaultDepth" : "jb 7/19/2019 14:57",
+		"defaultExtent" : "jb 7/19/2019 14:57",
+		"overviewImageAnimating" : "jb 7/19/2019 14:58",
+		"overviewImageBuildingAndTearingDown" : "jb 7/19/2019 14:58",
+		"overviewImageDrawingAndStyling" : "jb 7/19/2019 14:58",
+		"overviewImageEventHandling" : "jb 7/19/2019 14:58",
+		"overviewImageFileHandling" : "jb 7/19/2019 14:58",
+		"overviewImageLayouting" : "jb 7/19/2019 14:58",
+		"overviewImageNestingAndSubmorphing" : "jb 7/19/2019 14:59",
+		"overviewImageTransforming" : "jb 7/19/2019 14:59" },
 	"instance" : {
 		 } }

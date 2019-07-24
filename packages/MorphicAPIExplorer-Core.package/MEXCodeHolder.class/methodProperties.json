@@ -6,7 +6,7 @@
 		"evaluateExpression:" : "jb 7/12/2019 12:20",
 		"explorationView" : "jb 6/20/2019 02:38",
 		"explorationView:" : "jb 6/20/2019 02:46",
-		"generateCodeForCurrentSelection" : "lk 6/21/2019 21:04",
+		"generateCodeForCurrentSelection" : "jb 7/18/2019 17:32",
 		"generateInitializationCode" : "jb 6/20/2019 14:14",
 		"initialize" : "jb 6/20/2019 03:01",
 		"lineEnd" : "jb 6/20/2019 14:01",
@@ -20,5 +20,4 @@
 		"updateCodeForCurrentSelection" : "FFN 7/6/2019 22:56",
 		"updateCodePaneIfNeeded" : "jb 7/12/2019 12:30",
 		"updateContentsFor:" : "jb 6/20/2019 14:20",
-		"updateInitializationCode" : "jb 6/20/2019 14:20",
 		"wantsAnnotationPane" : "CU 5/1/2019 20:13" } }

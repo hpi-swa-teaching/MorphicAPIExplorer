@@ -6,4 +6,5 @@ makeButtonSpec
 	^ spec
 		name: #button;
 		model: self;
-		label: #getLabel
+		label: #getLabel;
+		yourself

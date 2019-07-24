@@ -1,4 +1,4 @@
 accessing
-getParameterAt: anIndex
+parameterAt: anIndex
 
 	^ self parameters at: anIndex

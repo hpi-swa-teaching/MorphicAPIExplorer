@@ -1,16 +1,14 @@
 {
 	"class" : {
-		"newWithImage:" : "FFN 6/5/2019 16:38",
 		"newWithImage:havingExtent:" : "FFN 6/5/2019 16:39" },
 	"instance" : {
-		"desiredExtent" : "FFN 6/5/2019 15:36",
+		"desiredExtent" : "jb 7/19/2019 15:12",
 		"desiredExtent:" : "FFN 6/5/2019 15:37",
-		"doKeepRatio" : "FFN 6/5/2019 15:38",
-		"dontKeepRatio" : "FFN 6/5/2019 15:38",
 		"extent:" : "FFN 6/5/2019 15:38",
-		"image:" : "FFN 6/5/2019 15:38",
-		"keepRatio" : "FFN 6/5/2019 15:40",
+		"image:" : "jb 7/18/2019 18:32",
+		"keepRatio" : "jb 7/19/2019 15:12",
 		"keepRatio:" : "FFN 6/5/2019 15:40",
-		"originalForm" : "FFN 6/5/2019 15:41",
+		"originalForm" : "jb 7/19/2019 15:12",
 		"originalForm:" : "FFN 6/5/2019 15:41",
-		"scaledForm:" : "FFN 6/5/2019 15:55" } }
+		"scaleFor:" : "jb 7/18/2019 18:31",
+		"scaledFormFor:" : "jb 7/18/2019 18:33" } }

@@ -6,6 +6,6 @@ testCodeContainsSelectedMethodsWithParameters
 	self selectAllMethods.
 	code := codeHolder contents.
 	expectedMethods do: [:aMethod |
-		self assert: (code includesSubstring: aMethod asParameterizedString)
+		self assert: (code includesSubstring: aMethod asString)
 	]
 	
