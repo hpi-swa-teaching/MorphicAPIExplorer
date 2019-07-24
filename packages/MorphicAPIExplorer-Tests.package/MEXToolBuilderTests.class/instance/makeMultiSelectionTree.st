@@ -1,5 +1,6 @@
-tests-trees
+running
 makeMultiSelectionTree
 
 	widget := builder build: self makeMultiSelectionTreeSpec.
+	
 	^ widget

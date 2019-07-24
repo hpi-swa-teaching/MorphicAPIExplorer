@@ -1,8 +1,7 @@
 tests
 testCodeContainsDefaultMorphCreation
 
-	| code expectedMorphClass |
+	| expectedMorphClass |
 	expectedMorphClass := category defaultMorph class name.
 	codeHolder updateCodeForCurrentSelection.
-	code := codeHolder contents.
-	self assert: (code includesSubstring: expectedMorphClass, ' new')
+	self assert: (self getCode includesSubstring: expectedMorphClass, ' new')

@@ -1,0 +1,16 @@
+{
+	"category" : "MorphicAPIExplorer-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"maxTotalRows",
+		"full",
+		"defaultCollectionSize" ],
+	"name" : "MEXOverViewTestsWithFullCategories",
+	"pools" : [
+		 ],
+	"super" : "MEXOverViewTests",
+	"type" : "normal" }

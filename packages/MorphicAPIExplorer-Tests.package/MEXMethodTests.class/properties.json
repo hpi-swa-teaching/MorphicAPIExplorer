@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicAPIExplorer-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MEXMethodTests",
+	"pools" : [
+		 ],
+	"super" : "MEXTestCaseForMethods",
+	"type" : "normal" }

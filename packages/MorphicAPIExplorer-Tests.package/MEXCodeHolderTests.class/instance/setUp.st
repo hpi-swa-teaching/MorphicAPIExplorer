@@ -1,8 +1,8 @@
 running
 setUp
 
-	category := self createCategory.
-	explorationView := self createExplorationView.
+	super setUp.
+	
 	codeHolder := MEXCodeHolder withView: explorationView.
 	explorationView addDependent: codeHolder.
 	queries := OrderedCollection new

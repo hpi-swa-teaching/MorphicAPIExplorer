@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"getMorphCollectionInDefaulMorphBoxFor:" : "lk 7/24/2019 15:42",
+		"newMorphs" : "lk 7/24/2019 15:03",
+		"sampleCode" : "lk 7/24/2019 15:11",
+		"setUp" : "lk 7/24/2019 16:15",
+		"tearDown" : "lk 7/24/2019 15:02",
+		"testBuiltExplorationViewForCategoryReturnsCorrectMethodList" : "lk 7/24/2019 17:42",
+		"testBuiltExplorationViewForCategoryReturnsIdenticalCategory" : "lk 7/24/2019 15:44",
+		"testDefaultMorphBoxContainsAMorph" : "lk 7/24/2019 15:39",
+		"testDefaultMorphChanges" : "lk 7/24/2019 15:40",
+		"testEvaluateCodeReturnsCorrectMorph" : "lk 7/24/2019 15:00",
+		"testOpenExplorationViewForOpensAnExplorationView" : "FFN 5/21/2019 16:23",
+		"testPlaygroundContainsCorrectMorph" : "lk 7/24/2019 15:01" } }

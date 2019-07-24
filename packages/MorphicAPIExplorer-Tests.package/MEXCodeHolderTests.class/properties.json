@@ -6,12 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"category",
-		"explorationView",
 		"codeHolder",
 		"queries" ],
 	"name" : "MEXCodeHolderTests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "MEXTestCaseForUI",
 	"type" : "normal" }
