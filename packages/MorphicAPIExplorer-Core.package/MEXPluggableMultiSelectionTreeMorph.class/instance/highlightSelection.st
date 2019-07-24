@@ -1,4 +1,4 @@
 drawing
 highlightSelection
 
-	self selectedMorphs do: [:selectedMorph | selectedMorph highlight]
+	self selectedMorphs do: [:aSelectedMorph | aSelectedMorph highlight]

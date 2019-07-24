@@ -1,0 +1,4 @@
+constants
+defaultDepth
+
+	^ 8

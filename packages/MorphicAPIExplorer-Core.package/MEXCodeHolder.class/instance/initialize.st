@@ -2,4 +2,5 @@ initialize-release
 initialize
 
 	super initialize.
-	self updateCodeForCurrentSelection.
+	
+	self explorationView: MEXToolExplorationView new

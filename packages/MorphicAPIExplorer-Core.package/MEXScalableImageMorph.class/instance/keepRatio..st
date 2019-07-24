@@ -1,4 +1,4 @@
 accessing
-keepRatio: aBool
+keepRatio: aBoolean
 
-	keepRatio := aBool
+	keepRatio := aBoolean

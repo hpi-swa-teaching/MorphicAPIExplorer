@@ -1,4 +1,4 @@
 unsupported - event handling
-specialKeyPressed: asciiValue
+specialKeyPressed: anAsciiValue
 
 	^ false

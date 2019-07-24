@@ -1,8 +1,9 @@
 widgets required
 setScrollBarsPoliciesFor: aSpec ofWidget: aTreeMorph
-	"Override default scroll bar policies if needed. Widget will use preference values otherwise."
+	"Widget will use preference values if not overwritten."
 	
 	self
 		setHorizontalScrollBarPoliciesFor: aSpec ofWidget: aTreeMorph;
-		setVerticelScrollBarPoliciesFor: aSpec ofWidget: aTreeMorph.
+		setVerticalScrollBarPoliciesFor: aSpec ofWidget: aTreeMorph.
+		
 	^ aSpec

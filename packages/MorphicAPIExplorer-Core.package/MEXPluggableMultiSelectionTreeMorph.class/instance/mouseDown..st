@@ -10,7 +10,7 @@ mouseDown: anEvent
 				ifTrue: [
 					"== OUR CODE BEGIN ==
 					Reason for adaptation: Changed to our parameters for multiselection"
-					(self selectedMorphs anySatisfy: [:selectedMorph | aMorph == selectedMorph])
+					(self selectedMorphs anySatisfy: [:aSelectedMorph | aMorph == aSelectedMorph])
 						ifFalse: [self addToSelectedMorphs: aMorph]].
 					"== OUR CODE END =="
 				^ self yellowButtonActivity: anEvent shiftPressed].

@@ -1,4 +1,4 @@
 drawing
 unhighlightSelection
 
-	self selectedMorphs do: [:selectedMorph | selectedMorph unhighlight]
+	self selectedMorphs do: [:aSelectedMorph | aSelectedMorph unhighlight]

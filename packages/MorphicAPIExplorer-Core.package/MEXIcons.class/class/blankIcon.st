@@ -2,4 +2,4 @@ private icons
 blankIcon
 	"simply copied from superclass - necessary to fix error on TravisCI because of inconsistencies in naming of the method in superclass (locally: blankIcon; SmalltalkCI: blank)"
 
-	^ Form extent: self defaultExtent depth: 8
+	^ Form extent: self defaultExtent depth: self defaultDepth

@@ -1,14 +1,14 @@
 {
 	"class" : {
 		"withName:" : "FFN 5/20/2019 15:37",
-		"withName:havingParameters:" : "lk 6/21/2019 18:25",
-		"withName:havingSubMethods:" : "FFN 5/20/2019 15:32" },
+		"withName:havingParameters:" : "jb 7/24/2019 12:20",
+		"withName:havingSubMethods:" : "jb 7/24/2019 12:21" },
 	"instance" : {
-		"asParameterizedString" : "jb 7/18/2019 18:21",
-		"asString" : "jb 7/18/2019 18:17",
+		"asParameterizedString" : "jb 7/24/2019 12:19",
+		"asString" : "jb 7/24/2019 14:22",
 		"hasParameters" : "lk 6/21/2019 18:19",
 		"hasSubMethods" : "FFN 5/20/2019 15:26",
-		"initialize" : "FFN 7/3/2019 21:01",
+		"initialize" : "jb 7/24/2019 12:19",
 		"isSelected" : "FFN 5/20/2019 16:09",
 		"isSelected:" : "FFN 6/19/2019 16:22",
 		"name" : "FFN 6/5/2019 22:53",

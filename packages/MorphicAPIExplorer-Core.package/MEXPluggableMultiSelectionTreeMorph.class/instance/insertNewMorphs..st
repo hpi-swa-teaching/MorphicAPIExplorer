@@ -1,7 +1,7 @@
 private
-insertNewMorphs: aMorphList
+insertNewMorphs: anOrderedCollection
 
-	self scroller addAllMorphs: aMorphList.
+	self scroller addAllMorphs: anOrderedCollection.
 	self
 		adjustSubmorphPositions;
 		setScrollDeltas

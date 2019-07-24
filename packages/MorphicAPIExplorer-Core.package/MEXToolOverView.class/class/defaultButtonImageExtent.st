@@ -1,4 +1,4 @@
 constants
 defaultButtonImageExtent
 
-	^ 10@10
+	^ 10 @ 10

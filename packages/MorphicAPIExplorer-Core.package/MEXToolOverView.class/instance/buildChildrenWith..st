@@ -1,9 +1,9 @@
 building
 buildChildrenWith: aBuilder
 
-	^self categories collect: [:category | 
+	^ self categories collect: [:aCategory | 
 		aBuilder pluggableButtonSpec new
 			model: self;
-			label: category image;
-			action: [self changeToExplorationViewFor: category];
-			frame: (self specFrameAt: (self categories indexOf: category) for: self class numberOfRows)]
+			label: aCategory image;
+			action: [self changeToExplorationViewFor: aCategory];
+			frame: (self specFrameAt: (self categories indexOf: aCategory) for: self class numberOfRows)]

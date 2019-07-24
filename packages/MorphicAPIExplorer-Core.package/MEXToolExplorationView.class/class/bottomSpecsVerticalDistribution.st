@@ -1,4 +1,4 @@
 constants
 bottomSpecsVerticalDistribution
 
-	^ (self topSpecsVerticalDistribution y @ 1)
+	^ self topSpecsVerticalDistribution y @ 1

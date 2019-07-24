@@ -1,5 +1,8 @@
 accessing
 contents
 
-	^ self item subMethods collect: [:each |
-		self class withCategory: each havingModel: self model havingParent: self]
+	^ self item subMethods collect: [:aSubMethod |
+		self class 
+			withCategory: aSubMethod 
+			havingModel: self model 
+			havingParent: self]

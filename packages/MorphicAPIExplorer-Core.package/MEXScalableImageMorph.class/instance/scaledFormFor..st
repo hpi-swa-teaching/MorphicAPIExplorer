@@ -2,10 +2,10 @@ graphics
 scaledFormFor: aForm
 
 	| scaledForm |
-	scaledForm := aForm magnify: aForm boundingBox by: (self scaleFor: aForm) smoothing: 1.
+	scaledForm := aForm magnify: aForm boundingBox by: (self scaleFor: aForm) smoothing: self class defaultSmoothing.
 	
 	^ (Form extent: self desiredExtent depth: aForm depth)
 		copy: scaledForm boundingBox
 		from: scaledForm
-		to: ((self desiredExtent - scaledForm extent) / 2)
-		rule: 3
+		to: (self scaledPaddingFor: scaledForm)
+		rule: self class defaultRule

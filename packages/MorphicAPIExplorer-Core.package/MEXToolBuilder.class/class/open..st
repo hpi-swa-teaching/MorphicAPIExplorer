@@ -1,4 +1,4 @@
 instance creation
-open: anObject
+open: aView
 
-	^ self new open: anObject
+	^ self new open: aView

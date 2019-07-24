@@ -1,7 +1,7 @@
 private
-noteRemovalOfAll: aCollection
+noteRemovalOfAll: anOrderedCollection
 
-	self scroller removeAllMorphsIn: aCollection.
+	self scroller removeAllMorphsIn: anOrderedCollection.
 	self selectedMorphs
-		select: [:aSelectedMorph | aCollection includes: aSelectedMorph]
+		select: [:aSelectedMorph | anOrderedCollection includes: aSelectedMorph]
 		thenDo: [:aSelectedChildMorph | self removeFromSelectedMorphs: aSelectedChildMorph]

@@ -1,7 +1,7 @@
 drawing
 drawSelectionOn: aCanvas
 
-	self selectedMorphs do: [:aMorph |
+	self selectedMorphs do: [:aMorph | 
 		aCanvas
 			transformBy: self scroller transform
 			clippingTo: self scroller innerBounds

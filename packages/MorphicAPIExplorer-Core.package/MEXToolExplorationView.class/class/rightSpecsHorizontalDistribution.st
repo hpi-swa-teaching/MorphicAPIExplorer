@@ -1,4 +1,4 @@
 constants
 rightSpecsHorizontalDistribution
 
-	^ (self leftSpecsHorizontalDistribution y @ 1)
+	^ self leftSpecsHorizontalDistribution y @ 1

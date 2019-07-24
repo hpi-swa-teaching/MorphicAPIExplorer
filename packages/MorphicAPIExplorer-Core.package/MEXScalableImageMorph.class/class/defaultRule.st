@@ -1,0 +1,4 @@
+constants
+defaultRule
+
+	^ 3

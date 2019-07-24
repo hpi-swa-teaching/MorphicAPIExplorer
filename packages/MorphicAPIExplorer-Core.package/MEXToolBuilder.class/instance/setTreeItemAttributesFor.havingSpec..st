@@ -12,5 +12,4 @@ setTreeItemAttributesFor: aTreeMorph havingSpec: aSpec
 		keystrokeActionSelector: aSpec keyPress;
 		nodeClass: aSpec nodeClass;
 		getRootsSelector: aSpec roots;
-		doubleClickSelector: aSpec doubleClick;
 		yourself

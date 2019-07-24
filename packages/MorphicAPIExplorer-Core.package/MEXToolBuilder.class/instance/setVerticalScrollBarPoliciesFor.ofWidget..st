@@ -1,8 +1,8 @@
 widgets required
-setVerticelScrollBarPoliciesFor: aSpec ofWidget: aTreeMorph
+setVerticalScrollBarPoliciesFor: aSpec ofWidget: aTreeMorph
 	
-	^ aSpec vScrollBarPolicy ifNotNil: [ :policy |
-		policy caseOf: {
+	^ aSpec vScrollBarPolicy ifNotNil: [:aPolicy |
+		aPolicy caseOf: {
 			[#always] -> [aTreeMorph alwaysShowVScrollBar].
 			[#never] -> [aTreeMorph hideVScrollBarIndefinitely].
 			[#whenNeeded] -> [aTreeMorph showVScrollBarOnlyWhenNeeded]}];

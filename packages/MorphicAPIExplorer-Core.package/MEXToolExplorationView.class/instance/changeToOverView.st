@@ -1,4 +1,4 @@
 ui
 changeToOverView
 
-	self changeViewTo: (MEXToolOverView open)
+	self changeViewTo: MEXToolOverView open

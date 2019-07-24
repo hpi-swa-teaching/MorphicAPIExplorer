@@ -2,7 +2,7 @@ building
 createDefaultMorphBox
 
 	^ {BorderedMorph new
-		layoutFrame: (LayoutFrame fractions: (0@0 rect: 1@1));
+		layoutFrame: (LayoutFrame fractions: self class fullFractions);
 		color: Preferences defaultWorldColor;
 		borderColor: Color gray;
 		addMorph: (self defaultMorph position: self class defaultMorphPosition);

@@ -8,8 +8,8 @@ buildMethodListWith: aBuilder
 		getSelectionList: #getSelectionFor:;
 		setSelectionList: #setSelectionFor:with:;
 		frame: (LayoutFrame new
-				leftFraction: self class leftSpecsHorizontalDistribution x;
-				topFraction: self class backButtonFractionHeight y;
-				rightFraction: self class leftSpecsHorizontalDistribution y;
-				bottomFraction: self class topSpecsVerticalDistribution y);
+			leftFraction: self class leftSpecsHorizontalDistribution x;
+			topFraction: self class backButtonFractionHeight y;
+			rightFraction: self class leftSpecsHorizontalDistribution y;
+			bottomFraction: self class topSpecsVerticalDistribution y);
 		yourself
