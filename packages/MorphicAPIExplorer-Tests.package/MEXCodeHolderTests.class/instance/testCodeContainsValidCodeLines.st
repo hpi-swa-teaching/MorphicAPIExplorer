@@ -1,11 +1,8 @@
 tests
 testCodeContainsValidCodeLines
 
-	| methods code instanceName |
+	| instanceName |
 	instanceName := codeHolder morphInstanceName.
-	methods := category methodList.
 	self selectAllMethods.
-	code := codeHolder contents.
-	methods do: [:aMethod |
-		self assert: (code includesSubstring: instanceName, Character space, aMethod asString, '.', Character cr)
-	]
+	self getMethodListOfCategory do: [:aMethod |
+		self assert: (self getCode includesSubstring: instanceName, Character space, aMethod asString, '.', Character cr)]

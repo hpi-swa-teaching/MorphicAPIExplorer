@@ -1,9 +1,7 @@
-tests-button
+running
 makeButtonSpec
 
-	| spec |
-	spec := builder pluggableButtonSpec new.
-	^ spec
+	^ builder pluggableButtonSpec new
 		name: #button;
 		model: self;
 		label: #getLabel;

@@ -1,0 +1,4 @@
+tests
+testBuiltExplorationViewForCategoryReturnsCorrectMethodList
+
+	self assert: explorationView methodList equals: self getMethodListOfCategory

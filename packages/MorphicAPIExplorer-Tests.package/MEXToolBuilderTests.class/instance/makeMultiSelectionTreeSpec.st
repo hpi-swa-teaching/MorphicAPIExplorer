@@ -1,9 +1,7 @@
-tests-trees
+running
 makeMultiSelectionTreeSpec
 
-	| spec |
-	spec := builder pluggableMultiSelectionTreeSpec new.
-	^ spec
+	^ builder pluggableMultiSelectionTreeSpec new
 		name: #tree;
 		model: self;
 		roots: #getRoots;

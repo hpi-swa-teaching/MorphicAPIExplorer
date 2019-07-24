@@ -1,0 +1,5 @@
+tests
+testBuildChildrenWithReturnsEmptyCollectionForZeroCategories
+
+	self assert: self getEmptyCollectionOfOverViewChildren size equals: 0
+	

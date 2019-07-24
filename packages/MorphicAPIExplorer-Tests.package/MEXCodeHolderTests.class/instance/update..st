@@ -1,4 +1,4 @@
-tests
+running
 update: anAspect
 
 	anAspect == #acceptChanges

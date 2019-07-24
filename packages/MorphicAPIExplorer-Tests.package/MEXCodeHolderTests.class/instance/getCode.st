@@ -1,0 +1,4 @@
+running
+getCode
+
+	^ codeHolder contents
