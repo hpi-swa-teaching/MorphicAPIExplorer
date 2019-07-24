@@ -1,4 +1,4 @@
-I'm the actual tool which can be opened from the user. By default I'm opening a MEXToolOverView as window from where the user can navigate to the MEXToolExplorationView.
+I'm the actual tool which can be opened by the user. By default I'm opening a MEXToolOverView as window from where the user can navigate to the MEXToolExplorationView.
 
 My most important methods are
 - MEXTool class>>open					to actually open the tool

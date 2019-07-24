@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "FFN 7/24/2019 17:11",
+	"commentStamp" : "lk 7/24/2019 18:17",
 	"instvars" : [
 		"selectedMorphs" ],
 	"name" : "MEXPluggableMultiSelectionTreeMorph",

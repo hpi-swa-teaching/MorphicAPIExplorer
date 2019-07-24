@@ -1,4 +1,4 @@
-As MEXToolExplorationView I provide the main view to the user. So I display a tree where the user can select multiple methods, a container where a morph will be displayed before any methods will be executed on, a container where the morph will be displayed after the methods are executed on and a code panel where the user can customize the code, copy it or run and test the changes they made.
+As MEXToolExplorationView I provide the main view to the user. So I display a tree where the user can select multiple methods, a container where a morph will be displayed before any methods are executed on the morph, a container where the morph will be displayed after the methods are executed on the morph and a code panel where the user can customize the code, copy it or run and test the changes they made.
 
 I'm mainly used as a mediator to delegate information and communication between the seperated components MEXPluggableMultiSelectionTreeMorph, MEXCodeHolder and the playground.
 
