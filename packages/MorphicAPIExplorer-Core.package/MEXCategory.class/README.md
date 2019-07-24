@@ -1,0 +1,1 @@
+Methods from Morphic are split into categories according to their functionality. This class represents those categories. Each category has a default morph, that implements the methods in a category, and a list of those methods

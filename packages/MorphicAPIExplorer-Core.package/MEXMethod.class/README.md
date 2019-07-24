@@ -1,0 +1,1 @@
+This class represents a method in one of the categories of our tool. It's responsible for managing its own parameters in case it needs some and for preparing itself to be displayed in a code holder as a valid squeack code
