@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicAPIExplorer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jb 7/24/2019 14:53",
+	"instvars" : [
+		 ],
+	"name" : "MEXUnsupportedError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

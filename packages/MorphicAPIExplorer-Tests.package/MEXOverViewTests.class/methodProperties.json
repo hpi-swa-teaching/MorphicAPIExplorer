@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"getEmptyCollectionOfOverViewChildren" : "lk 7/24/2019 16:28",
+		"setEmptyOverViewCategories" : "lk 7/24/2019 16:27",
+		"setUp" : "lk 7/24/2019 16:51",
+		"testBuildChildrenWithReturnsEmptyCollectionForZeroCategories" : "lk 7/24/2019 16:25",
+		"testSpecFrameAtForReturnsFullSizedLayoutFrameForOneCategoryAndOneRow" : "lk 7/24/2019 16:54",
+		"testSpecSizePerRowForReturnsFullSizeForOneCategoryAndOneRow" : "lk 5/7/2019 22:36",
+		"testSpecsPerRowForReturnsCorrectNumberWhenPassedAFloat" : "lk 7/24/2019 16:55" } }

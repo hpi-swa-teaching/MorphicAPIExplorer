@@ -1,0 +1,4 @@
+running
+getMethodListOfCategory
+
+	^ category methodList

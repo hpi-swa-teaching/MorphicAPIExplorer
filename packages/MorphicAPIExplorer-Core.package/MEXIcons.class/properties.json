@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicAPIExplorer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "FFN 7/24/2019 17:01",
+	"instvars" : [
+		 ],
+	"name" : "MEXIcons",
+	"pools" : [
+		 ],
+	"super" : "ToolIcons",
+	"type" : "normal" }

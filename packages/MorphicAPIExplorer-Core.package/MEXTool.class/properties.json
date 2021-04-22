@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicAPIExplorer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lk 7/24/2019 18:20",
+	"instvars" : [
+		 ],
+	"name" : "MEXTool",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

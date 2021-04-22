@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"getFullCollectionOfOverViewChildren" : "lk 7/24/2019 16:36",
+		"setFullOverViewCategories" : "lk 7/24/2019 16:36",
+		"setUp" : "lk 7/24/2019 16:52",
+		"testBuildChildrenWithReturnsCollectionOfSpecs" : "lk 7/24/2019 17:46",
+		"testBuildChildrenWithReturnsCollectionWithCorrectSizeForFilledCategories" : "lk 7/24/2019 16:37",
+		"testSpecFrameAtForReturnsFullHeightLayoutFrameForOneRow" : "lk 7/24/2019 16:48",
+		"testSpecFrameAtForReturnsFullWidhtLayoutFrameLessCategoriesThanRows" : "lk 7/24/2019 16:48",
+		"testSpecFrameAtForReturnsLayoutFrameInsideWindowBounds" : "lk 7/24/2019 16:48",
+		"testSpecFrameAtForReturnsNoOverlappingLayoutFramesForOneRow" : "lk 7/24/2019 16:49",
+		"testSpecFrameAtForReturnsNoOverlappingLayoutFramesLessCategoriesThanRows" : "lk 7/24/2019 16:49",
+		"testSpecSizePerRowForReturnsFullHeightForOneRow" : "lk 7/24/2019 16:48",
+		"testSpecSizePerRowForReturnsFullWidthForLessCategoriesThanRows" : "lk 7/24/2019 16:50",
+		"testSpecSizePerRowForReturnsSizeSmallerThanWindow" : "lk 7/24/2019 18:02",
+		"testSpecsPerRowForReturnsCorrectNumberWhenPassedAnInteger" : "lk 7/24/2019 16:50" } }

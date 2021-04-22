@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"getCode" : "lk 7/24/2019 15:06",
+		"selectAllMethods" : "lk 7/24/2019 17:58",
+		"setUp" : "lk 7/24/2019 16:11",
+		"testCodeContainsDefaultMorphCreation" : "lk 7/24/2019 17:40",
+		"testCodeContainsSelectedMethodsWithParameters" : "lk 7/24/2019 15:10",
+		"testCodeContainsValidCodeLines" : "lk 7/24/2019 15:10",
+		"testCopyToClipboardCopiesContentsToClipboard" : "lk 6/21/2019 20:46",
+		"testSaveUpdatesHolder" : "CU 7/16/2019 15:32",
+		"update:" : "CU 7/16/2019 15:32" } }

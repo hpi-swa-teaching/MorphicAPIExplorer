@@ -1,0 +1,4 @@
+defaults
+pluggableMultiSelectionTreeSpec
+
+	^ MEXPluggableMultiSelectionTreeSpec

@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicAPIExplorer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jb 7/24/2019 17:14",
+	"instvars" : [
+		"explorationView" ],
+	"name" : "MEXCodeHolder",
+	"pools" : [
+		 ],
+	"super" : "CodeHolder",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicAPIExplorer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jb 7/24/2019 15:51",
+	"instvars" : [
+		 ],
+	"name" : "MEXPluggableButtonMorph",
+	"pools" : [
+		 ],
+	"super" : "PluggableButtonMorphPlus",
+	"type" : "normal" }

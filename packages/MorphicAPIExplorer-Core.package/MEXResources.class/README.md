@@ -1,0 +1,1 @@
+I provide general resources like images as array representations to be able to save them in your Squeak image. For now only images for the MEXOverView are held.

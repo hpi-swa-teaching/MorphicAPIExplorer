@@ -1,0 +1,4 @@
+widget classes
+multiSelectionTreeClass
+
+	^ MEXPluggableMultiSelectionTreeMorph

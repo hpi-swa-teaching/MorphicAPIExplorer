@@ -1,0 +1,17 @@
+{
+	"category" : "MorphicAPIExplorer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lk 7/24/2019 18:09",
+	"instvars" : [
+		"name",
+		"image",
+		"methodList",
+		"defaultMorph" ],
+	"name" : "MEXCategory",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

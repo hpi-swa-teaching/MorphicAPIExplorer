@@ -1,0 +1,16 @@
+{
+	"category" : "MorphicAPIExplorer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lk 7/24/2019 18:23",
+	"instvars" : [
+		"category",
+		"selectedMethods",
+		"playground" ],
+	"name" : "MEXToolExplorationView",
+	"pools" : [
+		 ],
+	"super" : "MEXTool",
+	"type" : "normal" }
