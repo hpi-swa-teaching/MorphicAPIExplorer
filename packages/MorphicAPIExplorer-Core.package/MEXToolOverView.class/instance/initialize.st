@@ -3,4 +3,5 @@ initialize
 
 	super initialize.
 	
-	self categories: self class categories
+	self categories: self class categories.
+	self defaultMorphs: Dictionary new

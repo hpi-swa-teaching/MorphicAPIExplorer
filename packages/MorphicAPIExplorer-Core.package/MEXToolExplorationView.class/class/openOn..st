@@ -1,4 +1,4 @@
 instance creation
 openOn: aMEXCategory
 
-	^ MEXToolBuilder open: (self newFromCategory: aMEXCategory)
+	^ MEXToolBuilder open: (self newFromCategory: aMEXCategory withDefaultMorphs: {})

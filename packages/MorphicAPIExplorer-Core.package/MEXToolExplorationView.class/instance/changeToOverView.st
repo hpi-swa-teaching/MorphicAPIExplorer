@@ -1,4 +1,7 @@
 ui
 changeToOverView
 
-	self changeViewTo: MEXToolOverView open
+	| newView |
+	newView := MEXToolOverView new.
+	newView defaultMorphs: self defaultMorphs.
+	self changeViewTo: (MEXToolBuilder open: newView)
