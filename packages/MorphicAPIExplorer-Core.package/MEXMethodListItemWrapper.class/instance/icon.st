@@ -5,7 +5,7 @@ icon
 		ifTrue: [nil]
 		ifFalse: [
 			self item hasDependencies
-			ifTrue: [Transcript show: self asString].
-			self item isSelected
-			ifTrue: [MEXIcons checkmarkIcon]
-			ifFalse: [MEXIcons blankIcon]]
+			ifTrue: [MEXIcons lightbulbIcon]
+			ifFalse: [self item isSelected
+				ifTrue: [Transcript show: self asString. MEXIcons checkmarkIcon]
+				ifFalse: [MEXIcons blankIcon]]]
