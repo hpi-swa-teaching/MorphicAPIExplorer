@@ -1,12 +1,12 @@
 building
 createDefaultMorphBox
 
-	"self defaultMorphs do: [:morph |
+	"self defaultMorphs keysDo: [:morph |
 		button := SimpleButtonMorph new
 		label: '';
 		target: self;
-		actionSelector: #color:;
-		arguments: {Color white};
+		actionSelector: #changeCurrentDefaultMorph:;
+		arguments: {morph};
 		extent: morph extent;
 		color: Color transparent;
 		addMorph: morph]."
