@@ -9,7 +9,8 @@
 		"name",
 		"image",
 		"methodList",
-		"defaultMorph" ],
+		"defaultMorph",
+		"defaultMorphs" ],
 	"name" : "MEXCategory",
 	"pools" : [
 		 ],

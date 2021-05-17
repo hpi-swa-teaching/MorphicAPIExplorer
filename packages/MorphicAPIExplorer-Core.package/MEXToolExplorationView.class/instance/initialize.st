@@ -11,4 +11,6 @@ initialize
 			layoutFrame: (LayoutFrame fractions: self class fullFractions);
 			color: Preferences defaultWorldColor;
 			dropEnabled: false;
-			yourself)
+			yourself).
+			
+	self defaultMorphs add: #a -> 1.
