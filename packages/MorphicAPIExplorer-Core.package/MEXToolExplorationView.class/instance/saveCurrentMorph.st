@@ -1,4 +1,5 @@
 default morphs
 saveCurrentMorph
 
-	self defaultMorphs at: self defaultMorph put: self selectedMethods
+	self defaultMorphs at: self defaultMorph veryDeepCopy put: self selectedMethods.
+	self updateMorphBox

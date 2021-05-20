@@ -9,7 +9,9 @@
 		"category",
 		"selectedMethods",
 		"playground",
-		"defaultMorphs" ],
+		"defaultMorphs",
+		"actualDefaultMorph",
+		"morphBox" ],
 	"name" : "MEXToolExplorationView",
 	"pools" : [
 		 ],
