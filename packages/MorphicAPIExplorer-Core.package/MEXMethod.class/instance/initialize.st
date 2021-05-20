@@ -8,4 +8,5 @@ initialize
 		subMethods: OrderedCollection new;
 		parameters: OrderedCollection new;
 		dependencies: OrderedCollection new;
-		isSelected: false
+		isSelected: false;
+		isActiveDependee: false

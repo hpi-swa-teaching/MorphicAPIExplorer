@@ -25,4 +25,4 @@ categoryDrawingAndStyling
 					MEXMethod 
 						withName: 'shadowColor:' 
 						havingParameters: {'(Color red alpha: 0.05)'}
-						withDependencies: 'addDropShadow'}}			
+						withDependencies: {'addDropShadow'}}}

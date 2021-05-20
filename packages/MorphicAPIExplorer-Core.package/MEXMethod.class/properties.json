@@ -10,7 +10,8 @@
 		"name",
 		"subMethods",
 		"parameters",
-		"dependencies" ],
+		"dependencies",
+		"isActiveDependee" ],
 	"name" : "MEXMethod",
 	"pools" : [
 		 ],
