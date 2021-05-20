@@ -4,4 +4,4 @@ testDefaultMorphBoxContainsAMorph
 	| defaultMorphCollection view |
 	view := builder build: explorationView.
 	defaultMorphCollection := self getMorphCollectionInDefaulMorphBoxFor: view.
-	self assert: (defaultMorphCollection size = 1)
+	self assert: (defaultMorphCollection size >= 1)

@@ -1,5 +1,0 @@
-running
-testDefaultMorphsTypesOf: aMorphMethodDictionary
-
-	
-
