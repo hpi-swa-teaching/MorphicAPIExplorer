@@ -4,4 +4,4 @@ setUp
 	builder := MEXToolBuilder new.
 	overView := MEXToolOverView new. 
 	category := self createCategory.
-	explorationView  := MEXToolExplorationView newFromCategory: category withDefaultMorphs: {} withActualDefaultMorph: {} 
+	explorationView  := MEXToolExplorationView newFromCategory: category withDefaultMorphs: Dictionary new withActualDefaultMorph: Morph new
