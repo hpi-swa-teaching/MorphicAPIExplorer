@@ -2,6 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"checkIfType:isIn:" : "KT 5/20/2021 15:12",
+		"countType:in:" : "KT 5/20/2021 15:19",
 		"createCategory" : "lk 7/24/2019 16:07",
 		"getMethodListOfCategory" : "lk 7/24/2019 17:42",
-		"setUp" : "SH 5/20/2021 14:53" } }
+		"setUp" : "SH 5/20/2021 14:53",
+		"testDefaultMorphsType:in:" : "KT 5/20/2021 13:20",
+		"testDefaultMorphsTypesOf:" : "KT 5/20/2021 13:14" } }
