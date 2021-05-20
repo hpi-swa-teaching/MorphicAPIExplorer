@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testMEXMethodFindMethods" : "KT 5/20/2021 16:27",
 		"testMEXMethodWithNoSubMethodsReturnsFalseForHasSubmethods" : "lk 7/24/2019 17:30",
 		"testMEXMethodWithSubMethodsReturnsTrueForHasSubmethods" : "lk 7/24/2019 17:30" } }
