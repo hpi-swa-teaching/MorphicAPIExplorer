@@ -1,4 +1,4 @@
-as yet unclassified
+editor and playground and morphBox
 evaluateMethodsForMorph: aMorph
 
 	^ Compiler evaluate: 

@@ -1,4 +1,4 @@
-editor and playground
+editor and playground and morphBox
 evaluateCode: aCode
 
 	| evaluatedCode |
