@@ -24,4 +24,4 @@ categoryDrawingAndStyling
 						havingParameters: {'30 @ 25'}.
 					MEXMethod 
 						withName: 'shadowColor:' 
-						havingParameters: {'(Color red alpha: 0.05)'}}}			
+						havingParameters: {'(Color red alpha: 0.05)'}}}

@@ -1,13 +1,13 @@
 {
 	"class" : {
 		"defaultName" : "jb 5/1/2019 11:52",
-		"newNamed:havingImage:havingDefaultMorph:withMethodList:" : "jb 7/24/2019 11:41" },
+		"newNamed:havingImage:havingDefaultMorph:withMethodList:" : "SH 5/17/2021 11:27" },
 	"instance" : {
 		"defaultMorph" : "jb 6/5/2019 16:07",
 		"defaultMorph:" : "jb 6/5/2019 16:08",
 		"image" : "jb 5/1/2019 11:51",
 		"image:" : "jb 5/1/2019 11:51",
-		"initialize" : "CU 6/6/2019 13:33",
+		"initialize" : "SH 5/17/2021 11:27",
 		"methodList" : "FFN 5/20/2019 15:46",
 		"methodList:" : "FFN 5/20/2019 15:46",
 		"name" : "jb 5/1/2019 11:07",

@@ -8,7 +8,10 @@
 	"instvars" : [
 		"category",
 		"selectedMethods",
-		"playground" ],
+		"playground",
+		"defaultMorphs",
+		"actualDefaultMorph",
+		"morphBox" ],
 	"name" : "MEXToolExplorationView",
 	"pools" : [
 		 ],
