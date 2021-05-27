@@ -11,6 +11,8 @@ fillMorphBox
 			actionSelector: #changeCurrentDefaultMorph:withSelectedMethods:;
 			arguments: {each . self defaultMorphs at: each};
 			extent: iconMorph extent;
+			color: Color transparent;
+			borderWidth: 0;
 			addMorph: iconMorph;
 			position: morphBox position x + gap + self class defaultMorphPosition x @ morphBox position y + self class defaultMorphPosition y.
 		morphBox addMorph: button.
