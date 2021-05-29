@@ -1,4 +1,4 @@
-accessing - selection
+accessing
 setSelectionList: aSymbol
 
 	setSelectionList := aSymbol

@@ -5,7 +5,7 @@ icon
 		ifTrue: [nil]
 		ifFalse: [
 			self item isActiveDependee 
-				ifTrue: [MEXIcons lightbulbIcon]
+				ifTrue: [MEXIcons puzzleIcon]
 				ifFalse:[
 					self item hasDependencies
 					ifTrue: [MEXIcons lightbulbIcon]

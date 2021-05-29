@@ -3,6 +3,10 @@ buildPluggableMultiSelectionTree: aSpec
 
 	| widget |
 	widget := self multiSelectionTreeClass new.
+	
+	widget hoverSelector: aSpec hoverAction.
+	widget unhoverSelector: aSpec unhoverAction.
+	
 	self
 		register: widget id: aSpec name;
 		initialize: widget with: aSpec.

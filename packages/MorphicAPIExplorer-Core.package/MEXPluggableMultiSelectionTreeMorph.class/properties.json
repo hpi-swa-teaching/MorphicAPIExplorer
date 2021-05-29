@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "lk 7/24/2019 18:17",
 	"instvars" : [
-		"selectedMorphs" ],
+		"selectedMorphs",
+		"unhoverSelector",
+		"hoverSelector" ],
 	"name" : "MEXPluggableMultiSelectionTreeMorph",
 	"pools" : [
 		 ],

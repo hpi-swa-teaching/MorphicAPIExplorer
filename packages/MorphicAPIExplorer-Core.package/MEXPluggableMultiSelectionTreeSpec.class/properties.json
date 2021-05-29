@@ -7,7 +7,9 @@
 	"commentStamp" : "jb 7/24/2019 16:51",
 	"instvars" : [
 		"setSelectionList",
-		"getSelectionList" ],
+		"getSelectionList",
+		"hoverAction",
+		"unhoverAction" ],
 	"name" : "MEXPluggableMultiSelectionTreeSpec",
 	"pools" : [
 		 ],

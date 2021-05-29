@@ -1,4 +1,4 @@
 accessing
 updateMethodsWithDependencies
 
-	self methodList do: [ :aMethod | aMethod updateDependencies: self]
+	self methodList do: [:aMethod | aMethod updateDependencies: self]
