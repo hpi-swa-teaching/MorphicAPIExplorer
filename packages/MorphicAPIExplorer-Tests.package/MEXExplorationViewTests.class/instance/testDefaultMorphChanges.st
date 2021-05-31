@@ -1,8 +1,9 @@
 tests
 testDefaultMorphChanges
 
-	| defaultMorph view |
+	| collection view |
 	view := builder build: explorationView.
 	explorationView defaultMorph: (ImageMorph new).
-	defaultMorph := (self getMorphCollectionInDefaulMorphBoxFor: view) first submorphs first.
-	self assert: defaultMorph class equals: explorationView defaultMorph class
+	collection := explorationView morphBox submorphs collect: 
+		[:each | (each submorphs first)].
+	self assert: (collection anySatisfy: [:each | each class = explorationView defaultMorph class])

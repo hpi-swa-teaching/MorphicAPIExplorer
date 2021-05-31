@@ -10,10 +10,10 @@
 		"testBuiltExplorationViewForCategoryReturnsCorrectMethodList" : "lk 7/24/2019 17:42",
 		"testBuiltExplorationViewForCategoryReturnsIdenticalCategory" : "lk 7/24/2019 15:44",
 		"testDefaultMorphBoxContainsAMorph" : "TB 5/24/2021 20:59",
-		"testDefaultMorphChanges" : "TB 5/24/2021 21:09",
+		"testDefaultMorphChanges" : "KT 5/31/2021 09:33",
 		"testDefaultMorphSaves" : "KT 5/20/2021 15:20",
 		"testEvaluateCodeReturnsCorrectMorph" : "lk 7/24/2019 15:00",
-		"testMorphBoxContainsStandardMorphs" : "KT 5/29/2021 17:06",
+		"testMorphBoxContainsStandardMorphs" : "KT 5/31/2021 09:30",
 		"testOpenExplorationViewForOpensAnExplorationView" : "FFN 5/21/2019 16:23",
 		"testPlaygroundContainsCorrectMorph" : "lk 7/24/2019 15:01",
 		"testSelectedMethodsSaves" : "TB 5/25/2021 12:30" } }
