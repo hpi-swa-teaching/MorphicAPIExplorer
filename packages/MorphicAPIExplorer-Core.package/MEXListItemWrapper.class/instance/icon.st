@@ -1,7 +1,7 @@
 accessing
 icon
 
-	^ self item hasSubMethods
+	^ self item subItems notEmpty
 		ifTrue: [nil]
 		ifFalse: [self item isSelected
 			ifTrue: [MEXIcons checkmarkIcon]

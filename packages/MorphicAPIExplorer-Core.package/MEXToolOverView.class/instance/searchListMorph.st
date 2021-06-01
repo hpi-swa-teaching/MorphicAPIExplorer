@@ -1,4 +1,0 @@
-accessing
-searchListMorph
-
-	^ searchListMorph

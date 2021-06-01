@@ -6,7 +6,8 @@ buildSearchList: aBuilder
 	^ aBuilder pluggableTreeSpec new
 		model: self;
 		roots: #categories;
-		nodeClass: MEXMethodListItemWrapper;
+		nodeClass: MEXListItemWrapper;
+		label: #name;
 		frame: (LayoutFrame new
 			leftFraction: 0;
 			topFraction: self class searchButtonFractionHeight;
