@@ -1,0 +1,4 @@
+constants
+maximumTreeDepth
+
+	^ 2

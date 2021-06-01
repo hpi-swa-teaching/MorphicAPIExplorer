@@ -6,6 +6,6 @@ buildChildrenWith: aBuilder
 			model: self;
 			label: aCategory image;
 			action: [self changeToExplorationViewFor: aCategory];
-			frame: (self specFrameAt: (self categories indexOf: aCategory) for: self class numberOfRows)]) asOrderedCollection addAll: {self buildSearchbar: aBuilder . self buildSearchbarResults: aBuilder};
+			frame: (self specFrameAt: (self categories indexOf: aCategory) for: self class numberOfRows)]) asOrderedCollection
+			addAll: {self buildSearchButton: aBuilder . self buildSearchList: aBuilder};
 			yourself
-		
