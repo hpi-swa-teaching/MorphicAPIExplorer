@@ -1,7 +1,10 @@
 updating
 updateGetRelatedSelector
-		
-	self relatedMorphs do: [:m | m complexContents deactivate. m refresh. m changed].	
-	self relatedMorphs: ((model perform: self getRelatedSelector with: hoveredMorph) ifNil: [OrderedCollection new]).
-	self relatedMorphs do: [:m | m complexContents activate. m refresh. m changed].
+
+	| methodsAsStrings |	
+	
+	self relatedMorphs do: [:m | m changed].	
+	methodsAsStrings := (model perform: self getRelatedSelector with: hoveredMorph) ifNil: [OrderedCollection new].
+	self relatedMorphs: (self items select: [:item | methodsAsStrings includes: (item complexContents asString)]).
+	self relatedMorphs do: [:m | m changed].
 	"Transcript show: relatedMorphs."
