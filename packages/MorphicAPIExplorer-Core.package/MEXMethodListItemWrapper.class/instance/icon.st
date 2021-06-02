@@ -9,6 +9,6 @@ icon
 				ifFalse:[
 					self item hasDependencies
 					ifTrue: [MEXIcons lightbulbIcon]
-					ifFalse: [self item isSelected
-						ifTrue: [MEXIcons checkmarkIcon]
-						ifFalse: [MEXIcons blankIcon]]]]
+					"ifFalse: [self item isSelected
+						ifTrue: [MEXIcons checkmarkIcon]"
+						ifFalse: [MEXIcons blankIcon]]]"]"
