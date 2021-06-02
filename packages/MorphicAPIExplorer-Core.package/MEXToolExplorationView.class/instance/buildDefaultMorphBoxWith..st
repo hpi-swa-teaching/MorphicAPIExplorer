@@ -1,6 +1,7 @@
 building
 buildDefaultMorphBoxWith: aBuilder
 	
+	
 	^ aBuilder pluggableScrollPaneSpec new
 		model: self;
 		children: #createDefaultMorphBox;

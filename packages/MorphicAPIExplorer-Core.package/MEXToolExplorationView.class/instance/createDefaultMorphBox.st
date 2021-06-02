@@ -3,8 +3,8 @@ createDefaultMorphBox
 	
     	morphBox := BorderedMorph new
 		layoutFrame: (LayoutFrame fractions: self class fullFractions);
-        	color: Preferences defaultWorldColor;
-        	borderColor: Color gray;
+        	color: Color transparent; "Preferences defaultWorldColor;"
+        	borderColor: Color transparent;
         	yourself.
 	self fillMorphBox.
 	^ {morphBox}
