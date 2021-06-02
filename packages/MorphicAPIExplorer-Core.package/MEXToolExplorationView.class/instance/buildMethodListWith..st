@@ -7,9 +7,7 @@ buildMethodListWith: aBuilder
 		nodeClass: MEXMethodListItemWrapper;
 		getSelectionList: #getSelectionFor:;
 		setSelectionList: #setSelectionFor:with:;
-		hoverAction: #setDependentsActive:;
-		unhoverAction: #setDependentsInactive:;
-		getRelated: #getDependentsOf:;
+		getRelated: #getDependeesOf:;
 		frame: (LayoutFrame new
 			leftFraction: self class leftSpecsHorizontalDistribution x;
 			topFraction: self class backButtonFractionHeight y;

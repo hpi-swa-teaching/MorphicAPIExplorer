@@ -1,4 +1,4 @@
 ui
-getDependentsOf: aListItemMorph
+getDependeesOf: aListItemMorph
 
 	^ aListItemMorph ifNotNil: [:morph | morph complexContents getDependents]

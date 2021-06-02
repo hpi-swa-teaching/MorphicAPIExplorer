@@ -8,8 +8,6 @@
 	"instvars" : [
 		"setSelectionList",
 		"getSelectionList",
-		"hoverAction",
-		"unhoverAction",
 		"getRelated" ],
 	"name" : "MEXPluggableMultiSelectionTreeSpec",
 	"pools" : [

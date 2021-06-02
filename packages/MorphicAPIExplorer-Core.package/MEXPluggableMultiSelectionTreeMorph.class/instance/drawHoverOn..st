@@ -5,6 +5,6 @@ drawHoverOn: aCanvas
 		aCanvas
 			transformBy: self scroller transform
 			clippingTo: self scroller innerBounds
-			during: [:theCanvas | aMorph drawSelectionOn: theCanvas]].
+			during: [:theCanvas | aMorph drawHoverOn: theCanvas]].
 	
 	super drawHoverOn: aCanvas
