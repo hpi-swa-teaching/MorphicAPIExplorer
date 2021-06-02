@@ -9,6 +9,7 @@ buildMethodListWith: aBuilder
 		setSelectionList: #setSelectionFor:with:;
 		hoverAction: #setDependentsActive:;
 		unhoverAction: #setDependentsInactive:;
+		getRelated: #getDependentsOf:;
 		frame: (LayoutFrame new
 			leftFraction: self class leftSpecsHorizontalDistribution x;
 			topFraction: self class backButtonFractionHeight y;

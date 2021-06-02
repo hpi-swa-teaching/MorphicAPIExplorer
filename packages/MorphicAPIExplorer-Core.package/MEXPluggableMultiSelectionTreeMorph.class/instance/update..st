@@ -8,6 +8,11 @@ update: anAspect
 			^ self].
 		
 	anAspect == self setSelectedSelector
-		ifTrue: [self updateSetSelectedSelector].
+		ifTrue: [self updateSetSelectedSelector.
+			^ self].
+		
+	anAspect == self getRelatedSelector
+		ifTrue: [self updateGetRelatedSelector.
+			^ self].
 
 	super update: anAspect

@@ -1,17 +1,21 @@
 accessing
 hoveredMorph: aMorph
 	
+	"^ super hoveredMorph: aMorph."
+	
 	hoveredMorph == aMorph ifTrue: [^ self].
 	
 	hoveredMorph ifNotNil: [:m | m changed].
-	unhoverSelector ifNotNil: [:symbol | 
+	"unhoverSelector ifNotNil: [:symbol | 
 		model perform: symbol with: (hoveredMorph ifNotNil: [:m | 
 			m complexContents ifNotNil: [:content | 
-				content item]])].
+				content item]])]."
 	hoveredMorph := aMorph.
 	hoveredMorph ifNotNil: [:m | m changed].	
-	hoverSelector ifNotNil: [:symbol | 
+	self update: self getRelatedSelector.
+
+	"hoverSelector ifNotNil: [:symbol | 
 		model perform: symbol with: (hoveredMorph ifNotNil: [:m | 
 			m complexContents ifNotNil: [:content | 
-				content item]])].
-	self update: getRootsSelector
+				content item]])]."
+	"self update: getRootsSelector"

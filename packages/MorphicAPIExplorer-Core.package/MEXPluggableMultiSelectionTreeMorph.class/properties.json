@@ -8,7 +8,10 @@
 	"instvars" : [
 		"selectedMorphs",
 		"unhoverSelector",
-		"hoverSelector" ],
+		"hoverSelector",
+		"relatedMorphs",
+		"getRelatedMorphsSelector",
+		"getRelatedSelector" ],
 	"name" : "MEXPluggableMultiSelectionTreeMorph",
 	"pools" : [
 		 ],

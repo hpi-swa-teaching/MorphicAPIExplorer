@@ -9,7 +9,8 @@
 		"setSelectionList",
 		"getSelectionList",
 		"hoverAction",
-		"unhoverAction" ],
+		"unhoverAction",
+		"getRelated" ],
 	"name" : "MEXPluggableMultiSelectionTreeSpec",
 	"pools" : [
 		 ],

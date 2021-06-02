@@ -1,14 +1,15 @@
 {
 	"class" : {
-		"withCategory:havingModel:havingParent:" : "FFN 7/24/2019 15:28" },
+		"withCategory:havingModel:havingParent:" : "SC 6/1/2021 05:15" },
 	"instance" : {
 		"activate" : "PM 5/19/2021 17:46",
 		"asString" : "FFN 5/20/2019 14:40",
 		"contents" : "jb 7/24/2019 12:49",
 		"deactivate" : "PM 5/19/2021 17:46",
+		"getDependents" : "SC 6/1/2021 02:46",
 		"handlesMouseOver:" : "SC 5/13/2021 15:02",
 		"hasContents" : "FFN 5/20/2019 15:40",
 		"icon" : "SC 5/29/2021 16:14",
 		"parent" : "FFN 5/20/2019 14:01",
 		"parent:" : "FFN 5/20/2019 16:10",
-		"setItem:model:parent:" : "FFN 7/24/2019 15:17" } }
+		"setItem:model:parent:" : "SC 6/1/2021 05:14" } }

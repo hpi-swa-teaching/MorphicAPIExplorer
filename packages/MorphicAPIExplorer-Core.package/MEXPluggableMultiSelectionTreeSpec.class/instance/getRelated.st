@@ -1,0 +1,4 @@
+accessing
+getRelated
+
+	^ getRelated
