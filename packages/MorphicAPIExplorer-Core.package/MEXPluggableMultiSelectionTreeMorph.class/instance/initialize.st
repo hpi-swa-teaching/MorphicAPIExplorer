@@ -5,6 +5,6 @@ initialize
 
 	self
 		selectedMorphs: OrderedCollection new;
-		relatedMorphs: OrderedCollection new;
+		basicRelatedMorphs: OrderedCollection new;
 		getSelectedSelector: #();
 		setSelectedSelector: #()

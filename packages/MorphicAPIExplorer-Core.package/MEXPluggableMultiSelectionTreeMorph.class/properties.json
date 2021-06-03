@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "lk 7/24/2019 18:17",
+	"commentStamp" : "SC 6/3/2021 22:26",
 	"instvars" : [
 		"selectedMorphs",
 		"relatedMorphs",
-		"getRelatedSelector" ],
+		"findRelatedSelector" ],
 	"name" : "MEXPluggableMultiSelectionTreeMorph",
 	"pools" : [
 		 ],

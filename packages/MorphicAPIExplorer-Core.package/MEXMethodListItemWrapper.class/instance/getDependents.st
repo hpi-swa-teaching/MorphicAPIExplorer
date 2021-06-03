@@ -1,6 +1,4 @@
 accessing
 getDependents
 
-	^ self item hasDependencies 
-		ifTrue: [self item dependencies]
-		ifFalse: [OrderedCollection new]
+	^ self item dependencies

@@ -8,6 +8,7 @@
 	"instvars" : [
 		"category",
 		"selectedMethods",
+		"dependentMethods",
 		"playground" ],
 	"name" : "MEXToolExplorationView",
 	"pools" : [
