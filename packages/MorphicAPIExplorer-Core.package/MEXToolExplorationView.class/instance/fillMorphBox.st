@@ -12,7 +12,6 @@ fillMorphBox
 			arguments: {each . self defaultMorphs at: each};
 			extent: iconMorph extent;
 			addMorph: iconMorph;
-			position: morphBox position x + gap + self class defaultMorphPosition x @ morphBox position y + self class defaultMorphPosition y.
+			position: morphBox position x + self class defaultMorphPosition x @ gap + morphBox position y + self class defaultMorphPosition y.
 		morphBox addMorph: button.
-		gap := gap + button topRight x - button topLeft x + 10].
-	
+		gap := gap + button bottomRight y - button topRight y + self class defaultMorphGapSize].
