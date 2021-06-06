@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "FFN 7/24/2019 17:03",
+	"commentStamp" : "TB 6/1/2021 18:03",
 	"instvars" : [
 		"parent" ],
-	"name" : "MEXMethodListItemWrapper",
+	"name" : "MEXListItemWrapper",
 	"pools" : [
 		 ],
 	"super" : "PluggableListItemWrapper",

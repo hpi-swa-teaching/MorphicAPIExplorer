@@ -4,7 +4,7 @@ buildMethodListWith: aBuilder
 	^ aBuilder pluggableMultiSelectionTreeSpec new
 		model: self;
 		roots: #methodList;
-		nodeClass: MEXMethodListItemWrapper;
+		nodeClass: MEXListItemWrapper;
 		getSelectionList: #getSelectionFor:;
 		setSelectionList: #setSelectionFor:with:;
 		frame: (LayoutFrame new
