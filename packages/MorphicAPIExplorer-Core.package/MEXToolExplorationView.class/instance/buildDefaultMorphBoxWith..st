@@ -1,9 +1,11 @@
 building
 buildDefaultMorphBoxWith: aBuilder
 	
-	^ aBuilder pluggablePanelSpec new
+	
+	^ aBuilder pluggableScrollPaneSpec new
 		model: self;
 		children: #createDefaultMorphBox;
+		hScrollBarPolicy: #whenNeeded;
 		frame: (LayoutFrame new
 			leftFraction: self class leftSpecsHorizontalDistribution x;
 			topFraction: self class bottomSpecsVerticalDistribution x;

@@ -2,15 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"getMorphCollectionInDefaulMorphBoxFor:" : "lk 7/24/2019 15:42",
+		"getMorphCollectionInDefaultMorphBoxFor:" : "PM 6/2/2021 19:16",
 		"newMorphs" : "lk 7/24/2019 15:03",
 		"sampleCode" : "lk 7/24/2019 15:11",
 		"setUp" : "lk 7/24/2019 16:15",
 		"tearDown" : "lk 7/24/2019 15:02",
 		"testBuiltExplorationViewForCategoryReturnsCorrectMethodList" : "lk 7/24/2019 17:42",
 		"testBuiltExplorationViewForCategoryReturnsIdenticalCategory" : "lk 7/24/2019 15:44",
-		"testDefaultMorphBoxContainsAMorph" : "TB 5/24/2021 20:59",
-		"testDefaultMorphChanges" : "KT 5/31/2021 09:33",
+		"testDefaultMorphBoxContainsAMorph" : "PM 6/2/2021 19:12",
+		"testDefaultMorphChanges" : "PM 6/2/2021 19:17",
 		"testDefaultMorphSaves" : "KT 5/20/2021 15:20",
 		"testEvaluateCodeReturnsCorrectMorph" : "lk 7/24/2019 15:00",
 		"testMorphBoxContainsStandardMorphs" : "KT 6/7/2021 10:50",
