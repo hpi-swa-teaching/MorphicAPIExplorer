@@ -4,4 +4,5 @@ setUp
 	builder := MEXToolBuilder new.
 	overView := MEXToolOverView new. 
 	category := self createCategory.
-	explorationView  := MEXToolExplorationView newFromCategory: category withDefaultMorphs: (Dictionary newFromPairs: {category defaultMorph . {}}) withActualDefaultMorph: category defaultMorph
+	overView defaultMorphs add: category defaultMorph -> OrderedCollection new.
+	explorationView  := MEXToolExplorationView newFromCategory: category withDefaultMorphs: overView defaultMorphs withActualDefaultMorph: category defaultMorph
