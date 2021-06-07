@@ -1,7 +1,7 @@
-as yet unclassified
+tests
 testMorphBoxContainsStandardMorphs
 	
-| view collection |
+	| view collection |
 	view := builder build: overView.
 	collection := OrderedCollection new.
 	collection := explorationView morphBox submorphs collect: 
