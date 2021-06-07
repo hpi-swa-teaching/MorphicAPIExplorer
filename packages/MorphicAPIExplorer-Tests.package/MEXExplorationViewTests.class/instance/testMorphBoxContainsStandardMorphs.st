@@ -7,4 +7,4 @@ testMorphBoxContainsStandardMorphs
 	collection := explorationView morphBox submorphs collect: 
 		[:each | (each submorphs first)].
 	overView standardMorphs do: [:standardMorph |
-		self assert: (collection anySatisfy: [:each | each class = standardMorph class]).]
+		self assert: (collection anySatisfy: [:each | each class = standardMorph class])]
