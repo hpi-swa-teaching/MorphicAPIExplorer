@@ -8,4 +8,7 @@ createCategory
 			withMethodList: {
 				MEXMethod withName: 'color:' havingParameters: {'Color red'}.
 				MEXMethod withName: 'addDropShadow'.
-				MEXMethod withName: 'extent:' havingParameters: {'100 @ 100'}}
+				MEXMethod withName: 'extent:' havingParameters: {'100 @ 100'}.
+				MEXMethod withName: 'shadowColor:' havingParameters: {'Color red'} withDependencies: {'addDropShadow'}.
+				MEXMethod withName: 'shadowColor' withDependencies: {'addDropShadow'}}
+				

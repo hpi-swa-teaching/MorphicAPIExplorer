@@ -1,10 +1,10 @@
 {
 	"class" : {
 		"withName:" : "FFN 5/20/2019 15:37",
-		"withName:havingParameters:" : "jb 7/24/2019 12:20",
-		"withName:havingParameters:withDependencies:" : "SC 5/13/2021 11:47",
-		"withName:havingSubMethods:" : "jb 7/24/2019 12:21",
-		"withName:withDependencies:" : "SC 5/13/2021 11:46" },
+		"withName:havingParameters:" : "SH 6/10/2021 19:44",
+		"withName:havingParameters:withDependencies:" : "SH 6/10/2021 19:43",
+		"withName:havingSubMethods:" : "SH 6/10/2021 19:43",
+		"withName:withDependencies:" : "SH 6/10/2021 19:44" },
 	"instance" : {
 		"asParameterizedString" : "jb 7/24/2019 12:19",
 		"asString" : "jb 7/24/2019 14:22",

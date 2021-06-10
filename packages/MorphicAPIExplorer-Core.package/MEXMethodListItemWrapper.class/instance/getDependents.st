@@ -1,4 +1,4 @@
 accessing
 getDependents
 
-	^ self item dependencies
+	^ self item dependencies asOrderedCollection

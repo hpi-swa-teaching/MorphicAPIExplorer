@@ -1,6 +1,6 @@
 initialize-release
-withName: aString havingSubMethods: anOrderedCollection
+withName: aString havingSubMethods: aCollection
 
 	^ (self withName: aString)
-		subMethods: anOrderedCollection;
+		subMethods: aCollection asOrderedCollection;
 		yourself

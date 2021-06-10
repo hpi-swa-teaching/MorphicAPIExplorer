@@ -1,6 +1,6 @@
 initialize-release
-withName: aString havingParameters: anOrderedCollection
+withName: aString havingParameters: aCollection
 
 	^ (self withName: aString)
-		parameters: anOrderedCollection;
+		parameters: aCollection asOrderedCollection;
 		yourself

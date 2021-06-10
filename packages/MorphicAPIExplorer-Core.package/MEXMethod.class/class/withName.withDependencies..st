@@ -1,6 +1,6 @@
 initialize-release
-withName: aString withDependencies: anOrderedCollection
+withName: aString withDependencies: aCollection
 
 	^ (self withName: aString)
-		dependencies: anOrderedCollection;
+		dependencies: aCollection asOrderedCollection;
 		yourself
