@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"categories" : "jb 7/24/2019 14:24",
-		"categoryAnimating" : "jb 7/24/2019 13:47",
+		"categoryAnimating" : "PC 6/10/2021 11:41",
 		"categoryBuildingAndTearingDown" : "jb 7/24/2019 13:48",
 		"categoryDrawingAndStyling" : "TB 5/13/2021 15:12",
 		"categoryEventHandling" : "jb 7/24/2019 13:49",
@@ -17,13 +17,16 @@
 	"instance" : {
 		"buildChildrenWith:" : "TB 6/1/2021 17:33",
 		"buildSearchButton:" : "TB 6/1/2021 17:36",
-		"buildSearchList:" : "TB 6/1/2021 18:07",
+		"buildSearchList:" : "PC 6/10/2021 11:21",
 		"categories" : "jb 5/1/2019 11:32",
 		"categories:" : "jb 5/1/2019 11:33",
 		"changeToExplorationViewFor:" : "KT 6/7/2021 10:48",
 		"defaultMorphs" : "SH 5/17/2021 11:30",
 		"defaultMorphs:" : "SH 5/27/2021 10:14",
-		"initialize" : "KT 6/7/2021 10:48",
+		"initialize" : "PC 6/10/2021 11:51",
+		"selectedMorph" : "PC 6/10/2021 10:44",
+		"selectedMorph:" : "PC 6/10/2021 10:44",
+		"setSelectionFor:" : "PC 6/10/2021 11:53",
 		"specFrameAt:for:" : "jb 7/24/2019 14:24",
 		"specFrameFor:in:in:" : "TB 6/1/2021 17:07",
 		"specSizePerRowFor:" : "TB 6/1/2021 17:06",
