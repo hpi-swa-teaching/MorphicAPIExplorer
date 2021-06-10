@@ -7,8 +7,7 @@
 	"commentStamp" : "lk 7/24/2019 18:25",
 	"instvars" : [
 		"categories",
-		"defaultMorphs",
-		"selectedMorph" ],
+		"defaultMorphs" ],
 	"name" : "MEXToolOverView",
 	"pools" : [
 		 ],
