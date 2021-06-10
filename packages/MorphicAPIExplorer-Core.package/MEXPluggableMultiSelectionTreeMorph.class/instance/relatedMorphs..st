@@ -4,4 +4,4 @@ relatedMorphs: anOrderedCollection
 
 	self reloadMorphs: relatedMorphs isIndicated: false. 
 	relatedMorphs := anOrderedCollection.
-	self reloadMorphs: relatedMorphs isIndicated: true
+	self reloadMorphs: relatedMorphs isIndicated: false

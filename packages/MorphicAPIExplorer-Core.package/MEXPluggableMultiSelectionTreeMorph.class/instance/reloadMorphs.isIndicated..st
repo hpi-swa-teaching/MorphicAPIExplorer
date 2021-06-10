@@ -2,6 +2,7 @@ drawing
 reloadMorphs: anOrderedCollection isIndicated: aBoolean
 	
 	anOrderedCollection do: [:aMorph | 
-		aMorph refresh; 
+		aMorph 
+			refresh; 
 			setProperty: #wasRefreshed toValue: aBoolean; 
 			changed]
