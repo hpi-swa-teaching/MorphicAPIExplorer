@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 setSelectionFor: aMethod
 
 		(aMethod isKindOf: MEXCategory) ifTrue: [self changeToExplorationViewFor: aMethod].
