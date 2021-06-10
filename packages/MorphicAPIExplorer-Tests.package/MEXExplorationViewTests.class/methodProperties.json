@@ -13,6 +13,7 @@
 		"testDefaultMorphChanges" : "TB 6/7/2021 12:05",
 		"testDefaultMorphSaves" : "KT 5/20/2021 15:20",
 		"testEvaluateCodeReturnsCorrectMorph" : "lk 7/24/2019 15:00",
+		"testExpendableTreeElementsExpanded" : "PM 6/10/2021 17:40",
 		"testMorphBoxContainsStandardMorphs" : "TB 6/7/2021 12:04",
 		"testOpenExplorationViewForOpensAnExplorationView" : "FFN 5/21/2019 16:23",
 		"testPlaygroundContainsCorrectMorph" : "lk 7/24/2019 15:01",
