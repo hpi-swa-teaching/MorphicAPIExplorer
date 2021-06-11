@@ -10,7 +10,7 @@ categoryAnimating
 		havingDefaultMorph: LedTimerMorph new
 		withMethodList: {
 			MEXMethod 
-				withName: 'Stepping' 
+				newWithName: 'Stepping' 
 				havingSubMethods: {
-					MEXMethod withName: 'start'.
-					MEXMethod withName: 'stop'}}
+					MEXMethod newWithName: 'start'.
+					MEXMethod newWithName: 'stop'}}
