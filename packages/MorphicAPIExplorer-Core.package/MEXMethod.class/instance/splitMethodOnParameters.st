@@ -1,4 +1,4 @@
 creation
 splitMethodOnParameters
 
-	^ self name findTokens: #:
+	^ self name findTokens: $:
