@@ -1,0 +1,4 @@
+test-for-possible-bugs
+testSubclassOfCollectionThatHasInstanceVariableButDoesntDefineCopy
+
+	self assertAllAreZero: (self runLinterRule: #smallLintCollectionCopyEmpty)
