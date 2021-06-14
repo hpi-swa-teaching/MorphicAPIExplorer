@@ -1,4 +1,0 @@
-test-unnecessary-code
-testMethodsEquivalentlyDefinedInSuperclass
-
-	self assertAllAreZero: (self runLinterRule: #smallLintEquivalentSuperclassMethods)

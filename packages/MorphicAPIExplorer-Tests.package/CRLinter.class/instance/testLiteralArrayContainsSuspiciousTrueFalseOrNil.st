@@ -1,4 +1,0 @@
-test-for-possible-bugs
-testLiteralArrayContainsSuspiciousTrueFalseOrNil
-
-	self assertAllAreZero: (self runLinterRule: #smallLintLiteralArrayContainsSuspiciousTrueFalseOrNil)
