@@ -2,13 +2,13 @@ SmalltalkCISpec {
   #preLoading : 'scripts/preLoading.st',
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'ChangesReloaded',
+      #baseline : 'MorphicAPIExplorer',
       #directory : 'packages',
       #load : 'Tests',
       #platforms : [ #squeak ]
     }
   ],
   #testing : {
-    #classes : [ #CRLinter ]
+    #classes : [ #MEXLinter ]
   }
 }
