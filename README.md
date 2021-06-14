@@ -1,4 +1,4 @@
-# MorphicAPIExplorer [![Build Status](https://travis-ci.org/hpi-swa-teaching/MorphicAPIExplorer.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/MorphicAPIExplorer)
+# MorphicAPIExplorer ![Build Status](https://github.com/hpi-swa-teaching/MorphicAPIExplorer/workflows/CI/badge.svg?branch=dev)
 
 ## Usage
 When you cloned the repository from GitHub or installed the SAR archive you can simply open up a Workspace and type
