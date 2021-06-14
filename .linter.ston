@@ -3,17 +3,12 @@ SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'MorphicAPIExplorer',
-      #platforms : [ #squeak ],
       #directory : 'packages',
-      #load : 'Tests'
+      #load : 'Tests',
+      #platforms : [ #squeak ]
     }
   ],
   #testing : {
-    #exclude : {
-      #classes : [ #MEXLinter ]
-    },
-    #coverage : {
-      #packages : [ 'MorphicAPIExplorer-Core.*' ]
-    }
+    #classes : [ #MEXLinter ]
   }
 }

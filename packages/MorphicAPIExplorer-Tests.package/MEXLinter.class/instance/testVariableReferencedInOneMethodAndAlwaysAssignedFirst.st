@@ -1,0 +1,4 @@
+test-unnecessary-code
+testVariableReferencedInOneMethodAndAlwaysAssignedFirst
+
+	self assertAllAreZero: (self runLinterRule: #smallLintVariableReferencedOnce)
