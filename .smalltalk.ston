@@ -5,7 +5,7 @@ SmalltalkCISpec {
       #baseline : 'MorphicAPIExplorer',
       #platforms : [ #squeak ],
       #directory : 'packages',
-      #load : 'Tests'
+      #load : 'tests'
     }
   ],
   #testing : {
