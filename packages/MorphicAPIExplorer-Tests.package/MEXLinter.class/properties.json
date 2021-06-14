@@ -1,13 +1,13 @@
 {
-	"category" : "ChangesReloaded-Tests",
+	"category" : "MorphicAPIExplorer-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "SV 8/7/2020 23:48",
+	"commentStamp" : "SC 6/14/2021 10:00",
 	"instvars" : [
 		"classes" ],
-	"name" : "CRLinter",
+	"name" : "MEXLinter",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
