@@ -1,0 +1,14 @@
+SmalltalkCISpec {
+  #preLoading : 'scripts/preLoading.st',
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'ChangesReloaded',
+      #directory : 'packages',
+      #load : 'Tests',
+      #platforms : [ #squeak ]
+    }
+  ],
+  #testing : {
+    #classes : [ #CRLinter ]
+  }
+}
