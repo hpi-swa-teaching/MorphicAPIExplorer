@@ -3,7 +3,7 @@ fillMorphBox
 
 	| button gap iconMorph |
 	gap := 0.
-	self defaultMorphs keysInOrder do: [:each |
+	self defaultMorphs keysSortedSafely do: [:each |
 		iconMorph := (self evaluateMethodsForMorph: each).
 		button := SimpleButtonMorph new
 			label: '';
