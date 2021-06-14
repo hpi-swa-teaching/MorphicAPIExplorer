@@ -14,7 +14,7 @@ jobs:
         # Select platform(s)
         os: [ubuntu-latest, macos-latest, windows-latest]
         # Select compatible Smalltalk image(s)
-        smalltalk: [Squeak64-trunk, Squeak64-5.3, Squeak64-5.2, Squeak64-5.1]
+        smalltalk: [Squeak64-trunk, Squeak64-5.3] #, Squeak64-5.2, Squeak64-5.1]
     # The type of runner that the job will run on
     runs-on: ${{ matrix.os }}
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
