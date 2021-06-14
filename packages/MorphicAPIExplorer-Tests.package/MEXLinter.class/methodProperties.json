@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"crCorePackage" : "mg 6/5/2020 12:00",
-		"crTestsPackage" : "mg 6/16/2020 18:05",
-		"namedPackage:" : "mg 6/5/2020 12:00" },
+		"mexCorePackage" : "SC 6/14/2021 10:00",
+		"mexTestsPackage" : "SC 6/14/2021 10:00",
+		"namedPackage:" : "SC 6/14/2021 10:00" },
 	"instance" : {
 		"assertAll:areBelowThreshold:" : "mg 7/15/2020 20:08",
 		"assertAll:areEqualTo:" : "mg 7/15/2020 20:09",
