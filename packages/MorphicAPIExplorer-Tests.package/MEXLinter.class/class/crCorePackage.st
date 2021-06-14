@@ -1,4 +1,4 @@
 packages
-crCorePackage
+mexCorePackage
 
-	^ self namedPackage: 'ChangesReloaded-Core'
+	^ self namedPackage: 'MorphicAPIExplorer-Core'
