@@ -1,0 +1,14 @@
+{
+	"category" : "ChangesReloaded-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SV 8/7/2020 23:48",
+	"instvars" : [
+		"classes" ],
+	"name" : "CRLinter",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
