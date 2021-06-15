@@ -1,4 +1,4 @@
-# MorphicAPIExplorer ![Build Status](https://github.com/hpi-swa-teaching/MorphicAPIExplorer/workflows/CI/badge.svg?branch=dev)
+# MorphicAPIExplorer ![Build Status](https://github.com/hpi-swa-teaching/MorphicAPIExplorer/workflows/CI/badge.svg?branch=dev)[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/MorphicAPIExplorer/badge.svg?branch=dev)](https://coveralls.io/github/hpi-swa-teaching/MorphicAPIExplorer?branch=dev)
 
 ## Usage
 When you cloned the repository from GitHub or installed the SAR archive you can simply open up a Workspace and type
