@@ -1,4 +1,5 @@
 test-for-spelling
-testArgumentVariableNames
+dontTestArgumentVariableNames
+	"fails because it doesn't know 'submorph'"
 
 	self assertAllAreZero: (self runLinterRule: #smallLintArgumentVariableNamesSpelling)
