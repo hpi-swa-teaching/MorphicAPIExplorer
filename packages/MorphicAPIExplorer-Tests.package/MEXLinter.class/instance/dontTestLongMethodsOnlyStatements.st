@@ -1,5 +1,5 @@
 test-for-coding-styles
 dontTestLongMethodsOnlyStatements
-	"Some methods, like testSetItemSelectionAtTo have more than 10 statements and that's fine."
+	"we don't test this since UI stuff cannot be shortened"
 
 	self assertAllAreZero: (self runLinterRule: #longMethod:)

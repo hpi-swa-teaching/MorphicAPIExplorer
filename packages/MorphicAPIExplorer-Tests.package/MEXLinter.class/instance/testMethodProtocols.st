@@ -1,5 +1,4 @@
 test-for-spelling
-dontTestMethodProtocols
-	"Has false alarms, for example for assertAllAreFalse:"
+testMethodProtocols
 
 	self assertAllAreZero: (self runLinterRule: #smallLintMethodProtocolsSpelling)

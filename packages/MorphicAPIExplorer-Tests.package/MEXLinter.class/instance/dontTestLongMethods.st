@@ -1,5 +1,5 @@
 test-for-coding-styles
 dontTestLongMethods
-	"this one sucks because we can't really do something about it"
+	"we don't test this since UI stuff cannot be shortened"
 
 	self assertAllAreZero: (self runLinterRule: #longMethods:)
