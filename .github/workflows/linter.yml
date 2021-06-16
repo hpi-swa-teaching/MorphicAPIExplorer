@@ -19,6 +19,6 @@ jobs:
         with:
           smalltalk-version: Squeak64-5.3
       - name: Test MorphicAPIExplorer
-        run: tabs -4; smalltalkci -s Squeak64-5.3 .linter.ston
+        run: smalltalkci -s Squeak64-5.3 .linter.ston
         shell: bash
         timeout-minutes: 15
