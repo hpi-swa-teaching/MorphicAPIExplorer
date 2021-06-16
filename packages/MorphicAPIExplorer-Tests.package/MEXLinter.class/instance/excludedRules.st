@@ -2,7 +2,6 @@ constants
 excludedRules
 
 	^ {#smallLintArgumentVariableNamesSpelling . 
-		#smallLintClassCommentsSpelling .
 		#dataClass: .
 		#smallLintInconsistentMethodClassification .
 		#lawOfDemeterRule: .

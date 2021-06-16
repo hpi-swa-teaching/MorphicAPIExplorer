@@ -1,24 +1,14 @@
 testing-utils
 runLinterRule: aLinterRule
 
-	| testRunner testObjects tempResult |
+	| testRunner testObjects testData |
 	testRunner := SLTestRunner new environment: SLDefaultEnvironment new.
 	testObjects := self classes collect: [ :each | each as: SLTestObject ].
-
-	testRunner runOnTests: {aLinterRule} andTestObjects: testObjects.
+	testData := testRunner testDataFor: aLinterRule.
 	
-	Transcript show: ('--- Linted rule: ', aLinterRule asString, ' ---', Character cr).
-	 testObjects
-		do: [:testObject | 
-			tempResult := testObject resultOf: aLinterRule.
-			testObject methods do: [:aMethod | 
-				tempResult isSummary
-				ifTrue: [tempResult selectForSummary: aMethod 
-					ifTrue: [Transcript show: (testObject testObject asString , '>>' , aMethod parseTree asString, Character cr)]]
-				ifFalse: [testObject 
-					ifMethod: [[Transcript show: (testObject testObject asString , '>>' , aMethod parseTree asString, Character cr)].
-					testObject 
-					ifClass: [Transcript show: (testObject testObject asString , '>>' , aMethod parseTree asString, Character cr)]]]]].
+	self isLoggingEnabled ifTrue: [self logGeneralInfoOf: testRunner inTest: aLinterRule].
+	testRunner runOnTests: {aLinterRule} andTestObjects: testObjects.
+	self isLoggingEnabled ifTrue: [self logProblemsOf: testObjects InTest: aLinterRule].
 
 	 ^ (testObjects
 		collect: [:testObject | testObject resultOf: aLinterRule])
