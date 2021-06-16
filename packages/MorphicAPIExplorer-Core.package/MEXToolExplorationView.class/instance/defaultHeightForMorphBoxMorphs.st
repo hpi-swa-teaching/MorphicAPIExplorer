@@ -1,0 +1,4 @@
+constants
+defaultHeightForMorphBoxMorphs
+
+	^ 50
