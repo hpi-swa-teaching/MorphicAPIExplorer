@@ -1,4 +1,4 @@
 test-for-possible-bugs
-testSendsDifferentSuperMessage
+dontTestSendsDifferentSuperMessage
 
 	self assertAllAreZero: (self runLinterRule: #smallLintSendsDifferentSuper)

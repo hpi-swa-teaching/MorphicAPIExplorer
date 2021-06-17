@@ -7,6 +7,7 @@ initialize
 		selectedMethods: OrderedCollection new;
 		defaultMorphs: Dictionary new;
 		actualDefaultMorph: Morph new;
+		morphBox: Morph new;
 		category: MEXCategory new;
 		playground: (PasteUpMorph new
 			layoutFrame: (LayoutFrame fractions: self class fullFractions);

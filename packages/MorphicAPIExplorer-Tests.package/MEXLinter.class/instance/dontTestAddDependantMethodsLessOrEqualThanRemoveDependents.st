@@ -1,4 +1,4 @@
 test-for-possible-bugs
-testAddDependantMethodsLessOrEqualThanRemoveDependents
+dontTestAddDependantMethodsLessOrEqualThanRemoveDependents
 
 	self assertAllAreZero: (self runLinterRule: #smallLintAddRemoveDependents)
