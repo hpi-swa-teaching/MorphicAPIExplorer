@@ -4,9 +4,10 @@
 	"instance" : {
 		"getFullCollectionOfOverViewChildren" : "lk 7/24/2019 16:36",
 		"setFullOverViewCategories" : "lk 7/24/2019 16:36",
-		"setUp" : "lk 7/24/2019 16:52",
+		"setUp" : "PM 6/18/2021 14:43",
 		"testBuildChildrenWithReturnsCollectionOfSpecs" : "KT 6/4/2021 10:04",
 		"testBuildChildrenWithReturnsCollectionWithCorrectSizeForFilledCategories" : "KT 6/3/2021 19:30",
+		"testCategoryButtonToExplorationView" : "PM 6/18/2021 14:45",
 		"testSpecFrameAtForReturnsFullHeightLayoutFrameForOneRow" : "KT 6/3/2021 19:20",
 		"testSpecFrameAtForReturnsFullWidhtLayoutFrameLessCategoriesThanRows" : "lk 7/24/2019 16:48",
 		"testSpecFrameAtForReturnsLayoutFrameInsideWindowBounds" : "lk 7/24/2019 16:48",
