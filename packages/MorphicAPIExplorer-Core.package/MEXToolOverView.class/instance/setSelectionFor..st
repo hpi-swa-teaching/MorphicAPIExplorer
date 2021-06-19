@@ -1,5 +1,5 @@
 accessing
-setSelectionFor: aSearchItem
+setSelectionFor: aMethod
 
-		(aSearchItem isKindOf: MEXCategory) ifTrue: [self changeToExplorationViewFor: aSearchItem].
-		(aSearchItem isKindOf: MEXMethod) ifTrue: [self changeToExplorationViewFor: aSearchItem category].
+		(aMethod isKindOf: MEXCategory) ifTrue: [self changeToExplorationViewFor: aMethod].
+		(aMethod isKindOf: MEXMethod) ifTrue: [self changeToExplorationViewFor: aMethod category].

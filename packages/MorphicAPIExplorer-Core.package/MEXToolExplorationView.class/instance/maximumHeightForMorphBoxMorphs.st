@@ -1,4 +1,0 @@
-constants
-maximumHeightForMorphBoxMorphs
-
-	^ 120
