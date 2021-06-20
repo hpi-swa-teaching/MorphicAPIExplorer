@@ -1,5 +1,5 @@
 instance creation
-withCategory: aMEXMethod havingModel: aModel havingParent: aMEXMethodListItemWrapper
+newWithCategory: aMEXMethod havingModel: aModel havingParent: aMEXMethodListItemWrapper
 
 	^ self new 
 		setItem: aMEXMethod 

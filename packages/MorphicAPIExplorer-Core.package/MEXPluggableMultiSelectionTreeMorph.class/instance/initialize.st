@@ -6,4 +6,5 @@ initialize
 	self
 		selectedMorphs: OrderedCollection new;
 		getSelectedSelector: #();
-		setSelectedSelector: #()
+		setSelectedSelector: #().
+	self roots do: [:aNode | aNode expand]

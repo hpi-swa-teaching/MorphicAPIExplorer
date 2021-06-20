@@ -3,6 +3,6 @@ contents
 
 	^ self item subItems collect: [:aSubItem |
 		self class 
-			withCategory: aSubItem 
+			newWithCategory: aSubItem 
 			havingModel: self model 
 			havingParent: self]

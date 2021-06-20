@@ -10,17 +10,17 @@ categoryTransforming
 		havingDefaultMorph: Morph new
 		withMethodList: {
 			MEXMethod
-				withName: 'Rotating'
+				newWithName: 'Rotating'
 				havingSubMethods: {
 					MEXMethod 
-						withName: 'rotationDegrees:'
+						newWithName: 'rotationDegrees:'
 						havingParameters: {'45'}}.
 			MEXMethod
-				withName: 'Scaling'
+				newWithName: 'Scaling'
 				havingSubMethods: {
 					MEXMethod 
-						withName: 'bounds:'
+						newWithName: 'bounds:'
 						havingParameters: {'(Rectangle new setOrigin: 0 @ 0 corner: 100 @ 150)'}.
 					MEXMethod 
-						withName: 'extent:'
+						newWithName: 'extent:'
 						havingParameters: {'100 @ 100'}}}

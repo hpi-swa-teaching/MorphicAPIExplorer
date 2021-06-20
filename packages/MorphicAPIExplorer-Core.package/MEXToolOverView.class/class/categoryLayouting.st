@@ -10,32 +10,32 @@ categoryLayouting
 		havingDefaultMorph: RectangleMorph new
 		withMethodList: {
 			MEXMethod
-				withName: 'Layout Policy Setup'
+				newWithName: 'Layout Policy Setup'
 				havingSubMethods: {
 					MEXMethod 
-						withName: 'layoutPolicy:'
+						newWithName: 'layoutPolicy:'
 						havingParameters: {'TableLayout new'} asOrderedCollection}.
 			MEXMethod
-				withName: 'Table Layouting'
+				newWithName: 'Table Layouting'
 				havingSubMethods: {
 					MEXMethod 
-						withName: 'listDirection:'
+						newWithName: 'listDirection:'
 						havingParameters: {'#leftToRight'} asOrderedCollection.
 					MEXMethod 
-						withName: 'vResizing:'
+						newWithName: 'vResizing:'
 						havingParameters: {'#shrinkWrap'} asOrderedCollection.
 					MEXMethod 
-						withName: 'hResizing:'
+						newWithName: 'hResizing:'
 						havingParameters: {'#shrinkWrap'} asOrderedCollection.
 					MEXMethod 
-						withName: 'minCellSize:'
+						newWithName: 'minCellSize:'
 						havingParameters: {'100'} asOrderedCollection}.
 			MEXMethod
-				withName: 'Adding Submorphs to see results'
+				newWithName: 'Adding Submorphs to see results'
 				havingSubMethods: {
 					MEXMethod
-						withName: 'addMorph:'
+						newWithName: 'addMorph:'
 						havingParameters: {'(EllipseMorph new color: (Color orange))'} asOrderedCollection.
 					MEXMethod
-						withName: 'addMorph:'
+						newWithName: 'addMorph:'
 						havingParameters: {'(EllipseMorph new color: (Color blue))'} asOrderedCollection}}

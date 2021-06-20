@@ -10,18 +10,18 @@ categoryDrawingAndStyling
 		havingDefaultMorph: Morph new
 		withMethodList: {
 			MEXMethod 
-				withName: 'Styling' 
+				newWithName: 'Styling' 
 				havingSubMethods: {
 					MEXMethod 
-						withName: 'cornerStyle:'
+						newWithName: 'cornerStyle:'
 						havingParameters: {'#rounded'}.
 					MEXMethod
-						withName: 'color:'
+						newWithName: 'color:'
 						havingParameters: {'Color white'}.
-					MEXMethod withName: 'addDropShadow'.
+					MEXMethod newWithName: 'addDropShadow'.
 					MEXMethod 
-						withName: 'shadowPoint:' 
+						newWithName: 'shadowPoint:' 
 						havingParameters: {'30 @ 25'}.
 					MEXMethod 
-						withName: 'shadowColor:' 
+						newWithName: 'shadowColor:' 
 						havingParameters: {'(Color red alpha: 0.05)'}}}
