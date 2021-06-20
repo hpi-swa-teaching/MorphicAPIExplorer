@@ -4,7 +4,7 @@
 	"instance" : {
 		"getFullCollectionOfOverViewChildren" : "lk 7/24/2019 16:36",
 		"setFullOverViewCategories" : "lk 7/24/2019 16:36",
-		"setUp" : "PM 6/18/2021 14:43",
+		"setUp" : "PM 6/20/2021 11:33",
 		"testBuildChildrenWithReturnsCollectionOfSpecs" : "KT 6/4/2021 10:04",
 		"testBuildChildrenWithReturnsCollectionWithCorrectSizeForFilledCategories" : "KT 6/3/2021 19:30",
 		"testCategoryButtonToExplorationView" : "PM 6/20/2021 11:31",
