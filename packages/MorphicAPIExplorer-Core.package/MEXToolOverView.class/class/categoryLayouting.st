@@ -14,22 +14,27 @@ categoryLayouting
 				havingSubMethods: {
 					MEXMethod 
 						withName: 'layoutPolicy:'
-						havingParameters: {'TableLayout new'} asOrderedCollection}.
+						havingParameters: {'TableLayout new'} asOrderedCollection
+						withDependencies: {'addMorph:'}}.
 			MEXMethod
 				withName: 'Table Layouting'
 				havingSubMethods: {
 					MEXMethod 
 						withName: 'listDirection:'
-						havingParameters: {'#leftToRight'} asOrderedCollection.
+						havingParameters: {'#leftToRight'} asOrderedCollection
+						withDependencies: {'layoutPolicy:'}.
 					MEXMethod 
 						withName: 'vResizing:'
-						havingParameters: {'#shrinkWrap'} asOrderedCollection.
+						havingParameters: {'#shrinkWrap'} asOrderedCollection
+						withDependencies: {'layoutPolicy:'}.
 					MEXMethod 
 						withName: 'hResizing:'
-						havingParameters: {'#shrinkWrap'} asOrderedCollection.
+						havingParameters: {'#shrinkWrap'} asOrderedCollection
+						withDependencies: {'layoutPolicy:'}.
 					MEXMethod 
 						withName: 'minCellSize:'
-						havingParameters: {'100'} asOrderedCollection}.
+						havingParameters: {'100'} asOrderedCollection
+						withDependencies: {'layoutPolicy:'}}.
 			MEXMethod
 				withName: 'Adding Submorphs to see results'
 				havingSubMethods: {
