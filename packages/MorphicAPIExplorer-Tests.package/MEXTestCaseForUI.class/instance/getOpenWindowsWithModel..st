@@ -1,4 +1,4 @@
 tests
 getOpenWindowsWithModel: aClass
 
-	^ ActiveWorld submorphs  select: [:each|( each isKindOf: PluggableSystemWindow) and: (each model isKindOf: aClass)]
+	^ ActiveWorld submorphs  select: [:aMorph|( aMorph isKindOf: PluggableSystemWindow) and: (aMorph model isKindOf: aClass)]
