@@ -7,4 +7,7 @@ excludedRules
 		#lawOfDemeterRule: .
 		#longMethods: .
 		#longMethod: .
-		#smallLintMethodCommentsSpelling } asOrderedCollection
+		#smallLintAddRemoveDependents .
+		#smallLintSendsDifferentSuper .
+		#smallLintBadMessage .
+		#smallLintUtilityMethods} asOrderedCollection
