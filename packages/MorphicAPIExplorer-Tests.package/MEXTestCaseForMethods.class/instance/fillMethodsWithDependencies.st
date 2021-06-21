@@ -3,7 +3,7 @@ fillMethodsWithDependencies
 
 	self fillMethodsIncludingSubMethods.
 	methods second subMethods: 
-		{MEXMethod withName: 'c' . 
-			MEXMethod withName: 'd' withDependencies: {'c'} . 
-			MEXMethod withName: 'd:' havingParameters: {'param'} withDependencies: {'c'}}
+		{MEXMethod newWithName: 'c' . 
+			MEXMethod newWithName: 'd' withDependencies: {'c'} . 
+			MEXMethod newWithName: 'd:' havingParameters: {'param'} withDependencies: {'c'}}
 	

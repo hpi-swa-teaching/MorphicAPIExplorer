@@ -2,5 +2,5 @@ running
 fillMethodsIncludingSubMethods
 
 	self fillMethodsWithoutSubMethods.
-	methods first subMethods: {MEXMethod withName: 'a'. MEXMethod withName: 'b'}
+	methods first subMethods: {MEXMethod newWithName: 'a'. MEXMethod newWithName: 'b'}
 	

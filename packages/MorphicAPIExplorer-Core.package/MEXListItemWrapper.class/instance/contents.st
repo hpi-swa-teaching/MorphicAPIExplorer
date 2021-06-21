@@ -3,6 +3,6 @@ contents
 
 	^ self item subMethods collect: [:aSubMethod |
 		self class 
-			withCategory: aSubMethod 
+			newWithCategory: aSubMethod 
 			havingModel: self model 
 			havingParent: self]
