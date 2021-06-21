@@ -13,7 +13,7 @@ logProblemsOf: someTestObjects InTest: aLinterRule
 			tempResult isSummary
 				ifTrue: [tempResult selectForSummary: aMethod 
 					ifTrue: [hits := hits +1. Transcript show: stringToPrint]]
-				ifFalse: [testObject ifMethod: [[hits := hits +1. Transcript show: stringToPrint].
-					testObject ifClass: [hits := hits +1. Transcript show: stringToPrint]]]]].
+				ifFalse: [tempResult isPositive ifTrue: [hits := hits +1. Transcript show: stringToPrint].
+					"testObject ifClass: [tempResult isPositive ifTrue: [hits := hits +1. Transcript show: stringToPrint]]"]]].
 
 	Transcript show: ('---- Linting finished with ', hits, ' issue(s) ----', Character cr, Character cr)

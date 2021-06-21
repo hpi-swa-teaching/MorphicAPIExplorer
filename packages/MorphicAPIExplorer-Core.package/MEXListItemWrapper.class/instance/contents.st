@@ -1,8 +1,8 @@
 accessing
 contents
 
-	^ self item subItems collect: [:aSubItem |
+	^ self item subItems collect: [:aSubMethod |
 		self class 
-			withCategory: aSubItem 
+			newWithCategory: aSubMethod 
 			havingModel: self model 
 			havingParent: self]

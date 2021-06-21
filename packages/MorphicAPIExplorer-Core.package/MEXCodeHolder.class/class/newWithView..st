@@ -1,5 +1,5 @@
 initialize-release
-withView: aMEXExplorationView
+newWithView: aMEXExplorationView
 
 	^ self new
 		explorationView: aMEXExplorationView;

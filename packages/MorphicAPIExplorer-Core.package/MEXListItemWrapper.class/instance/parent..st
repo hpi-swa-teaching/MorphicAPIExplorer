@@ -1,4 +1,4 @@
 accessing
-parent: aMEXMethodListItemWrapper
+parent: aMEXListItemWrapper
 
-	parent := aMEXMethodListItemWrapper
+	parent := aMEXListItemWrapper

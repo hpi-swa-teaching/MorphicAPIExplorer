@@ -1,4 +1,5 @@
 test-for-spelling
-testInstanceVariableNames
+brokenTestInstanceVariableNames
+	"has problems with our variable names"
 
 	self assertAllAreZero: (self runLinterRule: #smallLintInstanceVariableNamesSpelling)
