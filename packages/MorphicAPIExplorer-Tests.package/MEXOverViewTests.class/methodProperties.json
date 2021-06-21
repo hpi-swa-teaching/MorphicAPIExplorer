@@ -5,6 +5,7 @@
 		"getEmptyCollectionOfOverViewChildren" : "lk 7/24/2019 16:28",
 		"setEmptyOverViewCategories" : "lk 7/24/2019 16:27",
 		"setUp" : "lk 7/24/2019 16:51",
+		"testAssigningCategoryToSubMethods" : "PC 6/10/2021 12:28",
 		"testBuildChildrenWithReturnsEmptyCollectionForZeroCategories" : "KT 6/3/2021 18:37",
 		"testSpecFrameAtForReturnsFullSizedLayoutFrameForOneCategoryAndOneRow" : "KT 6/3/2021 19:34",
 		"testSpecSizePerRowForReturnsFullSizeForOneCategoryAndOneRow" : "KT 6/3/2021 19:32",

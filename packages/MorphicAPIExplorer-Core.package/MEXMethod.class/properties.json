@@ -9,7 +9,8 @@
 		"isSelected",
 		"name",
 		"subMethods",
-		"parameters" ],
+		"parameters",
+		"category" ],
 	"name" : "MEXMethod",
 	"pools" : [
 		 ],
