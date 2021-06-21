@@ -7,7 +7,7 @@ logProblemsOf: someTestObjects InTest: aLinterRule
 	someTestObjects	do: [:testObject | 
 		tempResult := testObject resultOf: aLinterRule.
 		testObject methods do: [:aMethod | 
-			stringToPrint :=  (self isLoggingVerbose 
+			stringToPrint :=  (self class isLoggingVerbose 
 				ifTrue: [Character cr asString, testObject testObject asString, '>>', aMethod parseTree asString]
 				ifFalse: [aMethod name]), Character cr.
 			tempResult isSummary

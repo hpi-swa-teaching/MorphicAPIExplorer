@@ -6,9 +6,9 @@ runLinterRule: aLinterRule
 	testObjects := self classes collect: [ :each | each as: SLTestObject ].
 	testData := testRunner testDataFor: aLinterRule.
 	
-	self isLoggingEnabled ifTrue: [self logGeneralInfoOf: testRunner inTest: aLinterRule].
+	self class isLoggingEnabled ifTrue: [self logGeneralInfoOf: testRunner inTest: aLinterRule].
 	testRunner runOnTests: {aLinterRule} andTestObjects: testObjects.
-	self isLoggingEnabled ifTrue: [self logProblemsOf: testObjects InTest: aLinterRule].
+	self class isLoggingEnabled ifTrue: [self logProblemsOf: testObjects InTest: aLinterRule].
 
 	 ^ (testObjects
 		collect: [:testObject | testObject resultOf: aLinterRule])
