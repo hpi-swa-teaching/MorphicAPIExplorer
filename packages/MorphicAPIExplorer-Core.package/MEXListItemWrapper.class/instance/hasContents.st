@@ -1,4 +1,5 @@
 accessing
 hasContents
 
-	^ self item hasSubMethods
+	^ (self item isKindOf: MEXMethod) 
+	ifTrue: [self item hasSubMethods]
