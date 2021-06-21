@@ -38,7 +38,7 @@
 		"dontTestSendsQuestionableMessage" : "PC 6/19/2021 13:30",
 		"dontTestUsesDoInsteadOfCollectOrSelect" : "PC 6/21/2021 19:58",
 		"dontTestUtilityMethods" : "PC 6/19/2021 13:33",
-		"excludedRules" : "PC 6/21/2021 19:59",
+		"excludedRules" : "PC 6/21/2021 20:14",
 		"isLoggingEnabled" : "SC 6/16/2021 06:56",
 		"isLoggingVerbose" : "SC 6/16/2021 07:39",
 		"logGeneralInfoOf:inTest:" : "SC 6/16/2021 07:08",
