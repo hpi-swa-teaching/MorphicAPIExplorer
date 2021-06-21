@@ -20,7 +20,8 @@ categoryNestingAndSubmorphing
 				havingSubMethods: {
 					MEXMethod 
 						newWithName: 'submorphsDo:'
-						havingParameters: {'([:each | each extent: 20 @ 20])'}}.
+						havingParameters: {'([:each | each extent: 20 @ 20])'}
+						withDependencies: {'addMorph:'}}.
 			MEXMethod 
 				newWithName: 'Cleaning up' 
 				havingSubMethods: {MEXMethod newWithName: 'removeAllMorphs'}}			

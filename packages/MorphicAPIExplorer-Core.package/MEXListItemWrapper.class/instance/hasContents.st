@@ -1,4 +1,4 @@
 accessing
 hasContents
 
-	^ self item subItems notEmpty
+	^ self item hasSubMethods

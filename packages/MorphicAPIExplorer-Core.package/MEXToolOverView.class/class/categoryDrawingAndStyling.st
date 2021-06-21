@@ -21,7 +21,9 @@ categoryDrawingAndStyling
 					MEXMethod newWithName: 'addDropShadow'.
 					MEXMethod 
 						newWithName: 'shadowPoint:' 
-						havingParameters: {'30 @ 25'}.
+						havingParameters: {'30 @ 25'}
+						withDependencies: {'addDropShadow'}.
 					MEXMethod 
 						newWithName: 'shadowColor:' 
-						havingParameters: {'(Color red alpha: 0.05)'}}}
+						havingParameters: {'(Color red alpha: 0.05)'}
+						withDependencies: {'addDropShadow'}}}

@@ -7,4 +7,6 @@ initialize
 		name: 'defaultName';
 		subMethods: OrderedCollection new;
 		parameters: OrderedCollection new;
-		isSelected: false
+		dependencies: OrderedCollection new;
+		isSelected: false;
+		isActiveDependee: false

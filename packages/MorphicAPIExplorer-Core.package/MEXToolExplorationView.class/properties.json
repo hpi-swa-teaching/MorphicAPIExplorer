@@ -1,19 +1,19 @@
 {
-	"category" : "MorphicAPIExplorer-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "lk 7/24/2019 18:23",
-	"instvars" : [
+	"category": "MorphicAPIExplorer-Core",
+	"classinstvars": [],
+	"classvars": [],
+	"commentStamp": "lk 7/24/2019 18:23",
+	"instvars": [
 		"category",
 		"selectedMethods",
 		"playground",
 		"defaultMorphs",
 		"actualDefaultMorph",
-		"morphBox" ],
-	"name" : "MEXToolExplorationView",
-	"pools" : [
-		 ],
-	"super" : "MEXTool",
-	"type" : "normal" }
+		"morphBox",
+		"dependentMethods"
+	],
+	"name": "MEXToolExplorationView",
+	"pools": [],
+	"super": "MEXTool",
+	"type": "normal"
+}

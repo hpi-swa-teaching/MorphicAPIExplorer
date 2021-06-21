@@ -1,4 +1,4 @@
-accessing - selection
+accessing
 setSelectionList
 
 	^ setSelectionList

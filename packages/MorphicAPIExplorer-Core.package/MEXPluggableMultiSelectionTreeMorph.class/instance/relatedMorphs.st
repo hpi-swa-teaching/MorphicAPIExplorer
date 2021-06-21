@@ -1,0 +1,4 @@
+accessing
+relatedMorphs
+
+	^ relatedMorphs
