@@ -1,4 +1,9 @@
 accessing
 getDependencies
 
-	^ self item dependencies asOrderedCollection
+	(self item isKindOf: MEXMethod)
+	ifTrue: [
+		^ self item dependencies asOrderedCollection]
+	ifFalse: [
+		^ OrderedCollection new
+	]
