@@ -1,4 +1,4 @@
 unsupported - drag and drop
-dropAccept: Symbol
+dropAccept: aSymbol
 
 	MEXUnsupportedError new signal

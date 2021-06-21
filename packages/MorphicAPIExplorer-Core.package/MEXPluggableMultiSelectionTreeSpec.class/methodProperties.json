@@ -7,10 +7,8 @@
 		"buildWith:" : "FFN 6/12/2019 15:46",
 		"dragItem" : "jb 7/24/2019 14:19",
 		"dragItem:" : "jb 7/16/2019 15:13",
-		"dragStarted" : "jb 7/24/2019 14:19",
-		"dragStarted:" : "jb 7/16/2019 15:13",
 		"dropAccept" : "jb 7/24/2019 14:19",
-		"dropAccept:" : "jb 7/16/2019 15:14",
+		"dropAccept:" : "SC 6/15/2021 23:01",
 		"dropItem" : "jb 7/24/2019 14:19",
 		"dropItem:" : "jb 7/16/2019 15:14",
 		"findRelated" : "SC 6/3/2021 22:36",
@@ -21,8 +19,6 @@
 		"getSelectedPath:" : "jb 7/16/2019 15:23",
 		"getSelectionList" : "FFN 6/12/2019 15:30",
 		"getSelectionList:" : "FFN 6/12/2019 15:32",
-		"hoverAction" : "SC 5/29/2021 14:16",
-		"hoverAction:" : "SC 5/29/2021 14:16",
 		"setSelected" : "jb 7/24/2019 14:19",
 		"setSelected:" : "jb 7/16/2019 15:24",
 		"setSelectedParent" : "jb 7/24/2019 14:20",
@@ -30,6 +26,4 @@
 		"setSelectedPath" : "jb 7/24/2019 14:20",
 		"setSelectedPath:" : "jb 7/16/2019 15:23",
 		"setSelectionList" : "FFN 6/12/2019 15:30",
-		"setSelectionList:" : "jb 7/16/2019 15:06",
-		"unhoverAction" : "SC 5/29/2021 15:58",
-		"unhoverAction:" : "SC 5/29/2021 15:58" } }
+		"setSelectionList:" : "jb 7/16/2019 15:06" } }

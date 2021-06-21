@@ -1,11 +1,12 @@
 accessing
 findDependeesOf: aListItemMorph In: anOrderedCollection
+	"TODO: needs refactoring"
 
-	| methodsAsStrings dependents |
+	| methodsAsStrings dependentMorphs |
 
 	methodsAsStrings := aListItemMorph 
 		ifNotNil: [:theMorph | theMorph complexContents getDependencies] 
 		ifNil: [OrderedCollection new].
-	dependents := anOrderedCollection select: [:aMorph | methodsAsStrings includes: aMorph complexContents asString].
-	self dependentMethods: (dependents collect: [:aDependent | aDependent complexContents item]).
-	^ dependents
+	dependentMorphs := anOrderedCollection select: [:aMorph | methodsAsStrings includes: aMorph complexContents asString].
+	self dependentMethods: (dependentMorphs collect: [:aDependent | aDependent complexContents item]).
+	^ dependentMorphs

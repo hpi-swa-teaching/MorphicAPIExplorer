@@ -3,6 +3,6 @@ testMEXMethodWrapperWithNoDependenciesReturnsForGetDependenciesAnEmptyOrderedCol
 	
 	self
 		fillMethodsIncludingSubMethods;
-		collectMEXMethodListItemWrappersFromMethods.
+		collectMEXListItemWrappersFromMethods.
 	methodListItemWrappers do: [:aMEXMethodListItemWrapper | 
 		self assert: aMEXMethodListItemWrapper getDependencies equals: OrderedCollection new]

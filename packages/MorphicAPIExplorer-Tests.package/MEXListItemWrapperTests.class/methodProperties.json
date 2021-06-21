@@ -1,11 +1,10 @@
 {
-	"class": {},
-	"instance": {
-		"collectMEXListItemWrappersFromMethods": "PM 6/11/2021 14:58",
-		"setUp": "lk 7/24/2019 17:34",
-		"testMEXMethodWrapperWithDependenciesReturnsForGetDependenciesCorrectDependencies": "SH 6/10/2021 20:09",
-		"testMEXMethodWrapperWithNoDependenciesReturnsForGetDependenciesAnEmptyOrderedCollection": "SH 6/10/2021 20:04",
-		"testMEXMethodWrapperWithNoSubMethodsReturnsHasContentsIsFalse": "lk 7/24/2019 17:31",
-		"testMEXMethodWrapperWithSubMethodsReturnsHasContentsIsTrue": "TB 6/1/2021 17:56"
-	}
-}
+	"class" : {
+		 },
+	"instance" : {
+		"collectMEXListItemWrappersFromMethods" : "SC 6/21/2021 23:36",
+		"setUp" : "lk 7/24/2019 17:34",
+		"testMEXMethodWrapperWithDependenciesReturnsForGetDependenciesCorrectDependencies" : "SC 6/21/2021 23:36",
+		"testMEXMethodWrapperWithNoDependenciesReturnsForGetDependenciesAnEmptyOrderedCollection" : "SC 6/21/2021 23:36",
+		"testMEXMethodWrapperWithNoSubMethodsReturnsHasContentsIsFalse" : "lk 7/24/2019 17:31",
+		"testMEXMethodWrapperWithSubMethodsReturnsHasContentsIsTrue" : "SC 6/21/2021 23:36" } }

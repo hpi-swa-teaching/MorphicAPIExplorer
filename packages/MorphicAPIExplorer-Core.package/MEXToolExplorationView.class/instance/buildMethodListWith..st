@@ -12,5 +12,6 @@ buildMethodListWith: aBuilder
 			leftFraction: self class leftSpecsHorizontalDistribution x;
 			topFraction: self class backButtonFractionHeight y;
 			rightFraction: self class leftSpecsHorizontalDistribution y;
-			bottomFraction: self class saveButtonFractionHeight x);
+			bottomFraction: self class saveButtonFractionHeight x;
+			yourself);
 		yourself

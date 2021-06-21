@@ -9,5 +9,6 @@ buildDefaultMorphBoxWith: aBuilder
 			leftFraction: self class leftSpecsHorizontalDistribution x;
 			topFraction: self class bottomSpecsVerticalDistribution x;
 			rightFraction: self class leftSpecsHorizontalDistribution y;
-			bottomFraction: self class bottomSpecsVerticalDistribution y);
+			bottomFraction: self class bottomSpecsVerticalDistribution y;
+			yourself);
 		yourself

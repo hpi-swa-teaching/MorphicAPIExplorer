@@ -13,5 +13,6 @@ buildSearchList: aBuilder
 			leftFraction: 0;
 			topFraction: self class searchButtonFractionHeight;
 			rightFraction: 1;
-			bottomFraction: 1);
+			bottomFraction: 1;
+			yourself);
 		yourself

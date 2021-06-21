@@ -1,7 +1,8 @@
 accessing
 icon
 
-    ^ (self item isKindOf: MEXMethod) 
+    ^ (self item isKindOf: MEXMethod)
+	ifFalse: [nil]
 	ifTrue: [self item hasSubMethods
         ifTrue: [nil]
         ifFalse: [

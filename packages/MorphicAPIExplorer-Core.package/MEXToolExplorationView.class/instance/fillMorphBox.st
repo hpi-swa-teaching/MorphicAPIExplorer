@@ -3,7 +3,7 @@ fillMorphBox
 
 	| button gap iconMorph |
 	gap := 0.
-	self defaultMorphs keysInOrder do: [:each |
+	self defaultMorphs keysSortedSafely do: [:each |
 		iconMorph := (self evaluateMethodsForMorph: each).
 		self scaleForMorphBox: iconMorph.
 		button := SimpleButtonMorph new
@@ -15,6 +15,7 @@ fillMorphBox
 			color: Color transparent;
 			borderWidth: 0;
 			addMorph: iconMorph;
-			position: morphBox position x + self defaultMorphPosition x @ gap + self morphBox position y + self defaultMorphPosition y.
+			position: morphBox position x + self class defaultMorphPosition x @ gap + self morphBox position y + self class defaultMorphPosition y;
+			yourself.
 		self morphBox addMorph: button.
-		gap := gap + button bottomRight y - button topRight y + self defaultMorphGapSize].
+		gap := gap + button bottomRight y - button topRight y + self class defaultMorphGapSize].

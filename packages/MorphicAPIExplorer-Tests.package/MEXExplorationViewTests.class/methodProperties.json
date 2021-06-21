@@ -1,25 +1,24 @@
 {
-	"class": {},
-	"instance": {
-		"getMethodTreeFor:": "SH 6/10/2021 19:20",
-		"getMorphCollectionInDefaulMorphBoxFor:": "lk 7/24/2019 15:42",
-		"newMorphs": "lk 7/24/2019 15:03",
-		"sampleCode": "lk 7/24/2019 15:11",
-		"setUp": "lk 7/24/2019 16:15",
-		"tearDown": "lk 7/24/2019 15:02",
-		"testBuiltExplorationViewForCategoryReturnsCorrectMethodList": "lk 7/24/2019 17:42",
-		"testBuiltExplorationViewForCategoryReturnsIdenticalCategory": "lk 7/24/2019 15:44",
-		"testDefaultMorphBoxContainsAMorph": "lk 7/24/2019 15:39",
-		"testDefaultMorphChanges": "lk 7/24/2019 15:40",
-		"testDefaultMorphSaves": "KT 5/20/2021 15:20",
-		"testDependeeMorphDisplaysCorrectIcon": "SC 6/21/2021 13:01",
-		"testDependentMorphDisplaysCorrectIcon": "SC 6/21/2021 13:03",
-		"testEvaluateCodeReturnsCorrectMorph": "lk 7/24/2019 15:00",
-		"testExpendableTreeElementsExpanded": "TB 6/20/2021 11:22",
-		"testMorphBoxContainsStandardMorphs": "TB 6/7/2021 12:04",
-		"testOpenExplorationViewForOpensAnExplorationView": "FFN 5/21/2019 16:23",
-		"testPlaygroundContainsCorrectMorph": "lk 7/24/2019 15:01",
-		"testSelectedMethodsSaves": "PM 6/11/2021 14:51",
-		"testRelatedMorphsAreDependeeMorphs": "SH 6/10/2021 20:02"
-	}
-}
+	"class" : {
+		 },
+	"instance" : {
+		"getMethodTreeFor:" : "SH 6/10/2021 19:20",
+		"getMorphCollectionInDefaultMorphBoxFor:" : " 6/21/2021 23:30:36",
+		"newMorphs" : "lk 7/24/2019 15:03",
+		"sampleCode" : "lk 7/24/2019 15:11",
+		"setUp" : "lk 7/24/2019 16:15",
+		"tearDown" : "lk 7/24/2019 15:02",
+		"testBuiltExplorationViewForCategoryReturnsCorrectMethodList" : "lk 7/24/2019 17:42",
+		"testBuiltExplorationViewForCategoryReturnsIdenticalCategory" : "lk 7/24/2019 15:44",
+		"testDefaultMorphBoxContainsAMorph" : "lk 7/24/2019 15:39",
+		"testDefaultMorphChanges" : "lk 7/24/2019 15:40",
+		"testDefaultMorphSaves" : "KT 5/20/2021 15:20",
+		"testDependeeMorphDisplaysCorrectIcon" : "SC 6/21/2021 13:01",
+		"testDependentMorphDisplaysCorrectIcon" : "SC 6/21/2021 13:03",
+		"testEvaluateCodeReturnsCorrectMorph" : "lk 7/24/2019 15:00",
+		"testExpendableTreeElementsExpanded" : "TB 6/20/2021 11:22",
+		"testMorphBoxContainsStandardMorphs" : "TB 6/7/2021 12:04",
+		"testOpenExplorationViewForOpensAnExplorationView" : "FFN 5/21/2019 16:23",
+		"testPlaygroundContainsCorrectMorph" : "lk 7/24/2019 15:01",
+		"testRelatedMorphsAreDependeeMorphs" : "SH 6/10/2021 20:02",
+		"testSelectedMethodsSaves" : "PM 6/11/2021 14:51" } }
