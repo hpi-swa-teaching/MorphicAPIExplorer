@@ -1,4 +1,4 @@
 accessing
 keepRatio
 
-	^ keepRatio
+	^ keepRatio ifNil: [keepRatio:= false]
