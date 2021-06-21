@@ -3,11 +3,10 @@ initialize
 
 	super initialize.
 	self categories: self class categories.
-	self categories do: [:each |  
-  		(each methodList 
-		gather: [:method | {method} , method subMethods])
-		do: [:method | method category: each]].
+	self categories do: [:aCategory |  
+  		(aCategory methodList 
+		gather: [:aMethod | {aMethod} , aMethod subMethods])
+		do: [:method | method category: aCategory]].
 	self defaultMorphs: Dictionary new.
 	self standardMorphs do: 
-		[:each | defaultMorphs add: each -> OrderedCollection new]
-	
+		[:aMorph | defaultMorphs add: aMorph -> OrderedCollection new]
