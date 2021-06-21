@@ -9,4 +9,5 @@ initialize
 		parameters: OrderedCollection new;
 		dependencies: OrderedCollection new;
 		isSelected: false;
-		isActiveDependee: false
+		isActiveDependee: false;
+		category: MEXCategory new

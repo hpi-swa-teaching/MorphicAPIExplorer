@@ -7,6 +7,7 @@ buildSearchList: aBuilder
 		model: self;
 		roots: #categories;
 		nodeClass: MEXListItemWrapper;
+		setSelected: #changeToCategoryOf:;
 		label: #name;
 		frame: (LayoutFrame new
 			leftFraction: 0;
