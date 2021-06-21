@@ -10,5 +10,6 @@ buildCodeEditorWith: aBuilder
 			leftFraction: self class rightSpecsHorizontalDistribution x;
 			topFraction: self class bottomSpecsVerticalDistribution x;
 			rightFraction: self class rightSpecsHorizontalDistribution y;
-			bottomFraction: self class bottomSpecsVerticalDistribution y);
+			bottomFraction: self class bottomSpecsVerticalDistribution y;
+			yourself);
 		yourself

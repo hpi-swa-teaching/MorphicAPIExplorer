@@ -9,5 +9,6 @@ buildSaveDefaultMorphButtonWith: aBuilder
 			leftFraction: self class leftSpecsHorizontalDistribution x;
 			topFraction: self class saveButtonFractionHeight x;
 			rightFraction: self class leftSpecsHorizontalDistribution y;
-			bottomFraction: self class saveButtonFractionHeight y);
+			bottomFraction: self class saveButtonFractionHeight y;
+			yourself);
 		yourself

@@ -9,5 +9,6 @@ buildSearchButton: aBuilder
 			leftFraction: 0;
 			topFraction: 0;
 			rightFraction: 1;
-			bottomFraction: self class searchButtonFractionHeight);
+			bottomFraction: self class searchButtonFractionHeight;
+			yourself);
 		yourself
