@@ -5,6 +5,7 @@ fillMorphBox
 	gap := 0.
 	self defaultMorphs keysSortedSafely do: [:each |
 		iconMorph := (self evaluateMethodsForMorph: each).
+		self scaleForMorphBox: iconMorph.
 		button := SimpleButtonMorph new
 			label: '';
 			target: self;
@@ -17,4 +18,4 @@ fillMorphBox
 			position: morphBox position x + self class defaultMorphPosition x @ gap + self morphBox position y + self class defaultMorphPosition y;
 			yourself.
 		self morphBox addMorph: button.
-		gap := gap + button bottomRight y - button topRight y + self class defaultMorphGapSize].
+		gap := gap + button bottomRight y - button topRight y + self defaultMorphGapSize].

@@ -7,5 +7,7 @@ initialize
 		name: 'defaultName';
 		subMethods: OrderedCollection new;
 		parameters: OrderedCollection new;
-		category: MEXCategory new;
-		isSelected: false
+		dependencies: OrderedCollection new;
+		isSelected: false;
+		isActiveDependee: false;
+		category: MEXCategory new

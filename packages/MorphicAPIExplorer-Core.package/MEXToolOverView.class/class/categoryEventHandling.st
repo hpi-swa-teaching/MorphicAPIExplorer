@@ -10,8 +10,8 @@ categoryEventHandling
 		havingDefaultMorph: Morph new
 		withMethodList: {
 			MEXMethod
-				withName: 'Mouse Events'
+				newWithName: 'Mouse Events'
 				havingSubMethods: {
 					MEXMethod 
-						withName: 'addMouseUpActionWith:'
+						newWithName: 'addMouseUpActionWith:'
 						havingParameters: {$' asString,  'self color: Color random' , $' asString}}}

@@ -1,5 +1,5 @@
 initialize-release
-withName: aString
+newWithName: aString
 
 	^ self new
 		name: aString;

@@ -7,6 +7,7 @@ buildMethodListWith: aBuilder
 		nodeClass: MEXListItemWrapper;
 		getSelectionList: #getSelectionFor:;
 		setSelectionList: #setSelectionFor:with:;
+		findRelated: #findDependeesOf:In:;
 		frame: (LayoutFrame new
 			leftFraction: self class leftSpecsHorizontalDistribution x;
 			topFraction: self class backButtonFractionHeight y;
