@@ -1,6 +1,7 @@
-as yet unclassified
+dropping/grabbing
 acceptDroppingMorph: aMorph event: anEvent
 
 	self currentMorph: aMorph veryDeepCopy.
-	self updatePlaygroundContents.
-	self owner model changed: #currentMorph
+	self updateContents.
+	self view changed: #currentMorph.
+	aMorph openInWorld

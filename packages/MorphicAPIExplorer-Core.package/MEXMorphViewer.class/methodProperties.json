@@ -1,11 +1,13 @@
 {
 	"class" : {
-		 },
+		"newWithView:" : "TB 6/23/2021 20:10" },
 	"instance" : {
-		"acceptDroppingMorph:event:" : "TB 6/23/2021 19:36",
-		"clearPlayground" : "TB 6/23/2021 18:42",
+		"acceptDroppingMorph:event:" : "TB 6/23/2021 20:10",
+		"clearContents" : "TB 6/23/2021 19:57",
 		"currentMorph" : "TB 6/23/2021 19:12",
-		"currentMorph:" : "TB 6/23/2021 19:21",
-		"initialize" : "TB 6/23/2021 19:06",
-		"updatePlaygroundContents" : "TB 6/23/2021 18:51",
-		"updatePlaygroundContents:" : "TB 6/23/2021 18:51" } }
+		"currentMorph:" : "TB 6/23/2021 20:06",
+		"initialize" : "TB 6/23/2021 20:06",
+		"updateContents" : "TB 6/23/2021 19:56",
+		"updateContents:" : "TB 6/23/2021 20:06",
+		"view" : "TB 6/23/2021 20:10",
+		"view:" : "TB 6/23/2021 20:10" } }

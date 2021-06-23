@@ -3,6 +3,6 @@ changeCurrentMorph: aMorph withSelectedMethods: aMethodList
 
 	self currentMorph: aMorph.
 	self selectedMethods: aMethodList.
-	self playground updatePlaygroundContents: aMorph.
+	self playground updateContents: aMorph.
 	self changed: #currentMorph.
 	self changed: #selectedMethods

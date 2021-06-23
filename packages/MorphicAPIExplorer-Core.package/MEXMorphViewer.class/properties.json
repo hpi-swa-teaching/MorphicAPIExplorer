@@ -4,9 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "TB 6/23/2021 20:00",
 	"instvars" : [
-		"currentMorph" ],
+		"currentMorph",
+		"view" ],
 	"name" : "MEXMorphViewer",
 	"pools" : [
 		 ],

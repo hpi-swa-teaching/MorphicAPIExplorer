@@ -9,6 +9,6 @@ initialize
 		morphBox: Morph new;
 		basicDependentMethods: OrderedCollection new;
 		category: MEXCategory new;
-		playground: (MEXMorphViewer new
+		playground: ((MEXMorphViewer newWithView: self)
 			layoutFrame: (LayoutFrame fractions: self class fullFractions);
 			yourself)
