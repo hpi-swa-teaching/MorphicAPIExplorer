@@ -3,6 +3,6 @@ evaluateCode: aCode
 
 	| evaluatedCode |
 	evaluatedCode := Compiler evaluate: aCode.
-	self playground pasteUpMorph ifNotNil: [self updatePlaygroundContents: evaluatedCode].
+	self playground pasteUpMorph ifNotNil: [self playground updatePlaygroundContents: evaluatedCode].
 	
 	^ evaluatedCode
