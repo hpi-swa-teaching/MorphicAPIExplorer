@@ -10,4 +10,5 @@ excludedRules
 		#smallLintSendsDifferentSuper .
 		#smallLintBadMessage .
 		#smallLintUtilityMethods .
-		#collectionProtocolRule:} asOrderedCollection
+		#collectionProtocolRule: .
+		#smallLintAddRemoveDependents} asOrderedCollection
