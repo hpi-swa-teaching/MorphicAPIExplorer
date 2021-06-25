@@ -2,7 +2,7 @@ ui
 changeToOverView
 
 	| newView |
-	self myDependents do: [:aDependent | self removeDependent: aDependent].
+	"self myDependents do: [:aDependent | self removeDependent: aDependent]."
 	(self standardMorphs noneSatisfy: [:each | (each class = category defaultMorph class)])
 		ifTrue: [self defaultMorphs removeKey: self actualDefaultMorph].
 	newView := MEXToolOverView new.
