@@ -1,7 +1,7 @@
 updating
 update: anAspect
 
-	anAspect ifNil: [^ self].
+	anAspect = #() ifTrue: [^ self].
 	
 	anAspect == self getSelectedSelector
 		ifTrue: [self updateGetSelectedSelector. 
