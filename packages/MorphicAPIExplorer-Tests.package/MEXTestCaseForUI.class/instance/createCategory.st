@@ -4,7 +4,7 @@ createCategory
 	^ MEXCategory 
 			newNamed: 'TestCategory' 
 			havingImage: nil 
-			havingDefaultMorph: ImageMorph new 
+			havingDefaultMorph: Morph new 
 			withMethodList: {
 				MEXMethod newWithName: 'color:' havingParameters: {'Color red'}.
 				MEXMethod newWithName: 'addDropShadow'.

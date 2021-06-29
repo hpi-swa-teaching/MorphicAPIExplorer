@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"createSampleMorphIn:WithMethods:" : "SC 6/29/2021 03:31",
 		"getMethodTreeFor:" : "SH 6/10/2021 19:20",
 		"getMorphCollectionInDefaultMorphBoxFor:" : "6/21/2021 23:30:36",
 		"newMorphs" : "lk 7/24/2019 15:03",
@@ -11,12 +12,13 @@
 		"testBuiltExplorationViewForCategoryReturnsCorrectMethodList" : "lk 7/24/2019 17:42",
 		"testBuiltExplorationViewForCategoryReturnsIdenticalCategory" : "lk 7/24/2019 15:44",
 		"testDefaultMorphBoxContainsAMorph" : "lk 7/24/2019 15:39",
-		"testDefaultMorphChanges" : "lk 7/24/2019 15:40",
+		"testDefaultMorphChanges" : "SC 6/28/2021 18:04",
 		"testDefaultMorphSaves" : "KT 5/20/2021 15:20",
 		"testDependeeMorphDisplaysCorrectIcon" : "SC 6/21/2021 13:01",
 		"testDependentMorphDisplaysCorrectIcon" : "SC 6/21/2021 13:03",
 		"testEvaluateCodeReturnsCorrectMorph" : "lk 7/24/2019 15:00",
 		"testExpandableTreeElementsExpanded" : "SC 6/28/2021 17:13",
+		"testMethodSelectionUpdatesOnChangingMorphInPlayground" : "SC 6/29/2021 03:33",
 		"testMorphBoxContainsStandardMorphs" : "TB 6/7/2021 12:04",
 		"testOpenExplorationViewForOpensAnExplorationView" : "FFN 5/21/2019 16:23",
 		"testPlaygroundContainsCorrectMorph" : "lk 7/24/2019 15:01",

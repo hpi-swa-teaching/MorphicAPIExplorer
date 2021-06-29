@@ -3,6 +3,6 @@ testDefaultMorphChanges
 
 	| defaultMorphCollection view |
 	view := builder build: explorationView.
-	explorationView defaultMorph: (ImageMorph new).
+	explorationView defaultMorph: (Morph new).
 	defaultMorphCollection := self getMorphCollectionInDefaultMorphBoxFor: view.
 	self assert: (defaultMorphCollection anySatisfy: [:each | each class = explorationView defaultMorph class])
