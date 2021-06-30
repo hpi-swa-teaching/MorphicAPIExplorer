@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"excludedRules" : "SC 6/21/2021 23:59",
+		"excludedRules" : "SC 6/25/2021 19:16",
 		"isLoggingEnabled" : "SC 6/21/2021 23:09",
 		"isLoggingVerbose" : "SC 6/21/2021 23:09",
 		"mexCorePackage" : "SC 6/14/2021 10:00",
@@ -31,6 +31,7 @@
 		"classes" : "mg 6/5/2020 11:49",
 		"classes:" : "mg 6/5/2020 11:49",
 		"defaultTimeout" : "SC 6/15/2021 22:58",
+		"dontTestAddDependantMethodsLessOrEqualThanRemoveDependents" : "SC 6/25/2021 19:15",
 		"dontTestArgumentVariableNames" : "SC 6/15/2021 23:53",
 		"dontTestDataClass" : "SC 6/15/2021 22:39",
 		"dontTestInconsistentMethodClassification" : "SC 6/15/2021 23:43",
@@ -45,7 +46,6 @@
 		"logProblemsOf:InTest:" : "SC 6/22/2021 00:18",
 		"runLinterRule:" : "SC 6/21/2021 23:10",
 		"setUp" : "SC 6/16/2021 05:58",
-		"testAddDependantMethodsLessOrEqualThanRemoveDependents" : "PC 6/21/2021 20:19",
 		"testAllDontTestsForConsoleOutputOnly" : "SC 6/21/2021 23:10",
 		"testArithmeticPrecedenceRule" : "mg 7/15/2020 20:11",
 		"testAsOrderedCollectionAsArrayNotNeeded" : "mg 7/15/2020 20:11",
