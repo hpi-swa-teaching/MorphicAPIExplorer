@@ -1,17 +1,15 @@
 tests
 testMethodSelectionUpdatesOnChangingMorphInPlayground
 	
-	| exampleMethods allMorphs view |
+	| exampleMethods view allButtonMorphs |
 	
 	view := builder build: explorationView.
-		
-	explorationView setSelectionFor: (explorationView methodList at: 1) with: true.
-	explorationView setSelectionFor: (explorationView methodList at: 2) with: true.
-	explorationView evaluateMethodsForMorph: explorationView defaultMorph.
-	
 	exampleMethods := { explorationView methodList at: 1. explorationView methodList at: 2} asOrderedCollection.
-	self halt.
+	self loadMorphWithMethods: exampleMethods.
+	explorationView evaluateCode: self sampleCode.
 	explorationView saveCurrentMorph.
-	allMorphs := self getMorphCollectionInDefaultMorphBoxFor: view.
+	allButtonMorphs := self getButtonMorphCollectionInDefaultMorphBoxFor: view.
+	(allButtonMorphs at: 1) doButtonAction.
+	
 
 	self halt.
