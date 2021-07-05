@@ -2,6 +2,7 @@ tests
 testMorphSpacing
 
 	| morph view morphCount |
+	
 	morphCount := 0.
 	view := builder build: explorationView.
 	morph := EllipseMorph new.
