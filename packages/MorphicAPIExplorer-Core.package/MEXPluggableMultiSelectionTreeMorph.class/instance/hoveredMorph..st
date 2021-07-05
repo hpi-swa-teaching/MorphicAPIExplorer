@@ -5,4 +5,4 @@ hoveredMorph: aMorph
 	hoveredMorph ifNotNil: [:theMorph | theMorph changed].
 	hoveredMorph := aMorph.
 	hoveredMorph ifNotNil: [:theMorph | theMorph changed].	
-	self findRelatedSelector ifNotNil: [:theSymbol | self update: theSymbol]
+	self update: self findRelatedSelector

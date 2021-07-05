@@ -8,7 +8,8 @@
 	"instvars" : [
 		"setSelectionList",
 		"getSelectionList",
-		"findRelated" ],
+		"findRelated",
+		"setStateOfRelated" ],
 	"name" : "MEXPluggableMultiSelectionTreeSpec",
 	"pools" : [
 		 ],
