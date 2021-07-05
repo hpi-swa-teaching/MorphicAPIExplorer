@@ -6,6 +6,6 @@ makeMultiSelectionTreeSpec
 		model: self;
 		roots: #getRoots;
 	"<-- the following cannot be tested very well -->"
-		getSelectionList: #getSelectionList:;
+		getSelectionList: #selectedMethods;
 		setSelectionList: #setSelectionList:with:;
 		yourself
