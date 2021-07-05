@@ -18,6 +18,7 @@
 		"testEvaluateCodeReturnsCorrectMorph" : "lk 7/24/2019 15:00",
 		"testExpendableTreeElementsExpanded" : "TB 6/20/2021 11:22",
 		"testMorphBoxContainsStandardMorphs" : "TB 6/7/2021 12:04",
+		"testMorphSpacing" : "PC 6/25/2021 14:27",
 		"testOpenExplorationViewForOpensAnExplorationView" : "FFN 5/21/2019 16:23",
 		"testPlaygroundContainsCorrectMorph" : "lk 7/24/2019 15:01",
 		"testRelatedMorphsAreDependeeMorphs" : "SH 6/10/2021 20:02",
