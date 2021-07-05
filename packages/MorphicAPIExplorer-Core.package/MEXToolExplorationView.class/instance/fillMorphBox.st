@@ -3,14 +3,14 @@ fillMorphBox
 
 	| button gap iconMorph |
 	gap := 0.
-	self defaultMorphs keysSortedSafely do: [:each |
-		iconMorph := (self evaluateMethodsForMorph: each).
+	self defaultMorphs keysSortedSafely do: [:aMorph |
+		iconMorph := (self evaluateMethodsForMorph: aMorph).
 		self scaleForMorphBox: iconMorph.
 		button := SimpleButtonMorph new
 			label: '';
 			target: self;
-			actionSelector: #changeCurrentMorph:withSelectedMethods:;
-			arguments: {each . self defaultMorphs at: each};
+			actionSelector: #changeCurrentDefaultMorph:;
+			arguments: {aMorph};
 			extent: iconMorph extent;
 			color: Color transparent;
 			borderWidth: 0;
