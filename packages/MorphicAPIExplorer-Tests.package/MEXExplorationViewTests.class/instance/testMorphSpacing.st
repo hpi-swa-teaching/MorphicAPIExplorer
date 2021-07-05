@@ -1,11 +1,11 @@
 tests
 testMorphSpacing
 
-	| defaultMorph view morphCount |
+	| morph view morphCount |
 	morphCount := 0.
 	view := builder build: explorationView.
-	defaultMorph := EllipseMorph new.
-	explorationView defaultMorph: defaultMorph.
+	morph := EllipseMorph new.
+	explorationView currentMorph: morph.
 	explorationView saveCurrentMorph.
 	explorationView morphBox submorphs  do:
 		[:aMorph | morphCount := morphCount + (explorationView morphBox submorphs count: 
