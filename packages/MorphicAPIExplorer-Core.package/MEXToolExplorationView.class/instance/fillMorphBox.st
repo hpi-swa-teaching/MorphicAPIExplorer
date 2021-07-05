@@ -9,7 +9,7 @@ fillMorphBox
 		button := SimpleButtonMorph new
 			label: '';
 			target: self;
-			actionSelector: #changeCurrentDefaultMorph:;
+			actionSelector: #changeCurrentMorph:;
 			arguments: {aMorph};
 			extent: iconMorph extent;
 			color: Color transparent;
