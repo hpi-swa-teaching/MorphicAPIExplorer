@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"getButtonMorphCollectionInDefaultMorphBoxFor:" : "SC 6/29/2021 05:08",
+		"getButtonMorphCollectionInDefaultMorphBoxFor:" : "SC 7/5/2021 03:56",
 		"getMethodTreeFor:" : "SH 6/10/2021 19:20",
 		"getMorphCollectionInDefaultMorphBoxFor:" : "SC 6/29/2021 05:07",
 		"loadMorphWithMethods:" : "SC 6/29/2021 04:54",
@@ -19,7 +19,7 @@
 		"testDependentMorphDisplaysCorrectIcon" : "SC 6/21/2021 13:03",
 		"testEvaluateCodeReturnsCorrectMorph" : "lk 7/24/2019 15:00",
 		"testExpandableTreeElementsExpanded" : "SC 6/28/2021 17:13",
-		"testMethodSelectionUpdatesOnChangingMorphInPlayground" : "SC 6/29/2021 05:10",
+		"testMethodSelectionUpdatesOnChangingMorphInPlayground" : "SC 7/5/2021 04:18",
 		"testMorphBoxContainsStandardMorphs" : "TB 6/7/2021 12:04",
 		"testOpenExplorationViewForOpensAnExplorationView" : "FFN 5/21/2019 16:23",
 		"testPlaygroundContainsCorrectMorph" : "lk 7/24/2019 15:01",
