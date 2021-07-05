@@ -1,6 +1,7 @@
 updating
 update: anAspect
 
+	anAspect ifNil: [^ self].
 	anAspect ifEmpty: [^ self].
 	
 	anAspect == self getSelectedSelector
