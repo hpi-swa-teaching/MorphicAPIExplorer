@@ -1,5 +1,5 @@
 default morphs
-changeCurrentDefaultMorph: aMorph
+changeCurrentMorph: aMorph
 	
 	self defaultMorph: aMorph.
 	self selectedMethods: (self defaultMorphs at: aMorph).

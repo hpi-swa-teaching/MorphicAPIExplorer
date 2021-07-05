@@ -6,11 +6,9 @@ initialize
 	self 
 		selectedMethods: OrderedCollection new;
 		defaultMorphs: Dictionary new;
-		actualDefaultMorph: Morph new;
 		morphBox: Morph new;
 		category: MEXCategory new;
-		playground: (PasteUpMorph new
+		playground: ((MEXMorphViewer newWithView: self)
 			layoutFrame: (LayoutFrame fractions: self class fullFractions);
 			color: (self userInterfaceTheme color ifNil: [Color white]);
-			dropEnabled: false;
 			yourself)

@@ -3,7 +3,7 @@ testSelectedMethodsSaves
 
 	| view |
 	view := builder build: explorationView.
-	explorationView defaultMorph: RectangleMorph new.
+	explorationView currentMorph: RectangleMorph new.
 	explorationView selectedMethods add: (MEXMethod newWithName: 'extent:' havingParameters: {'100 @ 100'}).
 	explorationView saveCurrentMorph.
 	explorationView defaultMorphs valuesDo: [ :each |

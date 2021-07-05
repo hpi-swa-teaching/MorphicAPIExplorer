@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"newWithView:" : "TB 6/23/2021 20:10" },
+	"instance" : {
+		"acceptDroppingMorph:event:" : "SH 6/30/2021 16:13",
+		"clearContents" : "TB 6/23/2021 19:57",
+		"currentMorph" : "TB 6/23/2021 19:12",
+		"currentMorph:" : "TB 6/23/2021 20:06",
+		"initialize" : "TB 6/23/2021 20:06",
+		"updateContents:" : "TB 6/23/2021 20:06",
+		"view" : "TB 6/23/2021 20:10",
+		"view:" : "TB 6/23/2021 20:10" } }

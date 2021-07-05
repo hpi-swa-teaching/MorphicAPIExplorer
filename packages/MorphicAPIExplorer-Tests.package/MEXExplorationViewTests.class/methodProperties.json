@@ -12,9 +12,9 @@
 		"tearDown" : "lk 7/24/2019 15:02",
 		"testBuiltExplorationViewForCategoryReturnsCorrectMethodList" : "lk 7/24/2019 17:42",
 		"testBuiltExplorationViewForCategoryReturnsIdenticalCategory" : "lk 7/24/2019 15:44",
-		"testDefaultMorphBoxContainsAMorph" : "SC 7/5/2021 15:11",
-		"testDefaultMorphChanges" : "SC 7/5/2021 15:12",
-		"testDefaultMorphSaves" : "KT 5/20/2021 15:20",
+		"testCurrentMorphChanges" : "TB 6/23/2021 18:56",
+		"testDefaultMorphBoxContainsAMorph" : "lk 7/24/2019 15:39",
+		"testDefaultMorphSaves" : "TB 6/23/2021 19:04",
 		"testDependeeMorphDisplaysCorrectIcon" : "SC 6/21/2021 13:01",
 		"testDependentMorphDisplaysCorrectIcon" : "SC 6/21/2021 13:03",
 		"testEvaluateCodeReturnsCorrectMorph" : "lk 7/24/2019 15:00",
@@ -23,6 +23,6 @@
 		"testMorphBoxContainsStandardMorphs" : "TB 6/7/2021 12:04",
 		"testMorphSpacing" : "PC 6/25/2021 14:27",
 		"testOpenExplorationViewForOpensAnExplorationView" : "FFN 5/21/2019 16:23",
-		"testPlaygroundContainsCorrectMorph" : "lk 7/24/2019 15:01",
+		"testPlaygroundContainsCorrectMorph" : "TB 6/23/2021 19:57",
 		"testRelatedMorphsAreDependeeMorphs" : "SH 6/10/2021 20:02",
-		"testSelectedMethodsSaves" : "PM 6/11/2021 14:51" } }
+		"testSelectedMethodsSaves" : "TB 6/23/2021 19:04" } }

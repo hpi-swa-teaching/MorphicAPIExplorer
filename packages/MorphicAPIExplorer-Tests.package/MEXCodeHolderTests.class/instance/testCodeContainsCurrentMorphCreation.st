@@ -1,5 +1,5 @@
 tests
-testCodeContainsDefaultMorphCreation
+testCodeContainsCurrentMorphCreation
 
 	| expectedMorphClass |
 	expectedMorphClass := category defaultMorph class name.
