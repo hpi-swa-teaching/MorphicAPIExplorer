@@ -13,3 +13,4 @@ and press Ctrl+D (or Cmd+D on Mac) to run the code and open the Morphplorer.
 
 ## Wiki
 In our wiki you can find the project's coding standards and the current class diagram, showing the architecture.
+For further information, please refer to the class comments in your image after installing the package.

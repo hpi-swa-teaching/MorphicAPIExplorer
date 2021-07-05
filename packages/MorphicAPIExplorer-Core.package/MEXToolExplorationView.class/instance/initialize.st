@@ -11,6 +11,6 @@ initialize
 		category: MEXCategory new;
 		playground: (PasteUpMorph new
 			layoutFrame: (LayoutFrame fractions: self class fullFractions);
-			color: Preferences defaultWorldColor;
+			color: (self userInterfaceTheme color ifNil: [Color white]);
 			dropEnabled: false;
 			yourself)
