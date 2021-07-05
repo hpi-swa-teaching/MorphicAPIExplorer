@@ -1,8 +1,7 @@
 tests
 testDefaultMorphSaves
 
-	| currentMorph view previousSize |
-	view := builder build: explorationView.
+	| currentMorph previousSize |
 	currentMorph := EllipseMorph new.
 	previousSize := explorationView defaultMorphs size.
 	explorationView currentMorph: currentMorph.
