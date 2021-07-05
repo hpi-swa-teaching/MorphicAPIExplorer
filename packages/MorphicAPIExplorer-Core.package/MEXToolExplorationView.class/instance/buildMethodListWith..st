@@ -5,7 +5,7 @@ buildMethodListWith: aBuilder
 		model: self;
 		roots: #methodList;
 		nodeClass: MEXListItemWrapper;
-		getSelectionList: #getSelectionFor:;
+		getSelectionList: #selectedMethods;
 		setSelectionList: #setSelectionFor:with:;
 		findRelated: #getDependeesOf:;
 		setStateOfRelated: #setDependeeStateOf:;

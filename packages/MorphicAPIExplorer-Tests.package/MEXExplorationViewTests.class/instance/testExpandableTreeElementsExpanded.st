@@ -1,5 +1,5 @@
 tests
-testExpendableTreeElementsExpanded
+testExpandableTreeElementsExpanded
 
 	| view treeMorph|
 	view := builder build: explorationView.
