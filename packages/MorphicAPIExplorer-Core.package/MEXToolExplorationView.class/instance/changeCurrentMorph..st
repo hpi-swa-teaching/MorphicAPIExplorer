@@ -1,7 +1,7 @@
 default morphs
 changeCurrentMorph: aMorph
 	
-	self defaultMorph: aMorph.
+	self currentMorph: aMorph.
 	self selectedMethods: (self defaultMorphs at: aMorph).
-	self updatePlaygroundContents: aMorph.
+	self playground updateContents: aMorph.
 	self changed: #selectedMethods
