@@ -8,6 +8,7 @@ buildSearchList: aBuilder
 		roots: #categories;
 		nodeClass: MEXListItemWrapper;
 		setSelected: #changeToCategoryOf:;
+		keyPress: #searchListKeyPress:;
 		label: #name;
 		frame: (LayoutFrame new
 			leftFraction: 0;
