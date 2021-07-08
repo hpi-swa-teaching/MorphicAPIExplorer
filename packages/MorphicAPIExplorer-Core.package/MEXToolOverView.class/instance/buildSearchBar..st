@@ -3,8 +3,9 @@ buildSearchBar: aBuilder
 	
 	^ aBuilder pluggableTextSpec new
 		model: self;
-		"getText: #;"
+		help: self class searchBarHelpText;
 		editText: #updateSearchList:;
+		indicateUnacceptedChanges: false;
 		frame: (LayoutFrame new
 			leftFraction: 0;
 			topFraction: 0;
