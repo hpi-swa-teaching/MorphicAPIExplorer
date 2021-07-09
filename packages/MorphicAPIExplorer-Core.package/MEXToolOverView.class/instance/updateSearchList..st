@@ -7,4 +7,4 @@ updateSearchList: aText
 			self searchListVisible: true.
 			self findSearchListInDependents removeFilter.
 			self findSearchListInDependents lastKeystrokes: aText asString.
-			self findSearchListInDependents triggerFilterTree]
+			self findSearchListInDependents filterTree]
