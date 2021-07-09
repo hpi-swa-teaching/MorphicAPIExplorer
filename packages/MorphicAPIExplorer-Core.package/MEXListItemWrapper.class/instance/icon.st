@@ -1,7 +1,7 @@
 accessing
 icon
 
-    ^ (self item type == 'method')
+    ^ (self item type = 'method')
 	ifFalse: [nil]
 	ifTrue: [self item hasSubMethods
         ifTrue: [nil]

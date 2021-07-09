@@ -1,5 +1,5 @@
 accessing
 changeToCategoryOf: aSearchItem
 
-	(aSearchItem isKindOf: MEXCategory) ifTrue: [self changeToExplorationViewFor: aSearchItem].
-	(aSearchItem isKindOf: MEXMethod) ifTrue: [self changeToExplorationViewFor: aSearchItem category]
+    (aSearchItem type = 'category') ifTrue: [self changeToExplorationViewFor: aSearchItem].
+    (aSearchItem type = 'method') ifTrue: [self changeToExplorationViewFor: aSearchItem category]
