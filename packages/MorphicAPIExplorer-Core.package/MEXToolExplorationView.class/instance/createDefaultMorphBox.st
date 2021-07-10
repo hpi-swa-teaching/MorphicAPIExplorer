@@ -6,6 +6,5 @@ createDefaultMorphBox
 		color: Preferences defaultWorldColor;
         	borderColor: Color gray;
         	yourself.
-	self morphBox extent: self morphBox owner extent.
 	self fillMorphBox.
 	^ morphBox
