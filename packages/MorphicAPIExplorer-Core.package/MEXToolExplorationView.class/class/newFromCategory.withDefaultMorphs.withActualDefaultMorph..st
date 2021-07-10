@@ -3,6 +3,6 @@ newFromCategory: aMEXCategory withDefaultMorphs: aMorphMethodList withActualDefa
 
 	^ self new 
 		currentMorph: aMEXCategory defaultMorph;
-		defaultMorphs: aMorphMethodList;
+		savedMorphs: aMorphMethodList;
 		buildForCategory: aMEXCategory;
 		yourself

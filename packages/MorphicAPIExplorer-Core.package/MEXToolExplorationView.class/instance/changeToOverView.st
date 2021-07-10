@@ -3,7 +3,7 @@ changeToOverView
 
 	| newView |
 	(self standardMorphs noneSatisfy: [:aMorph | (aMorph class = category defaultMorph class)])
-		ifTrue: [self defaultMorphs removeKey: self category defaultMorph].
+		ifTrue: [self savedMorphs removeKey: self category defaultMorph].
 	newView := MEXToolOverView new.
-	newView defaultMorphs: self defaultMorphs.
+	newView savedMorphs: self savedMorphs.
 	self changeViewTo: (MEXToolBuilder open: newView)

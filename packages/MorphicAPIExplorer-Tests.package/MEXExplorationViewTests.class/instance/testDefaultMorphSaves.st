@@ -3,8 +3,8 @@ testDefaultMorphSaves
 
 	| currentMorph previousSize |
 	currentMorph := EllipseMorph new.
-	previousSize := explorationView defaultMorphs size.
+	previousSize := explorationView savedMorphs size.
 	explorationView currentMorph: currentMorph.
 	explorationView saveCurrentMorph.
-	self assert: previousSize + 1 equals: explorationView defaultMorphs size.
-	self assert: (self countType: currentMorph class in: explorationView defaultMorphs keys) > 0
+	self assert: previousSize + 1 equals: explorationView savedMorphs size.
+	self assert: (self countType: currentMorph class in: explorationView savedMorphs keys) > 0

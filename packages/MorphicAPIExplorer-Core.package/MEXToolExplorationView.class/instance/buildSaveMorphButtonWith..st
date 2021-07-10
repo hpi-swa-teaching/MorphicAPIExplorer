@@ -1,5 +1,5 @@
 building
-buildSaveDefaultMorphButtonWith: aBuilder
+buildSaveMorphButtonWith: aBuilder
 	
 	^ aBuilder pluggableButtonSpec new
 		model: self;

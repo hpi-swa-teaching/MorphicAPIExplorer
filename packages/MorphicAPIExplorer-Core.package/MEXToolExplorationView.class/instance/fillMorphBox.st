@@ -3,7 +3,7 @@ fillMorphBox
 
 	| button gap iconMorph |
 	gap := 0.
-	self defaultMorphs keysSortedSafely do: [:aMorph |
+	self savedMorphs keysSortedSafely do: [:aMorph |
 		iconMorph := (self evaluateMethodsForMorph: aMorph).
 		self scaleForMorphBox: iconMorph.
 		button := SimpleButtonMorph new
