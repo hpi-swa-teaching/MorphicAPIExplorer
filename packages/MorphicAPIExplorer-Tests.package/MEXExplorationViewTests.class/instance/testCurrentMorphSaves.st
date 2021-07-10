@@ -1,5 +1,5 @@
 tests
-testDefaultMorphSaves
+testCurrentMorphSaves
 
 	| currentMorph previousSize |
 	currentMorph := EllipseMorph new.
