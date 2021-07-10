@@ -1,9 +1,11 @@
 building
 buildDefaultMorphBoxWith: aBuilder
 	
+	|temp|
+	temp := self createDefaultMorphBox.
 	^ aBuilder pluggableScrollPaneSpec new
 		model: self;
-		children: #createDefaultMorphBox;
+		morph: temp;
 		hScrollBarPolicy: #whenNeeded;
 		frame: (LayoutFrame new
 			leftFraction: self class leftSpecsHorizontalDistribution x;

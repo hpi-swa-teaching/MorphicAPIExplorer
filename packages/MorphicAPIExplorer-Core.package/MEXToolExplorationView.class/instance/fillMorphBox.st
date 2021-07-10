@@ -15,7 +15,7 @@ fillMorphBox
 			color: Color transparent;
 			borderWidth: 0;
 			addMorph: iconMorph;
-			position: morphBox position x + self class defaultMorphPosition x @ gap + self morphBox position y + self class defaultMorphPosition y;
+			position: self morphBox position x + self class defaultMorphPosition x @ gap + self morphBox position y + self class defaultMorphPosition y;
 			yourself.
 		self morphBox addMorph: button.
 		gap := gap + button boundingBoxOfSubmorphs bottomRight y - button boundingBoxOfSubmorphs topRight y + self class defaultMorphGapSize]
