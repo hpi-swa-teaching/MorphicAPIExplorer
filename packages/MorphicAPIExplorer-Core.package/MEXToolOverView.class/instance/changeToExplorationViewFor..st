@@ -7,6 +7,5 @@ changeToExplorationViewFor: aMEXCategory
 			ifTrue: [self defaultMorphs add: aMEXCategory defaultMorph -> OrderedCollection new].
 	newView := MEXToolExplorationView 
 		newFromCategory: aMEXCategory 
-		withDefaultMorphs: self defaultMorphs 
-		withActualDefaultMorph: aMEXCategory defaultMorph.
+		withDefaultMorphs: self defaultMorphs.
 	self changeViewTo: (MEXToolBuilder open: newView)

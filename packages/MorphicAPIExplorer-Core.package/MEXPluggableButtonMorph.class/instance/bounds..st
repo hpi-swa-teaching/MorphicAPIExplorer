@@ -1,6 +1,6 @@
 geometry
-bounds: newBounds
+bounds: aRectangle
 
-	super bounds: newBounds.
+	super bounds: aRectangle.
 	
 	(self label respondsTo: #image) ifTrue: [self label extent: self extent]
