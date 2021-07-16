@@ -9,7 +9,7 @@ testMethodSelectionUpdatesOnChangingMorphInPlayground
 	
 	self loadMorphWithMethods: exampleMethods.
 	explorationView saveCurrentMorph.
-	allButtonMorphs := self getButtonMorphCollectionInDefaultMorphBoxFor: explorationView.
+	allButtonMorphs := self getButtonMorphCollectionInMorphBoxFor: explorationView.
 	methodTree := self getMethodTreeFor: explorationView.
 	allButtonMorphs do: [:aButtonMorph | aButtonMorph doButtonAction. 
 		self assert: (((((methodTree items collect: [:anItem | anItem complexContents item isSelected == false]) occurrencesOf: false) == 0) 
