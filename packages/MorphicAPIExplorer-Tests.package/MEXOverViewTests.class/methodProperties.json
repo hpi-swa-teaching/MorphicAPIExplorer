@@ -8,8 +8,9 @@
 		"testAssigningCategoryToSubMethods" : "PM 7/16/2021 10:14",
 		"testBuildChildrenWithReturnsEmptyCollectionForZeroCategories" : "KT 6/3/2021 18:37",
 		"testFindSearchListInDependent" : "SH 7/8/2021 15:21",
-		"testSearchListInvisibleOnEmptySearchBar" : "SH 7/8/2021 15:09",
+		"testSearchListInvisibleOnEmptySearchBar" : "SH 7/16/2021 16:55",
 		"testSearchListInvisibleOnOpen" : "SH 7/8/2021 14:58",
+		"testSearchListVisibleOnBuildSearchBar" : "SH 7/16/2021 16:54",
 		"testSpecFrameAtForReturnsFullSizedLayoutFrameForOneCategoryAndOneRow" : "KT 6/3/2021 19:34",
 		"testSpecSizePerRowForReturnsFullSizeForOneCategoryAndOneRow" : "KT 6/3/2021 19:32",
 		"testSpecsPerRowForReturnsCorrectNumberWhenPassedAFloat" : "lk 7/24/2019 16:55" } }
