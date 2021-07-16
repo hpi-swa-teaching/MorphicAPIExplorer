@@ -19,7 +19,7 @@
 		"testDependentMorphDisplaysCorrectIcon" : "SC 6/21/2021 13:03",
 		"testEvaluateCodeReturnsCorrectMorph" : "lk 7/24/2019 15:00",
 		"testExpandableTreeElementsExpanded" : "SC 6/28/2021 17:13",
-		"testMethodSelectionUpdatesOnChangingMorphInPlayground" : "SC 7/16/2021 17:29",
+		"testMethodSelectionUpdatesOnChangingMorphInPlayground" : "SC 7/16/2021 18:33",
 		"testMorphBoxContainsAMorph" : "SC 7/10/2021 19:37",
 		"testMorphBoxContainsStandardMorphs" : "TB 6/7/2021 12:04",
 		"testMorphSpacing" : "SC 7/16/2021 17:30",

@@ -1,7 +1,7 @@
 tests
 testMethodSelectionUpdatesOnChangingMorphInPlayground
 	
-	| exampleMethods allButtonMorphs view methodTree |
+	| exampleMethods allButtonMorphs view methodTree methodList selectedContents |
 	
 	view := builder build: explorationView.
 	view openInWorld.
@@ -11,11 +11,13 @@ testMethodSelectionUpdatesOnChangingMorphInPlayground
 	explorationView saveCurrentMorph.
 	allButtonMorphs := self getButtonMorphCollectionInMorphBoxFor: explorationView.
 	methodTree := self getMethodTreeFor: explorationView.
+	methodList := methodTree items.
 	allButtonMorphs do: [:aButtonMorph | aButtonMorph doButtonAction. 
-		self assert: (((((methodTree items collect: [:anItem | anItem complexContents item isSelected == false]) occurrencesOf: false) == 0) 
-			and: (methodTree selectedMorphs size == 0))
-		or: ((methodTree items first complexContents item isSelected) 
-			and: (methodTree items second complexContents item isSelected) 
-			and: ((((methodTree items allButFirst: 2) collect: [:anItem | anItem complexContents item isSelected == false]) occurrencesOf: false) == 0)
-			and: (methodTree selectedMorphs size == 2)))].
+		selectedContents := methodTree selectedMorphs.
+		self assert: (((methodList noneSatisfy: [:anEntry | anEntry complexContents item isSelected])
+			and: [selectedContents isEmpty])
+		or: [methodList first complexContents item isSelected 
+			and: [methodList second complexContents item isSelected] 
+			and: [(methodList allButFirst: 2) noneSatisfy: [:anEntry | anEntry complexContents item isSelected]]
+			and: [selectedContents size = 2]])].
 	view abandon
