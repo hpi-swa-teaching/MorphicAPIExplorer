@@ -3,6 +3,7 @@
 		"newWithCategory:havingModel:havingParent:" : "PM 6/11/2021 14:57" },
 	"instance" : {
 		"asString" : "FFN 5/20/2019 14:40",
+		"balloonText" : "SC 7/10/2021 17:12",
 		"contents" : "TB 6/21/2021 17:42",
 		"getDependencies" : "PM 7/16/2021 09:33",
 		"hasContents" : "TB 6/21/2021 17:44",

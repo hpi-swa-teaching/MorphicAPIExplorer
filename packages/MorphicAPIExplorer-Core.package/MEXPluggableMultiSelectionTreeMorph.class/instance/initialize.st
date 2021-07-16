@@ -9,5 +9,6 @@ initialize
 		setStateOfRelatedSelector: #();
 		findRelatedSelector: #();
 		getSelectedSelector: #();
-		setSelectedSelector: #().
+		setSelectedSelector: #();
+		getHelpSelector: #().
 	self roots do: [:aNode | aNode expand]
