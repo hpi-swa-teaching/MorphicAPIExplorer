@@ -8,4 +8,4 @@ updateSearchList: aText
 			self findSearchListInDependents 
 				removeFilter;
 				lastKeystrokes: aText asString;
-				findSearchListInDependents filterTree]
+				filterTree]
