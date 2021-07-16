@@ -1,4 +1,0 @@
-tests
-getButtonMorphCollectionInDefaultMorphBoxFor: anExplorationView
-
-	^ anExplorationView morphBox submorphs.

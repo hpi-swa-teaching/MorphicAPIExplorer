@@ -7,6 +7,6 @@ initialize
   		(aCategory methodList 
 		gather: [:aMethod | {aMethod} , aMethod subMethods])
 		do: [:method | method category: aCategory]].
-	self defaultMorphs: Dictionary new.
+	self savedMorphs: Dictionary new.
 	self standardMorphs do: 
-		[:aMorph | defaultMorphs add: aMorph -> OrderedCollection new]
+		[:aMorph | savedMorphs add: aMorph -> OrderedCollection new]

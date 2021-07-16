@@ -5,7 +5,7 @@ initialize
 	
 	self 
 		selectedMethods: OrderedCollection new;
-		defaultMorphs: Dictionary new;
+		savedMorphs: Dictionary new;
 		morphBox: Morph new;
 		category: MEXCategory new;
 		playground: ((MEXMorphViewer newWithView: self)

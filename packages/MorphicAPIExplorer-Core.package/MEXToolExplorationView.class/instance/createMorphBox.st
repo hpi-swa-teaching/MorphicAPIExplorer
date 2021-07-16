@@ -1,5 +1,5 @@
 building
-createDefaultMorphBox
+createMorphBox
 	
     	morphBox := BorderedMorph new
 		layoutFrame: (LayoutFrame fractions: self class fullFractions);
