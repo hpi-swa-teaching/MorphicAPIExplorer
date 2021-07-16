@@ -7,6 +7,7 @@ buildMethodListWith: aBuilder
 		nodeClass: MEXListItemWrapper;
 		getSelectionList: #selectedMethods;
 		setSelectionList: #setSelectionFor:with:;
+		help: #getInformationText:;
 		findRelated: #getDependeesOf:;
 		setStateOfRelated: #setDependeeStateOf:;
 		frame: (LayoutFrame new
