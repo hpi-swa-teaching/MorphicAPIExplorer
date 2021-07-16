@@ -1,6 +1,6 @@
 I'm the actual tool which can be opened by the user. By default I'm opening a MEXToolOverView as window from where the user can navigate to the MEXToolExplorationView.
 
-I also contain the standardMorphs as defaultMorphs used in the morphplorer.
+I also contain a list of standardMorphs as part of my savedMorphs used in my morphplorer.
 
 My most important methods are
 - MEXTool class>>open					to actually open the tool
