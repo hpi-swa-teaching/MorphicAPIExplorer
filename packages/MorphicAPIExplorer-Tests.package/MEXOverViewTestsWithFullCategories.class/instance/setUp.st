@@ -11,5 +11,5 @@ setUp
 			MEXCategory newNamed: 'a' 
 				havingImage: MEXScalableImageMorph new 
 				havingDefaultMorph: Morph new 
-				withMethodList: {MEXMethod newWithName: 'b'})].
+				withMethodList: {MEXMethod newWithName: 'b' . MEXMethod newWithName: 'c'})].
 	self setFullOverViewCategories

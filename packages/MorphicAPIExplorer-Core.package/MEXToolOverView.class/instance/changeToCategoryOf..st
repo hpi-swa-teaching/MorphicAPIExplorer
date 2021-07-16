@@ -1,4 +1,4 @@
-accessing
+ui
 changeToCategoryOf: aSearchItem
 
 	(aSearchItem isKindOf: MEXCategory) ifTrue: [self changeToExplorationViewFor: aSearchItem].

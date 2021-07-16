@@ -1,10 +1,11 @@
 building
-buildSearchButton: aBuilder
+buildSearchBar: aBuilder
 	
-	^ aBuilder pluggableButtonSpec new
+	^ aBuilder pluggableTextSpec new
 		model: self;
-		label: 'Search On/Off';
-		action: #toggleSearchList;
+		help: self class searchBarHelpText;
+		editText: #updateSearchList:;
+		indicateUnacceptedChanges: false;
 		frame: (LayoutFrame new
 			leftFraction: 0;
 			topFraction: 0;

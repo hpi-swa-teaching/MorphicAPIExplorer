@@ -1,0 +1,4 @@
+constants
+searchBarHelpText
+
+	^ 'Search'
