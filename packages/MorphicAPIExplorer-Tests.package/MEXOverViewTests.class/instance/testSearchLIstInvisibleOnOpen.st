@@ -1,8 +1,6 @@
 tests
-testSearchLIstInvisibleOnOpen
+testSearchListInvisibleOnOpen
 
 	| view |
 	view := builder build: overView.
-	self assert: overView findSearchListInDependents visible not.
-	
-
+	self assert: overView findSearchListInDependents visible not
