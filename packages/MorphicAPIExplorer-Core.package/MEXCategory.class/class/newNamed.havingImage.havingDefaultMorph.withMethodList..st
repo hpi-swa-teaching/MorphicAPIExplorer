@@ -6,5 +6,4 @@ newNamed: aName havingImage: anImageMorph havingDefaultMorph: aMorph withMethodL
 		image: anImageMorph;
 		defaultMorph: aMorph;
 		methodList: anOrderedCollection;
-		"updateMethodsWithDependencies;"
 		yourself

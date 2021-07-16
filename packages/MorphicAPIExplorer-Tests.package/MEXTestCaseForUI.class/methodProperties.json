@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"countType:in:" : "TB 5/24/2021 21:08",
+		"countType:in:" : "SC 7/16/2021 19:56",
 		"createCategory" : "SC 6/28/2021 18:02",
 		"getMethodListOfCategory" : "lk 7/24/2019 17:42",
-		"getOpenWindowsWithModel:" : "PM 6/20/2021 11:29",
-		"setUp" : "SC 7/10/2021 18:54" } }
+		"getOpenWindowsWithModel:" : "SC 7/16/2021 19:57",
+		"setUp" : "SC 7/16/2021 19:26" } }

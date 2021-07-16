@@ -11,4 +11,5 @@ excludedRules
 		#smallLintBadMessage .
 		#smallLintUtilityMethods .
 		#collectionProtocolRule: .
-		#smallLintAddRemoveDependents} asOrderedCollection
+		#smallLintAddRemoveDependents .
+		#godClass:} asOrderedCollection
