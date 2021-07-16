@@ -9,6 +9,6 @@ testBackButtonOfExplorationViewLeadsToOverView
 	((view submorphs select: 
 		[:aMorph| aMorph isKindOf: MEXPluggableButtonMorph])
 		select: [:aMorph | aMorph label = 'Back']) first performAction.
-	self assert: ((self getOpenWindowsWithModel: MEXToolExplorationView) size = (openExplorationViews - 1)).
+	self assert: (self getOpenWindowsWithModel: MEXToolExplorationView) size equals: (openExplorationViews - 1).
 	self assert: ((self getOpenWindowsWithModel: MEXToolOverView) size = (openOverViews + 1)).
 	view abandon
