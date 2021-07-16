@@ -5,6 +5,7 @@ updateSearchList: aText
 		ifTrue: [self searchListVisible: false]
 		ifFalse: [
 			self searchListVisible: true.
-			self findSearchListInDependents removeFilter.
-			self findSearchListInDependents lastKeystrokes: aText asString.
-			self findSearchListInDependents filterTree]
+			self findSearchListInDependents 
+				removeFilter;
+				lastKeystrokes: aText asString;
+				findSearchListInDependents filterTree]
