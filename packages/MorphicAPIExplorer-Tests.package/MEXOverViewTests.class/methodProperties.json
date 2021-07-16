@@ -5,7 +5,7 @@
 		"getEmptyCollectionOfOverViewChildren" : "lk 7/24/2019 16:28",
 		"setEmptyOverViewCategories" : "lk 7/24/2019 16:27",
 		"setUp" : "lk 7/24/2019 16:51",
-		"testAssigningCategoryToSubMethods" : "PC 6/10/2021 12:28",
+		"testAssigningCategoryToSubMethods" : "PM 7/16/2021 10:14",
 		"testBuildChildrenWithReturnsEmptyCollectionForZeroCategories" : "KT 6/3/2021 18:37",
 		"testFindSearchListInDependent" : "SH 7/8/2021 15:21",
 		"testSearchListInvisibleOnEmptySearchBar" : "SH 7/8/2021 15:09",
