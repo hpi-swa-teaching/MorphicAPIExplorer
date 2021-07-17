@@ -9,7 +9,7 @@ icon
        	 ifFalse: [
             	self item isActiveDependee 
                 		ifTrue: [MEXIcons dependeeIcon]
-                		ifFalse:[
+                		ifFalse: [
                     		self item hasDependencies
                     		ifTrue: [MEXIcons dependentIcon]
                         	ifFalse: [MEXIcons blankIcon]]]]

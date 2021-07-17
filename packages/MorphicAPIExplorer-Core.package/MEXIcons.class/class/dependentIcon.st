@@ -4,7 +4,7 @@ dependentIcon
 	Website: https://icons8.com
 	License: https://creativecommons.org/licenses/by-nd/3.0/"
 
-	^ (Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes:  'iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAE1UlEQVR4XuVZ7WtTVxi/f4Jf
+	^ (Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: 'iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAE1UlEQVR4XuVZ7WtTVxi/f4Jf
 9sVP+nFjH4ogzcBNwc1WcIiDdTjf6jbFbkbb6sZUtKl1UN1EsYwpTqqxShW0Q5DWKBYFa7vW
 Xlv7kjapSdM0na0uLze5Ny/K8ZxzSZr03pv7YvDem/PAj4bcUPj9nuf5Pc+5hyI/yA/yg/wg
 P95DMK7tH0RHKrfExndeZF27x2Mu6wznrmUQ0GfWbe1kXVVtUef3e4uKOOuu2cB6fr6KiLIT

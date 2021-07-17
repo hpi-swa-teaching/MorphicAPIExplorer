@@ -7,4 +7,5 @@ createMorphBox
         	borderColor: Color transparent;
         	yourself.
 	self fillMorphBox.
+	
 	^ {morphBox}

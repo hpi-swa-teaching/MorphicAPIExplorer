@@ -4,7 +4,7 @@ fillMorphBox
 	| button gap iconMorph |
 	gap := 0.
 	self savedMorphs keysSortedSafely do: [:aMorph |
-		iconMorph := (self evaluateMethodsForMorph: aMorph).
+		iconMorph := self evaluateMethodsForMorph: aMorph.
 		self scaleForMorphBox: iconMorph.
 		button := SimpleButtonMorph new
 			label: '';
