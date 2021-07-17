@@ -8,7 +8,7 @@
 		"setUp" : "SH 7/8/2021 15:46",
 		"testBuildChildrenWithReturnsCollectionOfSpecs" : "TB 7/8/2021 19:21",
 		"testBuildChildrenWithReturnsCollectionWithCorrectSizeForFilledCategories" : "KT 6/3/2021 19:30",
-		"testCategoryButtonToExplorationView" : "PM 6/20/2021 11:31",
+		"testCategoryButtonToExplorationView" : "SH 7/17/2021 20:04",
 		"testSearchBarUpdatesSearchList" : "TB 7/9/2021 17:15",
 		"testSpecFrameAtForReturnsFullHeightLayoutFrameForOneRow" : "SC 7/16/2021 20:05",
 		"testSpecFrameAtForReturnsFullWidhtLayoutFrameLessCategoriesThanRows" : "SC 7/16/2021 20:05",

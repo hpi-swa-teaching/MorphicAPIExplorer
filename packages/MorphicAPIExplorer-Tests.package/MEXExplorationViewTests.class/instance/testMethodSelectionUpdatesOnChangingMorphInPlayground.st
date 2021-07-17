@@ -5,8 +5,7 @@ testMethodSelectionUpdatesOnChangingMorphInPlayground
 	
 	view := builder build: explorationView.
 	view openInWorld.
-	exampleMethods := {explorationView methodList at: 1. explorationView methodList at: 2} asOrderedCollection.
-	
+	exampleMethods := {explorationView methodList at: 1 . explorationView methodList at: 2} asOrderedCollection.
 	self loadMorphWithMethods: exampleMethods.
 	explorationView saveCurrentMorph.
 	allButtonMorphs := self getButtonMorphCollectionInMorphBoxFor: explorationView.
