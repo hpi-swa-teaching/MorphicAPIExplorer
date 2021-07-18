@@ -2,7 +2,6 @@ tests
 testMethodSelectionUpdatesOnChangingMorphInPlayground
 	
 	| exampleMethods allButtonMorphs view methodTree methodList selectedContents |
-	
 	view := builder build: explorationView.
 	view openInWorld.
 	exampleMethods := {explorationView methodList at: 1 . explorationView methodList at: 2} asOrderedCollection.
