@@ -1,0 +1,4 @@
+constants
+requiredSearchDepthForTree
+
+	^ 2
