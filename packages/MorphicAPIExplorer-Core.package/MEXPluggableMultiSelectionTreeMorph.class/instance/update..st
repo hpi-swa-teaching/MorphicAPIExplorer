@@ -8,9 +8,9 @@ update: anAspect
 			self updateGetSelectedSelector. 
 			^ self].	
 	anAspect == self setStateOfRelatedSelector
-	ifTrue: [
-		self updateSetStateOfRelatedSelector. 
-		^ self].	
+		ifTrue: [
+			self updateSetStateOfRelatedSelector. 
+			^ self].	
 	anAspect == self setSelectedSelector
 		ifTrue: [
 			self updateSetSelectedSelector.

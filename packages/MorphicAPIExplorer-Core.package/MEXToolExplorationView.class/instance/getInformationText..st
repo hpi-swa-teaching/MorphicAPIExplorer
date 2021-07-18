@@ -1,4 +1,4 @@
 accessing
 getInformationText: aMethod
 
-	^ (aMethod hasDependencies) ifTrue: [self textForDependency] ifFalse: [nil]
+	^ aMethod hasDependencies ifTrue: [self class helpTextForDependency] ifFalse: [nil]
