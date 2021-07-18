@@ -5,7 +5,4 @@ updateSearchList: aText
 		ifTrue: [self searchListVisible: false]
 		ifFalse: [
 			self searchListVisible: true.
-			self findSearchListInDependents 
-				removeFilter;
-				lastKeystrokes: aText asString;
-				filterTree]
+			self filterSearchListFor: aText asString]

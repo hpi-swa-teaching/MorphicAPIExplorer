@@ -5,8 +5,7 @@ createMorphBox
 	self morphBox
 		layoutFrame: (LayoutFrame fractions: self class fullFractions);
 		color: Color transparent;
-		borderColor: Color transparent;
-		yourself.
+		borderColor: Color transparent.
 	self fillMorphBox.
 
-	^ {morphBox}
+	^ {self morphBox}

@@ -2,9 +2,7 @@ ui
 changeToExplorationViewFor: aMEXCategory
 
 	| newView |
-	(self standardMorphs noneSatisfy: 
-		[:each | each class = aMEXCategory defaultMorph class])
-			ifTrue: [self savedMorphs add: aMEXCategory defaultMorph -> OrderedCollection new].
+	self addDefaultButNotStandardMorphOf: aMEXCategory.
 	newView := MEXToolExplorationView 
 		newFromCategory: aMEXCategory 
 		withSavedMorphs: self savedMorphs.

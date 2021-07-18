@@ -9,5 +9,5 @@ initialize
 		gather: [:aMethod | {aMethod} , aMethod subMethods])
 		do: [:method | method category: aCategory]].
 	self savedMorphs: Dictionary new.
-	self standardMorphs do: [:aMorph | 
-		savedMorphs add: aMorph -> OrderedCollection new]
+	self class standardMorphs do: [:aMorph | 
+		self savedMorphs add: aMorph -> OrderedCollection new]
