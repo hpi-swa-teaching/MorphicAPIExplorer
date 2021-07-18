@@ -1,4 +1,4 @@
-accessing
+testing
 hasParameters
 
 	^ self parameters notEmpty
