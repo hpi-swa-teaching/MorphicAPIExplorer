@@ -14,7 +14,7 @@ categoryFileHandling
 				havingSubMethods: {
 					MEXMethod 
 						newWithName: 'setNewImageFrom:'
-						havingParameters: {'(MEXResources overviewImageFileHandling scaledToSize: 300 @ 300)'}.
+						havingParameters: {'(MEXResources overviewImageFileHandling scaledToSize: 300 @ 300)'} .
 					MEXMethod newWithName: 'readFromFile'.
 					MEXMethod 
 						newWithName: 'image:'

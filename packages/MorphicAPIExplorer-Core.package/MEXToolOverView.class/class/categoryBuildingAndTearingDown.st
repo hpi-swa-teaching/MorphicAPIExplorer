@@ -12,11 +12,11 @@ categoryBuildingAndTearingDown
 			MEXMethod 
 				newWithName: 'Displaying' 
 				havingSubMethods: {
-					MEXMethod newWithName: 'openInWorld'.
-					MEXMethod newWithName: 'openCenteredInWorld'}.
+					MEXMethod newWithName: 'openInWorld' .
+					MEXMethod newWithName: 'openCenteredInWorld'} .
 			MEXMethod 
 				newWithName: 'Tearing down' 
 				havingSubMethods: {
-					MEXMethod newWithName: 'removeAllMorphs'.
-					MEXMethod newWithName: 'delete'.
+					MEXMethod newWithName: 'removeAllMorphs' .
+					MEXMethod newWithName: 'delete' .
 					MEXMethod newWithName: 'abandon'}}			

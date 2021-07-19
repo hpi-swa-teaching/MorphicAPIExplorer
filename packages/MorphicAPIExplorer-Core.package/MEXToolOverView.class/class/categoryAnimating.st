@@ -12,5 +12,5 @@ categoryAnimating
 			MEXMethod 
 				newWithName: 'Stepping' 
 				havingSubMethods: {
-					MEXMethod newWithName: 'start'.
+					MEXMethod newWithName: 'start' .
 					MEXMethod newWithName: 'stop'}}

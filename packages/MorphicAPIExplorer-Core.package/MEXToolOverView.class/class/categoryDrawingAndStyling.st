@@ -14,15 +14,15 @@ categoryDrawingAndStyling
 				havingSubMethods: {
 					MEXMethod 
 						newWithName: 'cornerStyle:'
-						havingParameters: {'#rounded'}.
+						havingParameters: {'#rounded'} .
 					MEXMethod
 						newWithName: 'color:'
-						havingParameters: {'Color white'}.
-					MEXMethod newWithName: 'addDropShadow'.
+						havingParameters: {'Color white'} .
+					MEXMethod newWithName: 'addDropShadow' .
 					MEXMethod 
 						newWithName: 'shadowPoint:' 
 						havingParameters: {'30 @ 25'}
-						withDependencies: {'addDropShadow'}.
+						withDependencies: {'addDropShadow'} .
 					MEXMethod 
 						newWithName: 'shadowColor:' 
 						havingParameters: {'(Color red alpha: 0.05)'}
