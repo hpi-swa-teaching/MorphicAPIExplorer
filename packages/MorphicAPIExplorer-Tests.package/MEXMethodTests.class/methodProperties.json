@@ -3,5 +3,5 @@
 		 },
 	"instance" : {
 		"testMEXMethodWithDependentMethodsReturnsTrueForHasDependencies" : "SH 6/10/2021 19:57",
-		"testMEXMethodWithNoSubMethodsReturnsFalseForHasSubmethods" : "SH 6/10/2021 19:55",
-		"testMEXMethodWithSubMethodsReturnsTrueForHasSubmethods" : "lk 7/24/2019 17:30" } }
+		"testMEXMethodWithNoSubMethodsReturnsFalseForHasSubmethods" : "SH 7/19/2021 14:59",
+		"testMEXMethodWithSubMethodsReturnsTrueForHasSubmethods" : "SH 7/19/2021 15:00" } }

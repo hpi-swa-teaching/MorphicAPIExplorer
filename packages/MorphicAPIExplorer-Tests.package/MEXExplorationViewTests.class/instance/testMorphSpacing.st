@@ -7,7 +7,7 @@ testMorphSpacing
 	morph := EllipseMorph new.
 	explorationView currentMorph: morph.
 	explorationView saveCurrentMorph.
-	explorationView morphBox submorphs  do:
+	explorationView morphBox submorphs do:
 		[:aMorph | 
 		morphCount := morphCount + (explorationView morphBox submorphs count: [:anotherMorph | 
 			((aMorph boundingBoxOfSubmorphs topRight y) = (anotherMorph boundingBoxOfSubmorphs bottomRight y + explorationView class savedMorphsGapSize)) or:
