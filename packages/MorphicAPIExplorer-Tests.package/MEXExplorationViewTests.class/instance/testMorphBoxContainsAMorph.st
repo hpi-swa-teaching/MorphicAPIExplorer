@@ -3,6 +3,6 @@ testMorphBoxContainsAMorph
 
 	| defaultMorphCollection |
 	defaultMorphCollection := self getMorphCollectionInMorphBoxFor: explorationView.
-	self assert: explorationView morphBox submorphs size >= 1.
-	self assert: (defaultMorphCollection size = explorationView morphBox submorphs size).
-	self assert: explorationView morphBox submorphs size = explorationView savedMorphs size
+	self assert: explorationView morphBox submorphs notEmpty.
+	self assert: defaultMorphCollection size equals: explorationView morphBox submorphs size.
+	self assert: explorationView morphBox submorphs size equals: explorationView savedMorphs size

@@ -3,6 +3,6 @@ setUp
 
 	super setUp.
 	
-	empty  := OrderedCollection new.
+	empty := OrderedCollection new.
 	self setEmptyOverViewCategories
 	
