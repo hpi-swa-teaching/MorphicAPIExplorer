@@ -1,11 +1,9 @@
 building
 buildMorphBoxWith: aBuilder
 	
-	|morphBoxMorph|
-	morphBoxMorph := self createMorphBox.
 	^ aBuilder pluggableScrollPaneSpec new
 		model: self;
-		morph: morphBoxMorph;
+		morph: self createMorphBox;
 		hScrollBarPolicy: #whenNeeded;
 		frame: (LayoutFrame new
 			leftFraction: self class leftSpecsHorizontalDistribution x;
