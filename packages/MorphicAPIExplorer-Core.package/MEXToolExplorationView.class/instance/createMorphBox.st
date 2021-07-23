@@ -8,4 +8,4 @@ createMorphBox
 		borderColor: Color transparent.
 	self fillMorphBox.
 
-	^ {self morphBox}
+	^ self morphBox
