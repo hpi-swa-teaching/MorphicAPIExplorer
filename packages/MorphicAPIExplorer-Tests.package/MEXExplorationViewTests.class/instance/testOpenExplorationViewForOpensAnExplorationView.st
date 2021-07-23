@@ -2,6 +2,6 @@ tests
 testOpenExplorationViewForOpensAnExplorationView
 
 	overView changeToExplorationViewFor: MEXCategory new.
-	self assert: (self newMorphs anySatisfy: [:morph |
-		(morph class canUnderstand: #model) 
-			ifTrue: [morph model isKindOf: MEXToolExplorationView]])
+	self assert: (self newMorphs anySatisfy: [:aMorph |
+		(aMorph class canUnderstand: #model) 
+			ifTrue: [aMorph model isKindOf: MEXToolExplorationView]])

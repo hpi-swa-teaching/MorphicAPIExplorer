@@ -3,7 +3,7 @@ runLinterRule: aLinterRule
 
 	| testRunner testObjects testData |
 	testRunner := SLTestRunner new environment: SLDefaultEnvironment new.
-	testObjects := self classes collect: [:each | each as: SLTestObject ].
+	testObjects := self classes collect: [:aClass | aClass as: SLTestObject ].
 	testData := testRunner testDataFor: aLinterRule.
 	self class isLoggingEnabled ifTrue: [self logGeneralInfoOf: testRunner inTest: aLinterRule].
 	testRunner runOnTests: {aLinterRule} andTestObjects: testObjects.
