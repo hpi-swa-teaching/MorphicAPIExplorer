@@ -2,7 +2,7 @@ constants
 categoryEventHandling
 
 	^ MEXCategory 
-		newNamed: 'Event Handling' 
+		newWithName: 'Event Handling' 
 		havingImage: (
 			MEXScalableImageMorph
 				newWithImage: MEXResources overviewImageEventHandling

@@ -2,7 +2,7 @@ constants
 categoryFileHandling
 
 	^ MEXCategory 
-		newNamed: 'File Handling' 
+		newWithName: 'File Handling' 
 		havingImage: (
 			MEXScalableImageMorph
 				newWithImage: MEXResources overviewImageFileHandling

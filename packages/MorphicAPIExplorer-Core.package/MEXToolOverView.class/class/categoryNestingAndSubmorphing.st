@@ -2,7 +2,7 @@ constants
 categoryNestingAndSubmorphing
 
 	^ MEXCategory 
-		newNamed: 'Nesting & Submorphing' 
+		newWithName: 'Nesting & Submorphing' 
 		havingImage: (
 			MEXScalableImageMorph
 				newWithImage: MEXResources overviewImageNestingAndSubmorphing

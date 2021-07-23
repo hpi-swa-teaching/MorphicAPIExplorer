@@ -2,7 +2,7 @@ running
 createCategory
 
 	^ MEXCategory 
-			newNamed: 'TestCategory' 
+			newWithName: 'TestCategory' 
 			havingImage: nil 
 			havingDefaultMorph: Morph new 
 			withMethodList: {

@@ -2,7 +2,7 @@ constants
 categoryTransforming
 
 	^ MEXCategory 
-		newNamed: 'Transforming' 
+		newWithName: 'Transforming' 
 		havingImage: (
 			MEXScalableImageMorph
 				newWithImage: MEXResources overviewImageTransforming

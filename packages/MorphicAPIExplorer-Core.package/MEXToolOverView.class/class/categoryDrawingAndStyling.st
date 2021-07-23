@@ -2,7 +2,7 @@ constants
 categoryDrawingAndStyling
 
 	^ MEXCategory 
-		newNamed: 'Drawing & Styling' 
+		newWithName: 'Drawing & Styling' 
 		havingImage: (
 			MEXScalableImageMorph
 				newWithImage: MEXResources overviewImageDrawingAndStyling

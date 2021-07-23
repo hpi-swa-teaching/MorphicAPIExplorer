@@ -2,7 +2,7 @@ constants
 categoryLayouting
 
 	^ MEXCategory 
-		newNamed: 'Layouting' 
+		newWithName: 'Layouting' 
 		havingImage: (
 			MEXScalableImageMorph
 				newWithImage: MEXResources overviewImageLayouting

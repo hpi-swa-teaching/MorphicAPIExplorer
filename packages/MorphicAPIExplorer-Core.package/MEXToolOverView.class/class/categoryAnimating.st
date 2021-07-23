@@ -2,7 +2,7 @@ constants
 categoryAnimating
 
 	^ MEXCategory 
-		newNamed: 'Animating'
+		newWithName: 'Animating'
 		havingImage: (
 			MEXScalableImageMorph
 				newWithImage: MEXResources overviewImageAnimating

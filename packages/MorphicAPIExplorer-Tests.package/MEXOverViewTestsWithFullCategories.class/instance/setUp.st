@@ -8,7 +8,7 @@ setUp
 	defaultCollectionSize := 20.
 	1 to: defaultCollectionSize do: [:anIndex | 
 		full add: (
-			MEXCategory newNamed: 'a' 
+			MEXCategory newWithName: 'a' 
 				havingImage: MEXScalableImageMorph new 
 				havingDefaultMorph: Morph new 
 				withMethodList: {MEXMethod newWithName: 'b' . MEXMethod newWithName: 'c'})].

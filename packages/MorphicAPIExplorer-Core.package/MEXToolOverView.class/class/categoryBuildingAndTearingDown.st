@@ -2,7 +2,7 @@ constants
 categoryBuildingAndTearingDown
 
 	^ MEXCategory 
-		newNamed: 'Building & Tearing down' 
+		newWithName: 'Building & Tearing down' 
 		havingImage: (
 			MEXScalableImageMorph
 				newWithImage: MEXResources overviewImageBuildingAndTearingDown
