@@ -1,4 +1,4 @@
 accessing
-playground: aPasteUpMorph
+playground: aMEXMorphViewer
 
-	playground := aPasteUpMorph
+	playground := aMEXMorphViewer
