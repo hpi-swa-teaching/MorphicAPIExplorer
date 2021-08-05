@@ -1,4 +1,4 @@
 tests
-getMorphCollectionInMorphBoxFor: anExplorationView
+getMorphCollectionInMorphBoxFor: aMEXExplorationView
 
-	^ (self getButtonMorphCollectionInMorphBoxFor: anExplorationView) collect: [:each | each submorphs first]
+	^ (self getButtonMorphCollectionInMorphBoxFor: aMEXExplorationView) collect: [:each | each submorphs first]

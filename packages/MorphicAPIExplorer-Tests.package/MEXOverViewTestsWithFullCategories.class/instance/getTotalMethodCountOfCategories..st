@@ -1,4 +1,4 @@
 tests
-getTotalMethodCountOfCategories: aCategoryCollection
+getTotalMethodCountOfCategories: anOrderedCollection
 
-	^ aCategoryCollection inject: 0 into: [:count :aCategory | count + aCategory methodList size]
+	^ anOrderedCollection inject: 0 into: [:count :aMEXCategory | count + aMEXCategory methodList size]
