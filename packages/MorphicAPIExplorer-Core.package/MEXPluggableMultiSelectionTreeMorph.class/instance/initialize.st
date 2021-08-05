@@ -7,7 +7,7 @@ initialize
 		selectedMorphs: OrderedCollection new;
 		basicRelatedMorphs: OrderedCollection new;
 		setStateOfRelatedSelector: #();
-		findRelatedSelector: #();
+		getRelatedSelector: #();
 		getSelectedSelector: #();
 		setSelectedSelector: #();
 		getHelpSelector: #().

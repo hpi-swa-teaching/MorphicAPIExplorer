@@ -15,7 +15,7 @@ update: anAspect
 		ifTrue: [
 			self updateSetSelectedSelector.
 			^ self].	
-	anAspect == self findRelatedSelector
+	anAspect == self getRelatedSelector
 		ifTrue: [
 			self updateFindRelatedSelector.
 			^ self].

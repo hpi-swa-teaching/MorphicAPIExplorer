@@ -4,7 +4,7 @@ buildPluggableMultiSelectionTree: aSpec
 	| widget |
 	widget := self multiSelectionTreeClass new.
 	widget 
-		findRelatedSelector: aSpec findRelated;
+		getRelatedSelector: aSpec findRelated;
 		setStateOfRelatedSelector: aSpec setStateOfRelated;
 		getHelpSelector: aSpec help.
 	self
