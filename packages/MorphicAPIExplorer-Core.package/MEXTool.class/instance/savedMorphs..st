@@ -1,4 +1,4 @@
 accessing
-savedMorphs: anObject
+savedMorphs: anOrderedCollection
 
-	savedMorphs := anObject
+	savedMorphs := anOrderedCollection

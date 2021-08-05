@@ -1,4 +1,4 @@
 accessing
-getDependeesOf: aListItemWrapper
+getDependeesOf: aMEXListItemWrapper
 
-	^ aListItemWrapper getDependencies
+	^ aMEXListItemWrapper getDependencies

@@ -1,4 +1,4 @@
 accessing
-view: anObject
+view: aMEXTool
 
-	view := anObject
+	view := aMEXTool

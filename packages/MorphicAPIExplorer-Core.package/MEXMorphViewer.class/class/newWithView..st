@@ -1,5 +1,5 @@
 initialize-release
-newWithView: aView
+newWithView: aMEXTool
 
 	^ self new
-		view: aView
+		view: aMEXTool

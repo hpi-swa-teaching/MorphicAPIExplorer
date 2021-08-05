@@ -1,4 +1,4 @@
 accessing
-getInformationText: aMethod
+getInformationText: aMEXMethod
 
-	^ aMethod hasDependencies ifTrue: [self class helpTextForDependency] ifFalse: [nil]
+	^ aMEXMethod hasDependencies ifTrue: [self class helpTextForDependency] ifFalse: [nil]

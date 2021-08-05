@@ -9,11 +9,11 @@
 		"open" : "lk 6/4/2019 10:06",
 		"standardMorphs" : "TB 7/18/2021 15:14" },
 	"instance" : {
-		"addDefaultButNotStandardMorphOf:" : "TB 7/18/2021 15:32",
-		"buildChildrenWith:" : "jb 5/4/2019 13:26",
+		"addDefaultButNotStandardMorphOf:" : "SC 8/5/2021 19:29",
+		"buildChildrenWith:" : "SC 8/5/2021 19:32",
 		"buildWith:" : "jb 5/4/2019 13:27",
 		"changeViewTo:" : "FFN 6/5/2019 23:04",
 		"closeOpenedWindow" : "jb 5/10/2019 17:45",
-		"removeDefaultButNotStandardMorphOf:" : "TB 7/18/2021 15:25",
+		"removeDefaultButNotStandardMorphOf:" : "SC 8/5/2021 19:31",
 		"savedMorphs" : "SC 7/10/2021 18:54",
-		"savedMorphs:" : "SC 7/10/2021 18:55" } }
+		"savedMorphs:" : "SC 8/5/2021 19:31" } }

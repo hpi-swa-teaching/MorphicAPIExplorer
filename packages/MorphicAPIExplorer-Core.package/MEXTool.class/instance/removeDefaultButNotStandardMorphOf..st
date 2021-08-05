@@ -1,5 +1,5 @@
 saved morphs
-removeDefaultButNotStandardMorphOf: aCategory
+removeDefaultButNotStandardMorphOf: aMEXCategory
 
-	(self class standardMorphs noneSatisfy: [:aMorph | aMorph class = aCategory defaultMorph class])
-		ifTrue: [self savedMorphs removeKey: aCategory defaultMorph].
+	(self class standardMorphs noneSatisfy: [:aMorph | aMorph class = aMEXCategory defaultMorph class])
+		ifTrue: [self savedMorphs removeKey: aMEXCategory defaultMorph].

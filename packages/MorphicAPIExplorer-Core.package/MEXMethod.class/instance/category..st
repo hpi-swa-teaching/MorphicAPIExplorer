@@ -1,4 +1,4 @@
 accessing
-category: anObject
+category: aMEXCategory
 
-	category := anObject
+	category := aMEXCategory
