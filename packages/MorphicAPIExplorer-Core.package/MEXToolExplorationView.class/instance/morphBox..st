@@ -1,4 +1,4 @@
 accessing
-morphBox: anObject
+morphBox: aMorph
 
-	morphBox := anObject
+	morphBox := aMorph

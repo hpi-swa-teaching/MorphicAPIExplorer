@@ -1,5 +1,5 @@
 accessing
-savedMorphs: anObject
+savedMorphs: aDictionary
 
-	savedMorphs := anObject.
+	savedMorphs := aDictionary.
 	self changed: #createMorphBox

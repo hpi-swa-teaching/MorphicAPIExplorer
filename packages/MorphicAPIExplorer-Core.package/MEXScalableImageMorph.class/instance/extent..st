@@ -1,6 +1,6 @@
 geometry
-extent: anExtentPoint
+extent: aPoint
 
 	self 
-		desiredExtent: anExtentPoint;
+		desiredExtent: aPoint;
 		image: self originalForm

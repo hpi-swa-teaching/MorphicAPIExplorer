@@ -1,8 +1,8 @@
 instance creation
-newFromCategory: aMEXCategory withSavedMorphs: aMorphMethodList
+newFromCategory: aMEXCategory withSavedMorphs: aDictionary
 
 	^ self new 
 		currentMorph: aMEXCategory defaultMorph;
-		savedMorphs: aMorphMethodList;
+		savedMorphs: aDictionary;
 		buildForCategory: aMEXCategory;
 		yourself

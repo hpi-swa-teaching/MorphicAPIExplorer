@@ -1,5 +1,5 @@
 editor and playground and morphBox
-createMorphBoxButtonForMorph: aMorph at: aPosition
+createMorphBoxButtonForMorph: aMorph at: aPoint
 
 	| iconMorph |
 	iconMorph := self evaluateMethodsForMorph: aMorph.
@@ -14,5 +14,5 @@ createMorphBoxButtonForMorph: aMorph at: aPosition
 		color: Color transparent;
 		borderWidth: 0;
 		addMorph: iconMorph;
-		position: aPosition;
+		position: aPoint;
 		yourself
