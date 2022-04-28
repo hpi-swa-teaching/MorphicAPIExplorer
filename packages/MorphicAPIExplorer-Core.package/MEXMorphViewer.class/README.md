@@ -1,0 +1,1 @@
+As a MEXMorphViewer I contain and display the currentMorph in the MEXToolExplorationView.

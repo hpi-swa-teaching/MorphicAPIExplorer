@@ -1,4 +1,4 @@
 accessing
 morphClass
 
-	^ self explorationView defaultMorphClass
+	^ self explorationView currentMorphClass

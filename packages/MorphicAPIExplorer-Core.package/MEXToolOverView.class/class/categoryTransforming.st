@@ -2,7 +2,7 @@ constants
 categoryTransforming
 
 	^ MEXCategory 
-		newNamed: 'Transforming' 
+		newWithName: 'Transforming' 
 		havingImage: (
 			MEXScalableImageMorph
 				newWithImage: MEXResources overviewImageTransforming
@@ -10,17 +10,17 @@ categoryTransforming
 		havingDefaultMorph: Morph new
 		withMethodList: {
 			MEXMethod
-				withName: 'Rotating'
+				newWithName: 'Rotating'
 				havingSubMethods: {
 					MEXMethod 
-						withName: 'rotationDegrees:'
-						havingParameters: {'45'}}.
+						newWithName: 'rotationDegrees:'
+						havingParameters: {'45'}} .
 			MEXMethod
-				withName: 'Scaling'
+				newWithName: 'Scaling'
 				havingSubMethods: {
 					MEXMethod 
-						withName: 'bounds:'
-						havingParameters: {'(Rectangle new setOrigin: 0 @ 0 corner: 100 @ 150)'}.
+						newWithName: 'bounds:'
+						havingParameters: {'(Rectangle new setOrigin: 0 @ 0 corner: 100 @ 150)'} .
 					MEXMethod 
-						withName: 'extent:'
+						newWithName: 'extent:'
 						havingParameters: {'100 @ 100'}}}

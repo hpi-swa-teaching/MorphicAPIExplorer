@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"collectMEXMethodListItemWrappersFromMethods" : "lk 7/24/2019 17:10",
-		"setUp" : "lk 7/24/2019 17:34",
-		"testMEXMethodWrapperWithNoSubMethodsReturnsHasContentsIsFalse" : "lk 7/24/2019 17:31",
-		"testMEXMethodWrapperWithSubMethodsReturnsHasContentsIsTrue" : "lk 7/24/2019 17:38" } }

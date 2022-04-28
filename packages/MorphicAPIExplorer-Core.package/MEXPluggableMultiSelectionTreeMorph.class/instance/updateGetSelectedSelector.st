@@ -1,4 +1,9 @@
 updating
 updateGetSelectedSelector
-
-	self items do: [:anItem | self model perform: self getSelectedSelector with: anItem]
+	
+	| selectedElementsAsStrings |
+	selectedElementsAsStrings := (self model perform: self getSelectedSelector) 
+		collect: [:aSelectedElement | aSelectedElement asString].
+	self selectedMorphs: (self items select: [:anItem | 
+		selectedElementsAsStrings includes: anItem complexContents item asString]) asOrderedCollection.
+	self changed

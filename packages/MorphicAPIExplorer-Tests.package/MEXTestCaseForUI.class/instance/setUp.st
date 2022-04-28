@@ -4,4 +4,5 @@ setUp
 	builder := MEXToolBuilder new.
 	overView := MEXToolOverView new. 
 	category := self createCategory.
-	explorationView  := MEXToolExplorationView newFromCategory: category
+	overView savedMorphs add: category defaultMorph -> OrderedCollection new.
+	explorationView := MEXToolExplorationView newFromCategory: category withSavedMorphs: overView savedMorphs

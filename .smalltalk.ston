@@ -1,10 +1,19 @@
 SmalltalkCISpec {
+  #preLoading : 'scripts/preLoading.st',
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'MorphicAPIExplorer',
       #platforms : [ #squeak ],
       #directory : 'packages',
-      #load : [ 'tests' ]
+      #load : 'tests'
     }
-  ]
+  ],
+  #testing : {
+    #exclude : {
+      #classes : [ #MEXLinter ]
+    },
+    #coverage : {
+      #packages : [ 'MorphicAPIExplorer-Core.*' ]
+    }
+  }
 }

@@ -2,7 +2,7 @@ constants
 categoryBuildingAndTearingDown
 
 	^ MEXCategory 
-		newNamed: 'Building & Tearing down' 
+		newWithName: 'Building & Tearing down' 
 		havingImage: (
 			MEXScalableImageMorph
 				newWithImage: MEXResources overviewImageBuildingAndTearingDown
@@ -10,13 +10,13 @@ categoryBuildingAndTearingDown
 		havingDefaultMorph: Morph new
 		withMethodList: {
 			MEXMethod 
-				withName: 'Displaying' 
+				newWithName: 'Displaying' 
 				havingSubMethods: {
-					MEXMethod withName: 'openInWorld'.
-					MEXMethod withName: 'openCenteredInWorld'}.
+					MEXMethod newWithName: 'openInWorld' .
+					MEXMethod newWithName: 'openCenteredInWorld'} .
 			MEXMethod 
-				withName: 'Tearing down' 
+				newWithName: 'Tearing down' 
 				havingSubMethods: {
-					MEXMethod withName: 'removeAllMorphs'.
-					MEXMethod withName: 'delete'.
-					MEXMethod withName: 'abandon'}}			
+					MEXMethod newWithName: 'removeAllMorphs' .
+					MEXMethod newWithName: 'delete' .
+					MEXMethod newWithName: 'abandon'}}			

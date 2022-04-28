@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"fillMorphViewer" : "SH 6/30/2021 16:40",
+		"setUp" : "SH 6/30/2021 16:32",
+		"testAcceptDroppingMorph" : "SH 6/30/2021 16:59",
+		"testClearContentsDeleteSubMorphs" : "SH 6/30/2021 16:40",
+		"testUpdateContentsHasSubMorph" : "SH 6/30/2021 16:48" } }

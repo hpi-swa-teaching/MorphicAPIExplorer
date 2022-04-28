@@ -5,5 +5,10 @@ initialize
 
 	self
 		selectedMorphs: OrderedCollection new;
+		basicRelatedMorphs: OrderedCollection new;
+		setStateOfRelatedSelector: #();
+		getRelatedSelector: #();
 		getSelectedSelector: #();
-		setSelectedSelector: #()
+		setSelectedSelector: #();
+		getHelpSelector: #().
+	self roots do: [:aNode | aNode expand]

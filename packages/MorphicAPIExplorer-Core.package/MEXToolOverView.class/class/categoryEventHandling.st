@@ -2,7 +2,7 @@ constants
 categoryEventHandling
 
 	^ MEXCategory 
-		newNamed: 'Event Handling' 
+		newWithName: 'Event Handling' 
 		havingImage: (
 			MEXScalableImageMorph
 				newWithImage: MEXResources overviewImageEventHandling
@@ -10,8 +10,8 @@ categoryEventHandling
 		havingDefaultMorph: Morph new
 		withMethodList: {
 			MEXMethod
-				withName: 'Mouse Events'
+				newWithName: 'Mouse Events'
 				havingSubMethods: {
 					MEXMethod 
-						withName: 'addMouseUpActionWith:'
-						havingParameters: {$' asString,  'self color: Color random' , $' asString}}}
+						newWithName: 'addMouseUpActionWith:'
+						havingParameters: {$' asString, 'self color: Color random', $' asString}}}

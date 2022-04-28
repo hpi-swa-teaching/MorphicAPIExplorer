@@ -1,4 +1,4 @@
 graphics
 scaledPaddingFor: aForm
 
-	^ ((self desiredExtent - aForm extent) / 2)
+	^ (self desiredExtent - aForm extent) / 2

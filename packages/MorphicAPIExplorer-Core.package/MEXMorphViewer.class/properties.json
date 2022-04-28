@@ -1,0 +1,15 @@
+{
+	"category" : "MorphicAPIExplorer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 6/23/2021 20:00",
+	"instvars" : [
+		"currentMorph",
+		"view" ],
+	"name" : "MEXMorphViewer",
+	"pools" : [
+		 ],
+	"super" : "PasteUpMorph",
+	"type" : "normal" }

@@ -2,6 +2,6 @@ running
 fillMethodsWithoutSubMethods
 
 	methods addAll: {
-		MEXMethod withName: '1'.
-		MEXMethod withName: '2'.
-		MEXMethod withName: '3'}
+		MEXMethod newWithName: '1' .
+		MEXMethod newWithName: '2' .
+		MEXMethod newWithName: '3'}

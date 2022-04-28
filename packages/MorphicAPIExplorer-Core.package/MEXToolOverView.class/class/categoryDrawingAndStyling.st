@@ -2,7 +2,7 @@ constants
 categoryDrawingAndStyling
 
 	^ MEXCategory 
-		newNamed: 'Drawing & Styling' 
+		newWithName: 'Drawing & Styling' 
 		havingImage: (
 			MEXScalableImageMorph
 				newWithImage: MEXResources overviewImageDrawingAndStyling
@@ -10,18 +10,20 @@ categoryDrawingAndStyling
 		havingDefaultMorph: Morph new
 		withMethodList: {
 			MEXMethod 
-				withName: 'Styling' 
+				newWithName: 'Styling' 
 				havingSubMethods: {
 					MEXMethod 
-						withName: 'cornerStyle:'
-						havingParameters: {'#rounded'}.
+						newWithName: 'cornerStyle:'
+						havingParameters: {'#rounded'} .
 					MEXMethod
-						withName: 'color:'
-						havingParameters: {'Color white'}.
-					MEXMethod withName: 'addDropShadow'.
+						newWithName: 'color:'
+						havingParameters: {'Color white'} .
+					MEXMethod newWithName: 'addDropShadow' .
 					MEXMethod 
-						withName: 'shadowPoint:' 
-						havingParameters: {'30 @ 25'}.
+						newWithName: 'shadowPoint:' 
+						havingParameters: {'30 @ 25'}
+						withDependencies: {'addDropShadow'} .
 					MEXMethod 
-						withName: 'shadowColor:' 
-						havingParameters: {'(Color red alpha: 0.05)'}}}			
+						newWithName: 'shadowColor:' 
+						havingParameters: {'(Color red alpha: 0.05)'}
+						withDependencies: {'addDropShadow'}}}

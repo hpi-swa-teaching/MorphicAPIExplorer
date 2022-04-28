@@ -1,0 +1,4 @@
+tests
+getButtonMorphCollectionInMorphBoxFor: aMEXExplorationView
+
+	^ aMEXExplorationView morphBox submorphs.

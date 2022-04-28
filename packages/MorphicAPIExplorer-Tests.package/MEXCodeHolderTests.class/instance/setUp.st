@@ -3,6 +3,6 @@ setUp
 
 	super setUp.
 	
-	codeHolder := MEXCodeHolder withView: explorationView.
+	codeHolder := MEXCodeHolder newWithView: explorationView.
 	explorationView addDependent: codeHolder.
 	queries := OrderedCollection new

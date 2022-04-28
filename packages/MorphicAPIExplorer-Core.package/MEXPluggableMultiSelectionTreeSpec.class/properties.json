@@ -4,10 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "jb 7/24/2019 16:51",
+	"commentStamp" : "KT 7/10/2021 12:54",
 	"instvars" : [
 		"setSelectionList",
-		"getSelectionList" ],
+		"getSelectionList",
+		"findRelated",
+		"setStateOfRelated" ],
 	"name" : "MEXPluggableMultiSelectionTreeSpec",
 	"pools" : [
 		 ],

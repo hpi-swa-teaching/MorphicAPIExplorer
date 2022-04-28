@@ -1,0 +1,14 @@
+SmalltalkCISpec {
+  #preLoading : 'scripts/preLoading.st',
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'MorphicAPIExplorer',
+      #directory : 'packages',
+      #load : 'tests',
+      #platforms : [ #squeak ]
+    }
+  ],
+  #testing : {
+    #classes : [ #MEXLinter ]
+  }
+}

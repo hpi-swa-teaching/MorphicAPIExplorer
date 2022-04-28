@@ -3,4 +3,5 @@ sampleCode
 
 	^ '| morph |
 		morph := Morph new.
-		morph color: Color red.'
+		morph color: Color red.
+		morph addDropShadow.'

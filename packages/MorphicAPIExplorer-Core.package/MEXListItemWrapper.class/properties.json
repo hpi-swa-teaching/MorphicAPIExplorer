@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicAPIExplorer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "KT 7/10/2021 12:42",
+	"instvars" : [
+		"parent" ],
+	"name" : "MEXListItemWrapper",
+	"pools" : [
+		 ],
+	"super" : "PluggableListItemWrapper",
+	"type" : "normal" }

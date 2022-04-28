@@ -2,7 +2,7 @@ constants
 categoryLayouting
 
 	^ MEXCategory 
-		newNamed: 'Layouting' 
+		newWithName: 'Layouting' 
 		havingImage: (
 			MEXScalableImageMorph
 				newWithImage: MEXResources overviewImageLayouting
@@ -10,32 +10,37 @@ categoryLayouting
 		havingDefaultMorph: RectangleMorph new
 		withMethodList: {
 			MEXMethod
-				withName: 'Layout Policy Setup'
+				newWithName: 'Layout Policy Setup'
 				havingSubMethods: {
 					MEXMethod 
-						withName: 'layoutPolicy:'
-						havingParameters: {'TableLayout new'} asOrderedCollection}.
+						newWithName: 'layoutPolicy:'
+						havingParameters: {'TableLayout new'} asOrderedCollection
+						withDependencies: {'addMorph:'}} .
 			MEXMethod
-				withName: 'Table Layouting'
+				newWithName: 'Table Layouting'
 				havingSubMethods: {
 					MEXMethod 
-						withName: 'listDirection:'
-						havingParameters: {'#leftToRight'} asOrderedCollection.
+						newWithName: 'listDirection:'
+						havingParameters: {'#leftToRight'} asOrderedCollection
+						withDependencies: {'layoutPolicy:'} .
 					MEXMethod 
-						withName: 'vResizing:'
-						havingParameters: {'#shrinkWrap'} asOrderedCollection.
+						newWithName: 'vResizing:'
+						havingParameters: {'#shrinkWrap'} asOrderedCollection
+						withDependencies: {'layoutPolicy:'} .
 					MEXMethod 
-						withName: 'hResizing:'
-						havingParameters: {'#shrinkWrap'} asOrderedCollection.
+						newWithName: 'hResizing:'
+						havingParameters: {'#shrinkWrap'} asOrderedCollection
+						withDependencies: {'layoutPolicy:'} .
 					MEXMethod 
-						withName: 'minCellSize:'
-						havingParameters: {'100'} asOrderedCollection}.
+						newWithName: 'minCellSize:'
+						havingParameters: {'100'} asOrderedCollection
+						withDependencies: {'layoutPolicy:'}} .
 			MEXMethod
-				withName: 'Adding Submorphs to see results'
+				newWithName: 'Adding Submorphs to see results'
 				havingSubMethods: {
 					MEXMethod
-						withName: 'addMorph:'
-						havingParameters: {'(EllipseMorph new color: (Color orange))'} asOrderedCollection.
+						newWithName: 'addMorph:'
+						havingParameters: {'(EllipseMorph new color: (Color orange))'} asOrderedCollection .
 					MEXMethod
-						withName: 'addMorph:'
+						newWithName: 'addMorph:'
 						havingParameters: {'(EllipseMorph new color: (Color blue))'} asOrderedCollection}}

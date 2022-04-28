@@ -1,9 +1,9 @@
 accessing
-setSelectionFor: aMethod with: aBoolean 
+setSelectionFor: aMEXMethod with: aBoolean 
 
-	aMethod isSelected: aBoolean.
+	aMEXMethod isSelected: aBoolean.
 	self
 		selectedMethods: (self selectedMethods
 			perform: (aBoolean ifTrue: [#copyWith:] ifFalse: [#copyWithout:])
-			with: aMethod);
+			with: aMEXMethod);
 		changed: #selectedMethods

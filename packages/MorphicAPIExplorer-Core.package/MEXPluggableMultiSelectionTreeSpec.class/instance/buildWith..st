@@ -1,4 +1,4 @@
 building
-buildWith: aMEXBuilder
+buildWith: aMEXToolBuilder
 
-	^ aMEXBuilder buildPluggableMultiSelectionTree: self 
+	^ aMEXToolBuilder buildPluggableMultiSelectionTree: self 

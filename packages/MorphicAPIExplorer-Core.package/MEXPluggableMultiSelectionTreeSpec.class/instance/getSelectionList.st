@@ -1,4 +1,4 @@
-accessing - selection
+accessing
 getSelectionList
 
 	^ getSelectionList

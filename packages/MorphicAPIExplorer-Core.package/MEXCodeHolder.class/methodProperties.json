@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"withView:" : "jb 7/24/2019 11:49" },
+		"newWithView:" : "PM 6/11/2021 14:57" },
 	"instance" : {
 		"copyToClipboard" : "jb 7/24/2019 11:56",
 		"evaluateExpression:" : "jb 7/24/2019 14:23",
@@ -9,13 +9,13 @@
 		"generateCodeForCurrentSelection" : "jb 7/24/2019 12:18",
 		"generateInitializationCode" : "jb 7/24/2019 12:18",
 		"initialize" : "jb 7/24/2019 11:45",
-		"morphClass" : "jb 6/20/2019 02:39",
+		"morphClass" : "TB 6/23/2021 18:57",
 		"morphInstanceName" : "jb 6/20/2019 02:40",
-		"optionalButtonPairs" : "jb 7/24/2019 14:23",
+		"optionalButtonPairs" : "SH 7/17/2021 19:24",
 		"runCode" : "FFN 7/11/2019 13:52",
 		"save" : "jb 7/12/2019 12:38",
 		"selectedMethods" : "jb 6/20/2019 02:40",
-		"update:" : "jb 7/24/2019 13:31",
+		"update:" : "PM 7/16/2021 09:03",
 		"updateCodeForCurrentSelection" : "jb 7/24/2019 12:03",
 		"updateCodePaneIfNeeded" : "jb 7/24/2019 12:08",
 		"updateContentsFor:" : "jb 6/20/2019 14:20",

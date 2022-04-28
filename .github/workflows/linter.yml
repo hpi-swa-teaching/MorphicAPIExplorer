@@ -1,0 +1,24 @@
+name: Linter
+
+# Controls when the action will run. Triggers the workflow on push or pull request events on every branch
+on: [push, pull_request]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    name: Squeak64-5.3 on ubuntu-latest
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - name: Setup smalltalkCI
+        uses: hpi-swa/setup-smalltalkCI@v1
+        with:
+          smalltalk-version: Squeak64-5.3
+      - name: Test MorphicAPIExplorer
+        run: smalltalkci -s Squeak64-5.3 .linter.ston
+        shell: bash
+        timeout-minutes: 15

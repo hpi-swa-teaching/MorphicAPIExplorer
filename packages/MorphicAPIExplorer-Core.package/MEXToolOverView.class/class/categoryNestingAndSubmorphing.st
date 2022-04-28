@@ -2,7 +2,7 @@ constants
 categoryNestingAndSubmorphing
 
 	^ MEXCategory 
-		newNamed: 'Nesting & Submorphing' 
+		newWithName: 'Nesting & Submorphing' 
 		havingImage: (
 			MEXScalableImageMorph
 				newWithImage: MEXResources overviewImageNestingAndSubmorphing
@@ -10,17 +10,18 @@ categoryNestingAndSubmorphing
 		havingDefaultMorph: Morph new
 		withMethodList: {
 			MEXMethod
-				withName: 'General setup method'
+				newWithName: 'General setup method'
 				havingSubMethods: {
 					MEXMethod 
-						withName: 'addMorph:'
-						havingParameters: {'(EllipseMorph new color: Color green; extent: 70 @ 70)'}}.
+						newWithName: 'addMorph:'
+						havingParameters: {'(EllipseMorph new color: Color green; extent: 70 @ 70)'}} .
 			MEXMethod 
-				withName: 'Manipulation' 
+				newWithName: 'Manipulation' 
 				havingSubMethods: {
 					MEXMethod 
-						withName: 'submorphsDo:'
-						havingParameters: {'([:each | each extent: 20 @ 20])'}}.
+						newWithName: 'submorphsDo:'
+						havingParameters: {'([:each | each extent: 20 @ 20])'}
+						withDependencies: {'addMorph:'}} .
 			MEXMethod 
-				withName: 'Cleaning up' 
-				havingSubMethods: {MEXMethod withName: 'removeAllMorphs'}}			
+				newWithName: 'Cleaning up' 
+				havingSubMethods: {MEXMethod newWithName: 'removeAllMorphs'}}			

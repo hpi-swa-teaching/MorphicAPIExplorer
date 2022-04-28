@@ -1,4 +1,4 @@
-# MorphicAPIExplorer [![Build Status](https://travis-ci.org/hpi-swa-teaching/MorphicAPIExplorer.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/MorphicAPIExplorer)
+# MorphicAPIExplorer ![Build Status](https://github.com/hpi-swa-teaching/MorphicAPIExplorer/workflows/CI/badge.svg?branch=dev)[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/MorphicAPIExplorer/badge.svg?branch=dev)](https://coveralls.io/github/hpi-swa-teaching/MorphicAPIExplorer?branch=dev)
 
 ## Usage
 When you cloned the repository from GitHub or installed the SAR archive you can simply open up a Workspace and type
@@ -13,3 +13,4 @@ and press Ctrl+D (or Cmd+D on Mac) to run the code and open the Morphplorer.
 
 ## Wiki
 In our wiki you can find the project's coding standards and the current class diagram, showing the architecture.
+For further information, please refer to the class comments in your image after installing the package.

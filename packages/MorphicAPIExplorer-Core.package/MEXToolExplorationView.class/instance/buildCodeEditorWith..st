@@ -2,7 +2,7 @@ building
 buildCodeEditorWith: aBuilder
 
 	| codeHolder |
-	codeHolder := MEXCodeHolder withView: self.
+	codeHolder := MEXCodeHolder newWithView: self.
 	self addDependent: codeHolder. 
 
 	^ (codeHolder buildCodePaneWith: aBuilder)
@@ -10,5 +10,6 @@ buildCodeEditorWith: aBuilder
 			leftFraction: self class rightSpecsHorizontalDistribution x;
 			topFraction: self class bottomSpecsVerticalDistribution x;
 			rightFraction: self class rightSpecsHorizontalDistribution y;
-			bottomFraction: self class bottomSpecsVerticalDistribution y);
+			bottomFraction: self class bottomSpecsVerticalDistribution y;
+			yourself);
 		yourself

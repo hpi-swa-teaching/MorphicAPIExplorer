@@ -9,5 +9,6 @@ buildBackToOverViewButtonWith: aBuilder
 			leftFraction: self class leftSpecsHorizontalDistribution x;
 			topFraction: self class backButtonFractionHeight x;
 			rightFraction: self class leftSpecsHorizontalDistribution y;
-			bottomFraction: self class backButtonFractionHeight y);
+			bottomFraction: self class backButtonFractionHeight y;
+			yourself);
 		yourself

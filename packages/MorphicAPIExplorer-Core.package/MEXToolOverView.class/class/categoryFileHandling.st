@@ -2,7 +2,7 @@ constants
 categoryFileHandling
 
 	^ MEXCategory 
-		newNamed: 'File Handling' 
+		newWithName: 'File Handling' 
 		havingImage: (
 			MEXScalableImageMorph
 				newWithImage: MEXResources overviewImageFileHandling
@@ -10,12 +10,12 @@ categoryFileHandling
 		havingDefaultMorph: ImageMorph new
 		withMethodList: {
 			MEXMethod
-				withName: 'Images'
+				newWithName: 'Images'
 				havingSubMethods: {
 					MEXMethod 
-						withName: 'setNewImageFrom:'
-						havingParameters: {'(MEXResources overviewImageFileHandling scaledToSize: 300 @ 300)'}.
-					MEXMethod withName: 'readFromFile'.
+						newWithName: 'setNewImageFrom:'
+						havingParameters: {'(MEXResources overviewImageFileHandling scaledToSize: 300 @ 300)'} .
+					MEXMethod newWithName: 'readFromFile'.
 					MEXMethod 
-						withName: 'image:'
+						newWithName: 'image:'
 						havingParameters: {'(MEXResources overviewImageFileHandling scaledToSize: 300 @ 300)'}}}
