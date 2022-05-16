@@ -8,4 +8,5 @@ categories
 		self categoryTransforming .
 		self categoryLayouting .
 		self categoryEventHandling .
-		self categoryFileHandling}
+		self categoryFileHandling. 
+		self categorytest}
