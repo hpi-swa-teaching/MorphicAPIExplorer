@@ -14,14 +14,14 @@ categoryNestingAndSubmorphing
 				havingSubMethods: {
 					MEXMethod 
 						newWithName: 'addMorph:'
-						havingParameters: {'(EllipseMorph new color: Color green; extent: 70 @ 70)'}} .
+						havingParameters: {'morph addMorph: (EllipseMorph new color: Color green; extent: 70 @ 70)'}} .
 			MEXMethod 
 				newWithName: 'Manipulation' 
 				havingSubMethods: {
 					MEXMethod 
 						newWithName: 'submorphsDo:'
-						havingParameters: {'([:each | each extent: 20 @ 20])'}
+						havingParameters: {'morph submorphsDo: ([:each | each extent: 20 @ 20])'}
 						withDependencies: {'addMorph:'}} .
 			MEXMethod 
 				newWithName: 'Cleaning up' 
-				havingSubMethods: {MEXMethod newWithName: 'removeAllMorphs'}}			
+				havingSubMethods: {MEXMethod newWithName: 'morph removeAllMorphs'}}			

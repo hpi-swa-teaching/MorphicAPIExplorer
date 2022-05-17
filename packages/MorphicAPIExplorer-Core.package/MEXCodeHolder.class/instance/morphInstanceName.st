@@ -1,4 +1,4 @@
 accessing
 morphInstanceName
 
-	^ self morphClass name asString asLowercase
+	^ 'morph' "self morphClass name asString asLowercase"
