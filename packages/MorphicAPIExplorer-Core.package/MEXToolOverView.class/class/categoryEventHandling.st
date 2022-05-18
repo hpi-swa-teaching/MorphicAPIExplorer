@@ -14,4 +14,4 @@ categoryEventHandling
 				havingSubMethods: {
 					MEXMethod 
 						newWithName: 'addMouseUpActionWith:'
-						havingParameters: {$' asString, 'morph self addMouseUpActionWith: color: Color random', $' asString}}}
+						havingParameters: {'morph addMouseUpActionWith:', $' asString, 'self color: Color random', $' asString}}}

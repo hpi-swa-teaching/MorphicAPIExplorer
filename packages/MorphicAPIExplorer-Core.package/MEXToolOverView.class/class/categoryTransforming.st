@@ -14,7 +14,7 @@ categoryTransforming
 				havingSubMethods: {
 					MEXMethod 
 						newWithName: 'rotationDegrees:'
-						havingParameters: {'45'}} .
+						havingParameters: {'morph rotationDegrees: 45'}} .
 			MEXMethod
 				newWithName: 'Scaling'
 				havingSubMethods: {

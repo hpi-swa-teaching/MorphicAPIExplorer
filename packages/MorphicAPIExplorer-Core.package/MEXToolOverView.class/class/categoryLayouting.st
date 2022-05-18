@@ -25,11 +25,11 @@ categoryLayouting
 						withDependencies: {'layoutPolicy:'} .
 					MEXMethod 
 						newWithName: 'vResizing:'
-						havingParameters: {'morph vResizing: shrinkWrap'} asOrderedCollection
+						havingParameters: {'morph vResizing: #shrinkWrap'} asOrderedCollection
 						withDependencies: {'layoutPolicy:'} .
 					MEXMethod 
 						newWithName: 'hResizing:'
-						havingParameters: {'morph hResizing: shrinkWrap'} asOrderedCollection
+						havingParameters: {'morph hResizing: #shrinkWrap'} asOrderedCollection
 						withDependencies: {'layoutPolicy:'} .
 					MEXMethod 
 						newWithName: 'minCellSize:'
