@@ -2,15 +2,15 @@ building
 buildWith: aBuilder
 
 
-|EvaluatedLabel|
+|evaluatedLabel|
 
 (self class canUnderstand: #category) 
-	ifTrue: [EvaluatedLabel := self category name] 
-	ifFalse: [EvaluatedLabel := self class label].
+	ifTrue: [evaluatedLabel := self category name] 
+	ifFalse: [evaluatedLabel := self class label].
 
 	^ aBuilder build: (aBuilder pluggableWindowSpec new
 			model: self;
-			label: EvaluatedLabel;
+			label: evaluatedLabel;
 			extent: self class defaultExtent;
 			children: (self buildChildrenWith: aBuilder);
 			yourself).
