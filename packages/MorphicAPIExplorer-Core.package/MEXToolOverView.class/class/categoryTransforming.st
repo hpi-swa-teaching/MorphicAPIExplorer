@@ -14,13 +14,13 @@ categoryTransforming
 				havingSubMethods: {
 					MEXMethod 
 						newWithName: 'rotationDegrees:'
-						havingParameters: {'45'}} .
+						havingParameters: {'morph rotationDegrees: 45'}} .
 			MEXMethod
 				newWithName: 'Scaling'
 				havingSubMethods: {
 					MEXMethod 
 						newWithName: 'bounds:'
-						havingParameters: {'(Rectangle new setOrigin: 0 @ 0 corner: 100 @ 150)'} .
+						havingParameters: {'morph bounds: (Rectangle new setOrigin: 0 @ 0 corner: 100 @ 150)'} .
 					MEXMethod 
 						newWithName: 'extent:'
-						havingParameters: {'100 @ 100'}}}
+						havingParameters: {'morph extent: 100 @ 100'}}}
