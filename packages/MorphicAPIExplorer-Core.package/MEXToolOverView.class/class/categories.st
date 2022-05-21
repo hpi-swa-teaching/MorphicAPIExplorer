@@ -9,4 +9,4 @@ categories
 		self categoryLayouting .
 		self categoryEventHandling .
 		self categoryFileHandling. 
-		self categorytest}
+		self categoryCollision}

@@ -1,16 +1,16 @@
 constants
-categorytest
+categoryCollision
 
 	^ MEXCategory 
-		newWithName: 'test'
+		newWithName: 'Collision'
 		havingImage: (
 			MEXScalableImageMorph
-				newWithImage: MEXResources overviewImageAnimating
+				newWithImage: MEXResources overviewImageCollision
 				havingExtent: self defaultButtonImageExtent)
 		havingDefaultMorph: Morph new
 		withMethodList: {
 			MEXMethod 
-				newWithName: 'test' 
+				newWithName: 'setup' 
 				havingSubMethods: {
 					MEXMethod newWithName: 'secondmorph' 
 									 havingParameters: {'morph addMorph: (Morph new color: Color yellow; extent: 20 @ 20)' }.

@@ -1,0 +1,4 @@
+constants
+helpButtonFractionHeight
+
+	^ 0
