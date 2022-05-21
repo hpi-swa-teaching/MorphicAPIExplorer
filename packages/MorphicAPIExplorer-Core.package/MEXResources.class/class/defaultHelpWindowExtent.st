@@ -1,4 +1,4 @@
 constants
 defaultHelpWindowExtent
 
-	^ 300 @ 200
+	^ 250 @ 150

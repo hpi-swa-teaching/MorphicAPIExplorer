@@ -1,4 +1,0 @@
-constants
-helpButtonFractionHeight
-
-	^ 0
