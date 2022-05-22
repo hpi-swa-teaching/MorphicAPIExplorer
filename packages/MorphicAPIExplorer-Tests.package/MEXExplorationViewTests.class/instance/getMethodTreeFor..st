@@ -1,4 +1,4 @@
 tests
 getMethodTreeFor: aMEXExplorationView
 
-	^ aMEXExplorationView dependents at: 3
+	^ aMEXExplorationView dependents at: 4
