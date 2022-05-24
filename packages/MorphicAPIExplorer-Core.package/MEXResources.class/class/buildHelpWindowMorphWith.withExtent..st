@@ -1,5 +1,5 @@
 morphs
-helpWindowMorph: aString
+buildHelpWindowMorphWith: aString withExtent: aPoint
 
 	|morph|
 
@@ -9,7 +9,7 @@ helpWindowMorph: aString
 		contents: aString;
 		wrapOnOff;
 		autoFitOnOff;
-		"extent: self defaultHelpWindowExtent;"
+		extent: aPoint;
 		readOnly: True;
 		yourself.
 		

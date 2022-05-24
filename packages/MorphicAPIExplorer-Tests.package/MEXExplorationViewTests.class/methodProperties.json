@@ -13,6 +13,7 @@
 		"testBackButtonOfExplorationViewLeadsToOverView" : "SC 7/16/2021 17:35",
 		"testBuiltExplorationViewForCategoryReturnsCorrectMethodList" : "lk 7/24/2019 17:42",
 		"testBuiltExplorationViewForCategoryReturnsIdenticalCategory" : "lk 7/24/2019 15:44",
+		"testCorrectHelpButtonCreation" : "JS 5/24/2022 16:03",
 		"testCurrentMorphChanges" : "SH 7/19/2021 15:14",
 		"testCurrentMorphSaves" : "SC 7/10/2021 19:37",
 		"testDependeeMorphDisplaysCorrectIcon" : "SC 6/21/2021 13:01",

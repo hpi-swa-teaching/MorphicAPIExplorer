@@ -1,11 +1,11 @@
 {
 	"class" : {
+		"buildHelpWindowMorphWith:withExtent:" : "JS 5/22/2022 16:43",
 		"defaultDepth" : "jb 7/19/2019 14:57",
 		"defaultExtent" : "jb 7/24/2019 14:18",
 		"defaultHelpButtonHelpText" : "JS 5/21/2022 20:12",
 		"defaultHelpWindowExtent" : "JS 5/21/2022 20:07",
 		"defaultHelpWindowMargins" : "JS 5/21/2022 20:09",
-		"helpWindowMorph:" : "JS 5/21/2022 21:11",
 		"helpWindowMorph:withExtent:" : "JS 5/21/2022 21:14",
 		"overviewImageAnimating" : "SH 7/17/2021 19:33",
 		"overviewImageBuildingAndTearingDown" : "SH 7/17/2021 19:34",
