@@ -1,4 +1,4 @@
 constants
 helpWindowExtent
 
-	^ 250 @ 120
+	^ 590 @ 370

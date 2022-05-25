@@ -1,7 +1,7 @@
 morphs
 buildHelpWindowMorphWith: aString withExtent: aPoint
 
-	|morph|
+	|morph systemwindowmorph|
 
 	morph:= TextMorph new
 		backgroundColor: Color lightGreen;
@@ -11,6 +11,12 @@ buildHelpWindowMorphWith: aString withExtent: aPoint
 		autoFitOnOff;
 		extent: aPoint;
 		readOnly: True;
+		position: 5 @ 25;
 		yourself.
 		
-	^ morph
+	systemwindowmorph := PluggableSystemWindow new
+		label: 'Help';
+		addMorph: morph.
+		
+		
+	^ systemwindowmorph
