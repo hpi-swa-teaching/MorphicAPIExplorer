@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicAPIExplorer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MEXPluggableSystemWindow",
+	"pools" : [
+		 ],
+	"super" : "PluggableSystemWindow",
+	"type" : "normal" }
