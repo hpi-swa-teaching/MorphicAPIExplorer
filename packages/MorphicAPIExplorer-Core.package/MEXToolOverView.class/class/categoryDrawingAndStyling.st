@@ -14,16 +14,16 @@ categoryDrawingAndStyling
 				havingSubMethods: {
 					MEXMethod 
 						newWithName: 'cornerStyle:'
-						havingParameters: {'morph cornerStyle: rounded'} .
+						havingParameters: {'#rounded'} .
 					MEXMethod
 						newWithName: 'color:'
-						havingParameters: {'morph color: Color white'} .
-					MEXMethod newWithName: 'morph addDropShadow' .
+						havingParameters: {'Color white'} .
+					MEXMethod newWithName: 'addDropShadow' .
 					MEXMethod 
 						newWithName: 'shadowPoint:' 
-						havingParameters: {'morph shadowPoint: 30 @ 25'}
+						havingParameters: {'30 @ 25'}
 						withDependencies: {'addDropShadow'} .
 					MEXMethod 
 						newWithName: 'shadowColor:' 
-						havingParameters: {'morph shadowColor: (Color red alpha: 0.05)'}
+						havingParameters: {'(Color red alpha: 0.05)'}
 						withDependencies: {'addDropShadow'}}}

@@ -7,5 +7,5 @@ buildChildrenWith: aBuilder
 			label: aCategory image;
 			action: [self changeToExplorationViewFor: aCategory];
 			frame: (self specFrameAt: (self categories indexOf: aCategory) for: self class numberOfRows)]) asOrderedCollection
-			addAll: {self buildSearchBar: aBuilder . self buildHelpButton: aBuilder withLayout: self class helpButtonLayout. self buildSearchList: aBuilder};
+			addAll: {self buildSearchBar: aBuilder . self buildSearchList: aBuilder};
 			yourself

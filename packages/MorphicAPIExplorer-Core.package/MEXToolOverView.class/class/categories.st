@@ -8,5 +8,4 @@ categories
 		self categoryTransforming .
 		self categoryLayouting .
 		self categoryEventHandling .
-		self categoryFileHandling. 
-		self categoryCollision}
+		self categoryFileHandling}

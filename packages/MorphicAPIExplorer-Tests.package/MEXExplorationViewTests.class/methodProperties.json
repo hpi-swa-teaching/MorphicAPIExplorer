@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"getButtonMorphCollectionInMorphBoxFor:" : "SC 8/5/2021 20:40",
-		"getMethodTreeFor:" : "JS 5/22/2022 16:34",
+		"getMethodTreeFor:" : "SC 8/5/2021 20:40",
 		"getMorphCollectionInMorphBoxFor:" : "SC 8/5/2021 20:40",
 		"loadMorphWithMethods:" : "SC 7/10/2021 19:10",
 		"newMorphs" : "lk 7/24/2019 15:03",
@@ -17,6 +17,7 @@
 		"testCurrentMorphChanges" : "SH 7/19/2021 15:14",
 		"testCurrentMorphSaves" : "SC 7/10/2021 19:37",
 		"testDependeeMorphDisplaysCorrectIcon" : "SC 6/21/2021 13:01",
+		"testDependeeMorphsChangeColorOnHover" : "LK 5/31/2022 00:21",
 		"testDependentMorphDisplaysCorrectIcon" : "SC 6/21/2021 13:03",
 		"testEvaluateCodeReturnsCorrectMorph" : "lk 7/24/2019 15:00",
 		"testExpandableTreeElementsExpanded" : "SC 7/16/2021 20:00",
@@ -26,5 +27,5 @@
 		"testMorphSpacing" : "SH 7/19/2021 14:51",
 		"testOpenExplorationViewForOpensAnExplorationView" : "FFN 5/21/2019 16:23",
 		"testPlaygroundContainsCorrectMorph" : "TB 6/23/2021 19:57",
-		"testRelatedMorphsAreDependeeMorphs" : "SH 7/22/2021 13:10",
-		"testSelectedMethodsSaves" : "JF 5/18/2022 09:46" } }
+		"testRelatedMorphsAreDependeeMorphs" : "LK 5/31/2022 00:26",
+		"testSelectedMethodsSaves" : "SH 7/17/2021 20:02" } }
