@@ -2,8 +2,8 @@ private icons
 dependeeIcon
 	"© 2018 Icon8
 	Website: https://icons8.com
-	License: https://creativecommons.org/licenses/by-nd/3.0/"
-
+	License‚: https://creativecommons.org/licenses/by-nd/3.0/"
+self halt.
 	^ (Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes:  
 	 'iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAIoUlEQVR4XuXde0xTZxgG8GMp
 F7EgWBQEhqCIgCJ4W1BREZF5Ra0oKIKggOgyUSdCHJvb4hCjmU6nbg5dFnUasyhugNzEGdHM

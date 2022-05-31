@@ -9,7 +9,9 @@ buildMethodListWith: aBuilder
 		setSelectionList: #setSelectionFor:with:;
 		help: #getInformationText:;
 		findRelated: #getDependeesOf:;
+		findInhibited: #getInhibitorsOf:;
 		setStateOfRelated: #setDependeeStateOf:;
+		setStateOfInhibited: #setInhibitorStateOf:;
 		frame: (LayoutFrame new
 			leftFraction: self class leftSpecsHorizontalDistribution x;
 			topFraction: self class backButtonFractionHeight y;

@@ -10,4 +10,6 @@ initialize
 		dependencies: OrderedCollection new;
 		isSelected: false;
 		isActiveDependee: false;
+		isActiveInhibitor: false;
+		isInhibited: false;
 		category: MEXCategory new
