@@ -6,5 +6,5 @@ setInhibitorStateOf: anOrderedCollection
 		aRootMethod hasSubMethods 
 			ifTrue: [
 				aRootMethod subMethods do: 
-				[:aSubMethod | aSubMethod isActiveInhibitor: (methods includes: aSubMethod)]]
-			ifFalse: [aRootMethod isActiveInhibitor: (methods includes: aRootMethod)]]
+				[:aSubMethod | aSubMethod isActiveInhibitor: (methods includes: aSubMethod) and; isSelected]]
+			ifFalse: [aRootMethod isActiveInhibitor: ((methods includes: aRootMethod) and; isSelected)]]
