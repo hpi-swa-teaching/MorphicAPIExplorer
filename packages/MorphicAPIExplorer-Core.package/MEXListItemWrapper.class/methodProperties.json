@@ -4,7 +4,7 @@
 	"instance" : {
 		"asString" : "FFN 5/20/2019 14:40",
 		"backgroundColor" : "your initials 5/31/2022 04:26",
-		"backgroundOfMethodsWithoutSubmethods" : "your initials 5/31/2022 21:44",
+		"backgroundOfMethodsWithoutSubmethods" : "JF 6/1/2022 09:48",
 		"balloonText" : "SC 7/10/2021 17:12",
 		"contents" : "SC 8/5/2021 19:44",
 		"getDependencies" : "SC 7/16/2021 19:01",
@@ -12,6 +12,8 @@
 		"hasContents" : "TB 6/21/2021 17:44",
 		"icon" : "SH 7/19/2021 14:02",
 		"iconOfMethodWithoutSubMethods" : "TB 7/18/2021 14:37",
+		"isDependee" : "JF 6/1/2022 09:48",
+		"isInhibited" : "JF 6/1/2022 09:47",
 		"parent" : "FFN 5/20/2019 14:01",
 		"parent:" : "TB 6/21/2021 17:46",
 		"setItem:model:parent:" : "FFN 7/24/2019 15:17" } }
