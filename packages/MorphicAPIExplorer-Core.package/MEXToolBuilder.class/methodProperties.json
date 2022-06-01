@@ -11,5 +11,6 @@
 		"setGeneralTreeAttributesFor:havingSpec:" : "jb 7/18/2019 13:32",
 		"setHorizontalScrollBarPoliciesFor:ofWidget:" : "jb 7/24/2019 14:32",
 		"setScrollBarsPoliciesFor:ofWidget:" : "jb 7/24/2019 14:37",
-		"setTreeItemAttributesFor:havingSpec:" : "JS 5/24/2022 21:42",
-		"setVerticalScrollBarPoliciesFor:ofWidget:" : "jb 7/24/2019 14:37" } }
+		"setTreeItemAttributesFor:havingSpec:" : "jb 7/24/2019 14:35",
+		"setVerticalScrollBarPoliciesFor:ofWidget:" : "jb 7/24/2019 14:37",
+		"windowClassFor:" : "JF 5/27/2022 12:05" } }

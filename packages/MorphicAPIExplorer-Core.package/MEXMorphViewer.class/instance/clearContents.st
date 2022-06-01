@@ -1,4 +1,4 @@
 updating
 clearContents
 
-	self submorphsDo: [:aSubmorph | aSubmorph abandon]
+	self currentMorph abandon. 
