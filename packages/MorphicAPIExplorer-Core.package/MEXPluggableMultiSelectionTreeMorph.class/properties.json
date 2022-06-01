@@ -9,7 +9,10 @@
 		"selectedMorphs",
 		"relatedMorphs",
 		"setStateOfRelatedSelector",
-		"getRelatedSelector" ],
+		"getRelatedSelector",
+		"getInhibitingSelector",
+		"inhibitingMorphs",
+		"setStateOfInihibitingSelector" ],
 	"name" : "MEXPluggableMultiSelectionTreeMorph",
 	"pools" : [
 		 ],

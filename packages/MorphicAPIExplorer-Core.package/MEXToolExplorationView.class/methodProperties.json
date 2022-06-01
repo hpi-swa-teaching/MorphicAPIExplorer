@@ -22,7 +22,7 @@
 		"buildChildrenWith:" : "JF 5/27/2022 18:04",
 		"buildCodeEditorWith:" : "PM 6/11/2021 14:57",
 		"buildForCategory:" : "FFN 5/9/2019 10:10",
-		"buildMethodListWith:" : "SC 7/10/2021 16:48",
+		"buildMethodListWith:" : "JF 6/1/2022 14:52",
 		"buildMorphBoxWith:" : "PM 7/23/2021 14:14",
 		"buildMorphPlaygroundPanelWith:" : "jb 7/24/2019 14:07",
 		"buildSaveMorphButtonWith:" : "SC 7/10/2021 18:59",
@@ -42,6 +42,7 @@
 		"fillMorphBox" : "TB 7/18/2021 14:56",
 		"getDependeesOf:" : "SC 8/5/2021 19:33",
 		"getInformationText:" : "SC 8/5/2021 19:34",
+		"getInhibitorsOf:" : "JF 6/1/2022 14:53",
 		"initialize" : "TB 8/5/2021 14:23",
 		"methodList" : "FFN 6/5/2019 23:02",
 		"morphBox" : "TB 6/7/2021 12:10",
@@ -54,5 +55,6 @@
 		"selectedMethods" : "FFN 5/17/2019 14:17",
 		"selectedMethods:" : "FFN 5/17/2019 14:17",
 		"setDependeeStateOf:" : "SC 8/5/2021 19:34",
+		"setInhibitorStateOf:" : "JF 6/1/2022 14:53",
 		"setSelectionFor:with:" : "SC 8/5/2021 19:34",
 		"updateMorphBox" : "SH 5/20/2021 17:20" } }

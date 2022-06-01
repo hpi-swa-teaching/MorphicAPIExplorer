@@ -3,12 +3,17 @@
 		"newWithMethod:havingModel:havingParent:" : "JS 5/24/2022 21:30" },
 	"instance" : {
 		"asString" : "FFN 5/20/2019 14:40",
+		"backgroundColor" : "JF 6/1/2022 14:21",
+		"backgroundOfMethodsWithoutSubmethods" : "JF 6/1/2022 14:21",
 		"balloonText" : "SC 7/10/2021 17:12",
 		"contents" : "SC 8/5/2021 19:44",
 		"getDependencies" : "SC 7/16/2021 19:01",
+		"getInhibitors" : "JF 6/1/2022 14:22",
 		"hasContents" : "TB 6/21/2021 17:44",
 		"icon" : "SH 7/19/2021 14:02",
 		"iconOfMethodWithoutSubMethods" : "TB 7/18/2021 14:37",
+		"isDependee" : "JF 6/1/2022 14:22",
+		"isInhibited" : "JF 6/1/2022 14:23",
 		"parent" : "FFN 5/20/2019 14:01",
 		"parent:" : "TB 6/21/2021 17:46",
 		"setItem:model:parent:" : "FFN 7/24/2019 15:17" } }

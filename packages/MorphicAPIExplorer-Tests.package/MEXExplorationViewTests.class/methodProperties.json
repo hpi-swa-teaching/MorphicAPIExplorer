@@ -18,6 +18,7 @@
 		"testCurrentMorphChanges" : "SH 7/19/2021 15:14",
 		"testCurrentMorphSaves" : "SC 7/10/2021 19:37",
 		"testDependeeMorphDisplaysCorrectIcon" : "SC 6/21/2021 13:01",
+		"testDependeeMorphsChangeColorOnHover" : "JF 6/1/2022 14:55",
 		"testDependentMorphDisplaysCorrectIcon" : "SC 6/21/2021 13:03",
 		"testEvaluateCodeReturnsCorrectMorph" : "lk 7/24/2019 15:00",
 		"testExpandableTreeElementsExpanded" : "SC 7/16/2021 20:00",

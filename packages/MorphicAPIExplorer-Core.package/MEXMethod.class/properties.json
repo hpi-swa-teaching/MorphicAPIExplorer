@@ -12,7 +12,10 @@
 		"parameters",
 		"dependencies",
 		"isActiveDependee",
-		"category" ],
+		"category",
+		"inhibitors",
+		"isActiveInhibitor",
+		"isInhibited" ],
 	"name" : "MEXMethod",
 	"pools" : [
 		 ],

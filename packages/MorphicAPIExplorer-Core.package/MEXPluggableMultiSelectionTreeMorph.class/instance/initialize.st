@@ -6,8 +6,11 @@ initialize
 	self
 		selectedMorphs: OrderedCollection new;
 		basicRelatedMorphs: OrderedCollection new;
+		inhibitingMorphs: OrderedCollection new;
 		setStateOfRelatedSelector: #();
+		setStateOfInihibitingSelector: #();
 		getRelatedSelector: #();
+		getInhibitingSelector: #();
 		getSelectedSelector: #();
 		setSelectedSelector: #();
 		getHelpSelector: #().
