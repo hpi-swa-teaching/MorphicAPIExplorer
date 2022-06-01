@@ -9,7 +9,9 @@
 		"setSelectionList",
 		"getSelectionList",
 		"findRelated",
-		"setStateOfRelated" ],
+		"findInhibited",
+		"setStateOfRelated",
+		"setStateOfInhibited" ],
 	"name" : "MEXPluggableMultiSelectionTreeSpec",
 	"pools" : [
 		 ],

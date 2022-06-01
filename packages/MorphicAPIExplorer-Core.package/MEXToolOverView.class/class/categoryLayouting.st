@@ -14,33 +14,33 @@ categoryLayouting
 				havingSubMethods: {
 					MEXMethod 
 						newWithName: 'layoutPolicy:'
-						havingParameters: {'morph layoutPolicy: TableLayout new'} asOrderedCollection
+						havingParameters: {'TableLayout new'} asOrderedCollection
 						withDependencies: {'addMorph:'}} .
 			MEXMethod
 				newWithName: 'Table Layouting'
 				havingSubMethods: {
 					MEXMethod 
 						newWithName: 'listDirection:'
-						havingParameters: {'morph listDirection: leftToRight'} asOrderedCollection
+						havingParameters: {'#leftToRight'} asOrderedCollection
 						withDependencies: {'layoutPolicy:'} .
 					MEXMethod 
 						newWithName: 'vResizing:'
-						havingParameters: {'morph vResizing: #shrinkWrap'} asOrderedCollection
+						havingParameters: {'#shrinkWrap'} asOrderedCollection
 						withDependencies: {'layoutPolicy:'} .
 					MEXMethod 
 						newWithName: 'hResizing:'
-						havingParameters: {'morph hResizing: #shrinkWrap'} asOrderedCollection
+						havingParameters: {'#shrinkWrap'} asOrderedCollection
 						withDependencies: {'layoutPolicy:'} .
 					MEXMethod 
 						newWithName: 'minCellSize:'
-						havingParameters: {'morph minCellSize: 100'} asOrderedCollection
+						havingParameters: {'100'} asOrderedCollection
 						withDependencies: {'layoutPolicy:'}} .
 			MEXMethod
 				newWithName: 'Adding Submorphs to see results'
 				havingSubMethods: {
 					MEXMethod
-						newWithName: 'addOrange'
-						havingParameters: {'morph addMorph: (EllipseMorph new color: (Color orange))'} asOrderedCollection .
+						newWithName: 'addMorph:'
+						havingParameters: {'(EllipseMorph new color: (Color orange))'} asOrderedCollection .
 					MEXMethod
-						newWithName: 'addBlue'
-						havingParameters: {'morph addMorph: (EllipseMorph new color: (Color blue))'} asOrderedCollection}}
+						newWithName: 'addMorph:'
+						havingParameters: {'(EllipseMorph new color: (Color blue))'} asOrderedCollection}}

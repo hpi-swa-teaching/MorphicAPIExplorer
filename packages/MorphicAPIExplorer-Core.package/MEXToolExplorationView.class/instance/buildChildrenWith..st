@@ -1,8 +1,7 @@
 building
 buildChildrenWith: aBuilder
 
-	^ {self buildHelpButton:  aBuilder withLayout: self class helpButtonLayout.
-		self buildMethodListWith: aBuilder .
+	^ {self buildMethodListWith: aBuilder .
 		self buildBackToOverViewButtonWith: aBuilder .
 		self buildSaveMorphButtonWith: aBuilder .
 		self buildMorphBoxWith: aBuilder .

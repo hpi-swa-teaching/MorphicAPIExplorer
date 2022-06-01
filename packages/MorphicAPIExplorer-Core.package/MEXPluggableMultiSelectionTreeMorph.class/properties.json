@@ -8,8 +8,11 @@
 	"instvars" : [
 		"selectedMorphs",
 		"relatedMorphs",
+		"inhibitingMorphs",
 		"setStateOfRelatedSelector",
-		"getRelatedSelector" ],
+		"getRelatedSelector",
+		"getInhibitingSelector",
+		"setStateOfInihibitingSelector" ],
 	"name" : "MEXPluggableMultiSelectionTreeMorph",
 	"pools" : [
 		 ],

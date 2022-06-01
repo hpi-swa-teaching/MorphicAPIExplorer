@@ -6,7 +6,7 @@ update: anAspect
 	anAspect == self getSelectedSelector
 		ifTrue: [
 			self updateGetSelectedSelector. 
-			^ self].	
+			^ self].
 	anAspect == self setStateOfRelatedSelector
 		ifTrue: [
 			self updateSetStateOfRelatedSelector. 
@@ -14,10 +14,18 @@ update: anAspect
 	anAspect == self setSelectedSelector
 		ifTrue: [
 			self updateSetSelectedSelector.
-			^ self].	
+			^ self].
 	anAspect == self getRelatedSelector
 		ifTrue: [
 			self updateFindRelatedSelector.
+			^ self].
+	anAspect == self getInhibitingSelector
+		ifTrue: [
+			self updateFindInhibitingSelector.
+			^ self].
+	anAspect == self setStateOfInihibitingSelector
+		ifTrue: [
+			self updateSetStateOfInhibitingSelector.
 			^ self].
 
 	super update: anAspect

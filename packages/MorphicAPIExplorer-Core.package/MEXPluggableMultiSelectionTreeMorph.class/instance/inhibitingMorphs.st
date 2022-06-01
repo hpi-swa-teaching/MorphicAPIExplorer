@@ -1,0 +1,4 @@
+accessing
+inhibitingMorphs
+
+	^ inhibitingMorphs
