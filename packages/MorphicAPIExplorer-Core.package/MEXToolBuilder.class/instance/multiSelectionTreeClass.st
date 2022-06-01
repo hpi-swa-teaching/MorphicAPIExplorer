@@ -1,4 +1,4 @@
-widgets required
+widget classes
 multiSelectionTreeClass
 
 	^ MEXPluggableMultiSelectionTreeMorph

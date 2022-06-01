@@ -9,7 +9,7 @@ buildSearchBar: aBuilder
 		frame: (LayoutFrame new
 			leftFraction: 0;
 			topFraction: 0;
-			rightFraction: 1;
+			rightFraction: 0.9;
 			bottomFraction: self class searchButtonFractionHeight;
 			yourself);
 		yourself

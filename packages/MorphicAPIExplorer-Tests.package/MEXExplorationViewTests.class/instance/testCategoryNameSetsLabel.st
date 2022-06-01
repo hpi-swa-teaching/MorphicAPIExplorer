@@ -1,4 +1,4 @@
 tests
-testCategoryNameSetsLabel   
+testCategoryNameSetsLabel
 
-self assert: explorationView morphBox owner owner owner label equals: explorationView category name.
+	self assert: explorationView morphBox owner owner owner label equals: explorationView category name.

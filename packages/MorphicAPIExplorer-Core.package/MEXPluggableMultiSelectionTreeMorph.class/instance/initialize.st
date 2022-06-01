@@ -7,9 +7,7 @@ initialize
 		selectedMorphs: OrderedCollection new;
 		basicRelatedMorphs: OrderedCollection new;
 		setStateOfRelatedSelector: #();
-		setStateOfInihibitingSelector: #();
 		getRelatedSelector: #();
-		getInhibitingSelector: #();
 		getSelectedSelector: #();
 		setSelectedSelector: #();
 		getHelpSelector: #().

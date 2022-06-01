@@ -1,5 +1,5 @@
 tests
 testBuildChildrenWithReturnsCollectionWithCorrectSizeForFilledCategories
 
-	self assert: self getFullCollectionOfOverViewChildren size equals: (defaultCollectionSize + 2)
+	self assert: self getFullCollectionOfOverViewChildren size equals: (defaultCollectionSize + 3)
 	

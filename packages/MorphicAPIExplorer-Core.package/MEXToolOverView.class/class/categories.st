@@ -8,5 +8,5 @@ categories
 		self categoryTransforming .
 		self categoryLayouting .
 		self categoryEventHandling .
-		self categoryFileHandling.
-		self categoryLuBoxTest}
+		self categoryFileHandling. 
+		self categoryCollision}

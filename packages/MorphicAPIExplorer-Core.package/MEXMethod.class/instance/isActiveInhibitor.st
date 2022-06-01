@@ -1,4 +1,0 @@
-accessing
-isActiveInhibitor
-	
-	^ isActiveInhibitor
