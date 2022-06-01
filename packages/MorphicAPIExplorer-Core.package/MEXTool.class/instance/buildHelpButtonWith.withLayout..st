@@ -1,5 +1,5 @@
 building
-buildHelpButton: aBuilder withLayout: aDictionary
+buildHelpButtonWith: aBuilder withLayout: aDictionary
 	
 	^ aBuilder pluggableButtonSpec new
 		model: self;
