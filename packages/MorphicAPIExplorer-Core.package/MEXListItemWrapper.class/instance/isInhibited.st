@@ -1,6 +1,4 @@
 accessing
 isInhibited     
 
-		|allSelectedDependencies|
-
-				^(self model selectedMorphs anySatisfy: [:aMorph | aMorph  complexContents item inhibitors anySatisfy: [:aString | aString == self item name ]] )
+	^(self model selectedMorphs anySatisfy: [:aMorph | aMorph  complexContents item inhibitors anySatisfy: [:aString | aString == self item name ]] )

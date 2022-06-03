@@ -7,4 +7,4 @@ openHelpWindow
 	morph :=MEXResources buildHelpWindowMorphWith: (self class helpWindowText).
 	morph := morph embeddedInMorphicWindowLabeled:'Help'.
 	morph openCenteredInWorld.
-	^ morph.
+	^ morph

@@ -13,5 +13,5 @@ buildWith: aBuilder
 			label: evaluatedLabel;
 			extent: self class defaultExtent;
 			children: (self buildChildrenWith: aBuilder);
-			yourself).
+			yourself)
 

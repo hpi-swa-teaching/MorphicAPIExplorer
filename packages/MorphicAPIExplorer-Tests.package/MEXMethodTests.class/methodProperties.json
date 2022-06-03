@@ -3,5 +3,6 @@
 		 },
 	"instance" : {
 		"testMEXMethodWithDependentMethodsReturnsTrueForHasDependencies" : "SH 6/10/2021 19:57",
+		"testMEXMethodWithInhibitorMethodsReturnsTrueForHasInhibitors" : "JF 6/1/2022 17:28",
 		"testMEXMethodWithNoSubMethodsReturnsFalseForHasSubmethods" : "SH 7/19/2021 14:59",
 		"testMEXMethodWithSubMethodsReturnsTrueForHasSubmethods" : "SH 7/19/2021 15:00" } }
