@@ -1,8 +1,13 @@
 tests
 testCorrectHelpButtonCreation
 
-	| helpbuttonmorph |
+	| helpbuttonmorph textmorph|
 	
 	helpbuttonmorph := (explorationView dependents at: 3) action value.
 	
-	self assert: helpbuttonmorph contents equals: explorationView class helpWindowText.
+	textmorph := (helpbuttonmorph submorphs at: 1).
+	
+	helpbuttonmorph abandon. 
+	
+	self assert: textmorph text equals: explorationView class helpWindowText.
+	
