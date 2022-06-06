@@ -2,4 +2,4 @@ tests
 testSourceMenuOnlyTwoOptions
 
 	
-	self assert: (codeHolder contentsSymbolQuints size) equals: 3
+	self assert: (codeHolder contentsSymbolQuints size) equals: 3.
