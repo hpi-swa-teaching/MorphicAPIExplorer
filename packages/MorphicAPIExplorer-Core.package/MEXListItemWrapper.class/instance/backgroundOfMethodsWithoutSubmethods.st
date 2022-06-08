@@ -1,7 +1,7 @@
 accessing
 backgroundOfMethodsWithoutSubmethods    
 
-		^ self item isActiveInhibitor 
+		^ (self item isActiveInhibitor or: self isInhibited)
 					ifTrue: [Color red]
 					ifFalse: [
 						self item isInhibited

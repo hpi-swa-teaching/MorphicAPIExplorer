@@ -1,7 +1,9 @@
 {
 	"class" : {
+		"defaultContentsSymbolQuints" : "JF 6/6/2022 17:06",
 		"newWithView:" : "PM 6/11/2021 14:57" },
 	"instance" : {
+		"contentsSymbolQuints" : "JF 6/6/2022 21:35",
 		"copyToClipboard" : "jb 7/24/2019 11:56",
 		"evaluateExpression:" : "jb 7/24/2019 14:23",
 		"explorationView" : "jb 6/20/2019 02:38",
