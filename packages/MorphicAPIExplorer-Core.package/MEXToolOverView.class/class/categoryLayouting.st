@@ -13,9 +13,15 @@ categoryLayouting
 				newWithName: 'Layout Policy Setup'
 				havingSubMethods: {
 					MEXMethod 
-						newWithName: 'layoutPolicy:'
+						newWithName: 'TableLayout'
 						havingParameters: {'morph layoutPolicy: TableLayout new'} asOrderedCollection
-						withDependencies: {'addMorph:'}} .
+						withDependencies: {'addOrange'.'addBlue'}
+						withInhibitors: {'ProportionalLayout'} .
+						MEXMethod 
+						newWithName: 'ProportionalLayout'
+						havingParameters: {'morph layoutPolicy: ProportionalLayout new'} asOrderedCollection
+						withDependencies: {'addOrange'.'addBlue'}
+						withInhibitors: {'TableLayout'}} .
 			MEXMethod
 				newWithName: 'Table Layouting'
 				havingSubMethods: {
@@ -43,4 +49,4 @@ categoryLayouting
 						havingParameters: {'morph addMorph: (EllipseMorph new color: (Color orange))'} asOrderedCollection .
 					MEXMethod
 						newWithName: 'addBlue'
-						havingParameters: {'morph addMorph: (EllipseMorph new color: (Color blue))'} asOrderedCollection}}
+						havingParameters: {'morph addMorph: (EllipseMorph new color: (Color blue); layoutFrame: (LayoutFrame new leftFraction: 0 offset: 20))'} asOrderedCollection}}
