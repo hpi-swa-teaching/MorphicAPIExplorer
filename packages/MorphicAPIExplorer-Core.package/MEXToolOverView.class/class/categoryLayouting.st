@@ -49,4 +49,4 @@ categoryLayouting
 						havingParameters: {'morph addMorph: (EllipseMorph new color: (Color orange))'} asOrderedCollection .
 					MEXMethod
 						newWithName: 'addBlue'
-						havingParameters: {'morph addMorph: (EllipseMorph new color: (Color blue); layoutFrame: (LayoutFrame new leftFraction: 0 offset: 20))'} asOrderedCollection}}
+						havingParameters: {'morph addMorph: (EllipseMorph new color: (Color blue); layoutFrame: (LayoutFrame new leftFraction: 1/2 offset: 10))'} asOrderedCollection}}
