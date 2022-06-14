@@ -3,10 +3,7 @@ categoryNestingAndSubmorphing
 
 	^ MEXCategory 
 		newWithName: 'Nesting & Submorphing' 
-		havingImage: (
-			MEXScalableImageMorph
-				newWithImage: MEXResources overviewImageNestingAndSubmorphing
-				havingExtent: self defaultButtonImageExtent)
+		havingImage: (MEXToolOverView buildCategoryimageWith: 'Nesting & Submorphing')
 		havingDefaultMorph: Morph new
 		withMethodList: {
 			MEXMethod

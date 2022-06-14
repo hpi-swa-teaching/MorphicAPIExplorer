@@ -1,4 +1,4 @@
-image forms
+as yet unclassified
 overviewImageDrawingAndStyling
 	"This is an auto-generated method"
 	^ (Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: 'iVBORw0KGgoAAAANSUhEUgAAAZoAAAEWCAYAAABfdFHAAAABhWlDQ1BJQ0MgcHJvZmlsZQAA

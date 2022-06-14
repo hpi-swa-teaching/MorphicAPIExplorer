@@ -3,10 +3,7 @@ categoryAnimating
 
 	^ MEXCategory 
 		newWithName: 'Animating'
-		havingImage: (
-			MEXScalableImageMorph
-				newWithImage: MEXResources overviewImageAnimating
-				havingExtent: self defaultButtonImageExtent)
+		havingImage: (MEXToolOverView buildCategoryimageWith: 'Animating')
 		havingDefaultMorph: LedTimerMorph new
 		withMethodList: {
 			MEXMethod 
