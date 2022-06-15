@@ -3,10 +3,7 @@ categoryCollision
 
 	^ MEXCategory 
 		newWithName: 'Collision'
-		havingImage: (
-			MEXScalableImageMorph
-				newWithImage: MEXResources overviewImageCollision
-				havingExtent: self defaultButtonImageExtent)
+		havingImage: (MEXToolOverView buildCategoryimageWith: 'Collision')
 		havingDefaultMorph: Morph new
 		withMethodList: {
 			MEXMethod 

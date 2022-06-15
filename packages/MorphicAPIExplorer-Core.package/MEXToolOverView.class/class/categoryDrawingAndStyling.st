@@ -3,10 +3,7 @@ categoryDrawingAndStyling
 
 	^ MEXCategory 
 		newWithName: 'Drawing & Styling' 
-		havingImage: (
-			MEXScalableImageMorph
-				newWithImage: MEXResources overviewImageDrawingAndStyling
-				havingExtent: self defaultButtonImageExtent)
+		havingImage: (MEXToolOverView buildCategoryimageWith: 'Drawing & Styling')
 		havingDefaultMorph: Morph new
 		withMethodList: {
 			MEXMethod 

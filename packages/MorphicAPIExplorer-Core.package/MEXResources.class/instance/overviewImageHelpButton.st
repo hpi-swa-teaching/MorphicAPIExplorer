@@ -1,4 +1,4 @@
-image forms
+as yet unclassified
 overviewImageHelpButton
 	"This is an auto-generated method"
 	^ (Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: 'iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAABhWlDQ1BJQ0MgcHJvZmlsZQAA

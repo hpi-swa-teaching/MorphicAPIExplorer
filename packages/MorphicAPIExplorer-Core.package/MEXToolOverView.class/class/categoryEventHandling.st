@@ -3,10 +3,7 @@ categoryEventHandling
 
 	^ MEXCategory 
 		newWithName: 'Event Handling' 
-		havingImage: (
-			MEXScalableImageMorph
-				newWithImage: MEXResources overviewImageEventHandling
-				havingExtent: self defaultButtonImageExtent)
+		havingImage: (MEXToolOverView buildCategoryimageWith: 'Event Handling')
 		havingDefaultMorph: Morph new
 		withMethodList: {
 			MEXMethod

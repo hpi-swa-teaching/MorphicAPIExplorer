@@ -3,10 +3,7 @@ categoryTransforming
 
 	^ MEXCategory 
 		newWithName: 'Transforming' 
-		havingImage: (
-			MEXScalableImageMorph
-				newWithImage: MEXResources overviewImageTransforming
-				havingExtent: self defaultButtonImageExtent)
+		havingImage: (MEXToolOverView buildCategoryimageWith: 'Transforming')
 		havingDefaultMorph: Morph new
 		withMethodList: {
 			MEXMethod

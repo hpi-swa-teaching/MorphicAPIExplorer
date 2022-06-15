@@ -3,10 +3,7 @@ categoryLayouting
 
 	^ MEXCategory 
 		newWithName: 'Layouting' 
-		havingImage: (
-			MEXScalableImageMorph
-				newWithImage: MEXResources overviewImageLayouting
-				havingExtent: self defaultButtonImageExtent)
+		havingImage: (MEXToolOverView buildCategoryimageWith: 'Layouting')
 		havingDefaultMorph: RectangleMorph new
 		withMethodList: {
 			MEXMethod
