@@ -11,6 +11,7 @@
 		"testCategoryButtonToExplorationView" : "SH 7/22/2021 12:45",
 		"testCorrectHelpButtonCreation" : "JF 6/3/2022 11:35",
 		"testCorrectPicturesinDictionary" : "JF 6/22/2022 15:46",
+		"testPicturesExist" : "JF 6/22/2022 16:45",
 		"testSearchBarUpdatesSearchList" : "TB 7/9/2021 17:15",
 		"testSpecFrameAtForReturnsFullHeightLayoutFrameForOneRow" : "SH 7/22/2021 12:49",
 		"testSpecFrameAtForReturnsFullWidhtLayoutFrameLessCategoriesThanRows" : "SH 7/22/2021 12:51",
