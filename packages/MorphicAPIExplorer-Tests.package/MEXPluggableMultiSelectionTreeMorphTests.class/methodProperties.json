@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testSpecGetSelectedPathUnsupported" : "JF 6/24/2022 12:05",
 		"testSpecGetSelectedUnsupported" : "JF 6/24/2022 11:47",
 		"testSpecSetSelectedPathUnsupported" : "JF 6/24/2022 11:45",
 		"testSpecautoDeselectUnsupported" : "JF 6/24/2022 11:42",
