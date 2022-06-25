@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicAPIExplorer-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"treeMorph" ],
+	"name" : "MEXPluggableMultiSelectiontreeMorphTests",
+	"pools" : [
+		 ],
+	"super" : "MEXExplorationViewTests",
+	"type" : "normal" }
