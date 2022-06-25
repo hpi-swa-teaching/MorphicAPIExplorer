@@ -1,0 +1,4 @@
+button state
+yellowButtonPressed
+
+	^true

@@ -1,0 +1,14 @@
+{
+	"category" : "MorphicAPIExplorer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JS 6/25/2022 23:07",
+	"instvars" : [
+		 ],
+	"name" : "MEXMouseEvent",
+	"pools" : [
+		 ],
+	"super" : "MouseEvent",
+	"type" : "normal" }
