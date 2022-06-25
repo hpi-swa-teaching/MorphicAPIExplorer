@@ -1,0 +1,4 @@
+button state
+shiftPressed
+
+	^false
