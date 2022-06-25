@@ -2,8 +2,8 @@ running
 createCategory
 
 	^ MEXCategory 
-			newWithName: 'TestCategory' 
-			havingImage: nil 
+			newWithName: 'Animating' 
+			havingImage: (MEXToolOverView buildCategoryimageWith: 'Animating')
 			havingDefaultMorph: Morph new 
 			withMethodList: {
 				MEXMethod newWithName: 'color:' havingParameters: {'morph color: Color red'} .
