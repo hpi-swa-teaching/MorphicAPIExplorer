@@ -7,4 +7,4 @@ drawHoverOn: aCanvas
 			clippingTo: self scroller innerBounds
 			during: [:theCanvas | aMorph drawHoverOn: theCanvas]].
 	
-	super drawHoverOn: aCanvas
+	super drawHoverOn: aCanvas.

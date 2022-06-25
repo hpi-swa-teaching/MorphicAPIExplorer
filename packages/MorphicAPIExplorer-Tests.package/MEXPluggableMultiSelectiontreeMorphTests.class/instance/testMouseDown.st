@@ -7,7 +7,7 @@ testMouseDown
 	
 	anEvent:= MEXMouseEvent new.
 	anEvent 
-		position: anEventPosition;
+		setPosition: anEventPosition;
 		setHand: HandMorph new;
 		yourself.
 	
