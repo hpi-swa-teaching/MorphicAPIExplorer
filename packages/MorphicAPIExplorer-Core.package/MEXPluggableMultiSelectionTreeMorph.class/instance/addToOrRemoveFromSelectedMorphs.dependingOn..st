@@ -5,6 +5,6 @@ addToOrRemoveFromSelectedMorphs: aMorph dependingOn: aBoolean
 	selectedMorphsTemp := self selectedMorphs copy.
 	self
 		selectedMorphs: (aBoolean
-			ifTrue: [selectedMorphsTemp add: aMorph.]
-			ifFalse: [selectedMorphsTemp remove: aMorph.]);
+			ifTrue: [selectedMorphsTemp add: aMorph;yourself.]
+			ifFalse: [selectedMorphsTemp remove: aMorph;yourself.]);
 		listSelectionFor: (aMorph complexContents item) with: aBoolean
