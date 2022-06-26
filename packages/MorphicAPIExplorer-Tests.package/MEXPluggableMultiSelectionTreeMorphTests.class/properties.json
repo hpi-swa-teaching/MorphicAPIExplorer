@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"treeMorph" ],
 	"name" : "MEXPluggableMultiSelectionTreeMorphTests",
 	"pools" : [
 		 ],
-	"super" : "MEXTestCaseForUI",
+	"super" : "MEXExplorationViewTests",
 	"type" : "normal" }
