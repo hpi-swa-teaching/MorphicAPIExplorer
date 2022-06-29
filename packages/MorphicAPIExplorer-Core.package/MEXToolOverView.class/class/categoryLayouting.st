@@ -25,19 +25,19 @@ categoryLayouting
 					MEXMethod 
 						newWithName: 'listDirection:'
 						havingParameters: {'morph listDirection: leftToRight'} asOrderedCollection
-						withDependencies: {'layoutPolicy:'} .
+						withDependencies: {'TableLayout'} .
 					MEXMethod 
 						newWithName: 'vResizing:'
 						havingParameters: {'morph vResizing: #shrinkWrap'} asOrderedCollection
-						withDependencies: {'layoutPolicy:'} .
+						withDependencies: {'TableLayout'} .
 					MEXMethod 
 						newWithName: 'hResizing:'
 						havingParameters: {'morph hResizing: #shrinkWrap'} asOrderedCollection
-						withDependencies: {'layoutPolicy:'} .
+						withDependencies: {'TableLayout'} .
 					MEXMethod 
 						newWithName: 'minCellSize:'
 						havingParameters: {'morph minCellSize: 100'} asOrderedCollection
-						withDependencies: {'layoutPolicy:'}} .
+						withDependencies: {'TableLayout'}} .
 			MEXMethod
 				newWithName: 'Adding Submorphs to see results'
 				havingSubMethods: {
