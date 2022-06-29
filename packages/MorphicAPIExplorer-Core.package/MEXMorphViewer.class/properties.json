@@ -7,7 +7,7 @@
 	"commentStamp" : "TB 6/23/2021 20:00",
 	"instvars" : [
 		"currentMorph",
-		"view" ],
+		"explorationView" ],
 	"name" : "MEXMorphViewer",
 	"pools" : [
 		 ],

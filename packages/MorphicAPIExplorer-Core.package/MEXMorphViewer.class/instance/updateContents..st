@@ -6,4 +6,4 @@ updateContents: aMorph
 		currentMorph: aMorph.
 	aMorph
 		openInWorld: self;
-		center: self center
+		center: self center.

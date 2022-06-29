@@ -2,5 +2,5 @@ dropping/grabbing
 acceptDroppingMorph: aMorph event: anEvent
 
 	self updateContents: aMorph veryDeepCopy.
-	self view changed: #currentMorph.
+	self explorationView changed: #currentMorph.
 	aMorph openInWorld

@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"newWithView:" : "SC 8/5/2021 19:45" },
+		"newWithView:" : "JS 6/28/2022 14:45" },
 	"instance" : {
-		"acceptDroppingMorph:event:" : "JS 6/26/2022 00:01",
+		"acceptDroppingMorph:event:" : "JS 6/28/2022 14:44",
 		"clearContents" : "JF 5/27/2022 11:37",
 		"currentMorph" : "TB 6/23/2021 19:12",
 		"currentMorph:" : "TB 6/23/2021 20:06",
+		"explorationView" : "JS 6/28/2022 14:44",
+		"explorationView:" : "JS 6/28/2022 14:45",
 		"initialize" : "TB 6/23/2021 20:06",
-		"updateContents:" : "JF 5/18/2022 13:33",
-		"view" : "TB 6/23/2021 20:10",
-		"view:" : "SC 8/5/2021 19:27" } }
+		"updateContents:" : "JS 6/28/2022 17:26" } }
