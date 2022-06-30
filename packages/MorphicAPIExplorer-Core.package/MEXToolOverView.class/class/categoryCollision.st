@@ -10,7 +10,7 @@ categoryCollision
 				newWithName: 'setup' 
 				havingSubMethods: {
 					MEXMethod newWithName: 'secondmorph' 
-									 havingParameters: {'morph addMorph: (Morph new color: Color yellow; extent: 20 @ 20)' }.
+									 havingParameters: {'morph addMorph: (Morph new color: Color yellow; extent: 20 @ 20; position: morph position)' }.
 					MEXMethod newWithName: 'secondmorph move' 
 									 havingParameters: {'morph submorphsDo: ([:each | each position: 50 @ 50])' }
 									withDependencies: {'secondmorph'}.
