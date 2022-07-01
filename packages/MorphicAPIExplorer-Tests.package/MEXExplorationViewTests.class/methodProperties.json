@@ -10,6 +10,7 @@
 		"sampleCode" : "SC 6/29/2021 04:50",
 		"setUp" : "lk 7/24/2019 16:15",
 		"tearDown" : "lk 7/24/2019 15:02",
+		"testAbandonMethodWorks" : "JF 7/1/2022 12:06",
 		"testBackButtonOfExplorationViewLeadsToOverView" : "SC 7/16/2021 17:35",
 		"testBuiltExplorationViewForCategoryReturnsCorrectMethodList" : "lk 7/24/2019 17:42",
 		"testBuiltExplorationViewForCategoryReturnsIdenticalCategory" : "lk 7/24/2019 15:44",
