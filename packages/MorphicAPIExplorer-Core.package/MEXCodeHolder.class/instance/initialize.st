@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 	
-	self explorationView: MEXToolExplorationView new
+	"self explorationView: MEXToolExplorationView new"
