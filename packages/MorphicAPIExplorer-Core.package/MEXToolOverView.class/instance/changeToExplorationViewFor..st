@@ -6,4 +6,5 @@ changeToExplorationViewFor: aMEXCategory
 	newView := MEXToolExplorationView 
 		newFromCategory: aMEXCategory 
 		withSavedMorphs: self savedMorphs.
-	self changeViewTo: (MEXToolBuilder open: newView)
+	self changeViewTo: (MEXToolBuilder open: newView).
+	newView changed: #selectedMethods. 

@@ -3,10 +3,12 @@
 		"newWithView:" : "JS 6/28/2022 14:45" },
 	"instance" : {
 		"acceptDroppingMorph:event:" : "JS 6/28/2022 14:44",
+		"center" : "JF 7/1/2022 11:44",
 		"clearContents" : "JF 7/1/2022 09:19",
 		"currentMorph" : "TB 6/23/2021 19:12",
 		"currentMorph:" : "TB 6/23/2021 20:06",
 		"explorationView" : "JS 6/28/2022 14:44",
 		"explorationView:" : "JS 6/28/2022 14:45",
 		"initialize" : "TB 6/23/2021 20:06",
-		"updateContents:" : "JS 6/28/2022 17:26" } }
+		"updateContents:" : "JS 6/28/2022 17:26",
+		"viewBox" : "JF 7/1/2022 11:37" } }
