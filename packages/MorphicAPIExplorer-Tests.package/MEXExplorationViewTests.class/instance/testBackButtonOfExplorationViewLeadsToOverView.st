@@ -1,18 +1,20 @@
 running
 testBackButtonOfExplorationViewLeadsToOverView
+
 	
-	|overViewWindow newOverViewWindow explorationViewWindow buttonMorph|
-	overViewWindow := builder build: overView.
-	overViewWindow openInWorld.
-	buttonMorph := overViewWindow submorphs at: 4.
-	buttonMorph performAction.
-	
-	explorationViewWindow := (self getOpenWindowsWithModel: MEXToolExplorationView) first.
-	((explorationViewWindow submorphs select: 
+	| view openExplorationViews openOverViews |
+	view := builder build: explorationView.
+	view openInWorld.
+	openExplorationViews := (self getOpenWindowsWithModel: MEXToolExplorationView) size.
+	openOverViews := (self getOpenWindowsWithModel: MEXToolOverView) size.
+	((view submorphs select: 
 		[:aMorph| aMorph isKindOf: MEXPluggableButtonMorph])
 		select: [:aMorph | aMorph label = 'Back']) first performAction.
-		
-	newOverViewWindow := (self getOpenWindowsWithModel: MEXToolOverView) first.
-	
-	self assert: overViewWindow = newOverViewWindow.
+	self assert: (self getOpenWindowsWithModel: MEXToolExplorationView) size equals: (openExplorationViews - 1).
+	self assert: (self getOpenWindowsWithModel: MEXToolOverView) size equals: (openOverViews + 1).
+	view abandon
 
+	
+
+	
+	
