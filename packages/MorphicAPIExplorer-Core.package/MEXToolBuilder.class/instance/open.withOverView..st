@@ -1,7 +1,7 @@
 as yet unclassified
-open: aView
+open: aView withOverView: aMEXToolOverView
 	"Build and open the object. Answer the widget opened."
 	
-	aView overViewWindow: self.
+	aView overViewWindow: aMEXToolOverView.
 	
 	^ (self build: aView) openAsTool.

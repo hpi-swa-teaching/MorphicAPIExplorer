@@ -1,13 +1,15 @@
 {
 	"class" : {
-		"open:" : "jb 7/24/2019 14:27" },
+		"open:" : "jb 7/24/2019 14:27",
+		"open:withOverView:" : "BK 7/3/2022 17:07" },
 	"instance" : {
 		"buildPluggableMultiSelectionTree:" : "JF 6/1/2022 14:49",
 		"buildPluggableTree:" : "TB 7/18/2021 14:27",
 		"buttonClass" : "lk 6/4/2019 09:50",
 		"initialize:with:" : "jb 7/24/2019 14:30",
 		"multiSelectionTreeClass" : "FFN 6/12/2019 15:11",
-		"open:" : "JS 7/1/2022 12:23",
+		"open:" : "BK 7/3/2022 17:09",
+		"open:withOverView:" : "BK 7/3/2022 17:09",
 		"pluggableMultiSelectionTreeSpec" : "FFN 6/12/2019 15:51",
 		"setGeneralTreeAttributesFor:havingSpec:" : "jb 7/18/2019 13:32",
 		"setHorizontalScrollBarPoliciesFor:ofWidget:" : "jb 7/24/2019 14:32",
