@@ -3,4 +3,4 @@ changeToOverView
 
 	self removeDefaultButNotStandardMorphOf: category.
 	
-	self changeViewTo: (MEXToolBuilder open: overViewWindow)
+	overViewWindow openInWorld
