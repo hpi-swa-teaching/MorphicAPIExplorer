@@ -3,4 +3,4 @@ buildForCategory: aMEXCategory
 
 	self
 		category: aMEXCategory;
-		buildWith: self class defaultBuilder
+		buildWith: self class defaultBuilder.

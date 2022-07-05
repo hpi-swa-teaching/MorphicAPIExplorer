@@ -9,8 +9,10 @@ categoryBuildingAndTearingDown
 			MEXMethod 
 				newWithName: 'Displaying' 
 				havingSubMethods: {
-					MEXMethod newWithName: 'morph openInWorld' .
-					MEXMethod newWithName: 'morph openCenteredInWorld'} .
+					MEXMethod newWithName: 'openInWorld' 
+					havingParameters: {'"morph openInWorld opens the morph in the world"'} asOrderedCollection .
+					MEXMethod newWithName: 'openCenteredInWorld' 
+					havingParameters: {'"morph openCenteredInWorld opens the morph in the center of the world"'} asOrderedCollection} .
 			MEXMethod 
 				newWithName: 'Tearing down' 
 				havingSubMethods: {

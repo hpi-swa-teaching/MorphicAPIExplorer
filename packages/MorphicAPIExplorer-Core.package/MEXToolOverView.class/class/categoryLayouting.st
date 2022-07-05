@@ -43,10 +43,10 @@ categoryLayouting
 				havingSubMethods: {
 					MEXMethod
 						newWithName: 'addOrange'
-						havingParameters: {'morph addMorph: (EllipseMorph new color: (Color orange))'} asOrderedCollection .
+						havingParameters: {'morph addMorph: (EllipseMorph new color: (Color orange); position: morph position)'} asOrderedCollection .
 					MEXMethod
 						newWithName: 'addBlue'
-						havingParameters: {'morph addMorph: (EllipseMorph new color: (Color blue); layoutFrame: (LayoutFrame new leftFraction: 1/2 offset: 10; topFraction: 1/2))'} asOrderedCollection . 
+						havingParameters: {'morph addMorph: (EllipseMorph new color: (Color blue); position: morph position; layoutFrame: (LayoutFrame new leftFraction: 1/2 offset: 10; topFraction: 1/2))'} asOrderedCollection . 
 					MEXMethod 
 						newWithName: 'increase size' 
 						havingParameters: {'morph extent: 100@100'} asOrderedCollection 	

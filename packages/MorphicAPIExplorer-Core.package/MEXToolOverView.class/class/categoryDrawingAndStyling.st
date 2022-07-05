@@ -18,9 +18,9 @@ categoryDrawingAndStyling
 					MEXMethod newWithName: 'morph addDropShadow' .
 					MEXMethod 
 						newWithName: 'shadowPoint:' 
-						havingParameters: {'morph shadowPoint: 30 @ 25'}
-						withDependencies: {'addDropShadow'} .
+						havingParameters: {'morph shadowPoint: playground center + (30 @ 25)'}
+						withDependencies: {'morph addDropShadow'} .
 					MEXMethod 
 						newWithName: 'shadowColor:' 
 						havingParameters: {'morph shadowColor: (Color red alpha: 0.05)'}
-						withDependencies: {'addDropShadow'}}}
+						withDependencies: {'morph addDropShadow'}}}

@@ -17,7 +17,7 @@ categoryTransforming
 				havingSubMethods: {
 					MEXMethod 
 						newWithName: 'bounds:'
-						havingParameters: {'morph bounds: (Rectangle new setOrigin: 0 @ 0 corner: 100 @ 150)'} .
+						havingParameters: {'morph bounds: (Rectangle new setOrigin: playground center + (0 @ 0) corner: playground center + (100 @ 150))'} .
 					MEXMethod 
 						newWithName: 'extent:'
 						havingParameters: {'morph extent: 100 @ 100'}}}
