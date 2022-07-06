@@ -15,4 +15,7 @@ categoryFileHandling
 					MEXMethod newWithName: 'readFromFile' havingParameters: {'morph readFromFile'}.
 					MEXMethod 
 						newWithName: 'image:'
-						havingParameters: {'morph image: (MEXResources overviewImageFileHandling scaledToSize: 300 @ 300)'}}}
+						havingParameters: {'morph image: (MEXResources overviewImageFileHandling scaledToSize: 300 @ 300)'}.
+					MEXMethod 
+						newWithName: 'Drag&Drop Filehandling'
+						havingParameters: {'"Try dropping a morph in the playground"'}}}
