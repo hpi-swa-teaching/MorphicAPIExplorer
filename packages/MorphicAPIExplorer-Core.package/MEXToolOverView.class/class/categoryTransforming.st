@@ -11,7 +11,13 @@ categoryTransforming
 				havingSubMethods: {
 					MEXMethod 
 						newWithName: 'rotationDegrees:'
-						havingParameters: {'morph rotationDegrees: 45'}} .
+						havingParameters: {'morph rotationDegrees: 45'}.
+				   MEXMethod 
+						newWithName: 'rotationCenter topLeft'
+						havingParameters: {'morph rotationCenter: (0@0)'}. 
+				   MEXMethod 
+						newWithName: 'rotationCenter bottomRight'
+						havingParameters: {'morph rotationCenter: (1@1)'}} .
 			MEXMethod
 				newWithName: 'Scaling'
 				havingSubMethods: {
