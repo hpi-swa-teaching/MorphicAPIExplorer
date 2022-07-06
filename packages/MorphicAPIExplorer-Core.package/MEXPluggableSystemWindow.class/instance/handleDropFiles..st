@@ -11,8 +11,7 @@ handleDropFiles: anEvent
 	
 	morphviewer 
 		currentMorph: importedImageMorph;
-		updateContents:  importedImageMorph;
-		yourself.
+		updateContents:  importedImageMorph.
 
 	codeholder:= (self submorphs at: 1) submorphs at:1.
 	
@@ -24,8 +23,7 @@ handleDropFiles: anEvent
 
 	codeholder model 
 		updateContentsFor: code;
-		save;
-		yourself.
+		save.
 
 	anEvent wasHandled: true.
 	self dropFiles: anEvent.
