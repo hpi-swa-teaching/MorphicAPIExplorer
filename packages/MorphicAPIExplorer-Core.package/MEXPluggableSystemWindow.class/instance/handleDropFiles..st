@@ -18,7 +18,9 @@ handleDropFiles: anEvent
 	
 	code:=	('| morph |
 			morph := ImageMorph new.
-			morph image: (Form fromFileNamed: {1}' format: {filepath}).
+			morph image: (Form fromFileNamed: 
+			{1}
+"Any morph that is supposed to accept file drops, needs to implement the handleDropFiles-method. This method takes an Event. Calling <FileStream requestDropStream: (anEvent contents)) fullName> with this Event returns the filepath on the local machine for the dropped file. Given a filepath, a morph, containing the image the path points to,  can be created via <ImageMorph new image: (Form fromFileNamed: filepath)>"' format: {filepath}).
 
 	codeholder model 
 		updateContentsFor: code;
