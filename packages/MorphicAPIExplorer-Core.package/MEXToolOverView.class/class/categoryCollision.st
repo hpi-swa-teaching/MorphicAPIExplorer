@@ -3,7 +3,8 @@ categoryCollision
 
 	^ MEXCategory 
 		newWithName: 'Collision'
-		havingImage: (MEXToolOverView buildCategoryimageWith: 'Collision')
+		havingDifficulty: 'medium' 
+		havingImage: (MEXToolOverView buildCategoryimageWithName: 'Collision' withDifficulty: 'medium')
 		havingDefaultMorph: Morph new
 		withMethodList: {
 			MEXMethod 

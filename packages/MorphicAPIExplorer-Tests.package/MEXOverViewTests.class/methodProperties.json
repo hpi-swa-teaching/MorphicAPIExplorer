@@ -3,10 +3,11 @@
 		 },
 	"instance" : {
 		"getEmptyCollectionOfOverViewChildren" : "lk 7/24/2019 16:28",
-		"setEmptyOverViewCategories" : "lk 7/24/2019 16:27",
+		"setEmptyOverViewCategories" : "BK 7/11/2022 15:31",
 		"setUp" : "SH 7/22/2021 12:34",
 		"testAssigningCategoryToSubMethods" : "SH 7/22/2021 12:35",
 		"testBuildChildrenWithReturnsEmptyCollectionForZeroCategories" : "JS 5/21/2022 22:12",
+		"testCategoryButtonHasNameAndDifficulty" : "BK 7/11/2022 15:45",
 		"testCorrectHelpButtonCreation" : "JF 6/3/2022 11:30",
 		"testFindSearchListInDependent" : "SH 7/8/2021 15:21",
 		"testSearchListInvisibleOnEmptySearchBar" : "SC 7/16/2021 20:03",

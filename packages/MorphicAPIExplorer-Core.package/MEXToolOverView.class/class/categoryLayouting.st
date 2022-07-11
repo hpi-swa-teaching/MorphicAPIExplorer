@@ -3,7 +3,8 @@ categoryLayouting
 
 	^ MEXCategory 
 		newWithName: 'Layouting' 
-		havingImage: (MEXToolOverView buildCategoryimageWith: 'Layouting')
+		havingDifficulty: 'hard'
+		havingImage: (MEXToolOverView buildCategoryimageWithName: 'Layouting' withDifficulty: 'hard')
 		havingDefaultMorph: RectangleMorph new
 		withMethodList: {
 			MEXMethod

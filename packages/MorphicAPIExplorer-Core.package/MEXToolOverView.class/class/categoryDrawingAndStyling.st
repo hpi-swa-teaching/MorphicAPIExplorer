@@ -3,7 +3,8 @@ categoryDrawingAndStyling
 
 	^ MEXCategory 
 		newWithName: 'Drawing & Styling' 
-		havingImage: (MEXToolOverView buildCategoryimageWith: 'Drawing & Styling')
+		havingDifficulty: 'easy' 
+		havingImage: (MEXToolOverView buildCategoryimageWithName: 'Drawing & Styling' withDifficulty: 'easy')
 		havingDefaultMorph: Morph new
 		withMethodList: {
 			MEXMethod 

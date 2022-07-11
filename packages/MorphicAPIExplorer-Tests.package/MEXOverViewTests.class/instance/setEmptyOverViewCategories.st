@@ -1,5 +1,5 @@
 running
 setEmptyOverViewCategories
 
-	overView categories: empty
+	overView categories: {overView class categoryCollision}
 	

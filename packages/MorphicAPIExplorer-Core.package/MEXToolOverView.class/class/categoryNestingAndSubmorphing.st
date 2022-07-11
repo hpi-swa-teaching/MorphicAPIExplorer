@@ -3,7 +3,8 @@ categoryNestingAndSubmorphing
 
 	^ MEXCategory 
 		newWithName: 'Nesting & Submorphing' 
-		havingImage: (MEXToolOverView buildCategoryimageWith: 'Nesting & Submorphing')
+		havingDifficulty: 'medium'
+		havingImage: (MEXToolOverView buildCategoryimageWithName: 'Nesting & Submorphing' withDifficulty: 'medium')
 		havingDefaultMorph: Morph new
 		withMethodList: {
 			MEXMethod
