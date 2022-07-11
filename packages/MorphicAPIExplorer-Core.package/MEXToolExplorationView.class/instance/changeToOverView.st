@@ -1,6 +1,8 @@
 ui
 changeToOverView
 
+	MEXToolBuilder setBoundsForWindow: overViewWindow to: 
+		(MEXToolBuilder getBoundsForWindow: self containingWindow).	
 	self removeDefaultButNotStandardMorphOf: category.
-	
-	overViewWindow openInWorld
+	self closeOpenedWindow.
+	overViewWindow show.
