@@ -3,7 +3,9 @@ buildHelpButtonWith: aBuilder withLayout: aDictionary
 	
 	^ aBuilder pluggableButtonSpec new
 		model: self;
-		label: MEXResources overviewImageHelpButton;
+		label: (MEXScalableImageMorph newWithImage: 
+			MEXResources overviewImageHelpButton
+			havingExtent: (20@20));
 		help: MEXResources defaultHelpButtonHelpText;
 		action: [self openHelpWindow];
 		frame: (LayoutFrame new
@@ -13,3 +15,9 @@ buildHelpButtonWith: aBuilder withLayout: aDictionary
 			bottomFraction: (aDictionary at: #bottom);
 			yourself);
 		yourself
+		
+	
+
+"MEXScalableImageMorph 
+			newWithImage: (MEXToolOverView categoryImages at: (aName asSymbol)) 
+			havingExtent:  self defaultButtonImageExtent)"
