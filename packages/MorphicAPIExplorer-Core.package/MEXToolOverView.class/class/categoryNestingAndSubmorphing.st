@@ -11,8 +11,11 @@ categoryNestingAndSubmorphing
 				newWithName: 'General setup method'
 				havingSubMethods: {
 					MEXMethod 
-						newWithName: 'addMorph:'
-						havingParameters: {'morph addMorph: (EllipseMorph new color: Color green; extent: 70 @ 70; position: morph position)'}} .
+						newWithName: 'addGreenMorph:'
+						havingParameters: {'morph addMorph: (EllipseMorph new color: Color green; extent: 70 @ 70; position: morph position)'} .
+					MEXMethod 
+						newWithName: 'addYellowMorph:'
+						havingParameters: {'morph addMorph: (EllipseMorph new color: Color yellow; extent: 70 @ 70; position: (morph position + (20@0)))'}} .
 			MEXMethod 
 				newWithName: 'Manipulation' 
 				havingSubMethods: {
