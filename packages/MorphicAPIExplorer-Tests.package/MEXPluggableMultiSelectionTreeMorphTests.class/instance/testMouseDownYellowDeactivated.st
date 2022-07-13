@@ -1,5 +1,5 @@
 tests
-testMouseDown
+testMouseDownYellowDeactivated
 
 	|anEvent anEventPosition|
 	
@@ -9,9 +9,9 @@ testMouseDown
 	anEvent 
 		setPosition: anEventPosition;
 		setHand: HandMorph new.
-	
+
 	treeMorph mouseDown: anEvent.
 	
 	Transcript show: treeMorph selectedMorphs.
 	
-	self assert: (treeMorph selectedMorphs anySatisfy: [:anIndentingListItemMorph| anIndentingListItemMorph = (treeMorph itemFromPoint: anEvent position)])
+	self assert: (treeMorph selectedMorphs isEmpty)
