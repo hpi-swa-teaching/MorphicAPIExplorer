@@ -3,7 +3,8 @@ categoryEventHandling
 
 	^ MEXCategory 
 		newWithName: 'Event Handling' 
-		havingImage: (MEXToolOverView buildCategoryimageWith: 'Event Handling')
+		havingDifficulty: 'hard' 
+		havingImage: (MEXToolOverView buildCategoryimageWithName: 'Event Handling' withDifficulty: 'hard')
 		havingDefaultMorph: Morph new
 		withMethodList: {
 			MEXMethod

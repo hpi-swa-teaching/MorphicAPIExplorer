@@ -1,12 +1,13 @@
 constants
 categories
 
-	^ {self categoryAnimating .
-		self categoryBuildingAndTearingDown .
-		self categoryNestingAndSubmorphing .
+	^ {self categoryBuildingAndTearingDown .
 		self categoryDrawingAndStyling .
 		self categoryTransforming .
+		self categoryAnimating .
+		self categoryNestingAndSubmorphing . 
+		self categoryCollision .
 		self categoryLayouting .
 		self categoryEventHandling .
-		self categoryFileHandling. 
-		self categoryCollision}
+		self categoryFileHandling}
+   

@@ -3,7 +3,8 @@ categoryFileHandling
 
 	^ MEXCategory 
 		newWithName: 'File Handling' 
-		havingImage: (MEXToolOverView buildCategoryimageWith: 'File Handling')
+		havingDifficulty: 'hard'
+		havingImage: (MEXToolOverView buildCategoryimageWithName: 'File Handling' withDifficulty: 'hard')
 		havingDefaultMorph: ImageMorph new
 		withMethodList: {
 			MEXMethod

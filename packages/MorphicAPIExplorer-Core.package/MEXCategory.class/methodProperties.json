@@ -1,17 +1,19 @@
 {
 	"class" : {
 		"defaultName" : "jb 5/1/2019 11:52",
-		"newWithName:havingImage:havingDefaultMorph:withMethodList:" : "SC 8/5/2021 19:37" },
+		"newWithName:havingDifficulty:havingImage:havingDefaultMorph:withMethodList:" : "BK 7/11/2022 13:36" },
 	"instance" : {
 		"defaultMorph" : "jb 6/5/2019 16:07",
 		"defaultMorph:" : "jb 6/5/2019 16:08",
+		"difficulty" : "BK 7/11/2022 13:29",
+		"difficulty:" : "BK 7/11/2022 13:35",
 		"image" : "jb 5/1/2019 11:51",
 		"image:" : "jb 5/1/2019 11:51",
 		"initialize" : "SH 5/17/2021 11:27",
 		"methodList" : "FFN 5/20/2019 15:46",
 		"methodList:" : "FFN 5/20/2019 15:46",
-		"name" : "jb 5/1/2019 11:07",
+		"name" : "BK 7/11/2022 14:30",
 		"name:" : "jb 5/1/2019 11:07",
-		"overviewImage" : "JS 6/13/2022 18:17",
+		"overviewImage" : "BK 7/11/2022 13:55",
 		"setCategoryForFirstMethod" : "JS 6/25/2022 19:13",
 		"subItems" : "TB 6/1/2021 17:53" } }

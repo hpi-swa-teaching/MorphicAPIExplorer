@@ -3,7 +3,8 @@ categoryTransforming
 
 	^ MEXCategory 
 		newWithName: 'Transforming' 
-		havingImage: (MEXToolOverView buildCategoryimageWith: 'Transforming')
+		havingDifficulty: 'easy'
+		havingImage: (MEXToolOverView buildCategoryimageWithName: 'Transforming' withDifficulty: 'easy')
 		havingDefaultMorph: Morph new
 		withMethodList: {
 			MEXMethod
