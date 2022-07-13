@@ -13,6 +13,6 @@ testBackButtonReturnsIdenticalOverviewWindowToPreviousOverviewWindow
 		select: [:aMorph | aMorph label = 'Back']) first performAction.
 		
 	newOverViewWindow := (self getOpenWindowsWithModel: MEXToolOverView) first.
-	
 	self assert: overViewWindow = newOverViewWindow.
+	self assert: overViewWindow isNil not. 
 	
