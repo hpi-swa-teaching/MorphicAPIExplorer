@@ -2,6 +2,7 @@ event handling
 mouseDown: anEvent
 
 	| aMorph selectors |
+	
 	aMorph := self itemFromPoint: anEvent position.
 	
 	"First check for option (menu) click"

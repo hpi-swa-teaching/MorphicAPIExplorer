@@ -4,7 +4,8 @@
 	"instance" : {
 		"setUp" : "JS 6/26/2022 00:18",
 		"testAddToOrRemoveFromSelectedMorphsDependingOn" : "JS 6/26/2022 00:15",
-		"testMouseDown" : "JF 7/6/2022 19:00",
+		"testMouseDown" : "JF 7/13/2022 12:34",
+		"testMouseDownYellowDeactivated" : "JF 7/13/2022 12:35",
 		"testMouseUp" : "JF 7/6/2022 19:00",
 		"testNoteRemovalOfAll" : "JS 6/26/2022 11:48",
 		"testSpecGetSelectedPathUnsupported" : "JF 6/24/2022 12:05",

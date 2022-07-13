@@ -1,5 +1,5 @@
 tests
-testMouseDown
+testMouseDownYellowDeactivated
 
 	|anEvent anEventPosition|
 	
@@ -13,5 +13,5 @@ testMouseDown
 	treeMorph mouseDown: anEvent.
 	
 	Transcript show: treeMorph selectedMorphs.
-	"change test to allSatisfy: not equal"
-	self assert: (treeMorph selectedMorphs isEmpty "anySatisfy: [:anIndentingListItemMorph| anIndentingListItemMorph = (treeMorph itemFromPoint: anEvent position)]")
+	
+	self assert: (treeMorph selectedMorphs isEmpty)
