@@ -10,4 +10,4 @@ testAbandonMethodWorks
 
 	view := builder build: explorationView.
 	view model evaluateCode: abandonCode. 
-	self assert: view model playground submorphs size equals: 0. 
+	self assert: view model playground submorphs isEmpty. 

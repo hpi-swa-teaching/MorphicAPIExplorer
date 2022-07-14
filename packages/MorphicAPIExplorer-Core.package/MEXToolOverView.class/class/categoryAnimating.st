@@ -3,7 +3,8 @@ categoryAnimating
 
 	^ MEXCategory 
 		newWithName: 'Animating'
-		havingImage: (MEXToolOverView buildCategoryimageWith: 'Animating')
+		havingDifficulty: 'medium' 
+		havingImage: (MEXToolOverView buildCategoryimageWithName: 'Animating' withDifficulty: 'medium')
 		havingDefaultMorph: LedTimerMorph new
 		withMethodList: {
 			MEXMethod 

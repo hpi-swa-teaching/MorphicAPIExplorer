@@ -1,11 +1,12 @@
 building
-buildCategoryimageWith: aName
+buildCategoryimageWithName: aName withDifficulty: aDifficulty
 
 	^((MEXScalableImageMorph 
 			newWithImage: (MEXToolOverView categoryImages at: (aName asSymbol)) 
 			havingExtent:  self defaultButtonImageExtent)
 				addMorph: (TextMorph new 
-								contents:  aName;
+								contents: aName, '
+', aDifficulty;
 								position: self defaultButtonImageExtent;
 								textColor: (Color white - (PluggableButtonMorph new userInterfaceTheme color))*2;
 								yourself))

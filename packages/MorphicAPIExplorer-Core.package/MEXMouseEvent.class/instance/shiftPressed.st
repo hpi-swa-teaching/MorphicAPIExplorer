@@ -1,4 +1,4 @@
-button state - only used for testing
+button state
 shiftPressed
 
 	^false

@@ -3,7 +3,8 @@ categoryBuildingAndTearingDown
 
 	^ MEXCategory 
 		newWithName: 'Building & Tearing down' 
-		havingImage: (MEXToolOverView buildCategoryimageWith: 'Building & Tearing down')
+		havingDifficulty: 'easy' 
+		havingImage: (MEXToolOverView buildCategoryimageWithName: 'Building & Tearing down' withDifficulty: 'easy')
 		havingDefaultMorph: Morph new
 		withMethodList: {
 			MEXMethod 

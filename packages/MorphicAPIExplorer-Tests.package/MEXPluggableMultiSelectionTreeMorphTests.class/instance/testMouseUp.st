@@ -8,8 +8,7 @@ testMouseUp
 	anEvent:= MEXMouseEvent new.
 	anEvent 
 		setPosition: anEventPosition;
-		setHand: HandMorph new;
-		yourself.
+		setHand: HandMorph new.
 		
 	clickedMorph:= treeMorph itemFromPoint: anEvent position.
 	treeMorph setProperty: #highlightedMorph toValue: clickedMorph.
