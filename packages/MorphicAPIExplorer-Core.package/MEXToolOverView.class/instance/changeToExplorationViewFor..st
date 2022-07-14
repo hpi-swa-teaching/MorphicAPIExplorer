@@ -1,10 +1,13 @@
 ui
 changeToExplorationViewFor: aMEXCategory
 
-	| newView |
+	| newView builtView|
 	self addDefaultButNotStandardMorphOf: aMEXCategory.
 	newView := MEXToolExplorationView 
 		newFromCategory: aMEXCategory 
 		withSavedMorphs: self savedMorphs.
-	self changeViewTo: (MEXToolBuilder open: newView).
-	newView changed: #selectedMethods. 
+	builtView := (MEXToolBuilder open: newView withOverView: 
+		(self findSystemWindowInDependents)).
+	MEXToolBuilder setBoundsForWindow: builtView to: 
+		(MEXToolBuilder getBoundsForWindow: self containingWindow).
+	newView changed: #selectedMethods.

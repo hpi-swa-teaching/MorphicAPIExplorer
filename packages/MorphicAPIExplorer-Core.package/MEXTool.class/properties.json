@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "TB 8/5/2021 14:22",
 	"instvars" : [
-		"savedMorphs" ],
+		"savedMorphs",
+		"overViewWindow" ],
 	"name" : "MEXTool",
 	"pools" : [
 		 ],

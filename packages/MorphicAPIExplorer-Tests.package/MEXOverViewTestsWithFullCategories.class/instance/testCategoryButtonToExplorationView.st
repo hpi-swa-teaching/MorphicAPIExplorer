@@ -10,5 +10,4 @@ testCategoryButtonToExplorationView
 		aMorph isKindOf: MEXPluggableButtonMorph])
 		select: [:aMorph | aMorph label isKindOf: MEXScalableImageMorph]) second performAction. 
 	self assert: (self getOpenWindowsWithModel: MEXToolExplorationView) size equals: (openExplorationViews + 1).
-	self assert: (self getOpenWindowsWithModel: MEXToolOverView) size equals: (openOverViews - 1).
 	view abandon
