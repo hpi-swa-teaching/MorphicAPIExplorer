@@ -5,4 +5,4 @@ open: aView withOverView: aMEXToolOverView
 	aView overViewWindow: aMEXToolOverView.
 	aView overViewWindow hide.
 	
-	^ (self build: aView) openAsTool.
+	^ (self build: aView) openInWorld.
