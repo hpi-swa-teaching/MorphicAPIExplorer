@@ -10,7 +10,7 @@ testCorrectHelpButtonCreation
 	
 	helpbuttonmorph := helpbuttons first action value.
 	
-	textmorph:= (helpbuttonmorph submorphs at: 1).
+	textmorph:= (helpbuttonmorph submorphs first).
 	
 	helpbuttonmorph abandon. 
 	

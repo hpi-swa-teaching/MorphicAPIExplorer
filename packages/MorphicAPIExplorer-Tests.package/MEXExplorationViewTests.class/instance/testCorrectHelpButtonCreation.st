@@ -5,7 +5,7 @@ testCorrectHelpButtonCreation
 	
 	helpbuttonmorph := (explorationView dependents at: 3) action value.
 	
-	textmorph := (helpbuttonmorph submorphs at: 1).
+	textmorph := (helpbuttonmorph submorphs first).
 	
 	helpbuttonmorph abandon. 
 	

@@ -7,13 +7,13 @@ handleDropFiles: anEvent
 	
 	filepath:= (FileStream requestDropStream: (anEvent contents)) fullName.
 	importedImageMorph:= ImageMorph new image: (Form fromFileNamed: filepath).
-	morphviewer:= (self submorphs at: 2) submorphs at:1.
+	morphviewer:= (self submorphs at: 2) submorphs first. 
 	
 	morphviewer 
 		currentMorph: importedImageMorph;
 		updateContents:  importedImageMorph.
 
-	codeholder:= (self submorphs at: 1) submorphs at:1.
+	codeholder:= (self submorphs first) submorphs first.
 	
 	code:=	('| morph |
 			morph := ImageMorph new.
