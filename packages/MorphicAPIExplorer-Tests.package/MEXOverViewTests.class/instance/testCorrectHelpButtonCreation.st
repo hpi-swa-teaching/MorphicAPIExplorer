@@ -1,20 +1,20 @@
 tests
 testCorrectHelpButtonCreation
 
-	| children helpbuttons helpbuttonmorph textmorph|
+	| children helpButtons helpButtonMorph textMorph|
 	children := self getEmptyCollectionOfOverViewChildren.
 	
-	helpbuttons:= children select: [:child| child help == MEXResources defaultHelpButtonHelpText].
+	helpButtons := children select: [:child| child help == MEXResources defaultHelpButtonHelpText].
 	
-	self assert: helpbuttons size equals: 1.
+	self assert: helpButtons size equals: 1.
 	
-	helpbuttonmorph := helpbuttons first action value.
+	helpButtonMorph := helpButtons first action value.
 	
-	textmorph:= (helpbuttonmorph submorphs first).
+	textMorph := (helpButtonMorph submorphs first).
 	
-	helpbuttonmorph abandon. 
+	helpButtonMorph abandon. 
 	
-	self assert: textmorph text equals: overView class helpWindowText.
+	self assert: textMorph text equals: overView class helpWindowText.
 	
 	
 	
