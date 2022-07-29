@@ -3,5 +3,5 @@ getNonEmptyOverview.
 
 	self setNonEmptyOverViewCategories.
 	
-	^ builder build: overView. 
+	^ builder build: overView
 	

@@ -4,4 +4,4 @@ open: aView
 	
 	aView overViewWindow: self.
 	
-	^ (self build: aView) openInWorld.
+	^ (self build: aView) openInWorld
