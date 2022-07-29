@@ -45,7 +45,7 @@
 		"dontTestUtilityMethods" : "PC 6/19/2021 13:33",
 		"logGeneralInfoOf:inTest:" : "PM 7/16/2021 10:02",
 		"logProblemsOf:InTest:" : "SH 7/17/2021 19:54",
-		"runLinterRule:" : "SH 7/17/2021 19:55",
+		"runLinterRule:" : "JF 7/29/2022 11:12",
 		"setUp" : "SC 6/16/2021 05:58",
 		"testAllDontTestsForConsoleOutputOnly" : "SC 6/21/2021 23:10",
 		"testArithmeticPrecedenceRule" : "mg 7/15/2020 20:11",

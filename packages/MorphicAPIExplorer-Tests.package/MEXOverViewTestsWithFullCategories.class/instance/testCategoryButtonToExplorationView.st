@@ -1,11 +1,10 @@
 tests
 testCategoryButtonToExplorationView
 
-	| view openExplorationViews openOverViews|
+	| view openExplorationViews|
 	view := builder build: overView.
 	view openInWorld.
 	openExplorationViews := (self getOpenWindowsWithModel: MEXToolExplorationView) size.
-	openOverViews := (self getOpenWindowsWithModel: MEXToolOverView) size.
 	((view submorphs select: [:aMorph | 
 		aMorph isKindOf: MEXPluggableButtonMorph])
 		select: [:aMorph | aMorph label isKindOf: MEXScalableImageMorph]) second performAction. 

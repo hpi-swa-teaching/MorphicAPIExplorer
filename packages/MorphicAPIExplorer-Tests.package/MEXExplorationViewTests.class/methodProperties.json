@@ -22,12 +22,12 @@
 		"testDependeeMorphsChangeColorOnHover" : "JF 6/1/2022 14:55",
 		"testDependentMorphDisplaysCorrectIcon" : "SC 6/21/2021 13:03",
 		"testEvaluateCodeReturnsCorrectMorph" : "lk 7/24/2019 15:00",
-		"testExpandableTreeElementsExpanded" : "SC 7/16/2021 20:00",
+		"testExpandableTreeElementsExpanded" : "JF 7/29/2022 11:11",
 		"testMethodSelectionUpdatesOnChangingMorphInPlayground" : "JF 7/18/2022 13:53",
 		"testMorphBoxContainsAMorph" : "SH 7/22/2021 13:15",
-		"testMorphBoxContainsStandardMorphs" : "SH 7/22/2021 13:08",
-		"testMorphSpacing" : "SH 7/19/2021 14:51",
+		"testMorphBoxContainsStandardMorphs" : "JF 7/29/2022 11:11",
+		"testMorphSpacing" : "JF 7/29/2022 11:11",
 		"testOpenExplorationViewForOpensAnExplorationView" : "FFN 5/21/2019 16:23",
 		"testPlaygroundContainsCorrectMorph" : "JF 7/18/2022 14:06",
 		"testRelatedMorphsAreDependeeMorphs" : "SH 7/22/2021 13:10",
-		"testSelectedMethodsSaves" : "JF 5/18/2022 09:46" } }
+		"testSelectedMethodsSaves" : "JF 7/29/2022 11:11" } }

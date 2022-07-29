@@ -1,9 +1,9 @@
 tests
 testMorphSpacing
 
-	| morph view morphCount |
+	| morph morphCount |
 	morphCount := 0.
-	view := builder build: explorationView.
+	builder build: explorationView.
 	morph := EllipseMorph new.
 	explorationView currentMorph: morph.
 	explorationView saveCurrentMorph.
